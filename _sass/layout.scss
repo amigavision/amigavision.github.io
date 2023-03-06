@@ -59,12 +59,10 @@ header {
 	max-width: 100%;
 	height: auto;
 	display: block;
-	box-shadow: 0 1px 0 #ccc, 0 1px 0 1px #eee;
-	border-radius: 4px;
+	border: 2px solid #eee;
+	border-radius: 2px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #DDD;
-	padding: 2px 0 0 0;
 	position: relative;
 }
 
