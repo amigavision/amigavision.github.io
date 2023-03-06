@@ -1,7 +1,8 @@
 - name: Documentation
   link: /docs/
   new_window: false
-  highlight: false- name: Development
+  highlight: false
+- name: Development
   link: https://github.com/amigavision
   new_window: false
   highlight: false
