@@ -57,12 +57,7 @@ defaults:
   - scope:
       path: "docs.md"
     values:
-      layout: "default"
-      
-  - scope:
-      path: "contact.html"
-    values:
-      full_width: true
+      layout: "post"
 
 jekyll-archives:
   enabled:
