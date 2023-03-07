@@ -1,0 +1,9 @@
+/* Dark Mode overrides */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ddd;
+  }
+  .content {
+    background: #000;
+  }
+}
