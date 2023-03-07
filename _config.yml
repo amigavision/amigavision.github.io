@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: A carefully curated collection of Amiga games and demos, as well as a minimal Workbench setup with useful utilities and apps, wrapped in a user-friendly launcher. Formerly known as MegaAGS.
+description:
 author:
   name:
   email:
