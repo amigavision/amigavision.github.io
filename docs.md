@@ -2,7 +2,7 @@
 title: AmigaVision Setup
 --- 
 
-MegaAGS creates a carefully curated collection of Amiga games and demos, as well as a minimal Workbench setup with useful utilities and apps, and wraps it all in a user-friendly launcher.
+AmigaVision creates a carefully curated collection of Amiga games and demos, as well as a minimal Workbench setup with useful utilities and apps, and wraps it all in a user-friendly launcher.
 
 It has many features specifically for use with [MiSTer] FPGA devices, but also aims to work with emulators like UAE and on original AGA-compatible hardware like an Amiga 1200/4000 or CD32, usually with SD/CF card adapters.
 
@@ -39,7 +39,7 @@ Its aim is to balance preservation of the historical and current output of the A
 
 ## Quick Setup for MiSTer
 
-**Note:** If you are updating from an earlier version -- especially before 2023 -- we *highly* recommend setting aside your `games/Amiga/MegaAGS-Saves.hdf` file and doing this installation from scratch and then adding that file back in, as many things have changed. This is generally always the best approach when upgrading.
+**Note:** If you are updating from an earlier version -- especially before 2023 -- we *highly* recommend setting aside your `games/Amiga/AmigaVision-Saves.hdf` file and doing this installation from scratch and then adding that file back in, as many things have changed. This is generally always the best approach when upgrading.
 
 * Copy the contents of the following directories to the corresponding directories in the top level on MiSTer's file system:
 
@@ -89,7 +89,7 @@ custom_aspect_ratio_1=40:27
 ```
 
 * Reboot your MiSTer, you should now have two entries in the `Computer` section: 
-  * `Amiga` for the main MegaAGS setup -- you'll be using this one 99% of the time.
+  * `Amiga` for the main AmigaVision setup -- you'll be using this one 99% of the time.
   * `Amiga 500` for a stock Amiga 500 hardware setup with no hard drive to use with ADF floppy disk images for any troublesome demos or games that don't work with the main setup. Some demo ADFs are included and can be mounted as floppy disks in MiSTer's OSD menu, invoked with the `F12` key.
 
 * Launch the `Amiga` entry and enjoy! Don't forget to check out the sections below -- especially on save files, controller mappings and video modes once the basic setup is up and running.
@@ -98,14 +98,14 @@ custom_aspect_ratio_1=40:27
 
 (You can probably skip this section if you were not an Amiga user back in the day or unless you have a special interest in computing history :)
 
-If you used the Amiga back in the day, you may have memories of using an Amiga 500 with a hard disk and Workbench 1.3, or maybe an Amiga 600 or 3000 with Workbench 2.x. We have included dedicated and separate setups for these in the included `MegaAGS-Extras` archive.
+If you used the Amiga back in the day, you may have memories of using an Amiga 500 with a hard disk and Workbench 1.3, or maybe an Amiga 600 or 3000 with Workbench 2.x. We have included dedicated and separate setups for these in the included `AmigaVision-Extras` archive.
 
 * Copy the contents of `Amiga 500 HD Setup` and/or `Amiga 600 HD Setup` to their respective directories on the MiSTer
 * You will now have separate `Amiga 500HD` and/or `Amiga600HD` launch items in the `Computer` section. These are fully configured to support shared drives, PFS file systems (even on 1.3!), RTC clock, etc.
 
 There are `ReadMe` files that go into more detail about these setups.
 
-These are *not* meant to be used for games or demos, but instead for giving you a basic setup that lets you run productivity apps like you did back in the day. For games and demos, we recommend the `Amiga` (main MegaAGS setup) and `Amiga 500` (for use with ADF files) instead.
+These are *not* meant to be used for games or demos, but instead for giving you a basic setup that lets you run productivity apps like you did back in the day. For games and demos, we recommend the `Amiga` (main AmigaVision setup) and `Amiga 500` (for use with ADF files) instead.
 
 ## Gamepad & Joystick Mapping for MiSTer
 
@@ -133,7 +133,7 @@ In the `[Options]` menu of the launcher you can choose between a few alternative
 
 The optimal `vsync_adjust` setting in `MiSTer.ini` will depend on your HDMI display. A setting of `2` ensures the lowest possible latency, but it may come at the cost of a short period of no video or audio on video mode changes -- something Amiga games and demos do quite often. Setting `vsync_adjust` to `1` introduces a buffer that will smooth over most of these changes, although it will add a frame of latency.
 
-A unique feature of the Amiga (Minimig) core on MiSTer is the ability to do viewport cropping. By default the full overscan area will be fed to the HDMI scaler, resulting in huge borders for most content. But fear not! MegaAGS leverages the custom `vadjust` feature of the core to dynamically apply viewport settings on a per-game basis. This depends on MiSTer's "shared folder" functionality, which is enabled in MegaAGS if the "games/Amiga/shared" directory exists. So, make sure you copied all the archive contents as described in the Setup section.
+A unique feature of the Amiga (Minimig) core on MiSTer is the ability to do viewport cropping. By default the full overscan area will be fed to the HDMI scaler, resulting in huge borders for most content. But fear not! AmigaVision leverages the custom `vadjust` feature of the core to dynamically apply viewport settings on a per-game basis. This depends on MiSTer's "shared folder" functionality, which is enabled in AmigaVision if the "games/Amiga/shared" directory exists. So, make sure you copied all the archive contents as described in the Setup section.
 
 Also note that the dynamic cropping *only* applies if you are using 1080p output. Most Amiga games fit on the screen using 5× zoom in this resolution. Any other resolution or analog output is *not* affected by dynamic viewport cropping, as it only makes sense for 1080p/4K 16:9 displays.
 
@@ -182,7 +182,7 @@ About 10 games are currently not working due to CPU or graphics chipset features
 
 ## Custom Scripts
 
-If you want to run additional scripts on startup, MegaAGS looks for a file named `Saves:custom-startup` on boot and runs it, so if you need to run scripts that will survive upgrades of the main image, this is where to put them.
+If you want to run additional scripts on startup, AmigaVision looks for a file named `Saves:custom-startup` on boot and runs it, so if you need to run scripts that will survive upgrades of the main image, this is where to put them.
 
 As an example, here's what you would add to `Saves:custom-startup` if you wanted to make changes to screen resolution, colors, pointers or any other Workbench setting copied from `ENV:Sys/` (which is where Workbench settings are stored temporarily) to `Saves:Custom/Prefs-Env/` before rebooting:
 
@@ -191,11 +191,11 @@ copy >NIL: Saves:Custom/Prefs-Env ENV:Sys/
 
 ```
 
-This will take the setting you copied to `Saves:Custom/Prefs-Env` and put them in RAM: when booting the image, so you can keep your own settings even when replacing the `MegaAGS.hdf` file with a future version. You can also install new apps/games to Saves: and add `Assign` statements etc to the `Saves:` drive, or do anything else you want to keep permanent after upgrading.
+This will take the setting you copied to `Saves:Custom/Prefs-Env` and put them in RAM: when booting the image, so you can keep your own settings even when replacing the `AmigaVision.hdf` file with a future version. You can also install new apps/games to Saves: and add `Assign` statements etc to the `Saves:` drive, or do anything else you want to keep permanent after upgrading.
 
 ## Found Bugs? Want to Request Features?
 
-While MegaAGS has been tested for many years, the sheer volume of games and demos makes it all but certain that something has been overlooked somewhere. If you find something that doesn't work or seems like it's running with the wrong settings, or something is missing -- tell us about it in the issue tracker at https://amiga.vision.
+While AmigaVision has been tested for many years, the sheer volume of games and demos makes it all but certain that something has been overlooked somewhere. If you find something that doesn't work or seems like it's running with the wrong settings, or something is missing -- tell us about it in the issue tracker at https://amiga.vision.
 
 ## Credits
 
@@ -234,7 +234,7 @@ The MiSTer core will handle these mappings for you, and joystick port configurat
 
 ### What's "Arcadia Systems"?
 
-Arcadia was an unsuccessful venture by Mastertronic to create an Amiga 500 based multi-game arcade system. Most titles released for the system have been dumped and are available on the MegaAGS image. The games are not great (to put it kindly), but are an interesting curiosity.
+Arcadia was an unsuccessful venture by Mastertronic to create an Amiga 500 based multi-game arcade system. Most titles released for the system have been dumped and are available on the AmigaVision image. The games are not great (to put it kindly), but are an interesting curiosity.
 
 Button mapping:
 
@@ -261,9 +261,9 @@ Drives:
   A600/A1200 IDE: On
   Fast-IDE (68020): On
   Primary Master: Fixed/HDD
-                  games/Amiga/MegaAGS.hdf
+                  games/Amiga/AmigaVision.hdf
   Primary Slave: Fixed/HDD
-                  games/Amiga/MegaAGS-Saves.hdf
+                  games/Amiga/AmigaVision-Saves.hdf
   Secondary Master: Disabled
   Secondary Slave: Disabled
   Floppy Disk Turbo: Off
@@ -275,7 +275,7 @@ System:
   FastRAM: 384M
   SlowRAM: none
   Joystick: CD32
-  ROM: games/Amiga/MegaAGS-Kickstart.rom (or whatever your 3.1 ROM is called)
+  ROM: games/Amiga/AmigaVision-Kickstart.rom (or whatever your 3.1 ROM is called)
   HRTmon: disabled
 Audio & Video:
   TV Standard: PAL
