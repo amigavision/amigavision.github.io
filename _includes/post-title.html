@@ -5,7 +5,7 @@
 		</span>
 	{% endfor %}
 	<span class="post-date">
-    <!-- {{ include.post.date | date: "%B %d, %Y" }} -->
+    {{ include.post.date }}
     {% if post.date %}
         <time datetime="{{ post.date | date: "%Y-%m-%d" }}"
               title="{{ post.date | date: "%Y-%m-%d" }}">
