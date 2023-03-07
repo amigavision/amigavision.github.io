@@ -53,6 +53,11 @@ defaults:
       path: "download.html"
     values:
       layout: "default"
+
+  - scope:
+      path: "docs.md"
+    values:
+      layout: "default"
       
   - scope:
       path: "contact.html"
