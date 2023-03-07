@@ -48,6 +48,9 @@
 					{% endfor %}
 				</div>
 			</div>
+
+{% page.url site.baseurl site.url %}
+
 		</footer>
 		<script>
 			document.getElementById("open-nav").onclick = function () {
@@ -55,8 +58,5 @@
 				return false;
 			};
 		</script>
-
-{% page.url site.baseurl site.url %}
-
 	</body>
 </html>
