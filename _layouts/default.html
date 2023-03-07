@@ -27,7 +27,7 @@
 	<body>
 		<header>
 			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/av.svg" alt="AmigaVision" width="95" height="33" /></a></div>
+				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/av.svg" alt="AmigaVision" width="95" height="33" {% if page.url == site.baseurl %} style="visibility:hidden" {% endif %} /></a></div>
 				{% include navigation.html %}
 			</div>
 		</header>
