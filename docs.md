@@ -1,5 +1,5 @@
 ---
-title: MegaAGS Amiga Setup
+title: AmigaVision Setup
 --- 
 
 MegaAGS creates a carefully curated collection of Amiga games and demos, as well as a minimal Workbench setup with useful utilities and apps, and wraps it all in a user-friendly launcher.
