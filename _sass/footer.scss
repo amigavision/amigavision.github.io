@@ -2,7 +2,7 @@
 	width: 100%;
 	margin: 10px;
 	padding: 0;
-  display: flex;
+  display: block;
 
 	@media #{$tablet} {
 		-webkit-flex: 1 0 180px;
