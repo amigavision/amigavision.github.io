@@ -57,7 +57,7 @@
 		}
 	}
 
-	.content section:nth-child(even) .flex {
+	.content section:nth-child(odd) .flex {
 		flex-direction: row-reverse;
 	}
 }
