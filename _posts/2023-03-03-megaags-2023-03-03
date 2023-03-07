@@ -1,5 +1,7 @@
----
+date: 2023-03-03
 title:MegaAGS 2023.03.03 released
+categories:
+  - release
 author_staff_member: robin
 ---
-Here's what's new!
+All this metadata preamble (category, date, author) should be unnecessary.
