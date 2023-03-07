@@ -43,10 +43,17 @@ defaults:
       path: ""
     values:
       layout: "page"
+
   - scope:
       path: "index.html"
     values:
       layout: "default"
+
+  - scope:
+      path: "download.html"
+    values:
+      layout: "default"
+      
   - scope:
       path: "contact.html"
     values:
