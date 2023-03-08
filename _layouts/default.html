@@ -11,10 +11,10 @@
 		<link rel="stylesheet" media="screen" href="{{ site.baseurl }}/css/screen.css">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
 
-		{% capture style %}
-		{% include {{ css/screen.scss }} %}
+		{% capture renderedstyle %}
+		{% include {{ css/screen.css }} %}
 		{% endcapture %}
-		<style>{{ style | scssify }}</style>	
+		<style>{{ renderedstyle }}</style>	
 	</head>
 	<body>
 		<header>
