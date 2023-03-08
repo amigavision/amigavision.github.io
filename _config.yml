@@ -73,3 +73,5 @@ exclude:
   - README.md
   - LICENCE
 
+sass:
+  style: compressed
