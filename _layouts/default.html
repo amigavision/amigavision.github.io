@@ -12,9 +12,7 @@
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
 
 		{% capture renderedstyle %}
-    {% include_relative ../css/screen.css %}
-    {% include_relative ../_include/css/screen.css %}
-    {% include_relative ../_include/css/screen.scss %}
+    {% include static.css %}
 		{% endcapture %}
 		<style>{{ renderedstyle }}</style>
 	</head>
