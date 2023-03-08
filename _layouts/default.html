@@ -11,8 +11,10 @@
 		<link rel="stylesheet" media="screen" href="{{ site.baseurl }}/css/screen.css">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
 
-		<style>
-			</style>
+		{% capture style %}
+		{% include {{ screen.scss }} %}
+		{% endcapture %}
+		<style>{{ style | scssify }}</style>	
 	</head>
 	<body>
 		<header>
