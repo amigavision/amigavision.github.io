@@ -22,9 +22,9 @@ social:
 
 timezone: Etc/UTC
 
-paginate: 10
+paginate: 20
 paginate_path: "/news/:num/"
-permalink: pretty
+permalink:     /:title
 
 defaults:
   - scope:
@@ -75,3 +75,13 @@ exclude:
 
 sass:
   style: compressed
+
+markdown:      kramdown
+markdown_ext:  md
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
