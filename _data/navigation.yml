@@ -4,7 +4,7 @@
   highlight: false
 - name: Development
   link: https://github.com/Optiroc/AGSImager
-  new_window: false
+  new_window: true
   highlight: false
 - name: News
   link: /news/
