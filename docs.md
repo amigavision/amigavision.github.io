@@ -14,7 +14,7 @@ Its aim is to balance preservation of the historical and current output of the A
 
 * Close to 2000 hand-tuned, per-game 5× integer scaling with Dynamic Crop settings, ensuring that games and demos make the best use of modern 1080p and 4K 16:9 displays without leaving large parts of the screen blank.
 
-* Carefully curated and well-tested settings for games and demos, no duplication of AGA and ECS versions, with lots of genre and top lists to help you navigate the massive amount of Amiga games available.
+* Carefully curated and well-tested settings for games and demos, no duplication of AGA and ECS versions, with lots of genre and top lists to help you navigate the massive amount of Amiga games available. We take special care to run every game at the correct aspect ratio and CPU speed.
 
 * Games are configured to run in their correct modes, games created in Europe use PAL with 5× Dynamic Crop where appropriate, whereas US-made games run in NTSC for the correct aspect ratio and CPU speed. You can optionally override this in the settings.
 
@@ -39,7 +39,7 @@ Its aim is to balance preservation of the historical and current output of the A
 
 ## Quick Setup for MiSTer
 
-**Note:** If you are updating from an earlier version -- especially before 2023 -- we *highly* recommend setting aside your `games/Amiga/AmigaVision-Saves.hdf` file and doing this installation from scratch and then adding that file back in, as many things have changed. This is generally always the best approach when upgrading.
+**Note:** If you are updating from an earlier version -- especially before 2023 -- we *highly* recommend setting aside your `games/Amiga/MegaAGS-Saves.hdf` file and doing this installation from scratch and then adding that file back in, as many things have changed. This is generally always the best approach when upgrading.
 
 * Copy the contents of the following directories to the corresponding directories in the top level on MiSTer's file system:
 
@@ -98,7 +98,7 @@ custom_aspect_ratio_1=40:27
 
 (You can probably skip this section if you were not an Amiga user back in the day or unless you have a special interest in computing history :)
 
-If you used the Amiga back in the day, you may have memories of using an Amiga 500 with a hard disk and Workbench 1.3, or maybe an Amiga 600 or 3000 with Workbench 2.x. We have included dedicated and separate setups for these in the included `AmigaVision-Extras` archive.
+If you used the Amiga back in the day, you may have memories of using an Amiga 500 with a hard disk and Workbench 1.3, or maybe an Amiga 600 or 3000 with Workbench 2.x. We have included dedicated and separate setups for these in the included `MegaAGS-Extras` archive.
 
 * Copy the contents of `Amiga 500 HD Setup` and/or `Amiga 600 HD Setup` to their respective directories on the MiSTer
 * You will now have separate `Amiga 500HD` and/or `Amiga600HD` launch items in the `Computer` section. These are fully configured to support shared drives, PFS file systems (even on 1.3!), RTC clock, etc.
@@ -191,7 +191,7 @@ copy >NIL: Saves:Custom/Prefs-Env ENV:Sys/
 
 ```
 
-This will take the setting you copied to `Saves:Custom/Prefs-Env` and put them in RAM: when booting the image, so you can keep your own settings even when replacing the `AmigaVision.hdf` file with a future version. You can also install new apps/games to Saves: and add `Assign` statements etc to the `Saves:` drive, or do anything else you want to keep permanent after upgrading.
+This will take the setting you copied to `Saves:Custom/Prefs-Env` and put them in RAM: when booting the image, so you can keep your own settings even when replacing the `MegaAGS.hdf` file with a future version. You can also install new apps/games to Saves: and add `Assign` statements etc to the `Saves:` drive, or do anything else you want to keep permanent after upgrading.
 
 ## Found Bugs? Want to Request Features?
 
@@ -204,7 +204,7 @@ While AmigaVision has been tested for many years, the sheer volume of games and 
 * [Per Olofsson] -- Creator of [AGS], the launcher software
 * [Ben Squibb] -- Improvements to AGS to enable hi-res launcher with thumbnail cycling + IFF conversion of hi-res thumbnails
 * LamerDeluxe — MT-32 support
-* [Frode Solheim] -- Creator of OpenRetro.org, thumbnails used with kind permission
+* [Frode Solheim] -- Creator of [OpenRetro.org], thumbnails used with kind permission
 
 ## Frequently Asked Questions
 
@@ -261,9 +261,9 @@ Drives:
   A600/A1200 IDE: On
   Fast-IDE (68020): On
   Primary Master: Fixed/HDD
-                  games/Amiga/AmigaVision.hdf
+                  games/Amiga/MegaAGS.hdf
   Primary Slave: Fixed/HDD
-                  games/Amiga/AmigaVision-Saves.hdf
+                  games/Amiga/MegaAGS-Saves.hdf
   Secondary Master: Disabled
   Secondary Slave: Disabled
   Floppy Disk Turbo: Off
@@ -275,7 +275,7 @@ System:
   FastRAM: 384M
   SlowRAM: none
   Joystick: CD32
-  ROM: games/Amiga/AmigaVision-Kickstart.rom (or whatever your 3.1 ROM is called)
+  ROM: games/Amiga/MegaAGS-Kickstart.rom (or whatever your 3.1 ROM is called)
   HRTmon: disabled
 Audio & Video:
   TV Standard: PAL
@@ -303,3 +303,4 @@ Audio & Video:
 [Per Olofsson]:https://github.com/MagerValp
 [Ben Squibb]:https://github.com/stat-mat
 [Frode Solheim]:https://github.com/FrodeSolheim
+[OpenRetro.org]:https://openretro.org
