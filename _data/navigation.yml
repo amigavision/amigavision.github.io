@@ -3,7 +3,7 @@
   new_window: false
   highlight: false
 - name: Development
-  link: https://github.com/Optiroc/AGSImager
+  link: https://github.com/amigavision/AmigaVision
   new_window: true
   highlight: false
 - name: News
