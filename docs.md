@@ -238,6 +238,10 @@ If you want to check the state of a given setup, or whether you have viruses in 
 
 We check all files that are under our control for viruses before release.
 
+### Does AmigaVision work with Kickstart 3.2?
+
+While the standard AmigaVision setup expects Kickstart 3.1 — which was the last release from Commodore — we have had reports of it working if you replace `icon.library` and `workbench.library` with their respective Workbench 3.2 versions. The recommended and tested setup is still Kickstart 3.1.
+
 ### I can't get the game started from its title screen! Do I ever need to use "Joystick Swap"?
 
 Unless you are using the "Arcadia Systems" games (see below), no. On the Commodore 64, games sometimes used Port 1 and sometimes Port 2 for controlling games, necessitating this setting; but since the (Commodore) Amiga shipped with a mouse and it was always plugged into port 1, the main controller is pretty much always connected to port 2. 
