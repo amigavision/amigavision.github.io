@@ -252,7 +252,7 @@ If you are using the `update_all` script, it may download a file called `names.t
 
 * **Easiest:** Switch the `update_all` script to use the `CHAR28` variant instead of the `CHAR18` variant in its settings for `names.txt`. This is the easiest, but you may not want this format — but you can easily go back to `CHAR18` if you test it and don't like it.
 
-* **More involved:** Edit the `names.txt` in the root of your MiSTer filesystem to map "Minimig" to "Commodore Amiga", or just remove that line altogether if you are fine with it being called "Minimig". You may need to disable updating of `names.txt` to ensure that it doesn't get overwritten.
+* **More involved:** Edit the `names.txt` in the root of your MiSTer filesystem to map "Minimig" to "Commodore Amiga", or just remove that line altogether if you are fine with it being called "Minimig". You may need to disable updating of `names.txt` to ensure that it doesn't get overwritten the next time you run `update_all`.
 
 * **Complex:** If you absolutely want to avoid having a separate "Minimig" entry altogether, some people rename the config files from the Amiga 500 setup to be Minimig instead, and move the HDF into the Amiga folder, and then name the Minimig core "Amiga 500" in `names.txt`.
 
