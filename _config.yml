@@ -7,7 +7,7 @@ baseurl:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description:
+description: The ultimate Amiga games and demo scene setup for MiSTer FPGA, emulators, and real hardware. Open source, community driven. Formerly known as MegaAGS.
 author:
   name: AmigaVision
   email:
