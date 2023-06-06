@@ -14,6 +14,7 @@ Its aim is to balance preservation of the historical and current output of the [
 2. [Save Files](#save-files)
 3. [Setup for Amiga hardware](#setup-for-amiga-hardware)
 4. [Setup for emulators](#setup-for-emulators)
+5. [Setup for Pocket](#setup-for-pocket)
 5. [Setup for MiSTer](#setup-for-mister)
 6. [Optional Setups](#optional-setups)
 7. [MiSTer: Gamepad & Joystick Mapping](#mister-gamepad--joystick-mapping)
@@ -97,9 +98,17 @@ We recommend — and include a setup for — the [FS-UAE] Amiga emulator, which 
 
 For any additional configuration or customizations, consult the FS-UAE documentation.
 
+## Setup for Pocket
+
+AmigaVision also has a version for the handheld [Analogue Pocket] FPGA device.
+
+* Download the [latest version] of the Amiga core for the Analogue Pocket and put it on your device.
+* Copy the included files in the AmigaVision Pocket setup to the `/Assets/amiga/common` directory on your Pocket SD card.
+* Start the Amiga core.
+
 ## Setup for MiSTer
 
-**Note:** If you are updating from an earlier version -- especially before 2023 -- we *highly* recommend setting aside your `games/Amiga/MegaAGS-Saves.hdf` file and doing this installation from scratch and then adding that file back in, as many things have changed. This is generally always the best approach when upgrading.
+**Note:** If you are updating from an earlier version --  we *highly* recommend setting aside your `games/Amiga/MegaAGS-Saves.hdf` file and doing this installation from scratch and then adding that file back in, as many things have changed. This is generally always the best approach when upgrading.
 
 * Copy the contents of the following directories to the corresponding directories in the top level on MiSTer's file system:
 
@@ -411,6 +420,7 @@ Audio & Video:
 [Balena Etcher]:https://www.balena.io/etcher
 [Win32 Disk Imager]:https://win32diskimager.org
 [FS-UAE]:https://fs-uae.net
+[Analogue Pocket]:https://analogue.co/pocket
 
 [David Lindecrantz]:https://github.com/Optiroc
 [Alex Limi]:https://limi.dev
