@@ -104,7 +104,7 @@ AmigaVision also has a version for the handheld [Analogue Pocket] FPGA device.
 
 Make sure you use the "Pocket" edition of AmigaVision, since we have had to make some Pocket-specific changes.
 
-* Download the [latest version] of the Amiga core for the Analogue Pocket and put it on your device.
+* Download the latest version of the [Amiga Pocket Core] and put it on your device.
 * Copy the included files in the AmigaVision Pocket setup to the `/Assets/amiga/common` directory on your Pocket SD card.
 * Start the Amiga core.
 
@@ -431,6 +431,7 @@ Audio & Video:
 [Win32 Disk Imager]:https://win32diskimager.org
 [FS-UAE]:https://fs-uae.net
 [Analogue Pocket]:https://analogue.co/pocket
+[Amiga Pocket Core]:https://github.com/Mazamars312/Analogue-Amiga/releases
 
 [David Lindecrantz]:https://github.com/Optiroc
 [Alex Limi]:https://limi.dev
