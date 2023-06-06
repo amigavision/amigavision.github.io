@@ -108,6 +108,14 @@ Make sure you use the "Pocket" edition of AmigaVision, since we have had to make
 * Copy the included files in the AmigaVision Pocket setup to the `/Assets/amiga/common` directory on your Pocket SD card.
 * Start the Amiga core.
 
+Controls:
+
+* Left/Right triggers are Left/Right mouse buttons
+* `Select` button brings up the on-screen keyboard, hit DEL to quit a game
+* `Start` button toggles mouse emulation mode
+* `A` button selects an entry in the launcher
+* `B` button goes back to the parent category in the launcher
+
 ## Setup for MiSTer
 
 **Note:** If you are updating from an earlier version --  we *highly* recommend setting aside your `games/Amiga/MegaAGS-Saves.hdf` file and doing this installation from scratch and then adding that file back in, as many things have changed. This is generally always the best approach when upgrading.
