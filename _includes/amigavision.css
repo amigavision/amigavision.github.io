@@ -75,6 +75,22 @@ p,address {
   font-weight: 300;
   line-height: 1.4em;;
 }
+
+code {
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  padding: .2em .4em;
+  font-size: 85%;
+  border-radius: 6px;
+  background-color: rgb(239, 241, 242);
+}
+
+pre {
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  font-size: 85%;
+  color: #666;
+  background-color: rgb(239, 241, 242);  
+}
+
 .bottom-cta {
   background: linear-gradient(to bottom,#4182e4 0%,#4182e4 100%);
   color: #fff;
