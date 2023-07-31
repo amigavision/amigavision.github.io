@@ -264,8 +264,7 @@ If you want to run additional scripts on startup, AmigaVision looks for a file n
 As an example, here's what you would add to `Saves:custom-startup` if you wanted to make changes to screen resolution, colors, pointers or any other Workbench setting copied from `ENV:Sys/` (which is where Workbench settings are stored temporarily) to `Saves:Custom/Prefs-Env/` before rebooting:
 
 ```
-copy >NIL: Saves:Custom/Prefs-Env ENV:Sys/
-
+copy Saves:Custom/Prefs-Env ENV:Sys/
 ```
 
 This will take the setting you copied to `Saves:Custom/Prefs-Env` and put them in RAM: when booting the image, so you can keep your own settings even when replacing the `MegaAGS.hdf` file with a future version. You can also install new apps/games to Saves: and add `Assign` statements etc to the `Saves:` drive, or do anything else you want to keep permanent after upgrading.
@@ -384,10 +383,12 @@ Joystick Swap: OFF
 Drives:
   A600/A1200 IDE: On
   Fast-IDE (68020): On
-  Primary Master: Fixed/HDD
-                  games/Amiga/MegaAGS.hdf
-  Primary Slave: Fixed/HDD
-                  games/Amiga/MegaAGS-Saves.hdf
+  Primary Master:
+    Fixed/HDD
+    games/Amiga/MegaAGS.hdf
+  Primary Slave:
+    Fixed/HDD
+    games/Amiga/MegaAGS-Saves.hdf
   Secondary Master: Disabled
   Secondary Slave: Disabled
   Floppy Disk Turbo: Off
@@ -399,7 +400,8 @@ System:
   FastRAM: 384M
   SlowRAM: none
   Joystick: CD32
-  ROM: games/Amiga/MegaAGS-Kickstart.rom
+  ROM:
+    games/Amiga/MegaAGS-Kickstart.rom
   HRTmon: disabled
 Audio & Video:
   TV Standard: PAL
