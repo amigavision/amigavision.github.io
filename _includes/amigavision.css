@@ -78,7 +78,8 @@ p,address {
 
 li {
   color: #666;
-  line-height: 1.7em;
+  line-height: 1.4em;
+  margin-bottom: 0.5em;
 }
 
 code {
