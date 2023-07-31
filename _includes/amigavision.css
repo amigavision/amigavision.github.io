@@ -4,7 +4,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(/fonts/LibreBaskerville-Regular.woff2) format("woff2");
-  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;;
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 @font-face {
   font-family: 'Libre Baskerville';
@@ -12,7 +12,7 @@
   font-weight: 400;
   font-display: swap;
   src: url(/fonts/LibreBaskerville-Italic.woff2) format("woff2");
-  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;;
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 @font-face {
   font-family: 'Libre Baskerville';
@@ -20,53 +20,56 @@
   font-weight: 700;
   font-display: swap;
   src: url(/fonts/LibreBaskerville-Bold.woff2) format("woff2");
-  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;;
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 .plans,.contact-box,footer .footer-columns {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flexbox;
-  display: flex;;
+  display: flex;
 }
 html {
-  background: #2b2b40;;
+  background: #2b2b40;
 }
 html,body {
   margin: 0;
-  padding: 0;;
+  padding: 0;
 }
 body {
-  font-family: "Libre Baskerville","Baskerville","Times New Roman","Times";;
+  font-family: "Libre Baskerville","Baskerville","Times New Roman","Times";
 }
 header {
-  font-family: "San Francisco","Helvetica Neue","Arial";;
+  font-family: "San Francisco","Helvetica Neue","Arial";
 }
 a {
   color: #00a4ca;
-  text-decoration: none;;
+  text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;;
+  text-decoration: underline;
 }
 img {
-  width: 100%;;
+  width: 100%;
 }
 h1 strong,h2 strong {
-  font-weight: 700;;
+  font-weight: 700;
 }
 h1 {
   font-weight: 300;
   font-size: 2.3em;
-  margin: 0;;
+  margin: 0;
+  max-width: 750px;
 }
 h2 {
   font-weight: 300;
   font-size: 2.2em;
-  margin: 0 0 30px 0;;
+  margin: 0 0 30px 0;
+  max-width: 750px;
 }
 h3 {
-  margin: 20px 0 10px 0;;
+  margin: 20px 0 10px 0;
+  max-width: 750px;
 }
 p,address {
   /* font-size: 1.38em; */
@@ -115,7 +118,7 @@ pre code {
   color: #fff;
   text-align: center;
   margin: 0;
-  padding: 100px 0;;
+  padding: 100px 0;
 }
 .bottom-cta h2 {
   margin-bottom: 50px;
