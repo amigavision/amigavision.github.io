@@ -82,6 +82,14 @@ li {
   margin-bottom: 0.5em;
 }
 
+pre {
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  color: #666;
+  background-color: rgb(239, 241, 242);  
+  padding: 16px;
+  margin-left: -16px;
+}
+
 code {
   font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
   padding: .2em .4em;
@@ -90,12 +98,8 @@ code {
   background-color: rgb(239, 241, 242);
 }
 
-pre {
-  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
-  color: #666;
-  background-color: rgb(239, 241, 242);  
-  padding: 16px;
-  margin-left: -16px;
+pre code {
+  padding: 0;
 }
 
 .bottom-cta {
