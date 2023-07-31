@@ -485,7 +485,7 @@ top: -5px;
 text-decoration: none;
 }
 .blog-post .post-details .post-date {
-float: right;
+
 }
 .blog-post .post-details:after {
 content: "";
