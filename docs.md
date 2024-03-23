@@ -349,7 +349,7 @@ The MiSTer core will handle these mappings for you, and joystick port configurat
 
 While the standard AmigaVision setup expects Kickstart 3.1 — which was the last release from Commodore — we have had reports of the setup working if you replace `icon.library` and `workbench.library` with their respective Workbench 3.2 versions. The recommended and tested setup is still Kickstart 3.1.
 
-### Are there any plans to support Amiga 500, Amiga 600, or Amiga 1000 hardware?
+### Are there any plans to support original Amiga 500, Amiga 600, or Amiga 1000 hardware?
 
 Not at the moment, AmigaVision is currently AGA-only and requires at least a 68020 processor. Unless you have added a fair bit of upgrades to these systems, using the AmigaVision setup would be an exercise in frustration, and we also don't have the real hardware to test with when we do a release. 
 
