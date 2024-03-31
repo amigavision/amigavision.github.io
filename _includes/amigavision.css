@@ -29,6 +29,11 @@
   display: -ms-flexbox;
   display: flex;
 }
+
+* {
+	cursor: url('/images/amiga-pointer.cur'), auto;
+}
+
 html {
   background: #2b2b40;
 }
