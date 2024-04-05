@@ -31,7 +31,7 @@
 }
 
 * {
-	cursor: url('/images/amiga-pointer.cur'), auto;
+	cursor: url('/images/amiga-pointer.cur'), auto !important;
 }
 
 html {
