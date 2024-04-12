@@ -275,12 +275,13 @@ While AmigaVision has been tested for many years, the sheer volume of games and 
 
 ## Credits
 
-* [David Lindecrantz] -- Creator, main developer
-* [Alex Limi] -- Contributor, developer
+* [David Lindecrantz] -- Creator, original developer
+* [Alex Limi] -- Developer, current maintainer
 * [Per Olofsson] -- Creator of [AGS], the launcher software
 * [Ben Squibb] -- Improvements to AGS to enable hi-res launcher with thumbnail cycling + IFF conversion of hi-res thumbnails
-* LamerDeluxe — MT-32 support
-* [Frode Solheim] -- Creator of [OpenRetro.org], thumbnails used with kind permission
+* [hitm4n] -- Hi-resolution screenshots for demos
+* LamerDeluxe -- MT-32 support
+* [Frode Solheim] -- Creator of [OpenRetro.org], screenshots used with kind permission
 
 ## Troubleshooting
 
@@ -408,7 +409,7 @@ Audio & Video:
   Scandoubler FX: Off
   Video area by: Blank
   Aspect ratio: 40:27
-  Pixel Clock: Adaptive
+  Pixel Clock: 28MHz
   Scaling: Normal
   RTG Upscaling: Normal
   Stereo mix: 50%
@@ -436,6 +437,7 @@ Audio & Video:
 [Alex Limi]:https://limi.dev
 [Per Olofsson]:https://github.com/MagerValp
 [Ben Squibb]:https://github.com/stat-mat
+[hitm4n]:https://github.com/hittm4n
 [Frode Solheim]:https://github.com/FrodeSolheim
 [OpenRetro.org]:https://openretro.org
 
