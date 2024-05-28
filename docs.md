@@ -118,7 +118,7 @@ Controls:
 
 ## Setup for MiSTer
 
-**Note:** If you are updating from an earlier version --  we *highly* recommend setting aside your `games/Amiga/MegaAGS-Saves.hdf` file and doing this installation from scratch and then adding that file back in, as many things have changed. This is generally always the best approach when upgrading.
+**Note:** If you are updating from an earlier version -- especially before 2023 -- we *highly* recommend setting aside your `games/Amiga/MegaAGS-Saves.hdf` file and doing this installation from scratch and then adding that file back in, as many things have changed. This is generally always the best approach when upgrading.
 
 * Copy the contents of the following directories to the corresponding directories in the top level on MiSTer's file system:
 
@@ -139,10 +139,10 @@ Shadow_Masks
 +Amiga500
 +Amiga500HD
 +Amiga600HD]
-video_mode_ntsc=8
-video_mode_pal=9
+video_mode_ntsc=8 ; These two use the recommended setting of 1080p60 and
+video_mode_pal=9  ; 1080p50, adjust if you want a different resolution
 vscale_mode=0
-vsync_adjust=1
+vsync_adjust=1 ; You can set this to 2 if your display can handle it
 custom_aspect_ratio_1=40:27
 bootscreen=0
 ```
