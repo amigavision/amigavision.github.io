@@ -1,4 +1,6 @@
-## 📺 Amiga Pixel Aspect Ratio
+---
+title: 📺 Amiga Pixel Aspect Ratio
+--- 
 
 We care deeply about preserving the correct aspect ratio for all games. That means going beyond just NTSC and PAL, and ensuring that the Pixel Aspect Ratio (PAR) is also correct. Pixels on the Amiga were close to square (16:15) in PAL resolutions on a CRT, but quite tall on NTSC displays (5:6). Additionally, when we apply a 5×PAL or 6×PAL [Dynamic Crop](https://amiga.vision/5x), 1:1 gives us great results that are near indistinguishable from the original PAR at those sizes, while modernizing the output to fit 16:9 displays.
 
