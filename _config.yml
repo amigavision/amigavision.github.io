@@ -56,6 +56,11 @@ defaults:
     values:
       layout: "post"
 
+  - scope:
+      path: "cd32.md"
+    values:
+      layout: "post"
+
 jekyll-archives:
   enabled:
     - categories
