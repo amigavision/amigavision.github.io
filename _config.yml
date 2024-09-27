@@ -61,6 +61,11 @@ defaults:
     values:
       layout: "post"
 
+  - scope:
+      path: "sachs.md"
+    values:
+      layout: "post"
+
 jekyll-archives:
   enabled:
     - categories
