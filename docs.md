@@ -498,7 +498,7 @@ Audio & Video:
                 linkIcon.innerHTML = " 🔗";
                 linkIcon.style.opacity = "0";
                 linkIcon.style.transition = "opacity 0.2s";
-                linkIcon.style.marginLeft = "8px";
+                linkIcon.style.marginLeft = "0.5em";
 
                 heading.appendChild(linkIcon);
 
