@@ -493,7 +493,7 @@ Audio & Video:
                     window.location.hash = `#${slug}`;
                 });
 
-                // Optionally, add a visual indicator (e.g., a link icon that appears on hover)
+                // Add a visual indicator (e.g., a link icon that appears on hover)
                 const linkIcon = document.createElement("span");
                 linkIcon.innerHTML = " 🔗";
                 linkIcon.style.opacity = "0";
