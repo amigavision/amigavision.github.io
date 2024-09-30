@@ -480,8 +480,8 @@ Audio & Video:
 
 <script>
         document.addEventListener("DOMContentLoaded", function () {
-            // Select all heading elements (h1, h2, h3, h4, h5, h6)
-            const headings = document.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]");
+            // Select h3 and below
+            const headings = document.querySelectorAll("h3[id], h4[id], h5[id], h6[id]");
 
             headings.forEach((heading) => {
                 // Make the heading clickable
