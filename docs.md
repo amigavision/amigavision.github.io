@@ -477,3 +477,37 @@ Audio & Video:
 [Frode Solheim]:https://github.com/FrodeSolheim
 [OpenRetro.org]:https://openretro.org
 
+<script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Select all heading elements (h1, h2, h3, h4, h5, h6)
+            const headings = document.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]");
+
+            headings.forEach((heading) => {
+                // Make the heading clickable
+                heading.classList.add("clickable-heading");
+
+                // Add a click event listener that will navigate to the anchor link
+                heading.addEventListener("click", function () {
+                    const slug = heading.id;
+                    window.location.hash = `#${slug}`;
+                });
+
+                // Optionally, add a visual indicator (e.g., a link icon that appears on hover)
+                const linkIcon = document.createElement("span");
+                linkIcon.innerHTML = " 🔗";
+                linkIcon.style.opacity = "0";
+                linkIcon.style.transition = "opacity 0.2s";
+                linkIcon.style.marginLeft = "8px";
+
+                heading.appendChild(linkIcon);
+
+                // Show the link icon when hovering over the heading
+                heading.addEventListener("mouseover", () => {
+                    linkIcon.style.opacity = "1";
+                });
+                heading.addEventListener("mouseout", () => {
+                    linkIcon.style.opacity = "0";
+                });
+            });
+        });
+</script>
