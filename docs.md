@@ -510,20 +510,23 @@ Audio & Video:
 
 <script>
         document.addEventListener("DOMContentLoaded", function () {
-            // Select h3 and below
+            // Select h3 and below for visual links, 
+            // h1, h2 for invisible ones
             const headings = document.querySelectorAll("h3[id], h4[id], h5[id], h6[id]");
+            const invisible = document.querySelectorAll("h1[id], h2[id]");
 
             headings.forEach((heading) => {
                 // Make the heading clickable
                 heading.classList.add("clickable-heading");
 
-                // Add a click event listener that will navigate to the anchor link
+                // Add a click event listener that will 
+                // navigate to the anchor link
                 heading.addEventListener("click", function () {
                     const slug = heading.id;
                     window.location.hash = `#${slug}`;
                 });
 
-                // Add a visual indicator (e.g., a link icon that appears on hover)
+                // Add a visual indicator
                 const linkIcon = document.createElement("span");
                 linkIcon.innerHTML = " 🔗";
                 linkIcon.style.opacity = "0";
@@ -540,5 +543,18 @@ Audio & Video:
                     linkIcon.style.opacity = "0";
                 });
             });
+
+            headings.forEach((invisible) => {
+                // Make the heading clickable
+                invisible.classList.add("clickable-heading");
+
+                // Add a click event listener that will 
+                // navigate to the anchor link
+                invisible.addEventListener("click", function () {
+                    const slug = invisible.id;
+                    window.location.hash = `#${slug}`;
+                });
+            });
+
         });
 </script>
