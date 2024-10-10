@@ -149,7 +149,7 @@ Shadow_Masks
 
 Paste the following recommended core settings to the bottom of your `MiSTer.ini` file in the root of your MiSTer file system — these settings are further explained in the [Video Modes](#mister-video-modes) section. It's especially important to explicity define resolutions for both PAL and NTSC, and *not* rely on the automatic fallback that MiSTer has available:
 
-```
+```ini
 [Amiga
 +Amiga500
 +Amiga500HD
@@ -171,14 +171,14 @@ The above default settings assume that you are using it with a 16:9 format 1080p
 
 If you are using a 1440p computer monitor (great for scaling ~240p retro gaming output, since 240×6 = 1440) — use these settings for the video modes instead, no matter how many pixels wide it is:
 
-```
+```ini
 video_mode_ntsc=1920,1440,60
 video_mode_pal=1920,1440,50
 ```
 
 Finally, 1920×1200 (16:10) computer monitors are also especially good for scaling ~240p retro gaming output with minimal black borders (since 240×5 = 1200). In that case, use these settings for the video modes:
 
-```
+```ini
 video_mode_ntsc=1920,1200,60
 video_mode_pal=1920,1200,50
 ```
