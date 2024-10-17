@@ -66,6 +66,11 @@ defaults:
     values:
       layout: "post"
 
+  - scope:
+      path: "videos.md"
+    values:
+      layout: "post"
+
 jekyll-archives:
   enabled:
     - categories
