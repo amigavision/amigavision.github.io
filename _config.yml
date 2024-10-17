@@ -67,7 +67,7 @@ defaults:
       layout: "post"
 
   - scope:
-      path: "videos.md"
+      path: "context.md"
     values:
       layout: "post"
 
