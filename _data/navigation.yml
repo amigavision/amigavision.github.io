@@ -6,6 +6,10 @@
   link: https://github.com/amigavision/AmigaVision
   new_window: true
   highlight: false
+- name: Context
+  link: /context
+  new_window: false
+  highlight: false
 - name: News
   link: /news/
   new_window: false
