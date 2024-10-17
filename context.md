@@ -2,9 +2,9 @@
 title: Understanding the Amiga
 ---
 
-The Amiga was a computer launched in 1985 with audio *&* video capabilities, and operating system features far outperforming the PCs and Macintoshes of its time, arguably not surpassed until 10-15 year later with Windows 95 or Windows 2000, depending on who you ask.
+The Amiga was a computer launched in 1985 with audio/video capabilities *&* operating system features far outperforming the PCs and Macintoshes of its time — arguably not surpassed until 10-15 year later with Windows 95 or Windows 2000, depending on who you ask.
 
-AmigaVision is a project that aims to balance preservation of the historical and current output of the [Amiga games] and [demo scene] as accurately as possible, while still being easy to use for people new to the Amiga computer — making it as easy to use as any game console.
+AmigaVision is a project that aims to balance preservation of the historical and current output of the [Amiga games] and [demo scene] as accurately as possible, while still being easy to use for people new to the Amiga computer, making it as easy to use as any game console.
 
 If you want to understand this part of computing history, you could do worse than watching the following documentary videos. Then check out AmigaVision for yourself, exploring its — still active, 40+ years on! — computer arts *&* music scene.
 
