@@ -1,4 +1,7 @@
-# Understanding the Amiga
+---
+title: Understanding the Amiga
+	description: The Amiga was a computer launched in 1985 with audio *&* video capabilities far outperforming the PCs and Macintoshes of its time, arguably not surpassed until 10-15 year later with Windows 95 or Windows 2000 — depending on who you ask.
+---
 
 The Amiga was a computer launched in 1985 with audio *&* video capabilities far outperforming the PCs and Macintoshes of its time, arguably not surpassed until 10-15 year later with Windows 95 or Windows 2000 — depending on who you ask.
 
