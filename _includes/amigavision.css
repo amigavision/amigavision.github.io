@@ -703,9 +703,6 @@ height: 22px;
 .footer-links li a:hover svg {
 fill: #fff;
 }
-.footer-links li a.twitter-icon:hover svg {
-fill: #55acee;
-}
 .footer-links li a.youtube-icon:hover svg {
 fill: #cd201f;
 }
