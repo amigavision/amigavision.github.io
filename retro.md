@@ -1,4 +1,6 @@
-# Welcome, Retro Collective visitor!
+---
+title: Welcome, Retro Collective Visitor!
+--- 
 
 You are probably here because you are interested in the Amiga. 
 
