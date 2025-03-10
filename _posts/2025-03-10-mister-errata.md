@@ -5,7 +5,7 @@ published: true
 
 One of the things changed in the 2024.10.10 version of AmigaVision was changing the default configuration for MiSTer to NTSC to avoid delays in HDMI switching. We tested this new configuration to ensure that PAL games ran correctly too, but we have since found many games and demos where this is not the case.
 
-If you are running AmigaVision 2024.10.10 on MiSTer, the simple fix is to start AmigaVision, bring up the MiSTer menu by pressing F12, then select `Audio & Video` -> `TV Standard` and switch that to `PAL`. 
+If you are running AmigaVision 2024.10.10 on MiSTer, the simple fix is to start AmigaVision, bring up the MiSTer menu by pressing `F12`, then select `Audio & Video` → `TV Standard` and switch that to `PAL`. 
 
 Go back one level, and remember to select `Save Configuration` and select the startup configuration to make the change permanent.
 
