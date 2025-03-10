@@ -1,5 +1,5 @@
 ---
-title: AmigaVision 2024.10.10 Errata: Error in MiSTer Configuration
+title: AmigaVision 2024.10.10 Errata — Error in MiSTer Configuration
 published: true
 ---
 
