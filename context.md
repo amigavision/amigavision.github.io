@@ -28,5 +28,16 @@ The Amiga especially influenced the electronic music scene and the wider games i
   >
 </iframe>
 
+And for a great intro to the demo scene and culture, check out:
+
+<iframe
+  style="aspect-ratio: 16/9; width: 100%;"
+  src="https://www.youtube.com/embed/vIQ74_DRWEM"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+  >
+</iframe>
+
 [Amiga games]:https://lemonamiga.com
 [Demo scene]:https://en.wikipedia.org/wiki/Demoscene
