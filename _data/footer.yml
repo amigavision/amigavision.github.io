@@ -1,5 +1,9 @@
 
 - links:
+  - name: Bluesky
+    link: https://bsky.app/profile/amiga.vision
+    new_window: true
+    social_icon: Bluesky
   - name: Mastodon
     link: https://mastodon.social/@amiga_vision
     new_window: true
