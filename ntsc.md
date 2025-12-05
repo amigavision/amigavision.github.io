@@ -26,11 +26,12 @@ Make absolutely sure that you update your `MiSTer.ini` settings for the core acc
 [Amiga
 +Amiga500
 +Amiga500HD
-+Amiga600HD]
-video_mode_ntsc=8 
-video_mode_pal=9
++Amiga600HD
++AmigaCD32]
+video_mode_ntsc=8 ; These two use the recommended setting of 1080p60 and
+video_mode_pal=9  ; 1080p50, adjust if you want a different resolution
 vscale_mode=0
-vsync_adjust=1 
+vsync_adjust=1 ; You can set this to 2 if your display can handle it
 custom_aspect_ratio_1=40:27
 bootscreen=0
 ```
