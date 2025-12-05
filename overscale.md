@@ -68,7 +68,7 @@ This means that *we may sacrifice a few pixels*, which *could* be critical in e.
 
 ## We make sure the offset is set to not affect the gameplay, while still using as much of the screen as possible.
 
-There’s also entire classes of games, e.g. driving games and top-down games that don’t rely on seeing every single pixel for the game to work fine. This is when we accept cropping. And if you try the game in 4× vs. 5×/10× on an actual TV instead of these screenshots, I think you will agree that losing a few pixels in-game to the 5×/10× scale is a trade-off worth making.
+There are entire classes of games, e.g. driving games and top-down games, that don’t rely on seeing every single pixel for the game to work fine. This is when we accept cropping. And if you try the game in 4× vs. 5×/10× on an actual TV instead of these screenshots, I think you will agree that losing a few pixels in-game to the 5×/10× scale is a trade-off worth making.
 
 Many of the European games have an interesting quirk: The *game itself* fits neatly into 5×PAL, sometimes with a few pixels of crop with the right vertical offset—but often have a 256px title screen with artwork that will have more serious crop in 5×PAL. We think this is a reasonable trade-off to make, so you might see some title screens and intermission screens have cropping that doesn’t look optimal at first glance. However, we only do this when there’s no information lost as far as gameplay is concerned.
 
