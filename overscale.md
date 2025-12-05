@@ -1,10 +1,9 @@
 ---
-title: AmigaVision 2021.03.13 Released with Per-Game 5× Integer Scaling
+title: AmigaVision  with Per-Game 5× PAL Integer Overscaling on MiSTer
+redirect_from: "/5x/"
 ---
 
-We are happy to announce that AmigaVision 2021.03.13 is released, and the biggest news in this release is *per-game* 5× scaling with Dynamic Crop.
-
-The Amiga core (aka. Minimig) with AmigaVision now supports 5× vertical integer scaling, crop and offsets on a *per-game* basis. And the optimal settings are all handled for you—transparently—within the AmigaVision setup.
+The Amiga core (aka. Minimig) with AmigaVision now supports 5× PAL integer overscaling, crop and offsets on a *per-game* basis. And the optimal settings are all handled for you—transparently—within the AmigaVision setup.
 
 ##  What does this mean?
 
