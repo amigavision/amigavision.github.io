@@ -49,7 +49,7 @@ What we need is a *per-game* setting for which games should use 5×/10× scale, 
 
 (Amiga was the first MiSTer core to support 5×/10× scaling in the first place, using a file in `/config` named `minimig_vadjust.dat`. But this setting was global, which didn’t solve our problem.)	
 
-[What we proposed, and implemented], was the ability for the Amiga core to read this vadjust file from the `/shared` directory that can be read, written, and interpreted by *both* the Amiga core as well as MiSTer’s scaler. 
+[What we proposed, and implemented], was the ability for the Amiga core to read this `vadjust` file from the `/shared` directory that can be read, written, and interpreted by *both* the Amiga core as well as MiSTer’s scaler. 
 
 Whenever we start a game in AmigaVision, we look up what the optimal settings for that particular game is, and copy a custom vadjust file to that directory. 
 
