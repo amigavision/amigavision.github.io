@@ -61,7 +61,12 @@ defaults:
       layout: "post"
 
   - scope:
-      path: "sachs.md"
+      path: "ntsc.md"
+    values:
+      layout: "post"
+
+  - scope:
+      path: "overscale.md"
     values:
       layout: "post"
 
