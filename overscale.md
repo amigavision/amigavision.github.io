@@ -29,7 +29,7 @@ No, we can actually make this work with 1080p/4K. The large majority of Amiga ga
 
 This was exceedingly common in Amiga games, since European developers would often restrict the games to be 200px tall to ensure that they could (theoretically!) work in NTSC resolutions, which on the Amiga was 200px (without overscan).
 
-This means we effectively have a 16:10 aspect ratio for PAL games (a little taller than 3:2) — who knew that most Amiga games were widescreen already?
+This means we effectively have a 16:10 aspect ratio for PAL games (a little taller than 3:2, the Game Boy Advance aspect ratio) — who knew that most Amiga games were widescreen already?
 
 ## Interesting—what does that mean?
 
