@@ -65,7 +65,7 @@ In general, the approach for 5×/10× scale/crop is that it’s OK to sacrifice 
 
 This means that *we may sacrifice a few pixels*, which *could* be critical in e.g. a platformer like Flashback, where you could have platforms that were just 1-2 pixels of the viewport, and have a bad effect on difficulty level or gameplay in general. We take special care to make sure this never happens.
 
-## We make sure the offset does not affect the gameplay
+## The offset should not affect the gameplay
 
 There are entire classes of games, e.g. driving games and top-down games, that don’t rely on seeing every single pixel for the game to work fine. This is when we accept cropping. And if you try the game in 4× vs. 5×/10× on an actual TV instead of these screenshots, I think you will agree that losing a few pixels in-game to the 5×/10× scale is a trade-off worth making.
 
@@ -73,7 +73,7 @@ Many of the European games have an interesting quirk: The *game itself* fits nea
 
 We hope you enjoy this huge upgrade to the Amiga games you know and love on your 1080p/4K screen!
 
-## Additional notes:
+## Additional notes
 
 * NTSC is always 5×/10× scale using AmigaVision, since it is usually 200px tall, and suffers no ill consequences or cropping, being scaled to 1000px tall with a 40px letterbox on top/bottom to make it 1080p/4K.
 * You can turn off the Dynamic Crop setting in the Options section of the launcher if you prefer to not have this be the default behavior. 
