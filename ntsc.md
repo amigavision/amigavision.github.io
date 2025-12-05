@@ -11,7 +11,7 @@ When we apply a 5×PAL or 6×PAL [overscale](https://amiga.vision/overscale), 1:
 In 2023, we completely reworked how this is handled, so you no longer have to manually switch to NTSC, which has tall pixels at 5:6 PAR, seen in e.g. Defender of the Crown. Most emulators and captures get this wrong and use 1:1 pixels instead, so we built an implementation that handles all the variants correctly on MiSTer:
 
 * **PAL title, 50Hz:** PAL, 16:15 PAR at 4×, 1:1 PAR at 5× and 6×
-* **PAL title, 60Hz:** PAL60, 1:1 PAR at 5×
+* **PAL60 title, 60Hz:** PAL60, 1:1 PAR at 5×
 * **NTSC title, 60Hz:**  NTSC, 5:6 PAR at 5×
 
 All these align to the 1080p/4K 16:9 pixel grid while having the correct Pixel Aspect Ratio, so you will not get any shimmering or non-integer pixels.
