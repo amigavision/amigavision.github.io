@@ -65,7 +65,7 @@ In general, the approach for 5×/10× scale/crop is that it’s OK to sacrifice 
 
 This means that *we may sacrifice a few pixels*, which *could* be critical in e.g. a platformer like Flashback, where you could have platforms that were just 1-2 pixels of the viewport, and have a bad effect on difficulty level or gameplay in general. We take special care to make sure this never happens.
 
-## We make sure the offset is set to not affect the gameplay, while still using as much of the screen as possible.
+## We make sure the offset does not affect the gameplay
 
 There are entire classes of games, e.g. driving games and top-down games, that don’t rely on seeing every single pixel for the game to work fine. This is when we accept cropping. And if you try the game in 4× vs. 5×/10× on an actual TV instead of these screenshots, I think you will agree that losing a few pixels in-game to the 5×/10× scale is a trade-off worth making.
 
