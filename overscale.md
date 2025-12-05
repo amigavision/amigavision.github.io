@@ -15,12 +15,11 @@ Let's take a look at some example games—real screenshots from the Amiga core o
 
 ![5x scaling](/images/gods5x.gif)
 
+![5x scaling](/images/lionheart5x.gif)
+
 ![5x scaling](/images/megalomania5x.gif)
 
 (Yes, we are sacrificing the logo here, but all of the game's controls are accessible, see explanation below)
-
-![5x scaling](/images/lionheart5x.gif)
-
 
 ## How does this work?
 
