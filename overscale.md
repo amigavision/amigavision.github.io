@@ -77,7 +77,7 @@ We hope you enjoy this huge upgrade to the Amiga games you know and love on your
 
 * NTSC is always 5×/10× scale using AmigaVision, since it is usually 200px tall, and suffers no ill consequences or cropping, being scaled to 1000px tall with a 40px letterbox on top/bottom to make it 1080p/4K.
 * You can turn off the Dynamic Crop setting in the Options section of the launcher if you prefer to not have this be the default behavior. 
-* Just for the record, none of this has any effect on the analog output. Amiga usage on CRTs works the way it always did, and resolutions that are not 1080p/4K are also behaving the way they always did.
+* None of this has any effect on the analog output. Amiga usage on CRTs works the way it always did, and resolutions that are not 1080p/4K are also behaving the way they always did.
 * Resolutions that are not 1080p/4K should be unaffected (e.g. 1200p and 1440p).
 
 [What we proposed, and implemented]:https://github.com/MiSTer-devel/Minimig-AGA_MiSTer/issues/90
