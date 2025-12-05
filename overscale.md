@@ -1,5 +1,5 @@
 ---
-title: AmigaVision  with Per-Game 5× PAL Integer Overscaling on MiSTer
+title: Per-Game 5× PAL Integer Overscaling on MiSTer
 redirect_from: "/5x/"
 ---
 
