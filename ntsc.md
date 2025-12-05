@@ -12,8 +12,6 @@ In 2023, we completely reworked how this is handled, so you no longer have to ma
 
 * **PAL title, 50Hz:** PAL, 16:15 PAR at 4×, 1:1 PAR at 5× and 6×
 * **PAL title, 60Hz:** PAL60, 1:1 PAR at 5×
-* **NTSC title, 60Hz:**  NTSC, 1:1 PAR at 5×
-* **"World" title, 60Hz:** NTSC, 1:1 PAR at 5×
 * **"Sachs NTSC" title, 60Hz:**  NTSC, 5:6 PAR at 5×
 
 All these align to the 1080p/4K 16:9 pixel grid while having the correct Pixel Aspect Ratio, so you will not get any shimmering or non-integer pixels.
