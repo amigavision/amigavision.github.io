@@ -47,7 +47,7 @@ In summary, it’s hard to make a top-level setting do a good job at optimally u
 
 What we need is a *per-game* setting for which games should use 5×/10× scale, a custom setting *per-game* for the offset when it does, and the ability to revert to a different setting when you exit the game and start another game.
 
-Additionally, Amiga was, interestingly, the first MiSTer core to support 5×/10× scaling in the first place, using a file in `/config` named `minimig_vadjust.dat`. But this setting was global, which didn’t solve our problem. 
+(Additionally, )Amiga was, interestingly, the first MiSTer core to support 5×/10× scaling in the first place, using a file in `/config` named `minimig_vadjust.dat`. But this setting was global, which didn’t solve our problem.)
 
 [What we proposed, and implemented], was the ability for the Amiga core to read this vadjust file from the `/shared` directory that can be read, written, and interpreted by *both* the Amiga core as well as MiSTer’s scaler. 
 
