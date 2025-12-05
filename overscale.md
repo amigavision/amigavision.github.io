@@ -32,7 +32,7 @@ This means we effectively have a 16:10 aspect ratio for PAL games (a little tall
 
 ## Interesting—what does that mean?
 
-It means that we can apply a 5×/10× scaling factor, since 200px × 5× scale = 1000px. You may have noticed that when you run a game on an Amiga emulator or on the MiSTer core without our settings, there’s a lot of wasted, empty space — since everything runs at 4× scale on a 1080p/4K display to ensure that all the pixels are visible. It theoretically *has* to do this, since the vertical resolution of the Amiga is 256px in PAL mode, and technically 270px with overscan. But since most games don’t use the full 256px height, *those games can be displayed with a 5× scale instead, as long as the game doesn’t have any critical elements outside of a 216px viewport (216×5 = 1080p, or 216×10 = 4K)*.
+It means that we can apply a 5×/10× scaling factor, since 200px × 5× scale = 1000px. You may have noticed that when you run a game on an Amiga emulator or on the MiSTer core without our settings, there’s a lot of wasted, empty space — since everything runs at 4× scale on a 1080p/4K display to ensure that all the pixels are visible. It theoretically *has* to do this, since the vertical resolution of the Amiga is 256px in PAL mode, and technically 270px with overscan. But since most games don’t use the full 256px height, *those games can be displayed with a 5×/10× scale instead, as long as the game doesn’t have any critical elements outside of a 216px viewport (216×5 = 1080p, or 216×10 = 4K)*.
 
 ## Sounds good, but I can see some potential issues here?
 
