@@ -1,4 +1,6 @@
-# AmigaVision Compared to Other Setups
+---
+title: AmigaVision Compared to Other Setups
+---
 
 | Feature                           | AmigaVision | AGS 3 | RetroPie | PiMiga |
 |-----------------------------------|:-----------:|:-----:|:--------:|:------:|
