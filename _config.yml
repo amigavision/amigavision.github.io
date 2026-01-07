@@ -71,6 +71,11 @@ defaults:
       layout: "post"
 
   - scope:
+      path: "vs.md"
+    values:
+      layout: "post"
+
+  - scope:
       path: "context.md"
     values:
       layout: "post"
