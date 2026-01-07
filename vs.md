@@ -33,10 +33,12 @@ There are plenty of other Amiga setups available for various types of hardware. 
 
 
 
+<!-->
 
 |                                   |             |       |          |        |
 |                                   |             |       |          |        |
 
+-->
 
 [^1]: Makes use of MiSTer-specific features, like shared network drives, Wi-Fi, etc.
 
