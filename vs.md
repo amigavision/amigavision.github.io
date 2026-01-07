@@ -4,7 +4,7 @@ title: AmigaVision Compared to Other Setups
 
 There are plenty of other Amiga setups available for various types of hardware. This overview is meant to show how AmigaVision compares to other setups, and what we prioritize.
 
-| Feature                           | AmigaVision | AGS 3 | RetroPie | PiMiga |
+| Feature                           | AmigaVision | AGS3 | RetroPie | PiMiga |
 |-----------------------------------|:-----------:|:-----:|:--------:|:------:|
 | Real Amiga hardware supported     | ✅          | ✅     | ❌       | ❌     |
 | MiSTer FPGA features supported[^1]| ✅          | ❌     | N/A      | N/A   |
