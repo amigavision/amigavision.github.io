@@ -4,31 +4,31 @@ title: AmigaVision Compared to Other Setups
 
 There are plenty of other Amiga setups available for various types of hardware. This overview is meant to show how AmigaVision compares to other setups, and what we prioritize.
 
-| Feature                           | AmigaVision | AGS3 | RetroPie | PiMiga |
-|-----------------------------------|:-----------:|:-----:|:--------:|:------:|
-| Real Amiga hardware supported     | ✅          | ✅     | ❌       | ❌     |
-| MiSTer FPGA features supported[^1]| ✅          | ❌     | N/A      | N/A   |
-| Pocket FPGA features supported    | ✅          | ❌     | N/A      | N/A   |
-| Raspberry Pi supported            | ✅          | ✅     | ✅       | ✅     |
-| Emulators supported               | ✅          | ✅     | ✅       | ✅     |
-| Open Source License               | ✅          | ❌     | ✅       | ❌     |
-| Download Size                     | 4GB         | 19GB  |          | 37GB   |
-| Size on disk                      | 9GB         | 30GB  |          | 57GB   |
-| Time from boot to game select[^2] | 5s/Ns.      | Ns/Ns | Ns       | Ns     |
-| Lowest Audio/Input/Output Latency [^3] | ✅     | ❌     | ❌       | ❌     |
-| Workbench setup with useful tools | ✅          | ✅     | ✅       | ✅     |
-| No duplication of ECS/AGA games   | ✅          | ❌     | N/A      | ❌     |
-| Correct NTSC/PAL version [^4]     | ✅          | ❌     | ❌       | ❌     |
-| Per-game 5x overscale support[^5] | ✅          | ❌     | ❌       | ❌     |
-| Cycle-accurate Amiga 500 Setup included | ✅    | ❌    | ❌        | ❌     |
-| High-resolution Display Support   | ✅          | ✅    | ✅        | ✅     |
-| PiStorm Support on Amiga HW       | ✅          | ✅    | N/A      | N/A    |
-| Lag-free Analogue Video Output    | ✅          | ❌    | ❌       | ❌      |
-| Curated Lists of Games & Demos [^6]| ✅         | ❌    |          |        |
-| High-Resolution Game & Demo Thumbnails | ✅     | ❌    | ❌       | ❌     |
-| Single download for all platforms | ✅          | ❌    | ❌       | ❌     |
-| Original manuals accessible via QR [^7] | ✅    | ❌    | ❌       | ❌     |
-| [Zaparoo] NFC Card Support[^8]    | ✅          | ❌    | ❌       | ❌     |
+| Feature                           | AmigaVision | AGS 3 | PiMiga |
+|-----------------------------------|:-----------:|:-----:|:------:|
+| Real Amiga hardware supported     | ✅          | ✅     | ❌     |
+| MiSTer FPGA features supported[^1]| ✅          | ❌     | N/A   |
+| Pocket FPGA features supported    | ✅          | ❌     | N/A   |
+| Raspberry Pi supported            | ✅          | ✅     | ✅     |
+| Emulators supported               | ✅          | ✅     | ✅     |
+| Open Source License               | ✅          | ❌     | ❌     |
+| Download Size                     | 4GB         | 19GB  | 37GB   |
+| Size on disk                      | 9GB         | 30GB  | 57GB   |
+| Time from boot to game select[^2] | 5s/Ns.      | Ns/Ns | Ns     |
+| Lowest Audio/Input/Output Latency [^3] | ✅     | ❌     | ❌     |
+| Workbench setup with useful tools | ✅          | ✅     | ✅     |
+| No duplication of ECS/AGA games   | ✅          | ❌     | ❌     |
+| Correct NTSC/PAL version [^4]     | ✅          | ❌     | ❌     |
+| Per-game 5x overscale support[^5] | ✅          | ❌     | ❌     |
+| Cycle-accurate Amiga 500 Setup included | ✅    | ❌     | ❌     |
+| High-resolution Display Support   | ✅          | ✅     | ✅     |
+| PiStorm Support on Amiga HW       | ✅          | ✅    | N/A    |
+| Lag-free Analogue Video Output    | ✅          | ❌    | ❌     |
+| Curated Lists of Games & Demos [^6]| ✅         | ❌    |        |
+| High-Resolution Game & Demo Thumbnails | ✅     | ❌    | ❌     |
+| Single download for all platforms | ✅          | ❌    | ❌     |
+| Original manuals accessible via QR [^7] | ✅    | ❌    | ❌     |
+| [Zaparoo] NFC Card Support[^8]    | ✅          | ❌    | ❌     |
 
 
 
