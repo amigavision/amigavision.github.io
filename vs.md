@@ -13,11 +13,10 @@ There are plenty of other Amiga setups available for various types of hardware. 
 | Emulators supported               | ✅          | ✅     | ✅       | ✅     |
 | Open Source License               | ✅          | ❌     | ✅       | ❌     |
 | Download Size                     | 4GB         | 19GB  |          | 37GB   |
-| Size on disk                      | 9GB         | 30GB  |          |        |
+| Size on disk                      | 9GB         | 30GB  |          | 57GB   |
 | Time from boot to game select[^2] | 5s/Ns.      | Ns/Ns | Ns       | Ns     |
-| Lowest Audio Latency [^3]         | ✅          | ❌     | ❌       | ❌     |
-| Lowest Input Latency [^3]         | ✅          | ❌     | ❌       | ❌     |
-| Lowest Output Latency [^3]        | ✅          | ❌     | ❌       | ❌     |
+| Lowest Audio/Input/Output Latency [^3] | ✅     | ❌     | ❌       | ❌     |
+| Workbench setup with useful tools | ✅          | ✅     | ✅       | ✅     |
 | No duplication of ECS/AGA games   | ✅          | ❌     | N/A      | ❌     |
 | Correct NTSC/PAL version [^4]     | ✅          | ❌     | ❌       | ❌     |
 | Per-game 5x overscale support[^5] | ✅          | ❌     | ❌       | ❌     |
