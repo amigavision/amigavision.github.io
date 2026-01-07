@@ -784,3 +784,41 @@ font-weight: 600;
     background-color: #222;
   }
 }
+
+
+/* Experimental table layout */
+.content table {
+    display: block;
+    width: 100%;
+    width: max-content;
+    max-width: 100%;
+    overflow: auto;
+    font-variant: tabular-nums;
+}
+
+.content table th {
+    font-weight: 600;
+}
+
+.content table th, .content table td {
+    padding: 6px 13px;
+    border:1px solid #ccc;
+}
+
+.content table td > :last-child {
+    margin-bottom:0;
+}
+
+.content table tr {
+    background-color: transparent;
+    border-top:1px solid #ccc;
+}
+
+.content table tr:nth-child(2n) {
+    background-color: #eee;
+}
+
+.content table img {
+    background-color:rgba(0, 0, 0, 0)
+}
+
