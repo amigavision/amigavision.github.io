@@ -227,7 +227,6 @@ Will be folded into the above sections.
 | Game manuals accessible on second device [^7] | ✅ | ❌ | ❌     |
 | [Zaparoo] NFC Card Support[^8]    | ✅          | ❌    | ❌     |
 
--->
 
 ## Footnotes
 
@@ -275,6 +274,7 @@ Will be folded into the above sections.
 [^s1]: System volumes are read-only by default; this reduces persistence risk but does not claim absolute immunity.
 [^s2]: Write access can be enabled intentionally by advanced users.
 
+-->
 
 
 [Zaparoo]:https://zaparoo.org
