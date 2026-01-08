@@ -24,7 +24,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Real Amiga Hardware Supported | ✅ | ✅ | ❌ |
-| Mister FPGA Features Supported | ✅ | ❌ | ◻️ |
+| Mister FPGA Features Supported | ✅ | ❌ | ▫️◽️◻️⬜️ |
 | Analogue Pocket FPGA Features Supported | ✅ | ❌ | ◻️ |
 | Raspberry Pi Supported | ✅ | ✅ | ✅ |
 | Emulators Supported | ✅ | ✅ | ✅ |
