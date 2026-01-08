@@ -23,11 +23,10 @@ There are plenty of other Amiga setups available for various types of hardware. 
 | Cycle-accurate Amiga 500 Setup included | ✅    | ❌     | ❌     |
 | High-resolution Display Support   | ✅          | ✅     | ✅     |
 | PiStorm Support on Amiga HW       | ✅          | ✅    | N/A    |
-| Lag-free Analogue Video Output    | ✅          | ❌    | ❌     |
-| Curated Lists of Games & Demos [^6]| ✅         | ❌    |        |
+| Analogue Video Output with No Lag | ✅          | ❌    | ❌     |
 | High-Resolution Game & Demo Thumbnails | ✅     | ❌    | ❌     |
 | Single download for all platforms | ✅          | ❌    | ❌     |
-| Original manuals accessible via QR [^7] | ✅    | ❌    | ❌     |
+| Game manuals accessible on second device [^7] | ✅ | ❌ | ❌     |
 | [Zaparoo] NFC Card Support[^8]    | ✅          | ❌    | ❌     |
 
 
@@ -48,8 +47,6 @@ There are plenty of other Amiga setups available for various types of hardware. 
 [^4]: Will pick the correct NTSC or PAL resolution based on where the game was developed automatically, without you having to know which one is the correct version.
 
 [^5]: For more information on 5×PAL Overscale and why it is important for 4K and 1080p dislays, [see this overview](https://amiga.vision/overscale). 
-
-[^6]: "Top 100" lists and similar does not mean anything is curated.
 
 [^7]: Several Amiga launchers have manuals included, but that doesn't do you much good when you are trying to play the game, and they can't be accessed during the game. QR links let you open up the original game manuals on a phone or tablet to use simultaneously with playing the game.
 
