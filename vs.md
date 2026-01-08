@@ -20,7 +20,7 @@ AmigaVision focuses on:
 The goal is to have a setup that feels like using a well-maintained Amiga rooted in the demo scene and games development at the time — not a collection of compromises.
 
 <table>
-  <tr>
+  <tr style="font-weight: 700">
     <td> Legend </td>
     <td> ✅ Supported </td>
     <td> ❌ Not Supported </td>
