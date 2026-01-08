@@ -12,13 +12,11 @@ There are plenty of other Amiga setups available for various types of hardware. 
 | Raspberry Pi supported            | ✅          | ✅     | ✅     |
 | Emulators supported               | ✅          | ✅     | ✅     |
 | Open Source License               | ✅          | ❌     | ❌     |
-| Download Size                     | 4GB         | 19GB  | 37GB   |
-| Size on disk                      | 9GB         | 30GB  | 57GB   |
+| Download/Install Size             | 4GB/9GB| 19GB/30GB| 37GB/57GB|
 | Time from boot to game select[^2] | 5s/Ns.      | Ns/Ns | Ns     |
 | Lowest Audio/Input/Output Latency [^3] | ✅     | ❌     | ❌     |
 | Workbench setup with useful tools | ✅          | ✅     | ✅     |
-| No duplication of ECS/AGA games   | ✅          | ❌     | ❌     |
-| Correct NTSC/PAL version [^4]     | ✅          | ❌     | ❌     |
+| Best game version as default [^4] | ✅          | ❌     | ❌     |
 | Per-game 5x overscale support[^5] | ✅          | ❌     | ❌     |
 | Cycle-accurate Amiga 500 Setup included | ✅    | ❌     | ❌     |
 | High-resolution Display Support   | ✅          | ✅     | ✅     |
@@ -44,7 +42,7 @@ There are plenty of other Amiga setups available for various types of hardware. 
 
 [^3]: This refers to latency on systems that are variable. On systems that support FPGAs, like MiSTer, the latency will be identical across setups.
 
-[^4]: Will pick the correct NTSC or PAL resolution based on where the game was developed automatically, without you having to know which one is the correct version.
+[^4]: Will pick the correct NTSC or PAL resolution based on where the game was developed automatically, without you having to know which one is the correct version. Will also pick the best version between the ECS and AGA versions, unless the game has substantial differences, like a different level set. And sometimes there are games that have game-breaking bugs in one or the other version.
 
 [^5]: For more information on 5×PAL Overscale and why it is important for 4K and 1080p dislays, [see this overview](https://amiga.vision/overscale). 
 
