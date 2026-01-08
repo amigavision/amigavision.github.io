@@ -142,6 +142,7 @@ We strive to keep this overview accurate, and recognize that we can't always be 
 ## Frequently Asked Questions
 
 ### PiMiga & AGS seem to have way more games and bigger size images?
+
 They do — and that also means:
 
 - Duplicate AGA/ECS titles
@@ -149,9 +150,7 @@ They do — and that also means:
 - Broken releases
 - Erroneous PAL/NTSC variants
 
-
 AmigaVision intentionally curates **fewer, verified titles** so you don’t need deep Amiga knowledge to get the correct experience. And we are not leaving anything out, just removing unnecessary content that we don't consider relevant.
-
 
 ### Why not RetroArch or generic emulation?
 Amiga emulation is unusually sensitive to:
