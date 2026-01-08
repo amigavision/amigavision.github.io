@@ -23,7 +23,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
   <tr>
     <td style="text-align: center"> Legend </td>
     <td> ✅ Supported </td>
-    <td> ❌ Not Supported </td><
+    <td> ❌ Not Supported </td>
     <td> ⬜️ Not Applicable to Platform </td>
   </tr>
 </table>
