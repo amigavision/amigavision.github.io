@@ -8,12 +8,12 @@ There are several other Amiga setups available for various types of hardware. Th
 
 ## Why AmigaVision?
 
-AmigaVision is not about having the largest archive — it’s about having the right versions, running correctly, with minimal latency, with optimal performance on supported hardware.
+AmigaVision is not about having the largest collection — it’s about having the right versions, running correctly, with minimal latency, with optimal performance on supported hardware.
 
 AmigaVision focuses on:
 
 * Hardware-accurate behavior
-* Zero-lag video and input paths where possible
+* Zero-lag video and input/output paths where possible
 * Intelligent version selection (PAL/NTSC, ECS/AGA)
 * A single, consistent experience across real Amigas, FPGA, and emulation
 
@@ -203,7 +203,9 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 
 
 
-## Original table
+## Older overview table
+
+Will be folded into the above sections.
 
 | Feature                           | AmigaVision | AGS 3 | PiMiga |
 |-----------------------------------|:-----------:|:-----:|:------:|
