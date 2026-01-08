@@ -103,7 +103,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |---------|:-----------:|:-----:|:------:|
 | Hand-Tuned Scanline Presets Included | ✅ | ❌ | ❌ |
 | Shadow Mask Presets Included | ✅ | ❌ | ❌ |
-| External HDMI Scaler Profiles Included (e.g. RetroTink 4K) | ✅ | ❌ | ❌ |
+| External HDMI Scaler Profiles Included <br>(e.g. RetroTink 4K) | ✅ | ❌ | ❌ |
 
 ## Era-Accurate *&* Specialized Setups
 
