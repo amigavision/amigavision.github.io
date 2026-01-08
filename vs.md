@@ -24,11 +24,11 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Real Amiga Hardware Supported | ✅ | ✅ | ❌ |
-| Mister FPGA Features Supported | ✅ | ❌ | ▫️◽️◻️⬜️ |
-| Analogue Pocket FPGA Features Supported | ✅ | ❌ | ◻️ |
+| Mister FPGA Features Supported | ✅ | ❌ | ⬜️ |
+| Analogue Pocket FPGA Features Supported | ✅ | ❌ | ⬜️ |
 | Raspberry Pi Supported | ✅ | ✅ | ✅ |
 | Emulators Supported | ✅ | ✅ | ✅ |
-| PiStorm On Real Amiga Supported | ✅ | ✅ | ◻️ |
+| PiStorm On Real Amiga Supported | ✅ | ✅ | ⬜️ |
 
 ## Performance, Accuracy *&* Latency
 
@@ -54,7 +54,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Download / Installed Size | 4GB / 9GB | 19GB / 30GB | 37GB / 57GB |
-| Single Download for All Platforms | ✅ | ❌ | ◻️ |
+| Single Download for All Platforms | ✅ | ❌ | ⬜️ |
 | Curated, Non-Duplicated Game Library | ✅ | ❌ | ❌ |
 | Known-Bad Game Versions Excluded | ✅ | ❌ | ❌ |
 | Consistent Naming & Metadata | ✅ | ❌ | ❌ |
@@ -107,7 +107,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Era-Accurate A500HD & A600HD Setups Included| ✅ | ❌ | ❌ |
-| Turn-Key CD32 Setup | ✅ | ❌ | ◻️ |
+| Turn-Key CD32 Setup | ✅ | ❌ | ⬜️ |
 
 ## Developer *&* Power-User Friendly
 
@@ -130,7 +130,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 ### Legend
 ✅ Supported  
 ❌ Not Supported  
-◻️ Not Applicable to Platform
+⬜️ Not Applicable to Platform
 
 ## Any errors in this comparison?
 
@@ -206,8 +206,8 @@ Will be folded into the above sections.
 | Feature                           | AmigaVision | AGS&nbsp;3 | PiMiga |
 |-----------------------------------|:-----------:|:-----:|:------:|
 | Real Amiga hardware supported     | ✅          | ✅     | ❌     |
-| MiSTer FPGA features supported[^1]| ✅          | ❌     | ◻️    |
-| Pocket FPGA features supported    | ✅          | ❌     | ◻️    |
+| MiSTer FPGA features supported[^1]| ✅          | ❌     | ⬜️    |
+| Pocket FPGA features supported    | ✅          | ❌     | ⬜️    |
 | Raspberry Pi supported            | ✅          | ✅     | ✅     |
 | Emulators supported               | ✅          | ✅     | ✅     |
 | Open Source License               | ✅          | ❌     | ❌     |
@@ -220,7 +220,7 @@ Will be folded into the above sections.
 | Per-game 5x overscale support[^5] | ✅          | ❌     | ❌     |
 | Cycle-accurate Amiga 500 Setup included | ✅    | ❌     | ❌     |
 | High-resolution Display Support   | ✅          | ✅     | ✅     |
-| PiStorm Support on Amiga HW       | ✅          | ✅    | ◻️     |
+| PiStorm Support on Amiga HW       | ✅          | ✅    | ⬜️     |
 | Analogue Video Output with No Lag | ✅          | ❌    | ❌     |
 | High-Resolution Game & Demo Thumbnails | ✅     | ❌    | ❌     |
 | Single download for all platforms | ✅          | ❌    | ❌     |
