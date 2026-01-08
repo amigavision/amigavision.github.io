@@ -19,6 +19,10 @@ AmigaVision focuses on:
 
 The goal is to have a setup that feels like using a well-maintained Amiga rooted in the demo scene and games development at the time — not a collection of compromises.
 
+| Legend | ✅ Supported | ❌ Not Supported | ⬜️ Not Applicable to Platform |
+|---------|:-----------:|:-----:|:------:|
+
+
 ## Hardware *&* Platform Support
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
@@ -125,12 +129,6 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Disk Magazines Included[^P2] | ✅ | ❌ | ❌ |
 | Disk Mags Organized Chronologically[^P3] | ✅ | ❌ | ❌ |
 | Preservation-Focused Curation[^P4] | ✅ | ❌ | ❌ |
-
-
-### Legend
-✅ Supported  
-❌ Not Supported  
-⬜️ Not Applicable to Platform
 
 ## Any errors in this comparison?
 
