@@ -79,7 +79,7 @@ h2+h3 {
 
 p,address {
   /* font-size: 1.38em; */
-  color: #666;
+  color: black;
   margin-bottom: 20px;
   font-weight: 300;
   line-height: 1.4em;
@@ -769,7 +769,7 @@ font-weight: 600;
   color: #ddd;
   }
   p, address, li, pre {
-    color: #888;
+    color: white;
   }
   .blog-post h3 a {
     color: #ddd;
