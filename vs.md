@@ -69,8 +69,6 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Download Size <br> Installed Size | 4 GB<br>9 GB | 19 GB&ndash;34 GB<br>30 GB&ndash;52 GB | 37 GB<br>57 GB |
 | Single Download for All Platforms | ✅ | ❌ | ⬜️ |
 | Curated, Non-Duplicated Game Library | ✅ | ❌ | ❌ |
-| Known-Bad Game Versions Excluded | ✅ | ❌ | ❌ |
-| Consistent Naming & Metadata | ✅ | ❌ | ❌ |
 | Open-Source License | ✅ | ❌ | ❌ |
 
 ## Display *&* Video Output
@@ -120,7 +118,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Era-Accurate A500HD & A600HD Setups Included| ✅ | ❌ | ❌ |
-| Turn-Key CD32 Setup | ✅ | ❌ | ⬜️ |
+| Turn-Key [CD32](/cd32) Setup | ✅ | ❌ | ⬜️ |
 
 ## Developer *&* Power-User Friendly
 
@@ -134,10 +132,10 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
-| Demo Scene Content Included[^P1] | ✅ | ❌ | ❌ |
-| Disk Magazines Included[^P2] | ✅ | ❌ | ❌ |
-| Disk Mags Organized Chronologically[^P3] | ✅ | ❌ | ❌ |
-| Preservation-Focused Curation[^P4] | ✅ | ❌ | ❌ |
+| Demo Scene Content Included | ✅ | ❌ | ❌ |
+| Disk Magazines Included | ✅ | ❌ | ❌ |
+| Disk Mags Organized Chronologically | ✅ | ❌ | ❌ |
+| Preservation-Focused Curation | ✅ | ❌ | ❌ |
 
 ## Any errors in this comparison?
 
