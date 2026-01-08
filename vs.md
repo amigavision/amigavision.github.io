@@ -21,7 +21,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## Hardware *&* Platform Support
 
-|         | AmigaVision | AGS 3 | PiMiga |
+|         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Real Amiga Hardware Supported | ✅ | ✅ | ❌ |
 | Mister FPGA Features Supported | ✅ | ❌ | ⬜ |
@@ -32,7 +32,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## Performance, Accuracy *&* Latency
 
-|         | AmigaVision | AGS 3 | PiMiga |
+|         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Lowest End-To-End Latency | ✅ | ❌ | ❌ |
 | Cycle-Accurate Amiga 500 Setup Included <br>(Important for Demos)| ✅ | ❌ | ❌ |
@@ -42,7 +42,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## Display *&* Video Output
 
-|         | AmigaVision | AGS 3 | PiMiga |
+|         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | High-Resolution Display Support | ✅ | ✅ | ✅ |
 | Analogue Video Output With No Added Lag | ✅ | ❌ | ❌ |
@@ -53,7 +53,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## Usability *&* User Experience
 
-|         | AmigaVision | AGS 3 | PiMiga |
+|         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Cold Boot → Playable Game | 5s/10s | Ns/Ns | Ns |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
@@ -64,7 +64,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## Distribution, Maintenance *&* Curation
 
-|         | AmigaVision | AGS 3 | PiMiga |
+|         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Single Download for All Platforms | ✅ | ❌ | ⬜ |
 | Curated, Non-Duplicated Game Library | ✅ | ❌ | ❌ |
@@ -75,7 +75,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## Networking *&* Online Features
 
-|         | AmigaVision | AGS 3 | PiMiga |
+|         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Network Share / Host Filesystem Integration | ✅ | ❌ | ❌ |
 | Internet Stack Included (Online Out-of-the-Box) | ✅ | ❌ | ❌ |
@@ -84,7 +84,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## Upgrade Model *&* Data Persistence
 
-|         | AmigaVision | AGS 3 | PiMiga |
+|         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Separate Persistent Saves / User Data Volume | ✅ | ❌ | ❌ |
 | User Data Survives Upgrades | ✅ | ❌ | ❌ |
@@ -92,14 +92,14 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## Filesystem *&* Reliability
 
-|         | AmigaVision | AGS 3 | PiMiga |
+|         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Uses Corruption-Resistant Filesystem (PFS) | ✅ | ✅ | ❌ |
 | Designed To Minimize Filesystem Damage | ✅ | ✅ | ❌ |
 
 ## CRT, Scaling *&* Display Calibration
 
-|         | AmigaVision | AGS 3 | PiMiga |
+|         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Hand-Tuned Scanline Presets Included | ✅ | ❌ | ❌ |
 | Shadow Mask Presets Included | ✅ | ❌ | ❌ |
@@ -107,14 +107,14 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## Era-Accurate *&* Specialized Setups
 
-|         | AmigaVision | AGS 3 | PiMiga |
+|         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Era-Accurate A500HD & A600HD Setups Included| ✅ | ❌ | ❌ |
 | Turn-Key CD32 Setup | ✅ | ❌ | ⬜ |
 
 ## Developer *&* Power-User Friendly
 
-|         | AmigaVision | AGS 3 | PiMiga |
+|         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Plain-Text Configuration Files | ✅ | ✅ | ❌ |
 | Version-Controlled Setup | ✅ | ❌ | ❌ |
@@ -122,7 +122,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## Demo Scene *&* Digital Preservation
 
-|         | AmigaVision | AGS 3 | PiMiga |
+|         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Demo Scene Content Included[^P1] | ✅ | ❌ | ❌ |
 | Disk Magazines Included[^P2] | ✅ | ❌ | ❌ |
@@ -207,7 +207,7 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 
 Will be folded into the above sections.
 
-| Feature                           | AmigaVision | AGS 3 | PiMiga |
+| Feature                           | AmigaVision | AGS&nbsp;3 | PiMiga |
 |-----------------------------------|:-----------:|:-----:|:------:|
 | Real Amiga hardware supported     | ✅          | ✅     | ❌     |
 | MiSTer FPGA features supported[^1]| ✅          | ❌     | ⬜    |
