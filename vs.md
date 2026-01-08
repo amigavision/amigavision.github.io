@@ -19,8 +19,9 @@ AmigaVision focuses on:
 
 The goal is to have a setup that feels like using a well-maintained Amiga rooted in the demo scene and games development at the time — not a collection of compromises.
 
-| Legend | ✅ Supported | ❌ Not Supported | ⬜️ Not Applicable to Platform |
+|        |              |                   |      |
 |--------|--------------|-------------------|------|
+| Legend | ✅ Supported | ❌ Not Supported | ⬜️ Not Applicable to Platform |
 
 
 ## Hardware *&* Platform Support
