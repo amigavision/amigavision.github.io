@@ -19,11 +19,15 @@ AmigaVision focuses on:
 
 The goal is to have a setup that feels like using a well-maintained Amiga rooted in the demo scene and games development at the time — not a collection of compromises.
 
-<table style="font-weight: 700; width: auto;">
+<table style="font-weight: 700; width: auto; margin-left: auto">
   <tr>
-    <td style="text-align: center"> Legend </td>
+    <td style="text-align: center" rowspan="3"> Legend </td>
     <td> ✅ Supported </td>
+  </tr>
+  <tr>
     <td> ❌ Not Supported </td>
+  </tr>
+  <tr>
     <td> ⬜️ Not Applicable to Platform </td>
   </tr>
 </table>
