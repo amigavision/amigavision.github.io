@@ -197,7 +197,7 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 
 -->
 
-
+<!--
 
 ## Older overview table
 
@@ -227,7 +227,7 @@ Will be folded into the above sections.
 | Game manuals accessible on second device [^7] | ✅ | ❌ | ❌     |
 | [Zaparoo] NFC Card Support[^8]    | ✅          | ❌    | ❌     |
 
-
+-->
 
 ## Footnotes
 
