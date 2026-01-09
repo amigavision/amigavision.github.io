@@ -33,9 +33,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
   </tr>
 </table>
 
-## Hardware *&* Platform Support
 
-<div class="feature-compare" data-responsive-table>
+## Hardware *&* Platform Support
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
@@ -131,7 +130,6 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Version-Controlled Setup | ✅ | ❌ | ❌ |
 | Deterministic Builds (Same Input → Same Output) | ✅ | ❌ | ❌ |
 
-</div>
 
 <!-- This may not be that differentiated
 
