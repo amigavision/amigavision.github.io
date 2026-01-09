@@ -45,7 +45,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
   </tr>
 </table>
 
-## Hardware *&* Platform Support
+## 🖥️ Hardware *&* Platform Support
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
@@ -57,7 +57,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | PiStorm On Real Amiga Supported | ✅ | ✅ | ⬜️ |
 {: .feature-compare data-responsive-table="true" }
 
-## Performance, Accuracy *&* Latency
+## ⏱️ Performance, Accuracy *&* Latency
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
@@ -67,7 +67,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Low-Latency Joystick & Input Timing | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
-## Usability *&* User Experience
+## 🕹️ Usability *&* User Experience
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
@@ -78,7 +78,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Game Manuals Accessible on Second Device | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
-## Distribution, Maintenance *&* Curation
+## 📦 Distribution, Maintenance *&* Curation
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
@@ -88,7 +88,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Open-Source License | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
-## Display *&* Video Output
+## 📺 Display *&* Video Output
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
@@ -99,7 +99,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Correct NTSC Pixel Aspect Ratio | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
-## Networking *&* Online Features
+## 🌐 Networking *&* Online Features
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
@@ -108,7 +108,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Easy File Transfer Without Removing SD Card | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
-## Upgrade Model *&* Data Persistence
+## 💾 Upgrade Model *&* Data Persistence
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
@@ -117,7 +117,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Upgrade Path Documented | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
-## Filesystem *&* Reliability
+## 🧱 Filesystem *&* Reliability
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
@@ -125,7 +125,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Designed To Minimize Filesystem Damage | ✅ | ✅ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
-## CRT, Scaling *&* Display Calibration
+## 📐 CRT, Scaling *&* Display Calibration
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
@@ -134,7 +134,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | External HDMI Scaler Profiles Included <br>(e.g. RetroTink 4K) | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
-## Era-Accurate *&* Specialized Setups
+## 🕰️ Era-Accurate *&* Specialized Setups
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
@@ -142,7 +142,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Turn-Key [CD32](/cd32) Setup | ✅ | ❌ | ⬜️ |
 {: .feature-compare data-responsive-table="true" }
 
-## Developer *&* Power-User Friendly
+## 🛠️ Developer *&* Power-User Friendly
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
@@ -153,7 +153,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 <!-- This may not be that differentiated
 
-## Demo Scene *&* Digital Preservation
+## 🏛️ Demo Scene *&* Digital Preservation
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
