@@ -52,7 +52,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Real Amiga Hardware Supported | ✅ | ✅ | ❌ |
-| Mister FPGA Features Supported[^1] | ✅ | ❌ | ⬜️ |
+| Mister FPGA Features Supported [^1] | ✅ | ❌ | ⬜️ |
 | Analogue Pocket FPGA Features Supported | ✅ | ❌ | ⬜️ |
 | Raspberry Pi Supported | ✅ | ✅ | ✅ |
 | Emulators Supported | ✅ | ✅ | ✅ |
@@ -63,18 +63,18 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
-| Lowest End-To-End Latency | ✅ | ❌ | ❌ |
+| Lowest End-To-End Latency [^2] | ✅ | ❌ | ❌ |
 | Cycle-Accurate Amiga 500 Setup Included <br>(Important for Demos)| ✅ | ❌ | ❌ |
-| Low-Latency Joystick & Input Timing | ✅ | ❌ | ❌ |
+| Low-Latency Joystick & Input Timing [^3] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 ## 🕹️ Usability *&* User Experience
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
-| Cold Boot → Playable Game (MiSTer/RPi) | Ns/Ns | Ns/Ns | ⬜️/Ns |
+| Cold Boot → Playable Game (MiSTer/RPi) [^4] | Ns/Ns | Ns/Ns | ⬜️/Ns |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
-| Best ECS/AGA Version Selected By Default | ✅ | ❌ | ❌ |
+| Best ECS/AGA Version Selected By Default [^5] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 <!-- These are not implemented yet
@@ -86,9 +86,9 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
-| Download Size <br> Installed Size | 4 GB<br>9 GB | 19 GB&ndash;34 GB<br>30 GB&ndash;52 GB | 37 GB<br>57 GB |
+| Download Size <br> Installed Size | 4 GB<br>9 GB | 19 GB&ndash;34 GB<br>30 GB&ndash;52 GB [^6] | 37 GB<br>57 GB |
 | Single Download for All Platforms | ✅ | ❌ | ⬜️ |
-| Curated, Non-Duplicated Game Library | ✅ | ❌ | ❌ |
+| Curated, Non-Duplicated Game Library [^7] | ✅ | ❌ | ❌ |
 | Open-Source License | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
@@ -97,26 +97,25 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | High-Resolution Display Support | ✅ | ✅ | ✅ |
-| Analogue Video Output With No Added Lag | ✅ | ❌ | ❌ |
-| Per-Game 5×PAL Overscale Support | ✅ | ❌ | ❌ |
-| Automatically Selects Correct PAL/NTSC Version | ✅ | ❌ | ❌ |
-| Correct NTSC Pixel Aspect Ratio | ✅ | ❌ | ❌ |
+| Analogue Video Output With No Added Lag [^8] | ✅ | ❌ | ❌ |
+| Per-Game 5×PAL Overscale Support [^9] | ✅ | ❌ | ❌ |
+| Automatically Selects Correct PAL/NTSC Version [^10] | ✅ | ❌ | ❌ |
+| Correct NTSC Pixel Aspect Ratio [^11] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 ## 🌐 Networking *&* Online Features
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
-| Network Share / Host Filesystem Integration | ✅ | ❌ | ❌ |
-| Internet Stack Included (Online Out-of-the-Box) | ✅ | ❌ | ❌ |
-| Easy File Transfer Without Removing SD Card | ✅ | ❌ | ❌ |
+| Easy Network File Transfer Without Removing SD Card [^12] | ✅ | ❌ | ❌ |
+| Internet Stack Included (Online Out-of-the-Box) [^13] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 ## 💾 Upgrade Model *&* Data Persistence
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
-| Separate Persistent Saves / User Data Volume | ✅ | ❌ | ❌ |
+| Separate Persistent Saves / User Data Volume [^14] | ✅ | ✅ | ❌ |
 | User Data Survives Upgrades | ✅ | ❌ | ❌ |
 | Upgrade Path Documented | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
@@ -126,15 +125,15 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Uses Corruption-Resistant Filesystem (PFS) | ✅ | ✅ | ❌ |
-| Designed To Minimize Filesystem Damage | ✅ | ✅ | ❌ |
+| Designed To Minimize Filesystem Damage [^15] | ✅ | ✅ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 ## 📐 CRT, Scaling *&* Display Calibration
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
-| Hand-Tuned Scanline Presets Included | ✅ | ❌ | ❌ |
-| Shadow Mask Presets Included | ✅ | ❌ | ❌ |
+| Scanline Presets Included [^16] | ✅ | ❌ | ❌ |
+| Shadow Mask Presets Included [^17] | ✅ | ❌ | ❌ |
 | External HDMI Scaler Profiles Included <br>(e.g. RetroTink 4K) | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
@@ -142,8 +141,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
-| Era-Accurate A500HD & A600HD Setups Included| ✅ | ❌ | ❌ |
-| Turn-Key [CD32](/cd32) Setup | ✅ | ❌ | ⬜️ |
+| Era-Accurate A500HD & A600HD Setups Included [^18] | ✅ | ❌ | ❌ |
+| Turn-Key [CD32](/cd32) Setup [^19] | ✅ | ❌ | ⬜️ |
 {: .feature-compare data-responsive-table="true" }
 
 ## 🛠️ Developer *&* Power-User Friendly
@@ -153,7 +152,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Plain-Text Configuration Files | ✅ | ✅ | ❌ |
 | Version-Controlled Setup | ✅ | ❌ | ❌ |
 | Deterministic Builds (Same Input → Same Output) | ✅ | ❌ | ❌ |
-| Custom `startup-sequence` entries survive upgrades | ✅ | ❌ | ❌ |
+| Custom `startup-sequence` entries survive upgrades [^20] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 <!-- This may not be that differentiated
@@ -230,7 +229,25 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 <!-- Footnotes -->
 
 [^1]: Makes use of MiSTer-specific features, like shared network drives, Wi-Fi, etc.
-
+[^2]: TK
+[^3]: TK
+[^4]: TK
+[^5]: TK
+[^6]: TK
+[^7]: TK
+[^8]: TK
+[^9]: TK
+[^10]: TK
+[^11]: TK
+[^12]: TK
+[^13]: TK
+[^14]: TK
+[^15]: TK
+[^16]: TK
+[^17]: TK
+[^18]: TK
+[^19]: TK
+[^20]: TK
 
 
 <!--
@@ -265,17 +282,17 @@ Will be folded into the above sections.
 ## Footnotes
 
 
-[^2]: When a platform supports both MiSTer and Raspberry Pi, the times are given in that order. Otherwise, assume Raspberry Pi boot time. Tests are done with the exact same SD card on all systems.
+When a platform supports both MiSTer and Raspberry Pi, the times are given in that order. Otherwise, assume Raspberry Pi boot time. Tests are done with the exact same SD card on all systems.
 
-[^3]: This refers to latency on systems that are variable. On systems that support FPGAs, like MiSTer, the latency will be identical across setups.
+This refers to latency on systems that are variable. On systems that support FPGAs, like MiSTer, the latency will be identical across setups.
 
-[^4]: Will pick the correct NTSC or PAL resolution based on where the game was developed automatically, without you having to know which one is the correct version. Will also pick the best version between the ECS and AGA versions, unless the game has substantial differences, like a different level set. And sometimes there are games that have game-breaking bugs in one or the other version.
+Will pick the correct NTSC or PAL resolution based on where the game was developed automatically, without you having to know which one is the correct version. Will also pick the best version between the ECS and AGA versions, unless the game has substantial differences, like a different level set. And sometimes there are games that have game-breaking bugs in one or the other version.
 
-[^5]: For more information on 5×PAL Overscale and why it is important for 4K and 1080p dislays, [see this overview](https://amiga.vision/overscale). 
+For more information on 5×PAL Overscale and why it is important for 4K and 1080p dislays, [see this overview](https://amiga.vision/overscale). 
 
-[^7]: Several Amiga launchers have manuals included, but that doesn't do you much good when you are trying to play the game, and they can't be accessed during the game. QR links let you open up the original game manuals on a phone or tablet to use simultaneously with playing the game.
+Several Amiga launchers have manuals included, but that doesn't do you much good when you are trying to play the game, and they can't be accessed during the game. QR links let you open up the original game manuals on a phone or tablet to use simultaneously with playing the game.
 
-[^8]: Only supported on MiSTer at the moment.
+Only supported on MiSTer at the moment.
 
 [^n1]: Available on platforms with host filesystem or network share support (e.g. MiSTer); behavior varies by platform.
 
