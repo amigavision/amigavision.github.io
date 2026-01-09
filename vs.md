@@ -345,6 +345,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     // Insert the mobile version right after the table
                     if (!table.nextElementSibling || !table.nextElementSibling.classList.contains("table-mobile")) {
                         table.insertAdjacentElement("afterend", buildMobileTables(table));
+                        // Insert the footnotes/tooltips too
+                        reinitLittlefoot();
                     }
                 });
         }
