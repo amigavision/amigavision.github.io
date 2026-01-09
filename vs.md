@@ -78,7 +78,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Game Manuals Accessible on Second Device | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
-## 📦 Distribution, Maintenance *&* Curation
+## 📦 Distribution *&* Curation
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
@@ -149,6 +149,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Plain-Text Configuration Files | ✅ | ✅ | ❌ |
 | Version-Controlled Setup | ✅ | ❌ | ❌ |
 | Deterministic Builds (Same Input → Same Output) | ✅ | ❌ | ❌ |
+| Custom `startup-sequence` survives upgrades | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 <!-- This may not be that differentiated
