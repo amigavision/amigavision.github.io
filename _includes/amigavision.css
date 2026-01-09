@@ -829,7 +829,6 @@ font-weight: 600;
 
 .feature-compare .table-mobile { display: none; }
 
-<style>
 /* Default (desktop): hide generated mobile tables */
 .table-mobile {
   display: none !important;
