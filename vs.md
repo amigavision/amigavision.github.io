@@ -283,34 +283,20 @@ Will be folded into the above sections.
 [^8]: Only supported on MiSTer at the moment.
 
 [^n1]: Available on platforms with host filesystem or network share support (e.g. MiSTer); behavior varies by platform.
-[^n2]: Includes TCP/IP stack and basic networking tools; not intended to provide modern web browsing parity.
+
+[^n2]: Includes TCP/IP stack and basic networking tools for use with specialized Amiga internet tools; not intended to provide modern web browsing parity.
+
 [^n3]: Achieved via network share or host filesystem; excludes offline real-Amiga setups without networking hardware.
 
 [^u1]: User data is stored on a separate HDF/volume that is excluded from system updates.
-[^u2]: Applies when following documented upgrade procedures; some releases may require a clean install.
-[^u3]: Documentation explicitly states when clean installs are required versus in-place upgrades.
 
 [^f1]: PFS is chosen for improved robustness over FFS; no filesystem is immune to power loss or hardware failure.
-[^f2]: System volumes are read-only by default, with user data isolated to reduce risk of corruption.
-
-[^d1]: Presets are provided for supported platforms (e.g. MiSTer); not applicable to all outputs.
-[^d2]: Optional presets; disabled by default unless explicitly enabled by the user.
-[^d3]: Profiles are provided as presets or recommendations; requires compatible external hardware.
 
 [^p1]: Includes a curated selection of demos rather than an exhaustive archive.
+
 [^p2]: Selected disk magazine issues included based on historical relevance.
+
 [^p3]: Chronological ordering reflects original release dates where known.
-[^p4]: Focuses on historically accurate presentation rather than modern enhancements.
-
-[^e1]: Optional configurations intended to reflect specific historical hardware periods; not default setups.
-[^e2]: Availability depends on platform support (e.g. MiSTer).
-
-[^i1]: Supported controllers vary by platform; keyboard and mouse remain available.
-[^i2]: Implemented via intelligent input mapping or WHDLoad options where applicable.
-[^i3]: Supported through CD32-compatible mappings; not all software uses additional buttons.
-
-[^s1]: System volumes are read-only by default; this reduces persistence risk but does not claim absolute immunity.
-[^s2]: Write access can be enabled intentionally by advanced users.
 
 -->
 
