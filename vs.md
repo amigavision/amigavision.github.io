@@ -404,9 +404,15 @@ document.addEventListener("DOMContentLoaded", function () {
 <!-- Footnotes → Tooltips -->
 <script src="{{ '/littlefoot.js' | relative_url }}"></script>
 <script>
-  window.addEventListener('load', () => {
-    if (typeof window.littlefoot !== 'function') return;
-    window.littlefoot({
+  window.addEventListener('DOMContentLoaded', () => {
+    const init =
+      (window.littlefoot && window.littlefoot.littlefoot) ? window.littlefoot.littlefoot :
+      (typeof window.littlefoot === "function") ? window.littlefoot :
+      null;
+
+    if (!init) return;
+
+    init({
       activateOnHover: false,
       dismissOnUnhover: false,
       anchorPattern: /fn/i
