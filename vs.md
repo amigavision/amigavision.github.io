@@ -402,20 +402,10 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 <!-- Footnotes → Tooltips -->
-<script src="{{ '/littlefoot.js' | relative_url }}"></script>
+<script src="/littlefoot.js"></script>
 <script>
-  window.addEventListener('DOMContentLoaded', () => {
-    const init =
-      (window.littlefoot && window.littlefoot.littlefoot) ? window.littlefoot.littlefoot :
-      (typeof window.littlefoot === "function") ? window.littlefoot :
-      null;
-
-    if (!init) return;
-
-    init({
-      activateOnHover: false,
-      dismissOnUnhover: false,
-      anchorPattern: /fn/i
-    });
+  littlefoot.littlefoot({
+    activateOnHover: false,   // click/tap only
+    dismissOnUnhover: false   // don’t auto-dismiss on mouseout
   });
 </script>
