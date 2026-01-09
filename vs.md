@@ -385,15 +385,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
         function enhanceTables() {
             document
-                .querySelectorAll("[data-responsive-table]")
-                .forEach(wrapper => {
-                    const table = wrapper.querySelector("table");
-                    if (!table) return;
+                .querySelectorAll("table.feature-compare[data-responsive-table='true']")
+                .forEach(table => {
 
                     table.classList.add("table-desktop");
 
-                    if (!wrapper.querySelector(".table-mobile")) {
-                        wrapper.appendChild(buildMobileTables(table));
+                    // Insert the mobile version right after the table
+                    if (!table.nextElementSibling || !table.nextElementSibling.classList.contains("table-mobile")) {
+                        table.insertAdjacentElement("afterend", buildMobileTables(table));
                     }
                 });
         }
