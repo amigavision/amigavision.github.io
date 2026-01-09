@@ -52,7 +52,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
 | Real Amiga Hardware Supported | ✅ | ✅ | ❌ |
-| Mister FPGA Features Supported | ✅ | ❌ | ⬜️ |
+| Mister FPGA Features Supported[^1] | ✅ | ❌ | ⬜️ |
 | Analogue Pocket FPGA Features Supported | ✅ | ❌ | ⬜️ |
 | Raspberry Pi Supported | ✅ | ✅ | ✅ |
 | Emulators Supported | ✅ | ✅ | ✅ |
@@ -227,13 +227,11 @@ You should not need deep Amiga knowledge, endless config edits, or per-game fixe
 ### AmigaVision is *not* trying to replace original hardware — instead aiming to make it easier to use
 Real Amigas, original disks, and hands-on experience is respected — AmigaVision exists to make those experiences easier to access, not to redefine or obsolete them. The AmigaVision team was part of this experience in the 80s and 90s, and treasures it for the real revolution it was at the time.
 
+<!-- Footnotes -->
 
-<!--
+[^1]: Makes use of MiSTer-specific features, like shared network drives, Wi-Fi, etc.
 
-|                                   |             |       |          |        |
-|                                   |             |       |          |        |
 
--->
 
 <!--
 
@@ -241,8 +239,6 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 
 Will be folded into the above sections.
 
-| Feature                           | AmigaVision | AGS&nbsp;3 | PiMiga |
-|-----------------------------------|:-----------:|:-----:|:------:|
 | Real Amiga hardware supported     | ✅          | ✅     | ❌     |
 | MiSTer FPGA features supported[^1]| ✅          | ❌     | ⬜️    |
 | Pocket FPGA features supported    | ✅          | ❌     | ⬜️    |
@@ -268,7 +264,6 @@ Will be folded into the above sections.
 
 ## Footnotes
 
-[^1]: Makes use of MiSTer-specific features, like shared network drives, Wi-Fi, etc.
 
 [^2]: When a platform supports both MiSTer and Raspberry Pi, the times are given in that order. Otherwise, assume Raspberry Pi boot time. Tests are done with the exact same SD card on all systems.
 
