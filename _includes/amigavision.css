@@ -849,15 +849,15 @@ table.table-desktop {
   .feature-compare table.table-desktop { display: none; }
   .feature-compare .table-mobile { display: block; }
 
-  /* Optional: make the mobile tables look nicer */
-  .feature-compare .table-mobile-inner {
+  /* Make the mobile tables look nicer */
+  .table-mobile-inner {
     width: 100%;
     margin: 0 0 1rem 0;
   }
-  .feature-compare .table-mobile-inner thead th {
+  .table-mobile-inner thead th {
     text-align: center;
   }
-  .feature-compare .table-mobile-inner td {
+  .table-mobile-inner td {
     text-align: center !important;
     vertical-align: middle;
   }
