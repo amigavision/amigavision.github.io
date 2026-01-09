@@ -404,7 +404,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <!-- Footnotes → Tooltips -->
 <script src="/littlefoot.js"></script>
 <script>
-  littlefoot({
+  littlefoot.littlefoot({
     activateOnHover: false,   // click/tap only
     dismissOnUnhover: false   // don’t auto-dismiss on mouseout
   });
