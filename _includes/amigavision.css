@@ -858,6 +858,7 @@ table.table-desktop {
     text-align: center;
   }
   .feature-compare .table-mobile-inner td {
-    text-align: center;
+    text-align: center !important;
+    vertical-align: middle;
   }
 }
