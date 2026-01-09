@@ -149,7 +149,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Plain-Text Configuration Files | ✅ | ✅ | ❌ |
 | Version-Controlled Setup | ✅ | ❌ | ❌ |
 | Deterministic Builds (Same Input → Same Output) | ✅ | ❌ | ❌ |
-| Custom `startup-sequence` survives upgrades | ✅ | ❌ | ❌ |
+| Custom `startup-sequence` entries survive upgrades | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 <!-- This may not be that differentiated
