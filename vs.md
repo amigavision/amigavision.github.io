@@ -22,7 +22,7 @@ The correct PAL/NTSC and ECS/AGA version is selected automatically. You shouldn�
 Input, video, and audio timing are treated as a single system. Wherever possible, buffering, abstraction layers, and latency-adding defaults are avoided so games behave and *feel* as close to real hardware as possible.
 
 ### 📦 Download / Installed Size
-Smaller images are a result of curation, not a limitation. Duplicate titles, broken releases, incorrect regional variants, and unused versions are intentionally excluded to keep the system efficient — with respect for both your time and your storage.
+Smaller images are a result of curation, not a limitation. Duplicate titles, broken releases, incorrect regional variants, and unused versions are intentionally excluded to keep the system efficient — with respect for both your time and your storage space.
 
 ### 🧩 A Single, Consistent Experience Across Platforms
 Real Amigas, FPGA, and emulation should behave the same. Platform-specific quirks and “this works differently over there” setups are a non-starter — the goal is one coherent system with consistent behavior everywhere it runs.
@@ -31,7 +31,7 @@ Real Amigas, FPGA, and emulation should behave the same. Platform-specific quirk
 
 **Everything else in AmigaVision — platform support, configuration choices, filesystem layout, and library curation — flows from these decisions.**
 
-The goal is to have a setup that feels like using a well-maintained Amiga rooted in the demo scene and games development at the time — not a collection of compromises.
+The goal is to have a setup that feels like using a well-maintained Amiga rooted in the demo scene and games development from back in the day — not a collection of compromises.
 
 
 <table style="font-weight: 700; width: auto; margin-left: auto">
@@ -56,7 +56,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Analogue Pocket FPGA Features Supported | ✅ | ❌ | ⬜️ |
 | Raspberry Pi Supported | ✅ | ✅ | ✅ |
 | Emulators Supported | ✅ | ✅ | ✅ |
-| PiStorm On Real Amiga Supported | ✅ | ✅ | ⬜️ |
+| PiStorm on Real Amiga Supported | ✅ | ✅ | ⬜️ |
 {: .feature-compare data-responsive-table="true" }
 
 ## ⏱️ Performance, Accuracy *&* Latency
@@ -65,7 +65,6 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |---------|:-----------:|:-----:|:------:|
 | Lowest End-To-End Latency | ✅ | ❌ | ❌ |
 | Cycle-Accurate Amiga 500 Setup Included <br>(Important for Demos)| ✅ | ❌ | ❌ |
-| Preserves Original Timing & Behavior | ✅ | ❌ | ❌ |
 | Low-Latency Joystick & Input Timing | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
@@ -76,9 +75,12 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Cold Boot → Playable Game | 5s/10s | Ns/Ns | Ns |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
 | Best ECS/AGA Version Selected By Default | ✅ | ❌ | ❌ |
+{: .feature-compare data-responsive-table="true" }
+
+<!-- These are not implemented yet
 | High-Resolution Game & Demo Thumbnails | ✅ | ❌ | ❌ |
 | Game Manuals Accessible on Second Device | ✅ | ❌ | ❌ |
-{: .feature-compare data-responsive-table="true" }
+-->
 
 ## 📦 Distribution *&* Curation
 
@@ -97,7 +99,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | High-Resolution Display Support | ✅ | ✅ | ✅ |
 | Analogue Video Output With No Added Lag | ✅ | ❌ | ❌ |
 | Per-Game 5×PAL Overscale Support | ✅ | ❌ | ❌ |
-| Automatically Selects Correct PAL/NTSC version | ✅ | ❌ | ❌ |
+| Automatically Selects Correct PAL/NTSC Version | ✅ | ❌ | ❌ |
 | Correct NTSC Pixel Aspect Ratio | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
