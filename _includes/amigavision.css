@@ -823,3 +823,25 @@ font-weight: 600;
     background-color:rgba(0, 0, 0, 0)
 }
 
+/* Experimental CSS table transform for mobile */
+
+/* Desktop table is the original rendered table */
+
+.feature-compare .table-mobile { display: none; }
+
+@media (max-width: 640px) {
+  .feature-compare table.table-desktop { display: none; }
+  .feature-compare .table-mobile { display: block; }
+
+  /* Optional: make the mobile tables look nicer */
+  .feature-compare .table-mobile-inner {
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+  .feature-compare .table-mobile-inner thead th {
+    text-align: center;
+  }
+  .feature-compare .table-mobile-inner td {
+    text-align: center;
+  }
+}

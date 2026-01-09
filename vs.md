@@ -19,6 +19,7 @@ AmigaVision focuses on:
 
 The goal is to have a setup that feels like using a well-maintained Amiga rooted in the demo scene and games development at the time — not a collection of compromises.
 
+
 <table style="font-weight: 700; width: auto; margin-left: auto">
   <tr>
     <td style="text-align: center" rowspan="3"> Legend </td>
@@ -33,6 +34,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 </table>
 
 ## Hardware *&* Platform Support
+
+<div class="feature-compare" data-responsive-table>
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
@@ -127,6 +130,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Plain-Text Configuration Files | ✅ | ✅ | ❌ |
 | Version-Controlled Setup | ✅ | ❌ | ❌ |
 | Deterministic Builds (Same Input → Same Output) | ✅ | ❌ | ❌ |
+
+</div>
 
 <!-- This may not be that differentiated
 
@@ -290,38 +295,104 @@ Will be folded into the above sections.
 
 
 <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // Select headlines h2 and below for visual links
-            const headings = document.querySelectorAll("h2[id], h3[id], h4[id], h5[id], h6[id]");
-            
-            headings.forEach((heading) => {
-                // Make the heading clickable
-                heading.classList.add("clickable-heading");
+document.addEventListener("DOMContentLoaded", function () {
 
-                // Add a click event listener that will 
-                // navigate to the anchor link
-                heading.addEventListener("click", function () {
-                    const slug = heading.id;
-                    window.location.hash = `#${slug}`;
-                });
+    /* ===============================
+       Clickable headings
+       =============================== */
 
-                // Add a visual indicator
-                const linkIcon = document.createElement("span");
-                linkIcon.innerHTML = " 🔗";
-                linkIcon.style.opacity = "0";
-                linkIcon.style.transition = "opacity 0.2s";
-                linkIcon.style.fontSize = "80%";
+    const headings = document.querySelectorAll(
+        "h2[id], h3[id], h4[id], h5[id], h6[id]"
+    );
 
-                heading.appendChild(linkIcon);
+    headings.forEach((heading) => {
+        heading.classList.add("clickable-heading");
 
-                // Show the link icon when hovering over the heading
-                heading.addEventListener("mouseover", () => {
-                    linkIcon.style.opacity = "1";
-                });
-                heading.addEventListener("mouseout", () => {
-                    linkIcon.style.opacity = "0";
-                });
+        heading.addEventListener("click", function () {
+            window.location.hash = `#${heading.id}`;
+        });
+
+        const linkIcon = document.createElement("span");
+        linkIcon.innerHTML = " 🔗";
+        linkIcon.style.opacity = "0";
+        linkIcon.style.transition = "opacity 0.2s";
+        linkIcon.style.fontSize = "80%";
+
+        heading.appendChild(linkIcon);
+
+        heading.addEventListener("mouseover", () => {
+            linkIcon.style.opacity = "1";
+        });
+        heading.addEventListener("mouseout", () => {
+            linkIcon.style.opacity = "0";
+        });
+    });
+
+    /* ==========================================
+       Responsive feature tables on mobile
+       ========================================== */
+
+    (function () {
+        function buildMobileTables(table) {
+            const headers = Array.from(
+                table.querySelectorAll("thead th")
+            ).slice(1).map(th => th.textContent.trim());
+
+            const rows = Array.from(table.querySelectorAll("tbody tr"));
+            const container = document.createElement("div");
+            container.className = "table-mobile";
+
+            rows.forEach(row => {
+                const cells = Array.from(row.querySelectorAll("th, td"));
+                if (cells.length < 2) return;
+
+                const featureName = cells[0].textContent.trim();
+                const values = cells.slice(1).map(td => td.innerHTML);
+
+                const mobileTable = document.createElement("table");
+                mobileTable.className = "table-mobile-inner";
+
+                mobileTable.innerHTML = `
+                    <thead>
+                        <tr>
+                            <th colspan="${headers.length}">
+                                ${featureName}
+                            </th>
+                        </tr>
+                        <tr>
+                            ${headers.map(h => `<th>${h}</th>`).join("")}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            ${values.map(v => `<td>${v}</td>`).join("")}
+                        </tr>
+                    </tbody>
+                `;
+
+                container.appendChild(mobileTable);
             });
 
-        });
+            return container;
+        }
+
+        function enhanceTables() {
+            document
+                .querySelectorAll("[data-responsive-table]")
+                .forEach(wrapper => {
+                    const table = wrapper.querySelector("table");
+                    if (!table) return;
+
+                    table.classList.add("table-desktop");
+
+                    if (!wrapper.querySelector(".table-mobile")) {
+                        wrapper.appendChild(buildMobileTables(table));
+                    }
+                });
+        }
+
+        enhanceTables();
+    })();
+
+});
 </script>
