@@ -195,7 +195,7 @@ It does not try to make the Amiga behave like a generic “core” inside a univ
 ### AmigaVision is not a “tweak it Yourself” hobby project
 You should not need deep Amiga knowledge, endless config edits, or per-game fixes just to get accurate results.
 
-### AmigaVision is not trying to replace original hardware — instead aiming for making it easier to use
+### AmigaVision is not trying to replace original hardware — instead aiming to make it easier to use
 Real Amigas, original disks, and hands-on experience is respected — AmigaVision exists to make those experiences easier to access, not to redefine or obsolete them. The AmigaVision team was part of this experience in the 80s and 90s, and treasures it for the real revolution it was at the time.
 
 
