@@ -27,6 +27,8 @@ Smaller images are a result of curation, not a limitation. Duplicate titles, bro
 ### 🧩 A Single, Consistent Experience Across Platforms
 Real Amigas, FPGA, and emulation should behave the same. Platform-specific quirks and “this works differently over there” setups are a non-starter — the goal is one coherent system with consistent behavior everywhere it runs.
 
+---
+
 **Everything else in AmigaVision — platform support, configuration choices, filesystem layout, and library curation — flows from these decisions.**
 
 The goal is to have a setup that feels like using a well-maintained Amiga rooted in the demo scene and games development at the time — not a collection of compromises.
