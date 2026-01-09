@@ -291,8 +291,8 @@ Will be folded into the above sections.
 
 <script>
         document.addEventListener("DOMContentLoaded", function () {
-            // Select headlines h3 and below for visual links
-            const headings = document.querySelectorAll("h3[id], h4[id], h5[id], h6[id]");
+            // Select headlines h2 and below for visual links
+            const headings = document.querySelectorAll("h2[id], h3[id], h4[id], h5[id], h6[id]");
             
             headings.forEach((heading) => {
                 // Make the heading clickable
