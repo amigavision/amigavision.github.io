@@ -72,7 +72,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
-| Cold Boot → Playable Game | 5s/10s | Ns/Ns | Ns |
+| Cold Boot → Playable Game (MiSTer/RPi) | Ns/Ns | Ns/Ns | ⬜️/Ns |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
 | Best ECS/AGA Version Selected By Default | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
