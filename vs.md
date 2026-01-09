@@ -287,18 +287,11 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
+    /* ==========================================
+       Responsive feature tables on mobile
+       ========================================== */
+
     (function () {
-
-        function reinitLittlefoot() {
-            const lf = (window.littlefoot && window.littlefoot.default)
-                ? window.littlefoot.default
-                : window.littlefoot;
-
-            if (typeof lf !== "function") return;
-
-            lf({ anchorPattern: /fn/i });
-        }
-
         function buildMobileTables(table) {
             const headers = Array.from(
                 table.querySelectorAll("thead th")
@@ -349,10 +342,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     table.classList.add("table-desktop");
 
-                    if (!table.nextElementSibling ||
-                        !table.nextElementSibling.classList.contains("table-mobile")) {
-
+                    // Insert the mobile version right after the table
+                    if (!table.nextElementSibling || !table.nextElementSibling.classList.contains("table-mobile")) {
                         table.insertAdjacentElement("afterend", buildMobileTables(table));
+                        // Insert the footnotes/tooltips too
                         reinitLittlefoot();
                     }
                 });
@@ -361,8 +354,9 @@ document.addEventListener("DOMContentLoaded", function () {
         enhanceTables();
     })();
 
-});  <!-- THIS was the missing line -->
+});
 </script>
+
 <!-- Footnotes → Tooltips -->
 <script src="{{ '/littlefoot.js' | relative_url }}"></script>
 <script>
