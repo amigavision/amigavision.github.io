@@ -877,5 +877,6 @@ table.table-desktop {
   .table-mobile-inner td {
     text-align: center !important;
     vertical-align: middle;
+    align-items: stretch;
   }
 }
