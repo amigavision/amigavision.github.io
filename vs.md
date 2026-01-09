@@ -353,15 +353,16 @@ document.addEventListener("DOMContentLoaded", function () {
                         !table.nextElementSibling.classList.contains("table-mobile")) {
 
                         table.insertAdjacentElement("afterend", buildMobileTables(table));
-                        reinitLittlefoot(); // ← now in scope
+                        reinitLittlefoot();
                     }
                 });
         }
 
         enhanceTables();
     })();
-</script>
 
+});  <!-- THIS was the missing line -->
+</script>
 <!-- Footnotes → Tooltips -->
 <script src="{{ '/littlefoot.js' | relative_url }}"></script>
 <script>
