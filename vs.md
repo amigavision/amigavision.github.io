@@ -33,7 +33,6 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
   </tr>
 </table>
 
-
 ## Hardware *&* Platform Support
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
@@ -44,6 +43,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Raspberry Pi Supported | ✅ | ✅ | ✅ |
 | Emulators Supported | ✅ | ✅ | ✅ |
 | PiStorm On Real Amiga Supported | ✅ | ✅ | ⬜️ |
+{: .feature-compare data-responsive-table="true" }
 
 ## Performance, Accuracy *&* Latency
 
@@ -53,6 +53,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Cycle-Accurate Amiga 500 Setup Included <br>(Important for Demos)| ✅ | ❌ | ❌ |
 | Preserves Original Timing & Behavior | ✅ | ❌ | ❌ |
 | Low-Latency Joystick & Input Timing | ✅ | ❌ | ❌ |
+{: .feature-compare data-responsive-table="true" }
 
 ## Usability *&* User Experience
 
@@ -63,6 +64,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Best ECS/AGA Version Selected By Default | ✅ | ❌ | ❌ |
 | High-Resolution Game & Demo Thumbnails | ✅ | ❌ | ❌ |
 | Game Manuals Accessible on Second Device | ✅ | ❌ | ❌ |
+{: .feature-compare data-responsive-table="true" }
 
 ## Distribution, Maintenance *&* Curation
 
@@ -72,6 +74,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Single Download for All Platforms | ✅ | ❌ | ⬜️ |
 | Curated, Non-Duplicated Game Library | ✅ | ❌ | ❌ |
 | Open-Source License | ✅ | ❌ | ❌ |
+{: .feature-compare data-responsive-table="true" }
 
 ## Display *&* Video Output
 
@@ -82,6 +85,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Per-Game 5×PAL Overscale Support | ✅ | ❌ | ❌ |
 | Automatically Selects Correct PAL/NTSC version | ✅ | ❌ | ❌ |
 | Correct NTSC Pixel Aspect Ratio | ✅ | ❌ | ❌ |
+{: .feature-compare data-responsive-table="true" }
 
 ## Networking *&* Online Features
 
@@ -90,7 +94,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Network Share / Host Filesystem Integration | ✅ | ❌ | ❌ |
 | Internet Stack Included (Online Out-of-the-Box) | ✅ | ❌ | ❌ |
 | Easy File Transfer Without Removing SD Card | ✅ | ❌ | ❌ |
-
+{: .feature-compare data-responsive-table="true" }
 
 ## Upgrade Model *&* Data Persistence
 
@@ -99,6 +103,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Separate Persistent Saves / User Data Volume | ✅ | ❌ | ❌ |
 | User Data Survives Upgrades | ✅ | ❌ | ❌ |
 | Upgrade Path Documented | ✅ | ❌ | ❌ |
+{: .feature-compare data-responsive-table="true" }
 
 ## Filesystem *&* Reliability
 
@@ -106,6 +111,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |---------|:-----------:|:-----:|:------:|
 | Uses Corruption-Resistant Filesystem (PFS) | ✅ | ✅ | ❌ |
 | Designed To Minimize Filesystem Damage | ✅ | ✅ | ❌ |
+{: .feature-compare data-responsive-table="true" }
 
 ## CRT, Scaling *&* Display Calibration
 
@@ -114,6 +120,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Hand-Tuned Scanline Presets Included | ✅ | ❌ | ❌ |
 | Shadow Mask Presets Included | ✅ | ❌ | ❌ |
 | External HDMI Scaler Profiles Included <br>(e.g. RetroTink 4K) | ✅ | ❌ | ❌ |
+{: .feature-compare data-responsive-table="true" }
 
 ## Era-Accurate *&* Specialized Setups
 
@@ -121,6 +128,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |---------|:-----------:|:-----:|:------:|
 | Era-Accurate A500HD & A600HD Setups Included| ✅ | ❌ | ❌ |
 | Turn-Key [CD32](/cd32) Setup | ✅ | ❌ | ⬜️ |
+{: .feature-compare data-responsive-table="true" }
 
 ## Developer *&* Power-User Friendly
 
@@ -129,7 +137,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Plain-Text Configuration Files | ✅ | ✅ | ❌ |
 | Version-Controlled Setup | ✅ | ❌ | ❌ |
 | Deterministic Builds (Same Input → Same Output) | ✅ | ❌ | ❌ |
-
+{: .feature-compare data-responsive-table="true" }
 
 <!-- This may not be that differentiated
 
@@ -141,6 +149,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Disk Magazines Included | ✅ | ❌ | ❌ |
 | Disk Mags Organized Chronologically | ✅ | ❌ | ❌ |
 | Preservation-Focused Curation | ✅ | ❌ | ❌ |
+{: .feature-compare data-responsive-table="true" }
 
 -->
 
