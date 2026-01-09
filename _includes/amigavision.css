@@ -104,11 +104,12 @@ strong, b {
 }
 
 hr {
+  color: black;
   margin: 1em auto;
   clear: both;
   font-size: 1.4em;
   text-align: center;
-  border: none;  
+  border: none;
 }
 
 hr:after {
