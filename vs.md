@@ -74,7 +74,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |---------|:-----------:|:-----:|:------:|
 | Cold Boot → Playable Game (MiSTer/RPi) [^4] | Ns/Ns | Ns/Ns | ⬜️/Ns |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
-| Best ECS/AGA Version Selected By Default [^5] | ✅ | ❌ | ❌ |
+| Best ECS/AGA & PAL/NTSC  Versions Selected By Default [^5] | ✅ | ❌ | ❌ |
+| Zaparoo NFC Card Support [^10] | ✅  | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 <!-- These are not implemented yet
@@ -99,7 +100,6 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | High-Resolution Display Support | ✅ | ✅ | ✅ |
 | Analogue Video Output With No Added Lag [^8] | ✅ | ❌ | ❌ |
 | Per-Game 5×PAL Overscale Support [^9] | ✅ | ❌ | ❌ |
-| Automatically Selects Correct PAL/NTSC Version [^10] | ✅ | ❌ | ❌ |
 | Correct NTSC Pixel Aspect Ratio [^11] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
@@ -107,7 +107,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
 |---------|:-----------:|:-----:|:------:|
-| Easy Network File Transfer Without Removing SD Card [^12] | ✅ | ❌ | ❌ |
+| Easy Network File Transfer to the Amiga Without Removing SD Card [^12] | ✅ | ❌ | ❌ |
 | Internet Stack Included (Online Out-of-the-Box) [^13] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
@@ -229,88 +229,25 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 <!-- Footnotes -->
 
 [^1]: Makes use of MiSTer-specific features, like shared network drives, Wi-Fi, etc.
-[^2]: TK
-[^3]: TK
-[^4]: TK
-[^5]: TK
-[^6]: TK
-[^7]: TK
-[^8]: TK
-[^9]: TK
-[^10]: TK
-[^11]: TK
-[^12]: TK
-[^13]: TK
-[^14]: TK
-[^15]: TK
-[^16]: TK
-[^17]: TK
-[^18]: TK
-[^19]: TK
-[^20]: TK
-
-
-<!--
-
-## Older overview table
-
-Will be folded into the above sections.
-
-| Real Amiga hardware supported     | ✅          | ✅     | ❌     |
-| MiSTer FPGA features supported[^1]| ✅          | ❌     | ⬜️    |
-| Pocket FPGA features supported    | ✅          | ❌     | ⬜️    |
-| Raspberry Pi supported            | ✅          | ✅     | ✅     |
-| Emulators supported               | ✅          | ✅     | ✅     |
-| Open Source License               | ✅          | ❌     | ❌     |
-| Download/Install Size             | 4GB/9GB| 19GB/30GB| 37GB/57GB|
-| Cold Boot → Selecting a Game[^2]  | 5s/Ns.      | Ns/Ns | Ns     |
-| Lowest Audio/Input/Output Latency [^3] | ✅     | ❌     | ❌     |
-| Workbench setup with useful tools | ✅          | ✅     | ✅     |
-| Automatically Selects Best PAL/NTSC & ECS/AGA Version
- [^4] | ✅          | ❌     | ❌     |
-| Per-game 5x overscale support[^5] | ✅          | ❌     | ❌     |
-| Cycle-accurate Amiga 500 Setup included | ✅    | ❌     | ❌     |
-| High-resolution Display Support   | ✅          | ✅     | ✅     |
-| PiStorm Support on Amiga HW       | ✅          | ✅    | ⬜️     |
-| Analogue Video Output with No Lag | ✅          | ❌    | ❌     |
-| High-Resolution Game & Demo Thumbnails | ✅     | ❌    | ❌     |
-| Single download for all platforms | ✅          | ❌    | ❌     |
-| Game manuals accessible on second device [^7] | ✅ | ❌ | ❌     |
-| [Zaparoo] NFC Card Support[^8]    | ✅          | ❌    | ❌     |
-
-
-## Footnotes
-
-
-When a platform supports both MiSTer and Raspberry Pi, the times are given in that order. Otherwise, assume Raspberry Pi boot time. Tests are done with the exact same SD card on all systems.
-
-This refers to latency on systems that are variable. On systems that support FPGAs, like MiSTer, the latency will be identical across setups.
-
-Will pick the correct NTSC or PAL resolution based on where the game was developed automatically, without you having to know which one is the correct version. Will also pick the best version between the ECS and AGA versions, unless the game has substantial differences, like a different level set. And sometimes there are games that have game-breaking bugs in one or the other version.
-
-For more information on 5×PAL Overscale and why it is important for 4K and 1080p dislays, [see this overview](https://amiga.vision/overscale). 
-
-Several Amiga launchers have manuals included, but that doesn't do you much good when you are trying to play the game, and they can't be accessed during the game. QR links let you open up the original game manuals on a phone or tablet to use simultaneously with playing the game.
-
-Only supported on MiSTer at the moment.
-
-[^n1]: Available on platforms with host filesystem or network share support (e.g. MiSTer); behavior varies by platform.
-
-[^n2]: Includes TCP/IP stack and basic networking tools for use with specialized Amiga internet tools; not intended to provide modern web browsing parity.
-
-[^n3]: Achieved via network share or host filesystem; excludes offline real-Amiga setups without networking hardware.
-
-[^u1]: User data is stored on a separate HDF/volume that is excluded from system updates.
-
-[^f1]: PFS is chosen for improved robustness over FFS; no filesystem is immune to power loss or hardware failure.
-
-[^p1]: Includes a curated selection of demos rather than an exhaustive archive.
-
-[^p2]: Selected disk magazine issues included based on historical relevance.
-
-[^p3]: Chronological ordering reflects original release dates where known.
-
--->
+[^2]: This includes input, audio and output latency, and refers to latency on systems that are variable, like Raspberry Pi. On systems that support FPGAs, like MiSTer, the latency will be generally be identical across setups, if the setup runs on MiSTer.
+[^3]: AmigaVision uses 1ms USB polling on systems that support it, like MiSTer and Raspberry Pi. If running emulators on a desktop OS like Windows, macOS or Linux, it is up to the operating system settings.
+[^4]: How long it takes from turning on a device to get to the game selection screen. When a platform supports both MiSTer and Raspberry Pi, the times are given in that order. Otherwise, assume Raspberry Pi boot time. Tests are done with the exact same SD card on all systems. These are also good proxies for desktop load times, although they will generally be a bit faster, since they likely have SSDs.
+[^5]: AmigaVision picks the correct NTSC or PAL resolution based on where the game was developed, without you having to know which one is the correct version. We also pick the best version between the ECS and AGA versions, unless the game has substantial differences, like a different level set. And sometimes there are games that have game-breaking bugs in one or the other version.
+[^6]: AGS has multiple different setups with widely different file sizes, so this lists the lower and upper range.
+[^7]: Similar to picking the correct NTSC/PAL and OCS/AGA versions, we also exclude any broken and redundant versions of games. We also have many, many useful curated lists made by various people online, top lists, and games organized by publisher, by musician, and many other categories.
+[^8]: Most ways to output Amiga to analog CRT TVs and PVMs/BVMs from computers and Raspberry Pi introduce latency. AmigaVision is configured for zero-lag MiSTer analog output, and zero-lag analog output on the Raspberry Pi via the RGB-Pi 2 adapter, which is currently only supported in RePlayOS, which is what AmigaVision is built on.
+[^9]: For 4K and 1080p displays, 5×PAL Overscale will let you run a lot of games using much more of your display. This is currently supported on MiSTer, and we are working on getting it supported in WinUAE, FS-UAE, and Amiberry too. [More about 5×PAL Overscale here](/overscale).
+[^10]: [Zaparoo] is a system that lets you launch games directly using physical NFC games instead of navigating menus. 
+[^11]: Most Amiga setups scale NTSC resolutions incorrectly. NTSC does not have square pixels, instead they use taller pixels. This is currently supported on MiSTer and Amiberry, with the upcoming version of FS-UAE having it too, and hopefully WinUAE too. [More about using the correct 5:6 Pixel Aspect Ratio here](/ntsc)).
+[^12]: This refers to a shared drive mounted inside the Amiga that you can transfer files in and out using a computer. Currently supported on MiSTer, and we hope it will be available on Raspberry Pi shortly. Not available on real hardware without network hardware.
+[^13]: Includes TCP/IP stack and basic networking tools for use with specialized Amiga internet tools; not intended to provide modern web browsing parity.
+[^14]: User data is stored on a separate HDF/volume that is excluded from system updates.
+[^15]: PFS is chosen for improved robustness over Amiga's default FFS file system; no filesystem is immune to power loss or hardware failure.
+[^16]: AmigaVision defaults to using CRT scanlines on all supported platforms, since this is how Amiga games and demos looked like in the past. You can of course disable these, but friends don't let friends play Amiga games with sharp pixels. 😉
+[^17]: Shadow masks emulate the way CRT TVs Supplied on platforms that support shadow masks, like MiSTer.
+[^18]: Workbench setups for AmigaOS 1.3 and AmigaOS 2.0. The standard AmigaVision setup uses AmigaOS 3.1.
+[^19]: This is MiSTer-specific, and lets you load CD32 games directly from the menu. For emulator setups, there is usually specific functionality to play CD32 games.
+[^20]: AmigaVision gives you a custom `startup-sequence` that gets stored on the separate Saves drive that you keep between upgrades, so you can customize AmigaVision without losing those customizations when a new version is available.
 
 
 [Zaparoo]:https://zaparoo.org
