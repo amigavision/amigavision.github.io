@@ -8,14 +8,27 @@ There are several other Amiga setups available for various types of hardware. Th
 
 ## Why AmigaVision?
 
-AmigaVision is not about having the largest collection — it’s about having the right versions, running correctly, with minimal latency, with optimal performance on supported hardware.
+AmigaVision is not about having the largest collection — it’s about having the **right versions**, running **correctly**, with **minimal latency**, and **minimal time between power-on and play**.
 
-AmigaVision focuses on:
+### Core Design Priorities
 
-* Hardware-accurate behavior
-* Zero-lag video and input/output paths where possible
-* Intelligent version selection (PAL/NTSC, ECS/AGA)
-* A single, consistent experience across real Amigas, FPGA, and emulation
+#### ⏱️ Cold Boot → Playable Game
+Time-to-fun matters. From power-on to interacting with a game, the entire startup path is designed to be short, deterministic, and free of unnecessary layers, configuration screens, or guesswork.
+
+#### 🧠 Intelligent Version Selection
+The correct PAL/NTSC and ECS/AGA version is selected automatically. You shouldn’t need deep Amiga knowledge to know which variant runs correctly, has the right timing, or avoids known bugs — AmigaVision makes that choice for you.
+
+#### ⏱️ Lowest End-To-End Latency & Hardware-Accurate Behavior
+Input, video, and audio timing are treated as a single system. Wherever possible, buffering, abstraction layers, and latency-adding defaults are avoided so games behave and *feel* as close to real hardware as possible.
+
+#### 📦 Download / Installed Size
+Smaller images are a result of curation, not a limitation. Duplicate titles, broken releases, incorrect regional variants, and unused versions are intentionally excluded to keep the system efficient — with respect for both your time and your storage.
+
+#### 🧩 A Single, Consistent Experience Across Platforms
+Real Amigas, FPGA, and emulation should behave the same. Platform-specific quirks and “this works differently over there” setups are a non-starter — the goal is one coherent system with consistent behavior everywhere it runs.
+
+Everything else in AmigaVision — platform support, configuration choices, filesystem layout, and library curation — flows from these decisions.
+
 
 The goal is to have a setup that feels like using a well-maintained Amiga rooted in the demo scene and games development at the time — not a collection of compromises.
 
