@@ -402,7 +402,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 <!-- Footnotes → Tooltips -->
-<link rel="stylesheet" href="/littlefoot.css">
 <script src="/littlefoot.js"></script>
 <script>
   littlefoot.littlefoot({
