@@ -829,7 +829,24 @@ font-weight: 600;
 
 .feature-compare .table-mobile { display: none; }
 
+<style>
+/* Default (desktop): hide generated mobile tables */
+.table-mobile {
+  display: none !important;
+}
+
+/* Default (desktop): show the original table */
+table.table-desktop {
+  display: table !important;
+}
+
 @media (max-width: 640px) {
+  table.table-desktop {
+    display: none !important;
+  }
+  .table-mobile {
+    display: block !important;
+  }
   .feature-compare table.table-desktop { display: none; }
   .feature-compare .table-mobile { display: block; }
 
