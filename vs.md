@@ -128,6 +128,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Version-Controlled Setup | ✅ | ❌ | ❌ |
 | Deterministic Builds (Same Input → Same Output) | ✅ | ❌ | ❌ |
 
+<!-- This may not be that differentiated
+
 ## Demo Scene *&* Digital Preservation
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga |
@@ -136,6 +138,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Disk Magazines Included | ✅ | ❌ | ❌ |
 | Disk Mags Organized Chronologically | ✅ | ❌ | ❌ |
 | Preservation-Focused Curation | ✅ | ❌ | ❌ |
+
+-->
 
 ## Any errors in this comparison?
 
