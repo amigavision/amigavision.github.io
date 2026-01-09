@@ -405,14 +405,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <script src="{{ '/littlefoot.js' | relative_url }}"></script>
 <script>
   window.addEventListener('DOMContentLoaded', () => {
-    const init =
-      (window.littlefoot && window.littlefoot.littlefoot) ? window.littlefoot.littlefoot :
-      (typeof window.littlefoot === "function") ? window.littlefoot :
-      null;
-
-    if (!init) return;
-
-    init({
+    littlefoot({
       activateOnHover: false,
       dismissOnUnhover: false,
       anchorPattern: /fn/i
