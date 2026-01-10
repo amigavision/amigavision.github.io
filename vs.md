@@ -1,5 +1,5 @@
 ---
-title: AmigaVision Compared to Other Setups
+title: AmigaVision vs. Other Setups
 ---
 
 AmigaVision prioritizes low latency, correctness, and consistency across real hardware, FPGA, and emulation — with minimal setup time and a single unified distribution.
