@@ -49,8 +49,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## 🖥️ Hardware *&* Platform Support
 
-|         | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---------|:-----------:|:-----:|:------:|
+|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
+|---|:-----------:|:----------:|:-------------:|
 | Real Amiga Hardware Supported | ✅ | ✅ | ❌ |
 | Mister FPGA Features Supported [^1] | ✅ | ❌ | ⬜️ |
 | Analogue Pocket FPGA Features Supported | ✅ | ❌ | ⬜️ |
@@ -61,8 +61,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## ⏱️ Performance, Accuracy *&* Latency
 
-|         | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---------|:-----------:|:-----:|:------:|
+|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
+|---|:-----------:|:----------:|:-------------:|
 | Lowest End-To-End Latency [^2] | ✅ | ❌ | ❌ |
 | Cycle-Accurate Amiga 500 Setup Included <br>(Important for Demos)| ✅ | ❌ | ❌ |
 | Low-Latency Joystick & Input Timing [^3] | ✅ | ❌ | ❌ |
@@ -70,8 +70,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## 🕹️ Usability *&* User Experience
 
-|         | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---------|:-----------:|:-----:|:------:|
+|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
+|---|:-----------:|:----------:|:-------------:|
 | Cold Boot → Playable Game (MiSTer/RPi) [^4] | Ns/Ns | Ns/Ns | ⬜️/Ns |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
 | Optimal ECS/AGA & PAL/NTSC  Versions Selected [^5] | ✅ | ❌ | ❌ |
@@ -85,8 +85,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## 📦 Distribution *&* Curation
 
-|         | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---------|:-----------:|:-----:|:------:|
+|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
+|---|:-----------:|:----------:|:-------------:|
 | Download Size <br><br> Installed Size | 4 GB<br><br>9 GB | 17&nbsp;GB&#8209;34&nbsp;GB<br>[^6]<br>30&nbsp;GB&#8209;52&nbsp;GB  | 37&nbsp;GB<br><br>57&nbsp;GB |
 | Single Download for All Platforms | ✅ | ❌ | ⬜️ |
 | Curated, Non-Duplicated Game Library [^7] | ✅ | ❌ | ❌ |
@@ -95,9 +95,9 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## 📺 Display *&* Video Output
 
-|         | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---------|:-----------:|:-----:|:------:|
-| High-Resolution Display Support | ✅ | ✅ | ✅ |
+|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
+|---|:-----------:|:----------:|:-------------:|
+| High-Resolution RTG Display Support | ✅ | ✅ | ✅ |
 | Analogue Video Output With No Added Lag [^8] | ✅ | ❌ | ❌ |
 | Per-Game 5×PAL Overscale Support [^9] | ✅ | ❌ | ❌ |
 | Correct NTSC Pixel Aspect Ratio [^11] | ✅ | ❌ | ❌ |
@@ -105,16 +105,16 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## 🌐 Networking *&* Online Features
 
-|         | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---------|:-----------:|:-----:|:------:|
+|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
+|---|:-----------:|:----------:|:-------------:|
 | Easy Network File Transfer to the Amiga Without Removing SD Card [^12] | ✅ | ❌ | ❌ |
 | Internet Stack Included (Online Out-of-the-Box) [^13] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 ## 💾 Upgrade Model *&* Data Persistence
 
-|         | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---------|:-----------:|:-----:|:------:|
+|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
+|---|:-----------:|:----------:|:-------------:|
 | Separate Persistent Saves / User Data Volume [^14] | ✅ | ✅ | ❌ |
 | User Data Survives Upgrades | ✅ | ❌ | ❌ |
 | Upgrade Path Documented | ✅ | ❌ | ❌ |
@@ -123,16 +123,16 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## 🧱 Filesystem *&* Reliability
 
-|         | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---------|:-----------:|:-----:|:------:|
+|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
+|---|:-----------:|:----------:|:-------------:|
 | Uses Corruption-Resistant Filesystem (PFS) | ✅ | ✅ | ❌ |
 | Designed To Minimize Filesystem Damage [^15] | ✅ | ✅ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 ## 📐 CRT, Scaling *&* Display Calibration
 
-|         | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---------|:-----------:|:-----:|:------:|
+|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
+|---|:-----------:|:----------:|:-------------:|
 | Scanline Presets Included [^16] | ✅ | ❌ | ❌ |
 | Shadow Mask Presets Included [^17] | ✅ | ❌ | ❌ |
 | External HDMI Scaler Profiles Included <br>(e.g. RetroTink 4K) | ✅ | ❌ | ❌ |
@@ -140,8 +140,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## 🕰️ Era-Accurate *&* Specialized Setups
 
-|         | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---------|:-----------:|:-----:|:------:|
+|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
+|---|:-----------:|:----------:|:-------------:|
 | Era-Accurate A500HD & A600HD Setups Included [^18] | ✅ | ❌ | ❌ |
 | Turn-Key [CD32](/cd32) Setup [^19] | ✅ | ❌ | ⬜️ |
 {: .feature-compare data-responsive-table="true" }
@@ -150,8 +150,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## 🏛️ Demo Scene *&* Digital Preservation
 
-|         | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---------|:-----------:|:-----:|:------:|
+|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
+|---|:-----------:|:----------:|:-------------:|
 | Demo Scene Content Included | ✅ | ❌ | ❌ |
 | Disk Magazines Included | ✅ | ❌ | ❌ |
 | Disk Mags Organized Chronologically | ✅ | ❌ | ❌ |
