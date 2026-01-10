@@ -101,7 +101,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
 | High-Resolution RTG Display Support | ✅ | ✅ | ✅ |
-| Analogue Video Output With No Added Lag [^8] | ✅ | ❌ | ❌ |
+| Analog Video Output With No Added Lag [^8] | ✅ | ❌ | ❌ |
 | Per-Game 5×PAL Overscale Support [^9] | ✅ | ❌ | ❌ |
 | Correct NTSC Pixel Aspect Ratio [^11] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
