@@ -8,7 +8,7 @@ There are several other Amiga setups available for various types of hardware. Th
 
 ## Why AmigaVision?
 
-AmigaVision is not about having the largest collection — it’s about having the **right versions**, running **correctly**, with **minimal latency**, and **minimal time between power-on and play**.
+AmigaVision is not about having the largest collection of files — it’s about having the **right versions**, running **correctly**, with **minimal latency**, and **minimal time between power-on and play**.
 
 ### Core Design Priorities:
 
