@@ -118,6 +118,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Separate Persistent Saves / User Data Volume [^14] | ✅ | ✅ | ❌ |
 | User Data Survives Upgrades | ✅ | ❌ | ❌ |
 | Upgrade Path Documented | ✅ | ❌ | ❌ |
+| Custom `startup-sequence` entries survive upgrades [^20] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 ## 🧱 Filesystem *&* Reliability
@@ -143,16 +144,6 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |---------|:-----------:|:-----:|:------:|
 | Era-Accurate A500HD & A600HD Setups Included [^18] | ✅ | ❌ | ❌ |
 | Turn-Key [CD32](/cd32) Setup [^19] | ✅ | ❌ | ⬜️ |
-{: .feature-compare data-responsive-table="true" }
-
-## 🛠️ Developer *&* Power-User Friendly
-
-|         | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---------|:-----------:|:-----:|:------:|
-| Plain-Text Configuration Files | ✅ | ✅ | ❌ |
-| Version-Controlled Setup | ✅ | ❌ | ❌ |
-| Deterministic Builds (Same Input → Same Output) | ✅ | ❌ | ❌ |
-| Custom `startup-sequence` entries survive upgrades [^20] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 <!-- This may not be that differentiated
