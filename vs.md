@@ -220,7 +220,7 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 
 <!-- Footnotes -->
 
-[^1]: Makes use of MiSTer-specific features, like shared network drives, Wi-Fi, etc.
+[^1]: Makes use of MiSTer-specific features, like shared network drives, MiSTer's RTG high resolution graphics support, etc.
 [^2]: This includes input, audio and output latency, and refers to latency on systems that are variable, like Raspberry Pi. On systems that support FPGAs, like MiSTer, the latency will be generally be identical across setups, if the setup runs on MiSTer.
 [^3]: AmigaVision uses 1ms USB polling on systems that support it, like MiSTer and Raspberry Pi. If running emulators on a desktop OS like Windows, macOS or Linux, it is up to the operating system settings.
 [^4]: How long it takes from turning on a device to get to the game selection screen. When a platform supports both MiSTer and Raspberry Pi, the times are given in that order. Otherwise, assume Raspberry Pi boot time. Exact same SD card on all systems. Desktop load times will be comparable in relative terms.
