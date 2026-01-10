@@ -72,7 +72,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
-| Cold Boot → Playable Game (MiSTer/RPi) [^4] | Ns/Ns | Ns/Ns | ⬜️/Ns |
+| Cold Boot → Playable Game [^4] | MiSTer: XX<br>RPi: XX<br>Emulator: 10s | MiSTer: XX<br>RPi: XX<br>Emulator: 1m06s | RPi: XX|
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
 | Optimal ECS/AGA & PAL/NTSC  Versions Selected [^5] | ✅ | ❌ | ❌ |
 | Zaparoo NFC Card Support [^10] | ✅  | ❌ | ❌ |
