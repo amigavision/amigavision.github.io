@@ -74,7 +74,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |---------|:-----------:|:-----:|:------:|
 | Cold Boot → Playable Game (MiSTer/RPi) [^4] | Ns/Ns | Ns/Ns | ⬜️/Ns |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
-| Best ECS/AGA & PAL/NTSC  Versions Selected By Default [^5] | ✅ | ❌ | ❌ |
+| Optimal ECS/AGA & PAL/NTSC  Versions Selected By Default [^5] | ✅ | ❌ | ❌ |
 | Zaparoo NFC Card Support [^10] | ✅  | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
