@@ -87,7 +87,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |         | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---------|:-----------:|:-----:|:------:|
-| Download Size <br><br> Installed Size | 4 GB<br><br>9 GB | 19&nbsp;GB&ndash;34&nbsp;GB<br>[^6]<br>30&nbsp;GB&ndash;52&nbsp;GB  | 37&nbsp;GB<br><br>57&nbsp;GB |
+| Download Size <br><br> Installed Size | 4 GB<br><br>9 GB | 20&nbsp;GB&ndash;34&nbsp;GB<br>[^6]<br>30&nbsp;GB&ndash;52&nbsp;GB  | 37&nbsp;GB<br><br>57&nbsp;GB |
 | Single Download for All Platforms | ✅ | ❌ | ⬜️ |
 | Curated, Non-Duplicated Game Library [^7] | ✅ | ❌ | ❌ |
 | Open-Source License | ✅ | ❌ | ❌ |
