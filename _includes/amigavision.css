@@ -800,6 +800,9 @@ font-weight: 600;
   pre, code {
     background-color: #222;
   }
+  .littlefoot {
+    color: black;
+  }
 }
 
 
