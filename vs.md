@@ -72,7 +72,9 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
-| Cold Boot → Playable Game [^4] | MiSTer: XX<br>RPi: XX<br>Emulator: 10s | MiSTer: XX<br>RPi: XX<br>Emulator: 1m06s | RPi: XX|
+| Cold Boot → Playable Game — MiSTer[^4] | TODO | TODO | ⬜️ |
+| Cold Boot → Playable Game — Raspberry Pi | TODO | TODO | TODO |
+| Cold Boot → Playable Game — Emulator | 10s | 1m 6s | ⬜️ |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
 | Optimal ECS/AGA & PAL/NTSC  Versions Selected [^5] | ✅ | ❌ | ❌ |
 | Zaparoo NFC Card Support [^10] | ✅  | ❌ | ❌ |
@@ -87,7 +89,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
-| Download Size <br><br> Installed Size | 4 GB<br><br>9 GB | 17&nbsp;GB&#8209;34&nbsp;GB<br>[^6]<br>30&nbsp;GB&#8209;52&nbsp;GB  | 37&nbsp;GB<br><br>57&nbsp;GB |
+| Download Size | 4&nbsp;GB | 17&nbsp;GB&#8209;34&nbsp;GB[^6] | 37&nbsp;GB |
+| Installed size | 9&nbsp;GB | 30&nbsp;GB&#8209;52&nbsp;GB[^6] | 57&nbsp;GB |
 | Single Download for All Platforms | ✅ | ❌ | ⬜️ |
 | Curated, Non-Duplicated Game Library [^7] | ✅ | ❌ | ❌ |
 | Open-Source License | ✅ | ❌ | ❌ |
