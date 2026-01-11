@@ -234,7 +234,7 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 [^2]: This includes input, audio and output latency, and refers to latency on systems that are variable, like Raspberry Pi. On systems that support FPGAs, like MiSTer, the latency will be generally be identical across setups, if the setup runs on MiSTer.
 [^3]: AmigaVision uses 1ms USB polling on systems that support it, like MiSTer and Raspberry Pi. If running emulators on a desktop OS like Windows, macOS or Linux, it is up to the operating system settings.
 [^4]: 
-[^5]: AmigaVision picks the correct NTSC or PAL resolution based on where the game was developed, you don't have to know which one is the correct version. We also pick the best version between the ECS and AGA versions — unless the game has substantial differences, like a different level set.
+[^5]: AmigaVision picks the correct NTSC or PAL resolution based on where the game was developed, you don't have to know which one is the correct version. We also pick the best version between the ECS and AGA versions — unless the game has substantial differences, like a different level set or game-breaking bugs.
 [^6]: AGS has multiple different setups with widely different file sizes, so this lists the lower and upper range.
 [^7]: AmigaVision excludes any broken and redundant versions of games. AmigaVision also has many useful curated lists made by various people online, top lists, and games organized by publisher, by musician, etc.
 [^8]: Most ways to output Amiga to analog CRT TVs from computers and Raspberry Pi introduce latency. AmigaVision is configured for zero-lag MiSTer analog output, and on the Raspberry Pi via the RGB-Pi 2 adapter, supported in RePlayOS, which is what AmigaVision is built on.
