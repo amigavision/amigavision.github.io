@@ -148,7 +148,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
 | Era-Accurate A500HD & A600HD Setups Included[^18] | ✅ | ❌ | ❌ |
-| Turn-Key [CD32](/cd32) Setup[^19] | ✅ | ❌ | ⬜️ |
+| Turn-Key Amiga [CD32](/cd32) Setup[^19] | ✅ | ❌ | ⬜️ |
 {: .feature-compare data-responsive-table="true" }
 
 <!-- This may not be that differentiated
