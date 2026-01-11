@@ -79,15 +79,6 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Game Manuals Accessible on Second Device | ✅ | ❌ | ❌ |
 -->
 
-## ⏱️ Performance, Accuracy *&* Latency
-
-|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---|:-----------:|:----------:|:-------------:|
-| Lowest End-To-End Latency[^2] | ✅ | ❌ | ❌ |
-| Cycle-Accurate Amiga 500 Setup Included <br>(Important for Demos)| ✅ | ❌ | ❌ |
-| Low-Latency Joystick & Input Timing[^3] | ✅ | ❌ | ❌ |
-{: .feature-compare data-responsive-table="true" }
-
 ## 📦 Distribution *&* Curation
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
@@ -97,6 +88,15 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Single Download for All Platforms[^21] | ✅ | ❌ | ⬜️ |
 | Curated, Non-Duplicated Game Library[^7] | ✅ | ❌ | ❌ |
 | Open-Source License | ✅ | ❌ | ❌ |
+{: .feature-compare data-responsive-table="true" }
+
+## ⏱️ Performance, Accuracy *&* Latency
+
+|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
+|---|:-----------:|:----------:|:-------------:|
+| Lowest End-To-End Latency[^2] | ✅ | ❌ | ❌ |
+| Cycle-Accurate Amiga 500 Setup Included <br>(Important for Demos)| ✅ | ❌ | ❌ |
+| Low-Latency Joystick & Input Timing[^3] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 ## 📺 Display *&* Video Output
