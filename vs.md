@@ -186,7 +186,7 @@ They do — and that also means:
 - Erroneous PAL/NTSC variants
 - Various random content (photo collections, etc)
 
-AmigaVision intentionally curates **fewer, verified titles** so you don’t need deep Amiga knowledge to get the correct experience. And it is not leaving anything out, just removing unnecessary and duplicate content that is not considered relevant.
+AmigaVision intentionally curates **fewer, verified titles** so you don’t need deep Amiga knowledge to get the correct experience. And it is not leaving anything out, just removing unnecessary and duplicate content that is not considered relevant — respecting both your time to download and your storage space.
 
 ### Why not RetroArch or generic emulation?
 Amiga emulation is unusually sensitive to:
