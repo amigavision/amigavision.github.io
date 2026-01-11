@@ -65,9 +65,9 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
-| Lowest End-To-End Latency [^2] | ✅ | ❌ | ❌ |
+| Lowest End-To-End Latency[^2] | ✅ | ❌ | ❌ |
 | Cycle-Accurate Amiga 500 Setup Included <br>(Important for Demos)| ✅ | ❌ | ❌ |
-| Low-Latency Joystick & Input Timing [^3] | ✅ | ❌ | ❌ |
+| Low-Latency Joystick & Input Timing[^3] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 ## 🕹️ Usability *&* User Experience
@@ -76,10 +76,10 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |---|:-----------:|:----------:|:-------------:|
 | Cold Boot → Playable Game — MiSTer[^4] | 13s | 35s[^1] | ⬜️ |
 | Cold Boot → Playable Game — Raspberry Pi |  |  |  |
-| Cold Boot → Playable Game — Emulator | 10s | 1m 6s | ⬜️ |
+| Cold Boot → Playable Game — Emulator[^22] | 10s | 1m 6s | ⬜️ |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
-| Optimal ECS/AGA & PAL/NTSC  Versions Selected [^5] | ✅ | ❌ | ❌ |
-| Zaparoo NFC Card Support [^10] | ✅  | ❌ | ❌ |
+| Optimal ECS/AGA & PAL/NTSC  Versions Selected[^5] | ✅ | ❌ | ❌ |
+| Zaparoo NFC Card Support[^10] | ✅  | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 <!-- These are not implemented yet
@@ -94,7 +94,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Download Size | 4&nbsp;GB | 17&#8209;34&nbsp;GB[^6] | 37&nbsp;GB |
 | Installed size | 9&nbsp;GB | 30&#8209;52&nbsp;GB[^6] | 57&nbsp;GB |
 | Single Download for All Platforms[^21] | ✅ | ❌ | ⬜️ |
-| Curated, Non-Duplicated Game Library [^7] | ✅ | ❌ | ❌ |
+| Curated, Non-Duplicated Game Library[^7] | ✅ | ❌ | ❌ |
 | Open-Source License | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
@@ -103,27 +103,27 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
 | High-Resolution RTG Display Support | ✅ | ✅ | ✅ |
-| Analog Video Output With No Added Lag [^8] | ✅ | ❌ | ❌ |
-| Per-Game 5×PAL Overscale Support [^9] | ✅ | ❌ | ❌ |
-| Correct NTSC Pixel Aspect Ratio [^11] | ✅ | ❌ | ❌ |
+| Analog Video Output With No Added Lag[^8] | ✅ | ❌ | ❌ |
+| Per-Game 5×PAL Overscale Support[^9] | ✅ | ❌ | ❌ |
+| Correct NTSC Pixel Aspect Ratio[^11] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 ## 🌐 Networking *&* Online Features
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
-| Easy Network File Transfer to the Amiga Without Removing SD Card [^12] | ✅ | ❌ | ❌ |
-| Internet Stack Included (Online Out-of-the-Box) [^13] | ✅ | ❌ | ❌ |
+| Easy Network File Transfer to the Amiga Without Removing SD Card[^12] | ✅ | ❌ | ❌ |
+| Internet Stack Included (Online Out-of-the-Box)[^13] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 ## 💾 Upgrade Model *&* Data Persistence
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
-| Separate Persistent Saves / User Data Volume [^14] | ✅ | ✅ | ❌ |
+| Separate Persistent Saves / User Data Volume[^14] | ✅ | ✅ | ❌ |
 | User Data Survives Upgrades | ✅ | ❌ | ❌ |
 | Upgrade Path Documented | ✅ | ❌ | ❌ |
-| Custom `startup-sequence` entries survive upgrades [^20] | ✅ | ❌ | ❌ |
+| Custom `startup-sequence` entries survive upgrades[^20] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 ## 🧱 Filesystem *&* Reliability
@@ -131,15 +131,15 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
 | Uses Corruption-Resistant Filesystem (PFS) | ✅ | ✅ | ❌ |
-| Designed To Minimize Filesystem Damage [^15] | ✅ | ✅ | ❌ |
+| Designed To Minimize Filesystem Damage[^15] | ✅ | ✅ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
 ## 📐 CRT, Scaling *&* Display Calibration
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
-| Scanline Presets Included [^16] | ✅ | ❌ | ❌ |
-| Shadow Mask Presets Included [^17] | ✅ | ❌ | ❌ |
+| Scanline Presets Included[^16] | ✅ | ❌ | ❌ |
+| Shadow Mask Presets Included[^17] | ✅ | ❌ | ❌ |
 | External HDMI Scaler Profiles Included <br>(e.g. RetroTink 4K) | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
@@ -147,8 +147,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
-| Era-Accurate A500HD & A600HD Setups Included [^18] | ✅ | ❌ | ❌ |
-| Turn-Key [CD32](/cd32) Setup [^19] | ✅ | ❌ | ⬜️ |
+| Era-Accurate A500HD & A600HD Setups Included[^18] | ✅ | ❌ | ❌ |
+| Turn-Key [CD32](/cd32) Setup[^19] | ✅ | ❌ | ⬜️ |
 {: .feature-compare data-responsive-table="true" }
 
 <!-- This may not be that differentiated
@@ -250,6 +250,7 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 [^19]: This is MiSTer-specific, and lets you load CD32 games directly from the menu. For emulator setups, there is usually specific functionality to play CD32 games.
 [^20]: AmigaVision gives you a custom `startup-sequence` that gets stored on the separate Saves drive that you keep between upgrades, so you can customize AmigaVision without losing those customizations when a new version is available.
 [^21]: Some setups have different files for every setup — e.g. one for RetroArch, one for MiSTer, one for Raspberry Pi, one for real hardware, etc. This means you need to juggle many different versions of the same setup if you have more than one device where you use Amiga. AmigaVision has a single setup that works across all platforms.
+[^22]: Tests done on the only Amiga emulator that runs on Windows, Mac and Linux: [FS-UAE](https://fs-uae.net). Tests done on a MacBook M1 with SSD, with CPU settings set to Amiga 1200, but with `uae_cpu_speed = max` set.
 
 [AmigaVision]:https://amiga.vision
 [Zaparoo]:https://zaparoo.org
