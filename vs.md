@@ -122,7 +122,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
 | Separate Persistent Saves / User Data Volume[^14] | ✅ | ✅ | ❌ |
-| User Data Survives Upgrades | ✅ | ❌ | ❌ |
+| User Data Survives Upgrades | ✅ | ✅ | ❌ |
 | Upgrade Path Documented | ✅ | ❌ | ❌ |
 | Custom `startup-sequence` entries survive upgrades[^20] | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
