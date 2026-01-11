@@ -74,7 +74,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
-| Cold Boot → Playable Game — MiSTer[^4] | 13s | 30s[^1] | ⬜️ |
+| Cold Boot → Playable Game — MiSTer[^4] | 13s | 35s[^1] | ⬜️ |
 | Cold Boot → Playable Game — Raspberry Pi |  |  |  |
 | Cold Boot → Playable Game — Emulator | 10s | 1m 6s | ⬜️ |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
