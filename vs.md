@@ -93,7 +93,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |---|:-----------:|:----------:|:-------------:|
 | Download Size | 4&nbsp;GB | 17&#8209;34&nbsp;GB[^6] | 37&nbsp;GB |
 | Installed size | 9&nbsp;GB | 30&#8209;52&nbsp;GB[^6] | 57&nbsp;GB |
-| Single Download for All Platforms | ✅ | ❌ | ⬜️ |
+| Single Download for All Platforms[^21] | ✅ | ❌ | ⬜️ |
 | Curated, Non-Duplicated Game Library [^7] | ✅ | ❌ | ❌ |
 | Open-Source License | ✅ | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
@@ -249,6 +249,7 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 [^18]: Workbench setups for AmigaOS 1.3 and AmigaOS 2.0. The standard AmigaVision setup uses AmigaOS 3.1.
 [^19]: This is MiSTer-specific, and lets you load CD32 games directly from the menu. For emulator setups, there is usually specific functionality to play CD32 games.
 [^20]: AmigaVision gives you a custom `startup-sequence` that gets stored on the separate Saves drive that you keep between upgrades, so you can customize AmigaVision without losing those customizations when a new version is available.
+[^21]: Some setups have different files for every setup — e.g. one for RetroArch, one for MiSTer, one for Raspberry Pi, one for real hardware, etc. This means you need to juggle many different versions of the same setup if you have more than one device where you use Amiga. AmigaVision has a single setup that works across all platforms.
 
 [AmigaVision]:https://amiga.vision
 [Zaparoo]:https://zaparoo.org
