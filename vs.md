@@ -287,16 +287,6 @@ document.addEventListener("DOMContentLoaded", function () {
        ========================================== */
 
     (function () {
-        function reinitLittlefoot() {
-            const lf = (window.littlefoot && window.littlefoot.default)
-                ? window.littlefoot.default
-                : window.littlefoot;
-
-            if (typeof lf !== "function") return;
-
-            lf({ anchorPattern: /fn/i });
-        }
-
         function buildMobileTables(table) {
             const headers = Array.from(
                 table.querySelectorAll("thead th")
@@ -350,7 +340,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     // Insert the mobile version right after the table
                     if (!table.nextElementSibling || !table.nextElementSibling.classList.contains("table-mobile")) {
                         table.insertAdjacentElement("afterend", buildMobileTables(table));
-                        reinitLittlefoot();
                     }
                 });
         }
