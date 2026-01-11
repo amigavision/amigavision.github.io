@@ -2,7 +2,7 @@
 title: AmigaVision vs. Other Setups
 ---
 
-AmigaVision is the ultimate Amiga games *&* demo scene setup for MiSTer *&* Pocket FPGAs, Raspberry Pi + emulators — and Amiga 1200, 4000 *&* CD32.
+[AmigaVision] is the ultimate Amiga games *&* demo scene setup for MiSTer *&* Pocket FPGAs, Raspberry Pi + emulators — and Amiga 1200, 4000 *&* CD32.
 
 It prioritizes low latency, correctness, and consistency across real hardware, FPGA, and emulation — with minimal setup time and a single unified distribution.
 
@@ -250,7 +250,7 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 [^19]: This is MiSTer-specific, and lets you load CD32 games directly from the menu. For emulator setups, there is usually specific functionality to play CD32 games.
 [^20]: AmigaVision gives you a custom `startup-sequence` that gets stored on the separate Saves drive that you keep between upgrades, so you can customize AmigaVision without losing those customizations when a new version is available.
 
-
+[AmigaVision]:https://amiga.vision
 [Zaparoo]:https://zaparoo.org
 
 
