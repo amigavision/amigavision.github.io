@@ -2,7 +2,9 @@
 title: AmigaVision vs. Other Setups
 ---
 
-AmigaVision prioritizes low latency, correctness, and consistency across real hardware, FPGA, and emulation — with minimal setup time and a single unified distribution.
+AmigaVision is the ultimate Amiga games *&* demo scene setup for MiSTer *&* Pocket FPGAs, Raspberry Pi + emulators — and Amiga 1200, 4000 *&* CD32.
+
+It prioritizes low latency, correctness, and consistency across real hardware, FPGA, and emulation — with minimal setup time and a single unified distribution.
 
 There are several other Amiga setups available for various types of hardware. This overview is meant to show how AmigaVision compares to other setups, and what we find important.
 
@@ -72,8 +74,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
-| Cold Boot → Playable Game — MiSTer[^4] | TODO | TODO | ⬜️ |
-| Cold Boot → Playable Game — Raspberry Pi | TODO | TODO | TODO |
+| Cold Boot → Playable Game — MiSTer[^4] | 13s |  | ⬜️ |
+| Cold Boot → Playable Game — Raspberry Pi |  |  |  |
 | Cold Boot → Playable Game — Emulator | 10s | 1m 6s | ⬜️ |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
 | Optimal ECS/AGA & PAL/NTSC  Versions Selected [^5] | ✅ | ❌ | ❌ |
@@ -167,6 +169,10 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 We strive to keep this overview accurate, and recognize that we can't always be up-to-date on everything as the projects evolve. If you see anything that mis-represents any of the projects mentioned, [file a bug in our issue tracker](https://github.com/amigavision/AmigaVision/issues), and we will correct it.
 
+## Download AmigaVision
+
+You can [download AmigaVision here](/https://amiga.vision/download).
+
 ## Frequently Asked Questions
 
 ### PiMiga & AGS seem to have way more games and bigger size images?
@@ -179,7 +185,7 @@ They do — and that also means:
 - Erroneous PAL/NTSC variants
 - Various random content (photo collections, etc)
 
-AmigaVision intentionally curates **fewer, verified titles** so you don’t need deep Amiga knowledge to get the correct experience. And we are not leaving anything out, just removing unnecessary content that we don't consider relevant.
+AmigaVision intentionally curates **fewer, verified titles** so you don’t need deep Amiga knowledge to get the correct experience. And it is not leaving anything out, just removing unnecessary and duplicate content that is not considered relevant.
 
 ### Why not RetroArch or generic emulation?
 Amiga emulation is unusually sensitive to:
