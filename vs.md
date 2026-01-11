@@ -54,8 +54,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
 | Real Amiga Hardware Supported | ✅ | ✅ | ❌ |
-| Mister FPGA Features Supported [^1] | ✅ | ❌ | ⬜️ |
-| Analogue Pocket FPGA Features Supported | ✅ | ❌ | ⬜️ |
+| Mister FPGA Supported | ✅ | ❌[^1] | ⬜️ |
+| Analogue Pocket FPGA Supported | ✅ | ❌ | ⬜️ |
 | Raspberry Pi Supported | ✅ | ✅ | ✅ |
 | Emulators Supported | ✅ | ✅ | ✅ |
 | PiStorm on Real Amiga Supported | ✅ | ✅ | ⬜️ |
@@ -74,7 +74,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
-| Cold Boot → Playable Game — MiSTer[^4] | 13s |  | ⬜️ |
+| Cold Boot → Playable Game — MiSTer[^4] | 13s | 30s[^1] | ⬜️ |
 | Cold Boot → Playable Game — Raspberry Pi |  |  |  |
 | Cold Boot → Playable Game — Emulator | 10s | 1m 6s | ⬜️ |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
@@ -229,7 +229,7 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 
 <!-- Footnotes -->
 
-[^1]: Makes use of MiSTer-specific features, like shared network drives, MiSTer's RTG high resolution graphics support, etc.
+[^1]: AGS *can* be made to work with MiSTer if you edit out a lot of the `startup-sequence`, but does not run on MiSTer out of the box. It also does not make use of MiSTer-specific features, like shared network drives, MiSTer's RTG high resolution graphics support, etc.
 [^2]: This includes input, audio and output latency, and refers to latency on systems that are variable, like Raspberry Pi. On systems that support FPGAs, like MiSTer, the latency will be generally be identical across setups, if the setup runs on MiSTer.
 [^3]: AmigaVision uses 1ms USB polling on systems that support it, like MiSTer and Raspberry Pi. If running emulators on a desktop OS like Windows, macOS or Linux, it is up to the operating system settings.
 [^4]: How long it takes from turning on a device to get to the game selection screen. When a platform supports both MiSTer and Raspberry Pi, the times are given in that order. Otherwise, assume Raspberry Pi boot time. Exact same SD card on all systems. Desktop load times will be comparable in relative terms.
