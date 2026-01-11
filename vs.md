@@ -68,7 +68,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Cold Boot → Playable Game — MiSTer | 13s | 35s<br>[^1] | ⬜️ |
 | Cold Boot → Playable Game — Raspberry Pi 5 | 22s | 2m 46s |  |
 | Cold Boot → Playable Game — Emulator[^22] | 10s | 1m 6s | ⬜️ |
-| Cold Boot → Playable Game — TheA500 Mini |  |  | ⬜️ |
+| Cold Boot → Playable Game — TheA500 *&* Mini |  |  | ⬜️ |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
 | Optimal ECS/AGA & PAL/NTSC  Versions Selected[^5] | ✅ | ❌ | ❌ |
 | Zaparoo NFC Card Support[^10] | ✅  | ❌ | ❌ |
