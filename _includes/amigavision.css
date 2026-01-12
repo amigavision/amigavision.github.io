@@ -781,39 +781,9 @@ background-color: #222527;
 footer .legal-line a {
 font-weight: 600;
 }
-@media (prefers-color-scheme:dark) {
-  body {
-  color: white;
-  }
-  p, address, li, pre {
-    color: white;
-  }
-  .blog-post h3 a {
-    color: white;
-  }
-  .content {
-  background: #000;
-  }
-  .content section:nth-child(odd) {
-  background-color: #141414;
-  }
-  pre, code {
-    background-color: #222;
-  }
-  div.littlefoot__content p {
-    color: #222;
-  }
-  .content table th, .content table td {
-      border: 1px solid #3E444C;
-  }
-  .content table tr:nth-child(even) {
-    background-color: #161B22;
-  }
-
-}
 
 
-/* Experimental table layout */
+/* Table layout */
 .content table {
     width: 100%;
     max-width: 100%;
@@ -850,8 +820,8 @@ font-weight: 600;
     background-color:rgba(0, 0, 0, 0)
 }
 
-/* Experimental CSS table transform for mobile */
 
+/* CSS table transform for mobile */
 /* Desktop table is the original rendered table */
 
 .feature-compare .table-mobile { display: none; }
@@ -888,4 +858,38 @@ table.table-desktop {
     text-align: center !important;
     vertical-align: middle;
   }
+}
+
+
+/* Dark mode overrides */
+
+@media (prefers-color-scheme:dark) {
+  body {
+  color: white;
+  }
+  p, address, li, pre {
+    color: white;
+  }
+  .blog-post h3 a {
+    color: white;
+  }
+  .content {
+  background: #000;
+  }
+  .content section:nth-child(odd) {
+  background-color: #141414;
+  }
+  pre, code {
+    background-color: #222;
+  }
+  div.littlefoot__content p {
+    color: #222;
+  }
+  .content table th, .content table td {
+      border: 1px solid #3E444C;
+  }
+  .content table tr:nth-child(even) {
+    background-color: #161B22;
+  }
+
 }
