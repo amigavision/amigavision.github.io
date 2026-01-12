@@ -813,7 +813,7 @@ font-weight: 600;
 }
 
 .content table tr:nth-child(2n) {
-/*    background-color: #eee; */
+    background-color: #F6F8FA;
 }
 
 .content table img {
@@ -886,9 +886,9 @@ table.table-desktop {
     color: #222;
   }
   .content table th, .content table td {
-      border: 1px solid #3E444C;
+    border: 1px solid #3E444C;
   }
-  .content table tr:nth-child(even) {
+  .content table tr:nth-child(2n) {
     background-color: #161B22;
   }
 
