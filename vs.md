@@ -355,25 +355,24 @@ document.addEventListener("DOMContentLoaded", function () {
         enhanceTables();
     })();
 
-    /* ===============================
-       Footnotes → Tooltips (Littlefoot)
-       =============================== */
-
-    const init =
-        (window.littlefoot && window.littlefoot.littlefoot) ? window.littlefoot.littlefoot :
-        (typeof window.littlefoot === "function") ? window.littlefoot :
-        null;
-
-    if (init) {
-        init({
-            activateOnHover: false,
-            dismissOnUnhover: false,
-            anchorPattern: /fn/i
-        });
-    }
-
 });
 </script>
 
 <!-- Footnotes → Tooltips -->
 <script src="{{ '/littlefoot.js' | relative_url }}"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const init =
+      (window.littlefoot && window.littlefoot.littlefoot) ? window.littlefoot.littlefoot :
+      (typeof window.littlefoot === "function") ? window.littlefoot :
+      null;
+
+    if (!init) return;
+
+    init({
+      activateOnHover: false,
+      dismissOnUnhover: false,
+      anchorPattern: /fn/i
+    });
+  });
+</script>
