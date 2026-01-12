@@ -368,7 +368,7 @@ document.addEventListener("DOMContentLoaded", function () {
         init({
             activateOnHover: false,
             dismissOnUnhover: false,
-            anchorPattern: /fn/i
+            anchorPattern: /#fn:(?!ref:)\d+\b/i
         });
     }
 
