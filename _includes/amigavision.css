@@ -813,7 +813,7 @@ font-weight: 600;
 }
 
 .content table tr:nth-child(2n) {
-/*    background-color: #F6F8FA; */
+    background-color: #eee;
 }
 
 .content table img {
