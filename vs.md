@@ -54,7 +54,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
 | Real Amiga Hardware Supported | ✅ | ✅ | ❌ |
-| Mister FPGA Supported | ✅ | ❌<br> [^1] | ⬜️ |
+| Mister FPGA Supported | ✅ | <br>❌<br> [^1] | ⬜️ |
 | Analogue Pocket FPGA Supported | ✅ | ❌ | ⬜️ |
 | Raspberry Pi Supported | ✅ | ✅ | ✅ |
 | Emulators Supported | ✅ | ✅ | ✅ |
@@ -65,8 +65,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
-| Cold Boot → Playable Game — MiSTer | 13s | 35s<br> [^2] | ⬜️ |
-| Cold Boot → Playable Game — Raspberry Pi 5 | 22s | 2m&nbsp;46s | 30s<br> [^3] |
+| Cold Boot → Playable Game — MiSTer | 13s | <br>35s<br> [^2] | ⬜️ |
+| Cold Boot → Playable Game — Raspberry Pi 5 | 22s | <br>2m&nbsp;46s | 30s<br> [^3] |
 | Cold Boot → Playable Game — Emulator [^4] | 10s | 1m 6s | ⬜️ |
 | Cold Boot → Playable Game — TheA500 *&* Mini [^5] | 5s | 32s | ⬜️ |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
@@ -83,8 +83,8 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
-| Download Size | 4&nbsp;GB | 17&#8209;34&nbsp;GB<br> [^8] | 37&nbsp;GB |
-| Installed size | 9&nbsp;GB | 30&#8209;52&nbsp;GB<br> [^9] | 57&nbsp;GB |
+| Download Size | 4&nbsp;GB | <br>17&#8209;34&nbsp;GB<br> [^8] | 37&nbsp;GB |
+| Installed size | 9&nbsp;GB | <br>30&#8209;52&nbsp;GB<br> [^9] | 57&nbsp;GB |
 | Single Download for All Platforms [^10] | ✅ | ❌ | ⬜️ |
 | Curated, Non-Duplicated Game Library [^11] | ✅ | ❌ | ❌ |
 | Open-Source License | ✅ | ❌ | ❌ |
