@@ -256,6 +256,25 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 [Zaparoo]:https://zaparoo.org
 
 
+<!-- Footnotes → Tooltips -->
+<script src="{{ '/littlefoot.js' | relative_url }}"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const init =
+      (window.littlefoot && window.littlefoot.littlefoot) ? window.littlefoot.littlefoot :
+      (typeof window.littlefoot === "function") ? window.littlefoot :
+      null;
+
+    if (!init) return;
+
+    init({
+      activateOnHover: false,
+      dismissOnUnhover: false,
+      anchorPattern: /fn/i
+    });
+  });
+</script>
+
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -353,26 +372,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         enhanceTables();
+        reinitLittlefoot();
     })();
 
 });
 </script>
 
-<!-- Footnotes → Tooltips -->
-<script src="{{ '/littlefoot.js' | relative_url }}"></script>
-<script>
-  window.addEventListener('DOMContentLoaded', () => {
-    const init =
-      (window.littlefoot && window.littlefoot.littlefoot) ? window.littlefoot.littlefoot :
-      (typeof window.littlefoot === "function") ? window.littlefoot :
-      null;
-
-    if (!init) return;
-
-    init({
-      activateOnHover: false,
-      dismissOnUnhover: false,
-      anchorPattern: /fn/i
-    });
-  });
-</script>
