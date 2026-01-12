@@ -804,8 +804,12 @@ font-weight: 600;
     color: #222;
   }
   .content table th, .content table td {
-      border:1px solid #3E444C;
+      border: 1px solid #3E444C;
   }
+  .content table tr:nth-child(even) {
+    background-color: #161B22;
+  }
+
 }
 
 
