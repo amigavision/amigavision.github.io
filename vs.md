@@ -354,6 +354,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         enhanceTables();
+        reinitLittlefoot();
     })();
 
 });
