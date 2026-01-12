@@ -50,7 +50,7 @@
   font-weight: 400;
   font-weight: var(--button-font-weight,initial);
   height: var(--button-height);
-  margin: 0 0 0.2em 0.5em;;
+  margin: 0 0 0 0.5em;;
   padding: var(--button-padding);
   -webkit-text-decoration: none;
   text-decoration: none;
