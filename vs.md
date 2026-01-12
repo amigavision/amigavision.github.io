@@ -22,10 +22,10 @@ The correct PAL/NTSC and OCS/AGA version is selected automatically. You shouldn�
 Input, video, and audio timing are treated as a single system. Wherever possible, buffering, abstraction layers, and latency-adding defaults are avoided so games behave and *feel* as close to real hardware as possible.
 
 ### 📦 Download Size *&* Installed Size
-Smaller images are a result of curation, not a limitation. Duplicate titles, broken releases, incorrect regional variants, and unused versions are intentionally excluded to keep the system efficient — with respect for both your time and your storage space.
+Smaller disk images are a result of curation, not a limitation. Duplicate titles, broken releases, incorrect regional variants, and unused versions are intentionally excluded to keep the system efficient — with respect for both your time and your storage space.
 
 ### 🧩 Single, Consistent Experience Across Platforms
-Real Amigas, FPGA, and emulation should behave the same. Platform-specific quirks and “this works differently over there” setups are a non-starter — the goal is one coherent system with consistent behavior everywhere it runs.
+Real Amigas, FPGA, and emulation should behave the same. Platform-specific quirks and “this works differently over there” setups are a non-starter — the goal is one coherent system with consistent behavior everywhere it runs. You should be able to use the same setup across many different devices and platforms.
 
 ---
 
