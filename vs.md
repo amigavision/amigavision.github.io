@@ -13,7 +13,7 @@ There are several other Amiga setups available for various types of hardware. Th
 AmigaVision is not about having the largest collection of files — it’s about having the *right versions*, running *correctly*, with *minimal latency*, and *minimal time between power-on and play*. Our core design priorities are:
 
 ### ⏱️ Cold Boot → Playable Game
-Time-to-fun matters. From power-on to interacting with a game, the entire startup path is designed to be short, deterministic, and free of unnecessary layers, configuration screens, or guesswork.
+Time-to-fun matters. From power-on to interacting with a game, the entire startup path is designed to be short, deterministic, and free of unnecessary layers, configuration screens, splash screens, or guesswork.
 
 ### 🧠 Intelligent Version Selection
 The correct PAL/NTSC and OCS/AGA version is selected automatically. You shouldn’t need deep Amiga knowledge to know which variant runs correctly, has the right timing, or avoids known bugs — AmigaVision makes that choice for you.
