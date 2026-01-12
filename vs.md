@@ -10,7 +10,7 @@ There are several other Amiga setups available for various types of hardware. Th
 
 ## Why AmigaVision?
 
-AmigaVision is not about having the largest collection of files — it’s about having the **right versions**, running **correctly**, with **minimal latency**, and **minimal time between power-on and play**.
+AmigaVision is not about having the largest collection of files — it’s about having the *right versions*, running *correctly*, with *minimal latency*, and *minimal time between power-on and play*.
 
 ### Core Design Priorities:
 
@@ -228,9 +228,9 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 
 <!-- Footnotes -->
 
-[^1]: AGS *can* be made to work with MiSTer if you edit out a lot of the startup-sequence, but does not run on MiSTer out of the box. It also does not make use of MiSTer-specific features, like shared network drives, MiSTer's RTG high resolution graphics support, etc.
-[^2]: AGS *can* be made to work with MiSTer if you edit out a lot of the startup-sequence, but does not run on MiSTer out of the box. It also does not make use of MiSTer-specific features, like shared network drives, MiSTer's RTG high resolution graphics support, etc.
-[^3]: Theoretical — PiMiga does not show a game selection screen but gets to Workbench where you can locate and start a game launcher. We added about 5 seconds for this step.
+[^1]: AGS *can* be made to work with MiSTer if you edit out a lot of the startup-sequence, but *does not* run on MiSTer out of the box. It also *does not* make use of MiSTer-specific features, like shared network drives, MiSTer's RTG high resolution graphics support, etc.
+[^2]: AGS *can* be made to work with MiSTer if you edit out a lot of the startup-sequence, but *does not* run on MiSTer out of the box. It also *does not* make use of MiSTer-specific features, like shared network drives, MiSTer's RTG high resolution graphics support, etc.
+[^3]: Theoretical — PiMiga *does not* show a game selection screen but gets to Workbench where you can locate and start a game launcher. We added about 5 seconds for this step.
 [^4]: Tests done on the only Amiga emulator that runs on Windows, Mac and Linux: [FS-UAE](https://fs-uae.net). Tests done on a MacBook M1 with SSD, with CPU settings set to Amiga 1200, but with uae_cpu_speed=max.
 [^5]: Time is from selecting the setup in TheA500 launcher until the game selector is available, as there is no way to autoboot a setup.
 [^6]: AmigaVision picks the correct NTSC or PAL resolution based on where the game was developed, you don't have to know which one is the correct version. We also pick the best version between the OCS and AGA versions — unless the game has substantial differences, like a different level set or game-breaking bugs.
