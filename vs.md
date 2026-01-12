@@ -230,7 +230,7 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 <!-- Footnotes -->
 
 [^1]: AGS *can* be made to work with MiSTer if you edit out a lot of the startup-sequence, but does not run on MiSTer out of the box. It also does not make use of MiSTer-specific features, like shared network drives, MiSTer's RTG high resolution graphics support, etc.
-[^2]: This includes input, audio and output latency, and refers to latency on systems that are variable, like Raspberry Pi. On systems that support FPGAs, like MiSTer, the latency will be generally be identical across setups, if the setup runs on MiSTer.
+[^2]: This includes input, audio and output latency, and refers to latency on systems that are variable, like Raspberry Pi. On systems that support FPGAs, like MiSTer, the latency will be generally be identical across setups.
 [^3]: AmigaVision uses 1ms USB polling on systems that support it, like MiSTer and Raspberry Pi. If running emulators on a desktop OS like Windows, macOS or Linux, it is up to the operating system settings.
 [^4]: Theoretical — PiMiga does not show a game selection screen but gets to Workbench where you can locate and start a game launcher. We added about 5 seconds for this step.
 [^5]: AmigaVision picks the correct NTSC or PAL resolution based on where the game was developed, you don't have to know which one is the correct version. We also pick the best version between the ECS and AGA versions — unless the game has substantial differences, like a different level set or game-breaking bugs.
