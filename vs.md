@@ -180,9 +180,8 @@ You can [download AmigaVision here](/https://amiga.vision/download).
 They do — and that also means:
 
 - Duplicate AGA/OCS titles
-- Incorrect versions
-- Broken releases
 - Erroneous PAL/NTSC variants
+- Broken releases
 - Various random content (photo collections, etc)
 
 AmigaVision intentionally curates **fewer, verified titles** so you don’t need deep Amiga knowledge to get the correct experience. And it is not leaving anything out, just removing unnecessary and duplicate content that is not considered relevant — respecting both your time to download and your storage space.
