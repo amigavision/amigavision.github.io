@@ -66,7 +66,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
 |---|:-----------:|:----------:|:-------------:|
 | Cold Boot → Playable Game — MiSTer | 13s | <br>35s<br> [^2] | ⬜️ |
-| Cold Boot → Playable Game — Raspberry Pi 5 | 22s | <br>2m&nbsp;46s | 30s<br> [^3] |
+| Cold Boot → Playable Game — Raspberry Pi 5 | 22s | 2m&nbsp;46s | <br>30s<br> [^3] |
 | Cold Boot → Playable Game — Emulator [^4] | 10s | 1m 6s | ⬜️ |
 | Cold Boot → Playable Game — TheA500 *&* Mini [^5] | 5s | 32s | ⬜️ |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
