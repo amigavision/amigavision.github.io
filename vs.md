@@ -8,8 +8,6 @@ It prioritizes low latency, correctness, and consistency across real hardware, F
 
 There are several other Amiga setups available for various types of hardware. This overview is meant to show how AmigaVision compares to other setups, and what we find important.
 
-[TOC]
-
 ## Why AmigaVision?
 
 AmigaVision is not about having the largest collection of files — it’s about having the *right versions*, running *correctly*, with *minimal latency*, and *minimal time between power-on and play*. Our core design priorities are:
