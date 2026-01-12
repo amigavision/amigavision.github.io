@@ -18,7 +18,7 @@ AmigaVision is not about having the largest collection of files — it’s about
 Time-to-fun matters. From power-on to interacting with a game, the entire startup path is designed to be short, deterministic, and free of unnecessary layers, configuration screens, or guesswork.
 
 ### 🧠 Intelligent Version Selection
-The correct PAL/NTSC and ECS/AGA version is selected automatically. You shouldn’t need deep Amiga knowledge to know which variant runs correctly, has the right timing, or avoids known bugs — AmigaVision makes that choice for you.
+The correct PAL/NTSC and OCS/AGA version is selected automatically. You shouldn’t need deep Amiga knowledge to know which variant runs correctly, has the right timing, or avoids known bugs — AmigaVision makes that choice for you.
 
 ### ⏱️ Lowest End-To-End Latency & Hardware-Accurate Behavior
 Input, video, and audio timing are treated as a single system. Wherever possible, buffering, abstraction layers, and latency-adding defaults are avoided so games behave and *feel* as close to real hardware as possible.
@@ -70,7 +70,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Cold Boot → Playable Game — Emulator[^22] | 10s | 1m 6s | ⬜️ |
 | Cold Boot → Playable Game — TheA500 *&* Mini |  |  | ⬜️ |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
-| Optimal ECS/AGA & PAL/NTSC Version of a Game Selected Automatically[^5] | ✅ | ❌ | ❌ |
+| Optimal OCS/AGA & PAL/NTSC Version of a Game Selected Automatically[^5] | ✅ | ❌ | ❌ |
 | Zaparoo NFC Card Support[^10] | ✅  | ❌ | ❌ |
 {: .feature-compare data-responsive-table="true" }
 
@@ -179,7 +179,7 @@ You can [download AmigaVision here](/https://amiga.vision/download).
 
 They do — and that also means:
 
-- Duplicate AGA/ECS titles
+- Duplicate AGA/OCS titles
 - Incorrect versions
 - Broken releases
 - Erroneous PAL/NTSC variants
@@ -233,7 +233,7 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 [^2]: This includes input, audio and output latency, and refers to latency on systems that are variable, like Raspberry Pi. On systems that support FPGAs, like MiSTer, the latency will be generally be identical across setups.
 [^3]: AmigaVision uses 1ms USB polling on systems that support it, like MiSTer and Raspberry Pi. If running emulators on a desktop OS like Windows, macOS or Linux, it is up to the operating system settings.
 [^4]: Theoretical — PiMiga does not show a game selection screen but gets to Workbench where you can locate and start a game launcher. We added about 5 seconds for this step.
-[^5]: AmigaVision picks the correct NTSC or PAL resolution based on where the game was developed, you don't have to know which one is the correct version. We also pick the best version between the ECS and AGA versions — unless the game has substantial differences, like a different level set or game-breaking bugs.
+[^5]: AmigaVision picks the correct NTSC or PAL resolution based on where the game was developed, you don't have to know which one is the correct version. We also pick the best version between the OCS and AGA versions — unless the game has substantial differences, like a different level set or game-breaking bugs.
 [^6]: AGS has multiple different setups with widely different file sizes, so this lists the lower and upper range.
 [^7]: AmigaVision excludes any broken and redundant versions of games. It also has many useful curated lists made by various people online, top lists, and games organized by publisher, by musician, etc.
 [^8]: Most ways to output Amiga to analog CRT TVs from computers and Raspberry Pi introduce latency. AmigaVision is configured for zero-lag MiSTer analog output, and on the Raspberry Pi via the RGB-Pi 2 adapter, supported in RePlayOS, which is what AmigaVision is built on.
