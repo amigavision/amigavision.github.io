@@ -891,5 +891,7 @@ table.table-desktop {
   .content table tr:nth-child(2n) {
     background-color: #161B22;
   }
-
+  hr {
+    color: white;
+  }
 }
