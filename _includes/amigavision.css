@@ -812,7 +812,7 @@ font-weight: 600;
     border-top:1px solid #ccc;
 }
 
-.content table tr:nth-child(2n) {
+.content table tr:nth-child(odd) {
     background-color: #F6F8FA;
 }
 
