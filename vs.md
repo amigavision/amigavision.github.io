@@ -182,7 +182,7 @@ They do — and that also means:
 - Broken releases
 - Various random content (photo collections, etc)
 
-AmigaVision intentionally curates **fewer, verified titles** so you don’t need deep Amiga knowledge to get the correct experience. And it is not leaving anything out, just removing unnecessary and duplicate content that is not considered relevant — respecting both your time to download and your storage space.
+AmigaVision intentionally curates *fewer, verified titles* so you don’t need deep Amiga knowledge to get the correct experience. And it is not leaving anything out, just removing unnecessary and duplicate content that is not considered relevant — respecting both your time to download and your storage space.
 
 ### Why not RetroArch or generic emulation?
 Amiga emulation is unusually sensitive to:
@@ -193,7 +193,7 @@ Amiga emulation is unusually sensitive to:
 - Display scaling
 
 Generic emulator stacks optimize for flexibility.  
-AmigaVision optimizes for **Amiga-specific correctness**.
+AmigaVision optimizes for *Amiga-specific correctness*.
 
 ### Why does latency matter this much?
 Because the Amiga was designed around:
@@ -226,8 +226,8 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 
 <!-- Footnotes -->
 
-[^1]: AGS *can* be made to work with MiSTer if you edit out a lot of the startup-sequence, but *does not* run on MiSTer out of the box. It also *does not* make use of MiSTer-specific features, like shared network drives, MiSTer's RTG high resolution graphics support, etc.
-[^2]: AGS *can* be made to work with MiSTer if you edit out a lot of the startup-sequence, but *does not* run on MiSTer out of the box. It also *does not* make use of MiSTer-specific features, like shared network drives, MiSTer's RTG high resolution graphics support, etc.
+[^1]: AGS *can* be made to work with MiSTer if you edit out a lot of the startup-sequence, but it *does not* run on MiSTer out of the box. It also *does not* make use of MiSTer-specific features, like shared network drives, MiSTer's RTG high resolution graphics support, etc.
+[^2]: AGS *can* be made to work with MiSTer if you edit out a lot of the startup-sequence, but it *does not* run on MiSTer out of the box. It also *does not* make use of MiSTer-specific features, like shared network drives, MiSTer's RTG high resolution graphics support, etc.
 [^3]: Theoretical — PiMiga *does not* show a game selection screen but gets to Workbench where you can locate and start a game launcher. We added about 5 seconds for this step.
 [^4]: Tests done on the only Amiga emulator that runs on Windows, Mac and Linux: [FS-UAE](https://fs-uae.net). Tests done on a MacBook M1 with SSD, with CPU settings set to Amiga 1200, but with uae_cpu_speed=max.
 [^5]: Time is from selecting the setup in TheA500 launcher until the game selector is available, as there is no way to autoboot a setup.
