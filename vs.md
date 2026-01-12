@@ -68,7 +68,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 | Cold Boot → Playable Game — MiSTer | 13s | 35s<br> [^1] | ⬜️ |
 | Cold Boot → Playable Game — Raspberry Pi 5 | 22s | 2m&nbsp;46s | 30s<br> [^4] |
 | Cold Boot → Playable Game — Emulator [^22] | 10s | 1m 6s | ⬜️ |
-| Cold Boot → Playable Game — TheA500 *&* Mini |  |  | ⬜️ |
+| Cold Boot → Playable Game — TheA500 *&* Mini [^23] | 5s | 32s | ⬜️ |
 | Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
 | Optimal OCS/AGA & PAL/NTSC Version of a Game Selected Automatically [^5] | ✅ | ❌ | ❌ |
 | Zaparoo NFC Card Support [^10] | ✅  | ❌ | ❌ |
@@ -250,6 +250,7 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
  [^20]: AmigaVision gives you a custom `startup-sequence` that gets stored on the separate Saves drive that you keep between upgrades, so you can customize AmigaVision without losing those customizations when a new version is available.
  [^21]: Some setups have different files for every setup — e.g. one for RetroArch, one for MiSTer, one for Raspberry Pi, one for real hardware, etc. This means you need to juggle many different versions of the same setup if you have more than one device where you use Amiga. AmigaVision has a single setup that works across all platforms.
  [^22]: Tests done on the only Amiga emulator that runs on Windows, Mac and Linux: [FS-UAE](https://fs-uae.net). Tests done on a MacBook M1 with SSD, with CPU settings set to Amiga 1200, but with uae_cpu_speed=max.
+ [^23]: Time is from selecting the setup in TheA500 launcher until the game selector is available, as there is no way to autoboot a setup.
 
 [AmigaVision]:https://amiga.vision
 [Zaparoo]:https://zaparoo.org
