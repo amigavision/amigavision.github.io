@@ -76,6 +76,11 @@ defaults:
       layout: "post"
 
   - scope:
+      path: "sd.md"
+    values:
+      layout: "post"
+
+  - scope:
       path: "context.md"
     values:
       layout: "post"
