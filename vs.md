@@ -49,117 +49,117 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 ## 🖥️ Hardware *&* Platform Support
 
-|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---|:-----------:|:----------:|:-------------:|
-| Real Amiga Hardware Supported | ✅ | ✅ | ❌ |
-| Mister FPGA Supported | ✅ | <br>❌<br> [^1] | ⬜️ |
-| Analogue Pocket FPGA Supported | ✅ | ❌ | ⬜️ |
-| Raspberry Pi Supported | ✅ | ✅ | ✅ |
-| Emulators Supported | ✅ | ✅ | ✅ |
-| PiStorm on Real Amiga Supported | ✅ | ✅ | ⬜️ |
+   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 
+---|:-----------:|:----------:|:-------------:
+Real Amiga Hardware Supported | ✅ | ✅ | ❌
+Mister FPGA Supported | ✅ | <br>❌<br> [^1] | ⬜️
+Analogue Pocket FPGA Supported | ✅ | ❌ | ⬜️
+Raspberry Pi Supported | ✅ | ✅ | ✅
+Emulators Supported | ✅ | ✅ | ✅
+PiStorm on Real Amiga Supported | ✅ | ✅ | ⬜️
 {: .feature-compare data-responsive-table="true" }
 
 ## 🕹️ Usability *&* User Experience
 
-|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---|:-----------:|:----------:|:-------------:|
-| Cold Boot → Playable Game — MiSTer | 13s | <br>35s<br> [^2] | ⬜️ |
-| Cold Boot → Playable Game — Raspberry Pi 5 | 22s | 2m&nbsp;46s | <br>30s<br> [^3] |
-| Cold Boot → Playable Game — Emulator [^4] | 10s | 1m 6s | ⬜️ |
-| Cold Boot → Playable Game — TheA500 *&* Mini [^5] | 5s | 32s | ⬜️ |
-| Workbench With Curated Useful Tools | ✅ | ✅ | ✅ |
-| Optimal OCS/AGA & PAL/NTSC Version of a Game Selected Automatically [^6] | ✅ | ❌ | ❌ |
-| Zaparoo NFC Card Support [^7] | ✅  | ❌ | ❌ |
+   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 
+---|:-----------:|:----------:|:-------------:
+Cold Boot → Playable Game — MiSTer | 13s | <br>35s<br> [^2] | ⬜️
+Cold Boot → Playable Game — Raspberry Pi 5 | 22s | 2m&nbsp;46s | <br>30s<br> [^3]
+Cold Boot → Playable Game — Emulator [^4] | 10s | 1m 6s | ⬜️
+Cold Boot → Playable Game — TheA500 *&* Mini [^5] | 5s | 32s | ⬜️
+Workbench With Curated Useful Tools | ✅ | ✅ | ✅
+Optimal OCS/AGA & PAL/NTSC Version of a Game Selected Automatically [^6] | ✅ | ❌ | ❌
+Launching Games via Zaparoo NFC Cards [^7] | ✅  | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
 <!-- These are not implemented yet
-| High-Resolution Game & Demo Thumbnails | ✅ | ❌ | ❌ |
-| Game Manuals Accessible on Second Device | ✅ | ❌ | ❌ |
+High-Resolution Game & Demo Thumbnails | ✅ | ❌ | ❌
+Game Manuals Accessible on Second Device | ✅ | ❌ | ❌
 -->
 
 ## 📦 Distribution *&* Curation
 
-|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---|:-----------:|:----------:|:-------------:|
-| Download Size | 4&nbsp;GB | <br>17&#8209;34&nbsp;GB<br> [^8] | 37&nbsp;GB |
-| Installed size | 9&nbsp;GB | <br>30&#8209;52&nbsp;GB<br> [^9] | 57&nbsp;GB |
-| Single Download for All Platforms [^10] | ✅ | ❌ | ⬜️ |
-| Curated, Non-Duplicated Game Library [^11] | ✅ | ❌ | ❌ |
-| Open-Source License | ✅ | ❌ | ❌ |
+   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 
+---|:-----------:|:----------:|:-------------:
+Download Size | 4&nbsp;GB | <br>17&#8209;34&nbsp;GB<br> [^8] | 37&nbsp;GB
+Installed size | 9&nbsp;GB | <br>30&#8209;52&nbsp;GB<br> [^9] | 57&nbsp;GB
+Single Download for All Platforms [^10] | ✅ | ❌ | ⬜️
+Curated, Non-Duplicated Game Library [^11] | ✅ | ❌ | ❌
+Open-Source License | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
 ## ⏱️ Performance, Accuracy *&* Latency
 
-|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---|:-----------:|:----------:|:-------------:|
-| Lowest End-To-End Latency [^12] | ✅ | ❌ | ❌ |
-| Cycle-Accurate Amiga 500 Setup Included <br>(Important for Demos)| ✅ | ❌ | ❌ |
-| Low-Latency Joystick & Input Timing [^13] | ✅ | ❌ | ❌ |
+   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 
+---|:-----------:|:----------:|:-------------:
+Lowest End-To-End Latency [^12] | ✅ | ❌ | ❌
+Cycle-Accurate Amiga 500 Setup Included <br>(Important for Demos)| ✅ | ❌ | ❌
+Low-Latency Joystick & Input Timing [^13] | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
 ## 📺 Display *&* Video Output
 
-|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---|:-----------:|:----------:|:-------------:|
-| High-Resolution RTG Display Support | ✅ | ✅ | ✅ |
-| Analog Video Output With No Added Lag [^14] | ✅ | ❌ | ❌ |
-| Per-Game 5×PAL Overscale Support [^15] | ✅ | ❌ | ❌ |
-| Correct NTSC Pixel Aspect Ratio [^16] | ✅ | ❌ | ❌ |
+   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 
+---|:-----------:|:----------:|:-------------:
+High-Resolution RTG Display Support | ✅ | ✅ | ✅
+Analog Video Output With No Added Lag [^14] | ✅ | ❌ | ❌
+Per-Game 5×PAL Overscale Support [^15] | ✅ | ❌ | ❌
+Correct NTSC Pixel Aspect Ratio [^16] | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
 ## 🌐 Networking *&* Online Features
 
-|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---|:-----------:|:----------:|:-------------:|
-| Easy Network File Transfer to the Amiga Without Removing SD Card [^17] | ✅ | ❌ | ❌ |
-| Internet Stack Included (Online Out-of-the-Box) [^18] | ✅ | ❌ | ❌ |
+   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 
+---|:-----------:|:----------:|:-------------:
+Easy Network File Transfer to the Amiga Without Removing SD Card [^17] | ✅ | ❌ | ❌
+Internet Stack Included (Online Out-of-the-Box) [^18] | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
 ## 💾 Upgrade Model *&* Data Persistence
 
-|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---|:-----------:|:----------:|:-------------:|
-| Separate Persistent Saves / User Data Volume [^19] | ✅ | ✅ | ❌ |
-| User Data Survives Upgrades | ✅ | ✅ | ❌ |
-| Upgrade Path Documented | ✅ | ❌ | ❌ |
-| Custom `startup-sequence` entries survive upgrades [^20] | ✅ | ❌ | ❌ |
+   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 
+---|:-----------:|:----------:|:-------------:
+Separate Persistent Saves / User Data Volume [^19] | ✅ | ✅ | ❌
+User Data Survives Upgrades | ✅ | ✅ | ❌
+Upgrade Path Documented | ✅ | ❌ | ❌
+Custom `startup-sequence` entries survive upgrades [^20] | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
 ## 🧱 Filesystem *&* Reliability
 
-|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---|:-----------:|:----------:|:-------------:|
-| Uses Corruption-Resistant Filesystem (PFS), Designed to Minimize Filesystem Damage [^21] | ✅ | ✅ | ❌ |
+   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 
+---|:-----------:|:----------:|:-------------:
+Uses Corruption-Resistant Filesystem (PFS), Designed to Minimize Filesystem Damage [^21] | ✅ | ✅ | ❌
 {: .feature-compare data-responsive-table="true" }
 
 ## 📐 CRT, Scaling *&* Display Calibration
 
-|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---|:-----------:|:----------:|:-------------:|
-| Scanline Presets Included [^22] | ✅ | ❌ | ❌ |
-| Shadow Mask Presets Included [^23] | ✅ | ❌ | ❌ |
-| External HDMI Scaler Profiles Included <br>(e.g. RetroTink 4K, Morph 4K) | ✅ | ❌ | ❌ |
+   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 
+---|:-----------:|:----------:|:-------------:
+Scanline Presets Included [^22] | ✅ | ❌ | ❌
+Shadow Mask Presets Included [^23] | ✅ | ❌ | ❌
+External HDMI Scaler Profiles Included <br>(e.g. RetroTink 4K, Morph 4K) | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
 ## 🕰️ Era-Accurate *&* Specialized Setups
 
-|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---|:-----------:|:----------:|:-------------:|
-| Era-Accurate A500HD & A600HD Setups Included [^24] | ✅ | ❌ | ❌ |
-| Turn-Key [Amiga CD32](/cd32) Setup [^25] | ✅ | ❌ | ⬜️ |
+   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 
+---|:-----------:|:----------:|:-------------:
+Era-Accurate A500HD & A600HD Setups Included [^24] | ✅ | ❌ | ❌
+Turn-Key [Amiga CD32](/cd32) Setup [^25] | ✅ | ❌ | ⬜️
 {: .feature-compare data-responsive-table="true" }
 
 <!-- This may not be that differentiated
 
 ## 🏛️ Demo Scene *&* Digital Preservation
 
-|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 |
-|---|:-----------:|:----------:|:-------------:|
-| Demo Scene Content Included | ✅ | ❌ | ❌ |
-| Disk Magazines Included | ✅ | ❌ | ❌ |
-| Disk Mags Organized Chronologically | ✅ | ❌ | ❌ |
-| Preservation-Focused Curation | ✅ | ❌ | ❌ |
-{: .feature-compare data-responsive-table="true" }
+   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5 
+---|:-----------:|:----------:|:-------------:
+Demo Scene Content Included | ✅ | ❌ | ❌
+Disk Magazines Included | ✅ | ❌ | ❌
+Disk Mags Organized Chronologically | ✅ | ❌ | ❌
+Preservation-Focused Curation | ✅ | ❌ | ❌
+{: .feature-compare data-responsive-table="true" }`;
 
 -->
 
