@@ -15,4 +15,4 @@ These both use the superior pMLC technology for endurance and reliability instea
 
 When choosing a card for your SD card based emulation/FPGA setup, it doesn’t make any sense to optimize for speed — rather, choose these *marginally* more expensive variants for extreme reliability.
 
-Only downside? They don’t come in extremely high capacity versions, but if you have more than 256GB of ROMs/disc images, you should probably reconsider how many of those games you can actually play in a human lifetime. 😄
+The only downside? They don’t come in extremely high capacity versions, but if you have more than 256GB of ROMs/disc images, you should probably reconsider how many of those games you can actually play in a human lifetime. 😄
