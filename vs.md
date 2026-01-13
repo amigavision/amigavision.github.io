@@ -132,7 +132,7 @@ Custom `startup-sequence` entries survive upgrades [^20] | ✅ | ❌ | ❌
 Uses Corruption-Resistant File System (PFS), Designed to Minimize File System Damage [^21] | ✅ | ✅ | ❌
 {: .feature-compare data-responsive-table="true" }
 
-## 📐 CRT, Scaling *&* Display Calibration
+## 📐 CRTs, Scaling *&* Display Calibration
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
