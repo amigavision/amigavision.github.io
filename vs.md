@@ -125,11 +125,11 @@ Upgrade Path Documented | ✅ | ❌ | ❌
 Custom `startup-sequence` entries survive upgrades [^20] | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
-## 🧱 Filesystem *&* Reliability
+## 🧱 File System *&* Reliability
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
-Uses Corruption-Resistant Filesystem (PFS), Designed to Minimize Filesystem Damage [^21] | ✅ | ✅ | ❌
+Uses Corruption-Resistant File System (PFS), Designed to Minimize File System Damage [^21] | ✅ | ✅ | ❌
 {: .feature-compare data-responsive-table="true" }
 
 ## 📐 CRT, Scaling *&* Display Calibration
