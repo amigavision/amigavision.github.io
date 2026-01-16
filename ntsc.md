@@ -9,11 +9,11 @@ AmigaVision cares deeply about preserving the correct aspect ratio for all games
 <img-comparison-slider class="slider-with-animated-handle" value="79">
   <figure slot="first" class="before">
     <img slot="first" width="100%" src="/images/dotc-ntsc.png">
-		<figcaption><b>NTSC</b></figcaption>
+		<figcaption>NTSC</figcaption>
 	</figure>
   <figure slot="second" class="after">
 		<img slot="second" width="100%" src="/images/dotc-pal.png">
-  	<figcaption><b>PAL</b></figcaption>
+  	<figcaption>PAL</figcaption>
 	</figure>
   <svg slot="handle" class="custom-animated-handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
     <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
@@ -54,6 +54,10 @@ bootscreen=0
   .before,
   .after {
     margin: 0;
+  }
+  .figcaption {
+	  font-family: sans-serif;
+	  font-weight: 600;
   }
   .before figcaption,
   .after figcaption {
