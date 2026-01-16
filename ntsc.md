@@ -70,11 +70,11 @@ bootscreen=0
 <img-comparison-slider class="slider-with-animated-handle" value="79">
   <figure slot="first" class="before">
     <img slot="first" width="100%" src="/images/dotc-ntsc.png">
-		<figcaption>NTSC</figcaption>
+		<figcaption><b>NTSC</b></figcaption>
 	</figure>
   <figure slot="second" class="after">
 		<img slot="second" width="100%" src="/images/dotc-pal.png">
-  	<figcaption>PAL</figcaption>
+  	<figcaption><b>PAL</b></figcaption>
 	</figure>
   <svg slot="handle" class="custom-animated-handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
     <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
