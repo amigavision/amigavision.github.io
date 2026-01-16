@@ -6,6 +6,21 @@ redirect_from: "/par/"
 
 AmigaVision cares deeply about preserving the correct aspect ratio for all games. That means going beyond just ensuring that games run in the correct variant of NTSC and PAL, but we also ensure that the Pixel Aspect Ratio (PAR) is correct. A pixel on the Amiga was close to square (16:15) in PAL resolutions on a CRT, but quite tall on NTSC displays (5:6). 
 
+<img-comparison-slider class="slider-with-animated-handle" value="79">
+  <figure slot="first" class="before">
+    <img slot="first" width="100%" src="/images/dotc-ntsc.png">
+		<figcaption><b>NTSC</b></figcaption>
+	</figure>
+  <figure slot="second" class="after">
+		<img slot="second" width="100%" src="/images/dotc-pal.png">
+  	<figcaption><b>PAL</b></figcaption>
+	</figure>
+  <svg slot="handle" class="custom-animated-handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+  </svg>
+</img-comparison-slider>
+
+
 In 2023, we completely reworked how this is handled, so you no longer have to manually switch to NTSC, which has tall pixels at 5:6 PAR, seen in e.g. Defender of the Crown. Most emulators and video captures seen online get this wrong and use 1:1 pixels instead, so we built an implementation that handles all the variants correctly on MiSTer:
 
 * **PAL title, 50Hz:** 16:15 PAR at 4×, 1:1 PAR at 5× and 6×
@@ -67,19 +82,6 @@ bootscreen=0
     transform: scale(1.2);
   }
 </style>
-<img-comparison-slider class="slider-with-animated-handle" value="79">
-  <figure slot="first" class="before">
-    <img slot="first" width="100%" src="/images/dotc-ntsc.png">
-		<figcaption><b>NTSC</b></figcaption>
-	</figure>
-  <figure slot="second" class="after">
-		<img slot="second" width="100%" src="/images/dotc-pal.png">
-  	<figcaption><b>PAL</b></figcaption>
-	</figure>
-  <svg slot="handle" class="custom-animated-handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
-    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
-  </svg>
-</img-comparison-slider>
   
 <script
   defer
