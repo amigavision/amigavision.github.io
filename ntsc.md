@@ -35,5 +35,59 @@ vsync_adjust=1 ; You can set this to 2 if your display can handle it
 custom_aspect_ratio_1=40:27
 bootscreen=0
 ```
+<style>
+  .before,
+  .after {
+    margin: 0;
+  }
+  .before figcaption,
+  .after figcaption {
+    background: #fff;
+    border: 1px solid #c0c0c0;
+    border-radius: 12px;
+    color: #2e3452;
+    opacity: 0.8;
+    padding: 12px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 100%;
+  }
+  .before figcaption {
+    left: 12px;
+  }
+  .after figcaption {
+    right: 12px;
+  }
+  .custom-animated-handle {
+    transition: transform 0.2s;
+  }
 
+  .slider-with-animated-handle:hover .custom-animated-handle {
+    transform: scale(1.2);
+  }
+</style>
+<img-comparison-slider class="slider-with-animated-handle" value="79">
+  <figure slot="first" class="before">
+    <img slot="first" width="100%" src="/images/dotc-ntsc.png">
+		<figcaption>NTSC</figcaption>
+	</figure>
+  <figure slot="second" class="after">
+		<img slot="second" width="100%" src="/images/dotc-pal.png">
+  	<figcaption>PAL</figcaption>
+	</figure>
+  <svg slot="handle" class="custom-animated-handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+  </svg>
+</img-comparison-slider>
+  
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/index.js"
+></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/styles.css"
+/>
+  
 [John Novak on NTSC scaling]:https://blog.johnnovak.net/2022/04/15/achieving-period-correct-graphics-in-personal-computer-emulators-part-1-the-amiga/#pal-vs-ntsc
