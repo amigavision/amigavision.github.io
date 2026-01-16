@@ -8,7 +8,7 @@ AmigaVision cares deeply about preserving the correct aspect ratio for all games
 
 Take a look at the difference using this screenshot from Defender of the Crown, which is an NTSC game. Use the slider to see how it looks in NTSC compared to PAL. All the character portraits are too wide — or more accurately, squished vertically — in the PAL version:
 
-<img-comparison-slider class="slider-with-animated-handle" value="50">
+<img-comparison-slider class="slider-with-animated-handle" value="49">
   <figure slot="first" class="before">
     <img slot="first" width="100%" src="/images/dotc-ntsc.png">
 		<figcaption>NTSC</figcaption>
