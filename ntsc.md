@@ -57,7 +57,7 @@ bootscreen=0
   .after {
     margin: 0;
   }
-  .figcaption {
+  figcaption {
 	  font-family: sans-serif;
 	  font-weight: 600;
   }
