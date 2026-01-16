@@ -1,7 +1,7 @@
 ---
 title: Amiga Pixel Aspect Ratios
 redirect_from: "/sachs/"
-redirect_from: "/ntsc/"
+redirect_from: "/par/"
 --- 
 
 AmigaVision cares deeply about preserving the correct aspect ratio for all games. That means going beyond just ensuring that games run in the correct variant of NTSC and PAL, but we also ensure that the Pixel Aspect Ratio (PAR) is correct. A pixel on the Amiga was close to square (16:15) in PAL resolutions on a CRT, but quite tall on NTSC displays (5:6). 
@@ -35,3 +35,5 @@ vsync_adjust=1 ; You can set this to 2 if your display can handle it
 custom_aspect_ratio_1=40:27
 bootscreen=0
 ```
+
+[John Novak on NTSC scaling]:https://blog.johnnovak.net/2022/04/15/achieving-period-correct-graphics-in-personal-computer-emulators-part-1-the-amiga/#pal-vs-ntsc
