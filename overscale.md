@@ -23,7 +23,7 @@ Let's take a look at some example games—real screenshots from the Amiga core o
 
 ## How does this work?
 
-“I thought PAL on Amiga was 256 pixels tall, that results in a 1280 pixel tall image when doing a 5×/10× zoom—which is more than a 1080p/4K display has. Do I need a 1200px tall monitor to make use of this?”
+“I thought PAL on Amiga was 256 pixels tall, that results in a 1280 pixel tall image when doing a 5×/10× zoom—which is more than a 1080p/4K display has. Do I need a 1280px tall monitor to make use of this?”
 
 No, we can actually make this work with 1080p/4K. The large majority of Amiga games run in PAL, not NTSC, which on paper should make this impossible. However, pretty much all of the games (with some exceptions, which we handle) only use the top ~200px of the viewport. 
 
