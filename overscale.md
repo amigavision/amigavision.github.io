@@ -19,7 +19,7 @@ Let's take a look at some example games—real screenshots from the Amiga core o
 
 ![5x scaling](/images/megalomania5x.gif)
 
-(Yes, we are sacrificing the logo here, but all of the game's controls are accessible, see explanation below)
+(Yes, we are sacrificing the logo in that last example, but all of the game's controls are accessible, see explanation of when we deem this acceptable below)
 
 ## How does this work?
 
