@@ -103,8 +103,8 @@ Low-Latency Joystick & Input Timing [^13] | ✅ | ❌ | ❌
 |---|:-----------:|:----------:|:------------:
 High-Resolution RTG Display Support | ✅ | ✅ | ✅
 Analog Video Output With No Added Lag [^14] | ✅ | ❌ | ❌
-Per-Game 5×PAL Overscale Support [^15] | ✅ | ❌ | ❌
-Correct NTSC Pixel Aspect Ratio [^16] | ✅ | ❌ | ❌
+[Per-Game 5×PAL Overscale Support](/overscale) [^15] | ✅ | ❌ | ❌
+[Correct NTSC Pixel Aspect Ratio](/ntsc) [^16] | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
 ## 🌐 Networking *&* Online Features
@@ -240,8 +240,8 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 [^12]: This includes input, audio and output latency, and refers to latency on systems that are variable, like Raspberry Pi. On systems that support FPGAs, like MiSTer, the latency will be generally be identical across setups.
 [^13]: AmigaVision uses 1ms USB polling on systems that support it, like MiSTer and Raspberry Pi. If running emulators on a desktop OS like Windows, macOS or Linux, it is up to the operating system settings.
 [^14]: Most ways to output Amiga to analog CRT TVs from computers and Raspberry Pi introduce latency. AmigaVision is configured for zero-lag MiSTer analog output, and on the Raspberry Pi via the RGB-Pi 2 adapter, supported in RePlayOS, which is what AmigaVision is built on.
-[^15]: For 4K and 1080p displays, 5×PAL Overscale will let you run a lot of games using much more of your display. This is currently supported on MiSTer, and we are working on getting it supported in WinUAE, FS-UAE, and Amiberry too. [More about 5×PAL Overscale here](/overscale)
-[^16]: Most Amiga setups scale NTSC resolutions incorrectly. NTSC does not have square pixels, instead they use taller pixels. This is currently supported on MiSTer and Amiberry. [More about using the correct 5:6 Pixel Aspect Ratio here](/ntsc)).
+[^15]: For 4K and 1080p displays, 5×PAL Overscale will let you run a lot of games using much more of your display. This is currently supported on MiSTer, and we are working on getting it supported in WinUAE, FS-UAE, and Amiberry too. 
+[^16]: Most Amiga setups scale NTSC resolutions incorrectly. NTSC does not have square pixels, instead they use taller pixels. This is currently supported on MiSTer and Amiberry.
 [^17]: This refers to a shared drive mounted inside the Amiga that you can transfer files in and out using a computer. Currently supported on MiSTer, and we hope it will be available on Raspberry Pi shortly. Not available on real hardware without network hardware.
 [^18]: Includes TCP/IP stack and basic networking tools for use with specialized Amiga internet tools; not intended to provide modern web browsing parity.
 [^19]: User data is stored on a separate HDF/volume that is excluded from system updates.
