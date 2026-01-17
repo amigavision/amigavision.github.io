@@ -3,7 +3,7 @@ title: Per-Game 5× PAL Integer Overscaling on MiSTer
 redirect_from: "/5x/"
 ---
 
-The Amiga core (aka. Minimig) on the MiSTer FPGA platform with AmigaVision now supports 5× PAL integer overscaling, crop and offsets on a *per-game* basis. And the optimal settings are all handled for you—transparently—within the AmigaVision setup.
+The Amiga core on the MiSTer FPGA platform with AmigaVision now supports 5× PAL integer overscaling, crop and offsets on a *per-game* basis. And the optimal settings are all handled for you—transparently—within the AmigaVision setup.
 
 ##  What does this mean?
 
