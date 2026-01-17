@@ -86,7 +86,10 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 <style>
-	.compare { position: relative; background-color: rgb(32,18,2); }
+	.compare { 
+		position: relative;
+		margin: 0;
+	}
 
 	/* Use grid to stack images while preserving height */
 	.compare-stack {
