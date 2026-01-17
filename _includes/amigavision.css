@@ -123,6 +123,7 @@ pre {
   border-radius: 6px;
   padding: 16px;
   margin: 0 -16px 20px -16px;
+	overflow: auto;
 }
 
 code {
@@ -131,6 +132,7 @@ code {
   font-size: 85%;
   border-radius: 6px;
   background-color: rgb(239, 241, 242);
+	overflow: auto;
 }
 
 pre code {
