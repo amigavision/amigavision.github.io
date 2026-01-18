@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     setState(imgs[next]);
     i = next;
-  }, 2000);
+  }, 1000);
 });
 </script>
 
