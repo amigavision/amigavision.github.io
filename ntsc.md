@@ -20,28 +20,6 @@ In 2023, we completely reworked how this is handled, so you no longer have to ma
 
 All these align to the 1080p/4K 16:9 pixel grid while having the correct Pixel Aspect Ratio, so you will not get any shimmering or non-integer pixels.
 
-When we apply a 5×PAL or 6×PAL [overscale](https://amiga.vision/overscale), 1:1 gives us great results that are near indistinguishable from the original PAR at those sizes, while modernizing the output to fit 16:9 displays.
-
-On the MiSTer side of things, always, *always* run the AmigaVision setup in the `40:27` screen aspect ratio that we supply to ensure that this is handled correctly. This is what AmigaVision sets as the default as long as you copy over the supplied config file and have the correct `MiSTer.ini` definition for the core. 
-
-The `Original` aspect ratio supplied by the core should not be used. The `Full Screen` aspect ratio is *only* used for 6×PAL on 16:9 widescreen displays.
-
-Make absolutely sure that you update your `MiSTer.ini` settings for the core according to the documentation! It should look like this:
-
-```
-[Amiga
-+Amiga500
-+Amiga500HD
-+Amiga600HD
-+AmigaCD32]
-video_mode_ntsc=8 ; These two use the recommended setting of 1080p60 and
-video_mode_pal=9  ; 1080p50, adjust if you want a different resolution
-vscale_mode=0
-vsync_adjust=1 ; You can set this to 2 if your display can handle it
-custom_aspect_ratio_1=40:27
-bootscreen=0
-```
-
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const figure = document.querySelector("#dotc-compare");
