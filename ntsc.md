@@ -6,7 +6,7 @@ redirect_from: "/par/"
 
 The AmigaVision team cares deeply about preserving the correct aspect ratio for all games. That means going beyond just ensuring that games run in the correct variant of NTSC and PAL, but we also ensure that the Pixel Aspect Ratio (PAR) is correct. A pixel on the Amiga was close to square (16:15) in PAL resolutions on a CRT, but quite tall on NTSC displays (5:6). 
 
-Take a look at the difference using this screenshot from Defender of the Crown, which is an NTSC game. All the character portraits are squished vertically — making the characters look more stocky in the PAL version:
+Take a look at the difference using this screenshot from Defender of the Crown, which is an NTSC game. All the character portraits are squished vertically when rendered in PAL — making the characters look more stocky:
 
 <figure class="compare before" id="dotc-compare">
   <div class="compare-stack">
