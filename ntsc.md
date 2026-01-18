@@ -16,7 +16,7 @@ Take a look at the difference using this screenshot from Defender of the Crown, 
   <figcaption class="compare-caption">NTSC</figcaption>
 </figure>
 
-In 2023, we completely reworked how this is handled, so you no longer have to manually switch to NTSC, which has tall pixels at 5:6 PAR, as demonstrated here in Defender of the Crown. 
+In 2023, we completely reworked how this is handled, so you no longer have to manually switch to NTSC to get the correct pixel aspect ratio — which has tall pixels at a 5:6 PAR, as demonstrated here in Defender of the Crown. 
 
 All of these align to the 1080p/4K 16:9 pixel grid while having the correct Pixel Aspect Ratio, so you will not get any shimmering or non-integer pixels.
 
