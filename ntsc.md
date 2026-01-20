@@ -1,5 +1,5 @@
 ---
-title: Amiga Pixel Aspect Ratios
+title: Pixel Aspect Ratios on the Amiga
 redirect_from: "/sachs/"
 redirect_from: "/par/"
 --- 
