@@ -59,7 +59,7 @@ Emulators Supported | ✅ | ✅ | ✅
 PiStorm on Real Amiga Supported | ✅ | ✅ | ⬜️
 {: .feature-compare data-responsive-table="true" }
 
-## 🕹️ Device Power On → Game Selection
+## 🕹️ Device Power-On → Game Selection
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
