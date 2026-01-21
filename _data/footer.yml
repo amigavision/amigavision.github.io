@@ -12,6 +12,10 @@
     link: https://youtube.com/@amiga_vision
     social_icon: YouTube
     new_window: true
+  - name: Twitch
+    link: https://twitch.com/@amiga_vision
+    social_icon: Twitch
+    new_window: true
   - name: RSS
     link: /feed.xml
     social_icon: RSS
