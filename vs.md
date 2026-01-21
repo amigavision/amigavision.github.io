@@ -146,7 +146,7 @@ External HDMI Scaler Profiles Included <br>(e.g. RetroTink 4K, Morph 4K) | ✅ |
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
 Era-Accurate A500HD *&* A600HD Setups Included [^24] | ✅ | ❌ | ❌
-Turn-Key [Amiga CD32](/cd32) Setup [^25] | ✅ | ❌ | ⬜️
+Turn-Key [Amiga CD32](/cd32) Setup for MiSTer [^25] | ✅ | ❌ | ⬜️
 {: .feature-compare data-responsive-table="true" }
 
 <!-- This may not be that differentiated
