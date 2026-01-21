@@ -81,6 +81,11 @@ defaults:
       layout: "post"
 
   - scope:
+      path: "best.md"
+    values:
+      layout: "post"
+
+  - scope:
       path: "context.md"
     values:
       layout: "post"
