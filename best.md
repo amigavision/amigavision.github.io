@@ -1,6 +1,7 @@
 ---
 title: Best Amiga Available
 description: You’re interested in getting an Amiga. What’s you best choice today?
+title: false
 ---
 
 
