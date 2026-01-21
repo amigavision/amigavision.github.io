@@ -83,7 +83,7 @@ Installed size | 9&nbsp;GB | <br>30&#8209;52&nbsp;GB<br> [^9] | 57&nbsp;GB
 Single Download for All Platforms [^10] | ✅ | ❌ | ⬜️
 No-Duplicate Game Library [^11] | ✅ | ❌ | ❌
 Curated Game Lists [^26] | ✅ | ❌ | ❌
-Open-Source License | ✅ | ❌ | ❌
+Open Source License | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
 ## ⏱️ Performance, Accuracy *&* Latency
