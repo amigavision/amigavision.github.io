@@ -81,7 +81,7 @@ Game Manuals Accessible on Second Device | ✅ | ❌ | ❌
 Download Size | 4&nbsp;GB | <br>17&#8209;34&nbsp;GB<br> [^8] | 37&nbsp;GB
 Installed size | 9&nbsp;GB | <br>30&#8209;52&nbsp;GB<br> [^9] | 57&nbsp;GB
 Single Download for All Platforms [^10] | ✅ | ❌ | ⬜️
-No-Duplicate Game Library [^11] | ✅ | ❌ | ❌
+Duplicate-Free Game Library [^11] | ✅ | ❌ | ❌
 Curated Game Lists [^26] | ✅ | ❌ | ❌
 Open Source License | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
@@ -236,7 +236,7 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 [^8]: AGS has multiple different setups with widely different file sizes, so this lists the lower and upper range.
 [^9]: AGS has multiple different setups with widely different file sizes, so this lists the lower and upper range.
 [^10]: Some setups have different files for every setup — e.g. one for RetroArch, one for MiSTer, one for Raspberry Pi, one for real hardware, etc. This means you need to juggle many different versions of the same setup if you have more than one device where you use Amiga. AmigaVision has a single setup that works across all platforms.
-[^11]: AmigaVision excludes any broken and redundant versions of games.
+[^11]: AmigaVision excludes any broken and redundant versions of games. We only include multiple version of the same game (e.g. ECS and AGA version) when they have meaningful differences — e.g. different level sets.
 [^12]: This includes input, audio and output latency, and refers to latency on systems that are variable, like Raspberry Pi. On systems that support FPGAs, like MiSTer, the latency will be generally be identical across setups.
 [^13]: AmigaVision uses 1ms USB polling on systems that support it, like MiSTer and Raspberry Pi. If running emulators on a desktop OS like Windows, macOS or Linux, it is up to the operating system settings.
 [^14]: Most ways to output Amiga to analog CRT TVs from computers and Raspberry Pi introduce latency. AmigaVision is configured for zero-lag MiSTer analog output, and on the Raspberry Pi via the RGB-Pi 2 adapter, supported in RePlayOS, which is what AmigaVision is built on.
