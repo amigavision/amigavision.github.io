@@ -70,7 +70,7 @@ TheA500 *&* Mini [^5] | 5s | 32s | ⬜️
 {: .feature-compare data-responsive-table="true" }
 
 <!-- These are not implemented yet
-High-Resolution Game & Demo Thumbnails | ✅ | ❌ | ❌
+High-Resolution Game *&* Demo Thumbnails | ✅ | ❌ | ❌
 Game Manuals Accessible on Second Device | ✅ | ❌ | ❌
 -->
 
@@ -90,9 +90,9 @@ Open-Source License | ✅ | ❌ | ❌
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
 Lowest End-To-End Latency [^12] | ✅ | ❌ | ❌
-Optimal OCS/AGA & PAL/NTSC Version of a Game Selected Automatically [^6] | ✅ | ❌ | ❌
+Optimal OCS/AGA *&* PAL/NTSC Version of a Game Selected Automatically [^6] | ✅ | ❌ | ❌
 Cycle-Accurate Amiga 500 Setup for MiSTer <br>(Important for Demo Scene productions)| ✅ | ⬜️ | ⬜️
-Low-Latency Joystick & Input Timing [^13] | ✅ | ❌ | ❌
+Low-Latency Joystick *&* Input Timing [^13] | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 <!-- Launching Games via Zaparoo NFC Cards [^7] | ✅  | ❌ | ❌ -->
 
@@ -144,7 +144,7 @@ External HDMI Scaler Profiles Included <br>(e.g. RetroTink 4K, Morph 4K) | ✅ |
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
-Era-Accurate A500HD & A600HD Setups Included [^24] | ✅ | ❌ | ❌
+Era-Accurate A500HD *&* A600HD Setups Included [^24] | ✅ | ❌ | ❌
 Turn-Key [Amiga CD32](/cd32) Setup [^25] | ✅ | ❌ | ⬜️
 {: .feature-compare data-responsive-table="true" }
 
@@ -172,7 +172,7 @@ You can [download AmigaVision here](/https://amiga.vision/download).
 
 ## Frequently Asked Questions
 
-### PiMiga & AGS seem to have way more games and bigger size images?
+### PiMiga *&* AGS seem to have way more games and bigger size images?
 
 They do — and that also means:
 
