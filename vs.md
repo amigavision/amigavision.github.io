@@ -93,7 +93,7 @@ Open-Source License | ✅ | ❌ | ❌
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
 Lowest End-To-End Latency [^12] | ✅ | ❌ | ❌
-Cycle-Accurate Amiga 500 Setup Included for MiSTer <br>(Important for Demo Scene productions)| ✅ | ⬜️ | ⬜️
+Cycle-Accurate Amiga 500 Setup for MiSTer <br>(Important for Demo Scene productions)| ✅ | ⬜️ | ⬜️
 Low-Latency Joystick & Input Timing [^13] | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
