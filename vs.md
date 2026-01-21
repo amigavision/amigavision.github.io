@@ -12,7 +12,7 @@ There are several other Amiga setups available for various types of hardware. Th
 
 AmigaVision is not about having the largest collection of files — it’s about having the *right versions*, running *correctly*, with *minimal latency*, and *minimal time between power-on and play*. Our core design priorities are:
 
-### ⏱️ Cold Boot → Playable Game
+### ⏱️ Device Power On → Playable Game
 Time-to-fun matters. From power-on to interacting with a game, the entire startup path is designed to be short, deterministic, and free of unnecessary layers, configuration screens, splash screens, or guesswork.
 
 ### 🧠 Intelligent Version Selection
@@ -59,17 +59,14 @@ Emulators Supported | ✅ | ✅ | ✅
 PiStorm on Real Amiga Supported | ✅ | ✅ | ⬜️
 {: .feature-compare data-responsive-table="true" }
 
-## 🕹️ Usability *&* User Experience
+## 🕹️ Device Power On → Playable Game
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
-Cold Boot → Playable Game — MiSTer | 13s | <br>35s<br> [^2] | ⬜️
-Cold Boot → Playable Game — Raspberry Pi 5 | 22s | 2m&nbsp;46s | <br>30s<br> [^3]
-Cold Boot → Playable Game — Emulator [^4] | 10s | 1m 6s | ⬜️
-Cold Boot → Playable Game — TheA500 *&* Mini [^5] | 5s | 32s | ⬜️
-Workbench With Curated Useful Tools | ✅ | ✅ | ✅
-Optimal OCS/AGA & PAL/NTSC Version of a Game Selected Automatically [^6] | ✅ | ❌ | ❌
-Launching Games via Zaparoo NFC Cards [^7] | ✅  | ❌ | ❌
+MiSTer | 13s | <br>35s<br> [^2] | ⬜️
+Raspberry Pi 5 | 22s | 2m&nbsp;46s | <br>30s<br> [^3]
+Emulator [^4] | 10s | 1m 6s | ⬜️
+TheA500 *&* Mini [^5] | 5s | 32s | ⬜️
 {: .feature-compare data-responsive-table="true" }
 
 <!-- These are not implemented yet
@@ -93,9 +90,11 @@ Open-Source License | ✅ | ❌ | ❌
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
 Lowest End-To-End Latency [^12] | ✅ | ❌ | ❌
+Optimal OCS/AGA & PAL/NTSC Version of a Game Selected Automatically [^6] | ✅ | ❌ | ❌
 Cycle-Accurate Amiga 500 Setup for MiSTer <br>(Important for Demo Scene productions)| ✅ | ⬜️ | ⬜️
 Low-Latency Joystick & Input Timing [^13] | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
+<!-- Launching Games via Zaparoo NFC Cards [^7] | ✅  | ❌ | ❌ -->
 
 ## 📺 Display *&* Video Output
 
