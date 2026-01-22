@@ -1,6 +1,6 @@
 ---
 title: Best Amiga Available in 2026
-description: You're interested in getting an Amiga in 2026. What's the best choice?
+description: You’re interested in getting an Amiga for gaming and demo scene use in 2026. What's the best choice?
 ---
 
 (All prices based on Amazon.com or US pricing, shipping not included in estimates)
@@ -66,7 +66,7 @@ Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐
 
 [^1]: While emulators like WinUAE may be cycle accurate on paper, that doesn’t help when the host OS can interrupt the process at any time.
 
-[^2]: Modern desktop operating systems have way too many variables to keep input and output latency low, e.g. host OS interruptions, USB latency and polling speed, graphics rendering pipelines, etc.
+[^2]: Modern desktop operating systems have way too many variables to keep input and output latency low, e.g. host OS interruptions, 	USB latency and polling speed, graphics rendering pipelines, etc.
 
 <!-- 
 
