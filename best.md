@@ -45,7 +45,7 @@ Ongoing Cost | 💰💰💰 | 💰 | 💰 | 💰
 Cycle Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | <br>🟨🟨<br> [^1]
 Chipset Fidelity <br>(OCS, ECS, AGA) | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Determinism | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
-Performance Consistency | <br>🟨🟨<br[^2] | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
+Performance Consistency | <br>🟨🟨<br>[^2] | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
 Demo Scene Compatibility | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Audio Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Mouse Behavior *&* Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
