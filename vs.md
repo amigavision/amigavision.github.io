@@ -159,7 +159,7 @@ Demo Scene Content Included | ✅ | ❌ | ❌
 Disk Magazines Included | ✅ | ❌ | ❌
 Disk Mags Organized Chronologically | ✅ | ❌ | ❌
 Preservation-Focused Curation | ✅ | ❌ | ❌
-{: .feature-compare data-responsive-table="true" }`;
+{: .feature-compare data-responsive-table="true" }
 
 -->
 
