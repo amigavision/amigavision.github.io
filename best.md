@@ -7,17 +7,23 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 
 ## Windows/Mac/Linux PC + Emulator
 
+(Rough outline, real copy to follow)
+
 * Low cost if you already have a computer you want to use, relatively high cost if you are buying a mini-PC just for this use
 * High power usage
 * High complexity — emulators are notoriously complex and error-prone, it’s hard to get a setup working perfectly
 
 ## Raspberry Pi
 
+(Rough outline, real copy to follow)
+
 * Relatively affordable — a RPi 5 is ~$45-$95 (1GB vs. 8GB), PSU is ~15, case is $25, USB hub is $10, 64GB card is ~$20
 * Raspberry Pi 3 *&* 4 are too slow to emulate Amiga properly
 * 
 
 ## Real Amiga Hardware
+
+(Rough outline, real copy to follow)
 
 * The Ultimate in accuracy, obviously
 * High cost to acquire if you don’t have one already ~£550-£600 ($750) for a recapped Amiga 1200 on US & UK eBay
@@ -26,6 +32,8 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 * Needs a scaler or hardware upgrade to connect to HDMI, a good one is at least $100-150 (we have omitted this cost and capability in the table below, but you will need one if you plan to use a modern display)
 
 ## MiSTer FPGA
+
+(Rough outline, real copy to follow)
 
 * Low power usage
 * Highest accuracy
