@@ -36,8 +36,8 @@ description: You're interested in getting an Amiga in 2026. What's the best choi
 
 ## Summary
 
-|   | Real Amiga | MiSTer | Raspberry Pi | Emulator |
-|---|:----------:|:------:|:------------:|:--------:|
+|   | Real Amiga | MiSTer | Raspberry Pi | Emulator 
+|---|:----------:|:------:|:------------:|:--------:
 Total cost | ~$1,000 | ~$150-200 | ~$110-$160 | ~$0-$250
 Initial Cost | 💰💰💰 | 💰💰 | 💰💰 |  💰💰
 Ongoing Cost | 💰💰💰 | 💰 | 💰 | 💰
