@@ -109,38 +109,122 @@ Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ |
 
 
 <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // Select headlines h3 and below for visual links
-            const headings = document.querySelectorAll("h2[id], h3[id], h4[id], h5[id], h6[id]");
-            
-            headings.forEach((heading) => {
-                // Make the heading clickable
-                heading.classList.add("clickable-heading");
+document.addEventListener("DOMContentLoaded", function () {
 
-                // Add a click event listener that will 
-                // navigate to the anchor link
-                heading.addEventListener("click", function () {
-                    const slug = heading.id;
-                    window.location.hash = `#${slug}`;
-                });
+    /* ===============================
+       Clickable headings
+       =============================== */
 
-                // Add a visual indicator
-                const linkIcon = document.createElement("span");
-                linkIcon.innerHTML = " 🔗";
-                linkIcon.style.opacity = "0";
-                linkIcon.style.transition = "opacity 0.2s";
-                linkIcon.style.fontSize = "80%";
+    const headings = document.querySelectorAll(
+        "h2[id], h3[id], h4[id], h5[id], h6[id]"
+    );
 
-                heading.appendChild(linkIcon);
+    headings.forEach((heading) => {
+        heading.classList.add("clickable-heading");
 
-                // Show the link icon when hovering over the heading
-                heading.addEventListener("mouseover", () => {
-                    linkIcon.style.opacity = "1";
-                });
-                heading.addEventListener("mouseout", () => {
-                    linkIcon.style.opacity = "0";
-                });
+        heading.addEventListener("click", function () {
+            window.location.hash = `#${heading.id}`;
+        });
+
+        const linkIcon = document.createElement("span");
+        linkIcon.innerHTML = " 🔗";
+        linkIcon.style.opacity = "0";
+        linkIcon.style.transition = "opacity 0.2s";
+        linkIcon.style.fontSize = "80%";
+
+        heading.appendChild(linkIcon);
+
+        heading.addEventListener("mouseover", () => {
+            linkIcon.style.opacity = "1";
+        });
+        heading.addEventListener("mouseout", () => {
+            linkIcon.style.opacity = "0";
+        });
+    });
+
+    /* ==========================================
+       Responsive feature tables on mobile
+       ========================================== */
+
+    (function () {
+        function buildMobileTables(table) {
+            const headers = Array.from(
+                table.querySelectorAll("thead th")
+            ).slice(1).map(th => th.textContent.trim());
+
+            const rows = Array.from(table.querySelectorAll("tbody tr"));
+            const container = document.createElement("div");
+            container.className = "table-mobile";
+
+            rows.forEach(row => {
+                const cells = Array.from(row.querySelectorAll("th, td"));
+                if (cells.length < 2) return;
+
+                const featureName = cells[0].textContent.trim();
+                const values = cells.slice(1).map(td => td.innerHTML);
+
+                const mobileTable = document.createElement("table");
+                mobileTable.className = "table-mobile-inner";
+
+                mobileTable.innerHTML = `
+                    <thead>
+                        <tr>
+                            <th colspan="${headers.length}">
+                                ${featureName}
+                            </th>
+                        </tr>
+                        <tr>
+                            ${headers.map(h => `<th>${h}</th>`).join("")}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            ${values.map(v => `<td>${v}</td>`).join("")}
+                        </tr>
+                    </tbody>
+                `;
+
+                container.appendChild(mobileTable);
             });
 
-        });
+            return container;
+        }
+
+        function enhanceTables() {
+            document
+                .querySelectorAll("table.feature-compare[data-responsive-table='true']")
+                .forEach(table => {
+
+                    table.classList.add("table-desktop");
+
+                    // Insert the mobile version right after the table
+                    if (!table.nextElementSibling || !table.nextElementSibling.classList.contains("table-mobile")) {
+                        table.insertAdjacentElement("afterend", buildMobileTables(table));
+                    }
+                });
+        }
+
+        enhanceTables();
+    })();
+
+});
+</script>
+
+<!-- Footnotes → Tooltips -->
+<script src="{{ '/littlefoot.js' | relative_url }}"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const init =
+      (window.littlefoot && window.littlefoot.littlefoot) ? window.littlefoot.littlefoot :
+      (typeof window.littlefoot === "function") ? window.littlefoot :
+      null;
+
+    if (!init) return;
+
+    init({
+      activateOnHover: false,
+      dismissOnUnhover: false,
+      anchorPattern: /fn/i
+    });
+  });
 </script>
