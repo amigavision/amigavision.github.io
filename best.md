@@ -46,7 +46,7 @@ Chipset Fidelity <br>(OCS, ECS, AGA) | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 
 Determinism | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Demo Scene Compatibility | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Audio Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
-Mouse Behavior *&* Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟨🟨 |
+Mouse Behavior *&* Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
 Low Input/Output Latency | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟥
 Low Complexity | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
 Low Effort | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
@@ -57,7 +57,7 @@ Modern USB Peripherals | ❌ | ✅ | ✅ | ✅
 Wi-Fi *&* Networking | ❌ | ✅ | ✅ | ✅
 Hardware Reliability | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟩🟩🟩
 Physical Footprint | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟩🟩🟩
-Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ |
+Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐
 {: .feature-compare data-responsive-table="true" };
 
 <!-- 
