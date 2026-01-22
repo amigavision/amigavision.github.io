@@ -42,13 +42,13 @@ description: You're interested in getting an Amiga in 2026. What's the best choi
 Total cost | ~$1,000+ | ~$150-200 | ~$110-$160 | ~$0-$250
 Initial Cost | 💰💰💰 | 💰💰 | 💰💰 |  💰💰
 Ongoing Cost | 💰💰💰 | 💰 | 💰 | 💰
-Cycle Accuracy | 🟩🟩🟩<br> | 🟩🟩🟩<br> | 🟨🟨<br> | 🟨🟨<br>[^1]
+Cycle Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | <br>🟨🟨<br> [^1]
 Chipset Fidelity <br>(OCS, ECS, AGA) | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Determinism | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Demo Scene Compatibility | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Audio Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Mouse Behavior *&* Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
-Low Input/Output Latency | 🟩🟩🟩<br> | 🟩🟩🟩<br> | 🟨🟨<br> | 🟥<br>[^2]
+Low Input/Output Latency | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | <br>🟥<br>[^2]
 Low Complexity | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
 Low Effort | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
 Native Analog 15kHz CRT Output | ✅ | ✅ | With &#36;50 Adapter | ❌
