@@ -49,28 +49,28 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 |   | Real&nbsp;Amiga | MiSTer | Raspberry<br> Pi 5 | PC +<br> Emulator 
 |---|:---------------:|:------:|:-----------------:|:-----------------------:
 Total cost | ~&#36;1K+ | ~&#36;150-&#36;200 | ~&#36;110-&#36;160 | ~&#36;0-&#36;250
-Initial Cost | 💰💰💰 | 💰💰 | 💰💰 |  💰💰
-Ongoing Cost | 💰💰💰 | 💰 | 💰 | 💰
-Cycle Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | <br>🟨🟨<br> [^1]
-Chipset Fidelity<br> (OCS, ECS, AGA) | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
-Determinism | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
-Performance Consistency | <br>🟨🟨<br> [^2] | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
-Demo Scene Compatibility | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
+Initial Cost | 💰<br>💰💰 | <br>💰💰 | <br>💰💰 | <br>💰💰
+Ongoing Cost | 💰<br>💰💰 | <br>💰 | <br>💰 | <br>💰
+Cycle Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br>🟨<br>🟨<br> [^1]
+Chipset Fidelity<br> (OCS, ECS, AGA) | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
+Determinism | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
+Performance Consistency | <br><br>🟨<br>🟨<br> [^2] | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
+Demo Scene Compatibility | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
 Correct 50hz PAL and 60hz NTSC Refresh Rates | ✅ | ✅ | ✅ | <br>❌<br> [^3]
-Audio Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
-Mouse Behavior *&* Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
-Low Input/Output Latency | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | <br>🟥<br> [^4]
-Low Complexity | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
-Low Effort | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
-Low Maintenance Burden | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟩🟩🟩
+Audio Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
+Mouse Behavior *&* Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
+Low Input/Output Latency | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br><br>🟥<br> [^4]
+Low Complexity | <br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br>🟥
+Low Effort | <br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br>🟥
+Low Maintenance Burden | 🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
 Native Analog 15kHz CRT Output | ✅ | ✅ | <br>❌<br>[^5] | ❌
 HDMI Output | ❌ | ✅ | ✅ | ✅
-Low Power Usage | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
+Low Power Usage | <br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br>🟥
 Modern USB Peripherals | ❌ | ✅ | ✅ | ✅
 Wi-Fi *&* Networking | ❌ | ✅ | ✅ | ✅
-Hardware Reliability | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟩🟩🟩
-Hardware Design | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
-Physical Footprint | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟩🟩🟩
+Hardware Reliability | 🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
+Hardware Design | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
+Physical Footprint | <br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
 Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐
 {: .feature-compare data-responsive-table="true" }
 
