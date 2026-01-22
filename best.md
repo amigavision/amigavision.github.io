@@ -13,7 +13,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 * High power usage
 * High complexity — emulators are notoriously complex and error-prone, it’s hard to get a setup working perfectly
 
-## Raspberry Pi
+## Raspberry Pi 5
 
 (Rough outline, real copy to follow)
 
@@ -45,7 +45,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 
 ## Comparisons
 
-|   | Real&nbsp;Amiga | MiSTer | Raspberry&nbsp;Pi | PC&nbsp;+&nbsp;Emulator 
+|   | Real&nbsp;Amiga | MiSTer | Raspberry&nbsp;Pi&nbsp;5 | PC&nbsp;+&nbsp;Emulator 
 |---|:---------------:|:------:|:-----------------:|:-----------------------:
 Total cost | ~$1,000+ | ~$150-200 | ~$110-$160 | ~$0-$250
 Initial Cost | 💰💰💰 | 💰💰 | 💰💰 |  💰💰
