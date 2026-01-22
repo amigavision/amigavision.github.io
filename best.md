@@ -22,7 +22,7 @@ description: You're interested in getting an Amiga in 2026. What's the best choi
 * The Ultimate in accuracy, obviously
 * High cost to acquire if you don’t have one already ~£550-£600 ($750) for a recapped Amiga 1200 on US & UK eBay
 * Hardware needs to be recapped if not done already
-* High cost to upgrade to faster CPU+RAM+HD
+* High cost to upgrade to faster CPU+RAM+HD — the Terrible Fire 1230 50MHz 64MB with IDE is €270 (~$320), and you need to add a CF/SD adapter on top of that
 * Needs a scaler or hardware upgrade to connect to HDMI, a good one is at least $100-150
 
 ## MiSTer FPGA
@@ -39,7 +39,7 @@ description: You're interested in getting an Amiga in 2026. What's the best choi
 
 |   | Real&nbsp;Amiga | MiSTer | Raspberry&nbsp;Pi | Emulator 
 |---|:---------------:|:------:|:-----------------:|:--------:
-Total cost | ~$1,000 | ~$150-200 | ~$110-$160 | ~$0-$250
+Total cost | ~$1,000+ | ~$150-200 | ~$110-$160 | ~$0-$250
 Initial Cost | 💰💰💰 | 💰💰 | 💰💰 |  💰💰
 Ongoing Cost | 💰💰💰 | 💰 | 💰 | 💰
 Cycle Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
