@@ -5,9 +5,9 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 
 (All prices based on Amazon.com or US pricing, shipping not included in estimates)
 
-## Windows/Mac/Linux Emulators
+## Windows/Mac/Linux PC + Emulator
 
-* Low cost if you already have a computer you want to use, high cost if you are buying a mini-PC just for this use
+* Low cost if you already have a computer you want to use, relatively high cost if you are buying a mini-PC just for this use
 * High power usage
 * High complexity — emulators are notoriously complex and error-prone, it’s hard to get a setup working perfectly
 
@@ -23,7 +23,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 * High cost to acquire if you don’t have one already ~£550-£600 ($750) for a recapped Amiga 1200 on US & UK eBay
 * Hardware needs to be recapped if not done already
 * High cost to upgrade to faster CPU+RAM+HD — the Terrible Fire 1230 50MHz 64MB with IDE is €270 (~$320), and you need to add a CF/SD adapter on top of that
-* Needs a scaler or hardware upgrade to connect to HDMI, a good one is at least $100-150
+* Needs a scaler or hardware upgrade to connect to HDMI, a good one is at least $100-150 (we have omitted this cost and capability in the table below, but you will need one if you plan to use a modern display)
 
 ## MiSTer FPGA
 
@@ -45,12 +45,14 @@ Ongoing Cost | 💰💰💰 | 💰 | 💰 | 💰
 Cycle Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | <br>🟨🟨<br> [^1]
 Chipset Fidelity <br>(OCS, ECS, AGA) | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Determinism | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
+Performance Consistency | <br>🟨🟨<br[^2] | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
 Demo Scene Compatibility | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Audio Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Mouse Behavior *&* Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
-Low Input/Output Latency | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | <br>🟥<br>[^2]
+Low Input/Output Latency | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | <br>🟥<br>[^3]
 Low Complexity | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
 Low Effort | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
+Low Maintenance Burden | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟩🟩🟩
 Native Analog 15kHz CRT Output | ✅ | ✅ | With &#36;50 Adapter | ❌
 HDMI Output | ❌ | ✅ | ✅ | ✅
 Low Power Usage | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
@@ -64,57 +66,13 @@ Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐
 
 ## The Best Amiga in 2026 is…
 
+(Coming soon)
+
 [^1]: While emulators like WinUAE may be cycle accurate on paper, that doesn’t help when the host OS can interrupt the process at any time.
 
-[^2]: Modern desktop operating systems have way too many variables to keep input and output latency low, e.g. host OS interruptions, 	USB latency and polling speed, graphics rendering pipelines, etc.
+[^2]: On aging, analog hardware, you get capacitor drift, power rail fluctuations, clock stability variations with temperature, etc. An expanded Amiga also introduces potential issues: Accelerators change bus contention behavior, and RTG cards, CF adapters, USB, etc. introduce side effects.
 
-<!-- 
-
-## Draft table
-
-| Aspect | Real Amiga Hardware | MiSTer (Amiga core) | Raspberry Pi (Emulation) | PC/Mac Emulator |
-|------|--------------------|--------------------|--------------------------|-----------------|
-| Cycle accuracy | 5 | 4–5 | 2 | 3–4 |
-| Chipset fidelity (OCS/ECS/AGA) | 5 | 4–5 | 3 | 4 |
-| CPU accuracy & quirks | 5 | 4 | 3 | 4 |
-| Hardware bugs preserved | 5 | 4 | 2 | 3 |
-| Determinism | 5 | 5 | 3 | 4 |
-| WHDLoad compatibility | 5 | 5 | 4 | 5 |
-| Floppy / disk-level compatibility | 5 | 4 | 3 | 4 |
-| Demo scene compatibility | 5 | 4–5 | 3 | 4 |
-| Performance consistency | 4 | 5 | 3 | 4 |
-| Performance scaling | 3 | 4 | 4 | 5 |
-| Input latency (overall) | 5 | 4–5 | 3 | 4 |
-| Mouse behavior accuracy | 5 | 4 | 3 | 4 |
-| Audio accuracy (Paula) | 5 | 4–5 | 3 | 4 |
-| Video timing accuracy | 5 | 4–5 | 3 | 4 |
-| Native 15 kHz support | 5 | 5 | 2 | 3 |
-| Modern display output | 2 | 5 | 5 | 5 |
-| Scanlines / CRT simulation | 5 (real CRT) | 5 | 4 | 4 |
-| Storage flexibility | 3 | 5 | 5 | 5 |
-| Hardware expandability | 5 | 3 | 2 | 2 |
-| Original peripheral support | 5 | 4 | 2 | 2 |
-| Modern peripheral support | 2 | 5 | 5 | 5 |
-| Setup complexity | 2 | 3 | 4 | 4 |
-| Maintenance burden | 1 | 5 | 5 | 5 |
-| Reliability | 2 | 5 | 4 | 5 |
-| Repairability | 4 | 2 | 1 | 1 |
-| Initial cost | 1 | 4 | 5 | 5 |
-| Ongoing cost | 1 | 5 | 5 | 5 |
-| Power consumption | 1 | 5 | 5 | 4 |
-| Physical footprint | 2 | 5 | 5 | 4 |
-| Portability | 1 | 5 | 5 | 4 |
-| Community & active development | 3 | 5 | 4 | 5 |
-| Documentation & tooling | 3 | 4 | 4 | 5 |
-| Legal simplicity | 3 | 3 | 3 | 3 |
-| Best for preservation | 5 | 5 | 3 | 4 |
-| Best for gaming | 4 | 5 | 4 | 5 |
-| Best for demos | 5 | 5 | 3 | 4 |
-| Best for development | 4 | 3 | 4 | 5 |
-| Nostalgia / authenticity | 5 | 4 | 2 | 2 |
-
--->
-
+[^3]: Modern desktop operating systems have way too many variables to keep input and output latency low, e.g. host OS interruptions, USB latency and polling speed, graphics rendering pipelines, etc.
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
