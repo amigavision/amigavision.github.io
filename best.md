@@ -56,7 +56,7 @@ Chipset Fidelity <br>(OCS, ECS, AGA) | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 
 Determinism | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Performance Consistency | <br>🟨🟨<br> [^2] | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
 Demo Scene Compatibility | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
-Correct 50hz PAL and 60hz NTSC Refresh Rates | ✅ | ✅ | ✅ | <br<❌<br> [^3]
+Correct 50hz PAL and 60hz NTSC Refresh Rates | ✅ | ✅ | ✅ | <br>❌<br> [^3]
 Audio Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Mouse Behavior *&* Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
 Low Input/Output Latency | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | <br>🟥<br> [^4]
