@@ -66,7 +66,7 @@ Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐
 
 [^1]: While emulators like WinUAE may be cycle accurate on paper, that doesn’t help when the host OS can interrupt the process at any time.
 
-[^2]: Modern desktop operating systems have way too many variables to keep input and output latency low, e.g. USB latency and polling speed, graphics rendering pipelines, etc.
+[^2]: Modern desktop operating systems have way too many variables to keep input and output latency low, e.g. host OS interruptions, USB latency and polling speed, graphics rendering pipelines, etc.
 
 <!-- 
 
