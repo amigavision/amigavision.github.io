@@ -114,6 +114,10 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 ## The Best Amiga in 2026 is…
 
 (Coming soon)
+Even the real deal is not particularly fun to deal with on a daily basis.
+We want accuracy + convenience — FPGA gives you that.
+
+If you develop *for* the Amiga, and are not just an end-user, emulators are a great choice, since modern tooling make development cycles and debugging much, much better there.
 
 [^1]: While emulators like WinUAE may be cycle accurate on paper, that doesn’t help when the host OS can interrupt the process at any time.
 
