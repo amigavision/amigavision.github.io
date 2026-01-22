@@ -46,13 +46,13 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 
 ## Comparisons
 
-|   | Real Amiga | MiSTer | Raspberry <br>Pi 5 | PC + <br>Emulator 
+|   | Real Amiga | MiSTer | Raspberry<br> Pi 5 | PC +<br> Emulator 
 |---|:---------------:|:------:|:-----------------:|:-----------------------:
 Total cost | ~&#36;1K+ | ~&#36;150-&#36;200 | ~&#36;110-&#36;160 | ~&#36;0-&#36;250
 Initial Cost | 💰💰💰 | 💰💰 | 💰💰 |  💰💰
 Ongoing Cost | 💰💰💰 | 💰 | 💰 | 💰
 Cycle Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | <br>🟨🟨<br> [^1]
-Chipset Fidelity <br>(OCS, ECS, AGA) | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
+Chipset Fidelity<br> (OCS, ECS, AGA) | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Determinism | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Performance Consistency | <br>🟨🟨<br> [^2] | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
 Demo Scene Compatibility | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
