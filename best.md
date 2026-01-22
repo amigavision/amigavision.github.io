@@ -63,7 +63,7 @@ Low Input/Output Latency | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | <br>🟥<br>
 Low Complexity | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
 Low Effort | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
 Low Maintenance Burden | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟩🟩🟩
-Native Analog 15kHz CRT Output | ✅ | ✅ | <br>🟥<br>[^5] | ❌
+Native Analog 15kHz CRT Output | ✅ | ✅ | <br>❌<br>[^5] | ❌
 HDMI Output | ❌ | ✅ | ✅ | ✅
 Low Power Usage | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
 Modern USB Peripherals | ❌ | ✅ | ✅ | ✅
