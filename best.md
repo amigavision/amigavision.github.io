@@ -42,18 +42,18 @@ description: You're interested in getting an Amiga in 2026. What's the best choi
 Total cost | ~$1,000+ | ~$150-200 | ~$110-$160 | ~$0-$250
 Initial Cost | 💰💰💰 | 💰💰 | 💰💰 |  💰💰
 Ongoing Cost | 💰💰💰 | 💰 | 💰 | 💰
-Cycle Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
+Cycle Accuracy | 🟩🟩🟩<br> | 🟩🟩🟩<br> | 🟨🟨<br> | 🟨🟨<br>[^1]
 Chipset Fidelity <br>(OCS, ECS, AGA) | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Determinism | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Demo Scene Compatibility | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Audio Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Mouse Behavior *&* Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
-Low Input/Output Latency | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟥
+Low Input/Output Latency | 🟩🟩🟩<br> | 🟩🟩🟩<br> | 🟨🟨<br> | 🟥<br>[^2]
 Low Complexity | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
 Low Effort | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
-Native Analog 15kHz CRT Output | ✅ | ✅ | With $50 Adapter | ❌
+Native Analog 15kHz CRT Output | ✅ | ✅ | With &#36;50 Adapter | ❌
 HDMI Output | ❌ | ✅ | ✅ | ✅
-Power Usage | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
+Low Power Usage | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
 Modern USB Peripherals | ❌ | ✅ | ✅ | ✅
 Wi-Fi *&* Networking | ❌ | ✅ | ✅ | ✅
 Hardware Reliability | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟩🟩🟩
@@ -64,6 +64,9 @@ Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐
 
 ## The Best Amiga in 2026 is…
 
+[^1]: While emulators like WinUAE may be cycle accurate on paper, that doesn’t help when the host OS can interrupt the process at any time.
+
+[^2]: Modern desktop operating systems have way too many variables to keep input and output latency low, e.g. USB latency and polling speed, graphics rendering pipelines, etc.
 
 <!-- 
 
