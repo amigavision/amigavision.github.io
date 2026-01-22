@@ -14,7 +14,8 @@ description: You're interested in getting an Amiga in 2026. What's the best choi
 ## Raspberry Pi
 
 * Relatively affordable — a RPi 5 is ~$45-$95 (1GB vs. 8GB), PSU is ~15, case is $25, USB hub is $10, 64GB card is ~$20
-
+* Raspberry Pi 3 *&* 4 are too slow to emulate Amiga properly
+* 
 
 ## Real Amiga Hardware
 
@@ -24,14 +25,14 @@ description: You're interested in getting an Amiga in 2026. What's the best choi
 * High cost to upgrade to faster CPU+RAM+HD
 * Needs a scaler or hardware upgrade to connect to HDMI, a good one is at least $100-150
 
-
 ## MiSTer FPGA
 
 * Low power usage
 * Highest accuracy
-* Lowest input and output latency
+* Lowest input and output latency aside from original hardware
 * Cycle-accurate Amiga 500 core for demo scene productions
-* Medium-level cost — MiSTer Pi board is $125 including case and 64GB SD card, SuperStation is $199
+* Medium-level cost — MiSTer Pi board is $125 including case and 64GB SD card, SuperStation is $199 including 64GB SD card.
+* SuperStation is a high-quality injection-molded case, much higher quality than the average affordable Raspberry Pi case.
 
 
 ## Summary
@@ -56,9 +57,13 @@ Power Usage | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
 Modern USB Peripherals | ❌ | ✅ | ✅ | ✅
 Wi-Fi *&* Networking | ❌ | ✅ | ✅ | ✅
 Hardware Reliability | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟩🟩🟩
+Hardware Design | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
 Physical Footprint | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟩🟩🟩
 Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐
 {: .feature-compare data-responsive-table="true" }
+
+## The Best Amiga in 2026 is…
+
 
 <!-- 
 
