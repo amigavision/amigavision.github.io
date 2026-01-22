@@ -11,7 +11,8 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 
 * Low cost if you already have a computer you want to use, relatively high cost if you are buying a mini-PC just for this use
 * High power usage
-* High complexity — emulators are notoriously complex and error-prone, it’s hard to get a setup working perfectly
+* High complexity — emulators are notoriously complex and error-prone — especially the Amiga emulators — and it’s hard to get a setup working perfectly across a wide range of different games.
+* Windows emulators do not run 50hz PAL games at the correct refresh rate, which is the majority of the games on the Amiga. This will cause tearing and stuttering when scrolling.
 
 ## Raspberry Pi 5
 
@@ -53,11 +54,12 @@ Ongoing Cost | 💰💰💰 | 💰 | 💰 | 💰
 Cycle Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | <br>🟨🟨<br> [^1]
 Chipset Fidelity <br>(OCS, ECS, AGA) | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Determinism | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
-Performance Consistency | <br>🟨🟨<br>[^2] | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
+Performance Consistency | <br>🟨🟨<br> [^2] | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
 Demo Scene Compatibility | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
+Correct 50hz PAL and 60hz NTSC Refresh Rates | ✅ | ✅ | ✅ | <br<❌<br> [^3]
 Audio Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
 Mouse Behavior *&* Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
-Low Input/Output Latency | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | <br>🟥<br>[^3]
+Low Input/Output Latency | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | <br>🟥<br> [^4]
 Low Complexity | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
 Low Effort | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
 Low Maintenance Burden | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟩🟩🟩
@@ -80,7 +82,9 @@ Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐
 
 [^2]: On aging, analog hardware, you get capacitor drift, power rail fluctuations, clock stability variations with temperature, etc. An expanded Amiga introduces potential issues: Accelerators change bus contention behavior, and RTG cards, CF adapters, USB, etc. introduce side effects.
 
-[^3]: Modern desktop operating systems have way too many variables to keep input and output latency low, e.g. host OS interruptions, USB latency and polling speed, graphics rendering pipelines, etc.
+[^3]: Only on Linux. Windows and Mac emulators always run at 60hz, which causes tearing and stuttering when scrolling.
+
+[^4]: Modern desktop operating systems have way too many variables to keep input and output latency low, e.g. host OS interruptions, USB latency and polling speed, graphics rendering pipelines, etc.
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
