@@ -58,7 +58,7 @@ Wi-Fi *&* Networking | ❌ | ✅ | ✅ | ✅
 Hardware Reliability | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟩🟩🟩
 Physical Footprint | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟩🟩🟩
 Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ |
-{: .feature-compare data-responsive-table="true" }`;
+{: .feature-compare data-responsive-table="true" };
 
 <!-- 
 
