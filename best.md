@@ -5,7 +5,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 
 (All prices based on Amazon.com or US pricing, shipping not included in estimates)
 
-## Windows/Mac/Linux PC + Emulator
+## Windows / Mac / Linux PC + Emulator
 
 (Rough outline, real copy to follow)
 
