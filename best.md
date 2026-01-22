@@ -48,7 +48,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 
 |   | Real <br>Amiga | MiSTer | RPi 5 | PC + <br>Emu 
 |---|:---------------:|:------:|:-----------------:|:-----------------------:
-Total cost | ~&#36;1,000+ | ~&#36;150-&#36;200 | ~&#36;110-&#36;160 | ~&#36;0-&#36;250
+Total cost | ~&#36;1K+ | ~&#36;150-&#36;200 | ~&#36;110-&#36;160 | ~&#36;0-&#36;250
 Initial Cost | 💰💰💰 | 💰💰 | 💰💰 |  💰💰
 Ongoing Cost | 💰💰💰 | 💰 | 💰 | 💰
 Cycle Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | <br>🟨🟨<br> [^1]
@@ -63,7 +63,7 @@ Low Input/Output Latency | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | <br>🟥<br>
 Low Complexity | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
 Low Effort | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
 Low Maintenance Burden | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟩🟩🟩
-Native Analog 15kHz CRT Output | ✅ | ✅ | With &#36;50 Adapter | ❌
+Native Analog 15kHz CRT Output | ✅ | ✅ | <br>✅<br>[^5] | ❌
 HDMI Output | ❌ | ✅ | ✅ | ✅
 Low Power Usage | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
 Modern USB Peripherals | ❌ | ✅ | ✅ | ✅
@@ -85,6 +85,8 @@ Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐
 [^3]: Only on Linux. Windows and Mac emulators always run at 60hz, which causes tearing and stuttering when scrolling.
 
 [^4]: Modern desktop operating systems have way too many variables to keep input and output latency low, e.g. host OS interruptions, USB latency and polling speed, graphics rendering pipelines, etc.
+
+[^5]: With the &#36;50 RGB-Pi 2 Adapter.
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
