@@ -46,7 +46,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 
 ## Comparisons
 
-|   | Real <br>Amiga | MiSTer | Raspberry <br>Pi 5 | PC + <br>Emulator 
+|   | Real <br>Amiga | MiSTer | RPi 5 | PC + <br>Emu 
 |---|:---------------:|:------:|:-----------------:|:-----------------------:
 Total cost | ~&#36;1,000+ | ~&#36;150-&#36;200 | ~&#36;110-&#36;160 | ~&#36;0-&#36;250
 Initial Cost | 💰💰💰 | 💰💰 | 💰💰 |  💰💰
