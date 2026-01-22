@@ -35,7 +35,7 @@ description: You're interested in getting an Amiga in 2026. What's the best choi
 * SuperStation is a high-quality injection-molded case, much higher quality than the average affordable Raspberry Pi case.
 
 
-## Summary
+## Comparisons
 
 |   | Real&nbsp;Amiga | MiSTer | Raspberry&nbsp;Pi | PC&nbsp;+&nbsp;Emulator 
 |---|:---------------:|:------:|:-----------------:|:-----------------------:
