@@ -3,20 +3,109 @@ title: Best Amiga Available in 2026
 description: You're interested in getting an Amiga in 2026. What's the best choice?
 ---
 
+(All prices based on Amazon.com or US pricing, shipping not included in estimates)
+
 ## Windows/Mac/Linux Emulators
 
-
+* Low cost if you already have a computer you want to use, high cost if you are buying a mini-PC just for this use
+* High power usage
+* High complexity — emulators are notoriously complex and error-prone, it’s hard to get a setup working perfectly
 
 ## Raspberry Pi
 
+* Relatively affordable — a RPi 5 is ~$45-$95 (1GB vs. 8GB), PSU is ~15, case is $25, USB hub is $10, 64GB card is ~$20
 
 
 ## Real Amiga Hardware
 
+* The Ultimate in accuracy, obviously
+* High cost to acquire if you don’t have one already ~£550-£600 ($750) for a recapped Amiga 1200 on US & UK eBay
+* Hardware needs to be recapped if not done already
+* High cost to upgrade to faster CPU+RAM+HD
+* Needs a scaler or hardware upgrade to connect to HDMI, a good one is at least $100-150
 
 
 ## MiSTer FPGA
 
+* Low power usage
+* Highest accuracy
+* Lowest input and output latency
+* Cycle-accurate Amiga 500 core for demo scene productions
+* Medium-level cost — MiSTer Pi board is $125 including case and 64GB SD card, SuperStation is $199
+
+
+## Summary
+
+|   | Real Amiga | MiSTer | Raspberry Pi | Emulator |
+|---|:----------:|:------:|:------------:|:--------:|
+Total cost | ~$1,000 | ~$150-200 | ~$110-$160 | ~$0-$250
+Initial Cost | 💰💰💰 | 💰💰 | 💰💰 |  💰💰
+Ongoing Cost | 💰💰💰 | 💰 | 💰 | 💰
+Cycle Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟨🟨
+Chipset Fidelity <br>(OCS, ECS, AGA) | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
+Determinism | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
+Demo Scene Compatibility | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
+Audio Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟩🟩🟩
+Mouse Behavior *&* Accuracy | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟨🟨 |
+Low Input/Output Latency | 🟩🟩🟩 | 🟩🟩🟩 | 🟨🟨 | 🟥
+Low Complexity | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
+Low Effort | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
+Native Analog 15kHz CRT Output | ✅ | ✅ | With $50 Adapter | ❌
+HDMI Output | ❌ | ✅ | ✅ | ✅
+Power Usage | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟥
+Modern USB Peripherals | ❌ | ✅ | ✅ | ✅
+Wi-Fi *&* Networking | ❌ | ✅ | ✅ | ✅
+Hardware Reliability | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟩🟩🟩
+Physical Footprint | 🟥 | 🟩🟩🟩 | 🟩🟩🟩 | 🟩🟩🟩
+Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ |
+{: .feature-compare data-responsive-table="true" }`;
+
+<!-- 
+
+## Draft table
+
+| Aspect | Real Amiga Hardware | MiSTer (Amiga core) | Raspberry Pi (Emulation) | PC/Mac Emulator |
+|------|--------------------|--------------------|--------------------------|-----------------|
+| Cycle accuracy | 5 | 4–5 | 2 | 3–4 |
+| Chipset fidelity (OCS/ECS/AGA) | 5 | 4–5 | 3 | 4 |
+| CPU accuracy & quirks | 5 | 4 | 3 | 4 |
+| Hardware bugs preserved | 5 | 4 | 2 | 3 |
+| Determinism | 5 | 5 | 3 | 4 |
+| WHDLoad compatibility | 5 | 5 | 4 | 5 |
+| Floppy / disk-level compatibility | 5 | 4 | 3 | 4 |
+| Demo scene compatibility | 5 | 4–5 | 3 | 4 |
+| Performance consistency | 4 | 5 | 3 | 4 |
+| Performance scaling | 3 | 4 | 4 | 5 |
+| Input latency (overall) | 5 | 4–5 | 3 | 4 |
+| Mouse behavior accuracy | 5 | 4 | 3 | 4 |
+| Audio accuracy (Paula) | 5 | 4–5 | 3 | 4 |
+| Video timing accuracy | 5 | 4–5 | 3 | 4 |
+| Native 15 kHz support | 5 | 5 | 2 | 3 |
+| Modern display output | 2 | 5 | 5 | 5 |
+| Scanlines / CRT simulation | 5 (real CRT) | 5 | 4 | 4 |
+| Storage flexibility | 3 | 5 | 5 | 5 |
+| Hardware expandability | 5 | 3 | 2 | 2 |
+| Original peripheral support | 5 | 4 | 2 | 2 |
+| Modern peripheral support | 2 | 5 | 5 | 5 |
+| Setup complexity | 2 | 3 | 4 | 4 |
+| Maintenance burden | 1 | 5 | 5 | 5 |
+| Reliability | 2 | 5 | 4 | 5 |
+| Repairability | 4 | 2 | 1 | 1 |
+| Initial cost | 1 | 4 | 5 | 5 |
+| Ongoing cost | 1 | 5 | 5 | 5 |
+| Power consumption | 1 | 5 | 5 | 4 |
+| Physical footprint | 2 | 5 | 5 | 4 |
+| Portability | 1 | 5 | 5 | 4 |
+| Community & active development | 3 | 5 | 4 | 5 |
+| Documentation & tooling | 3 | 4 | 4 | 5 |
+| Legal simplicity | 3 | 3 | 3 | 3 |
+| Best for preservation | 5 | 5 | 3 | 4 |
+| Best for gaming | 4 | 5 | 4 | 5 |
+| Best for demos | 5 | 5 | 3 | 4 |
+| Best for development | 4 | 3 | 4 | 5 |
+| Nostalgia / authenticity | 5 | 4 | 2 | 2 |
+
+-->
 
 
 <script>
