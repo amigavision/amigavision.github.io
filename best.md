@@ -60,17 +60,17 @@ Correct 50hz PAL and 60hz NTSC Refresh Rates | ✅ | ✅ | ✅ | <br>❌<br> [^3
 Audio Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
 Mouse Behavior *&* Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
 Low Input/Output Latency | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br><br>🟥<br> [^4]
-Low Complexity | <br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br>🟥
-Low Effort | <br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br>🟥
+Low Complexity | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br><br>🟥
+Low Effort | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br><br>🟥
 Low Maintenance Burden | 🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
 Native Analog 15kHz CRT Output | ✅ | ✅ | <br>❌<br>[^5] | ❌
 HDMI Output | ❌ | ✅ | ✅ | ✅
-Low Power Usage | <br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br>🟥
+Low Power Usage | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br><br>🟥
 Modern USB Peripherals | ❌ | ✅ | ✅ | ✅
 Wi-Fi *&* Networking | ❌ | ✅ | ✅ | ✅
-Hardware Reliability | 🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
+Hardware Reliability | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
 Hardware Design | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
-Physical Footprint | <br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
+Physical Footprint | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
 Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐
 {: .feature-compare data-responsive-table="true" }
 
