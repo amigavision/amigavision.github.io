@@ -3,8 +3,6 @@ title: Best Amiga Available in 2026
 description: You’re interested in getting an Amiga for gaming and demo scene use in 2026. What's the best choice?
 ---
 
-(All prices based on Amazon.com or US pricing, shipping not included in estimates)
-
 ## Windows / Mac / Linux PC + Emulator
 
 Running an Amiga emulator on a modern PC or Mac is the most accessible option on paper, but also the most variable in practice.
