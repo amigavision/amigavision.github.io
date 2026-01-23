@@ -29,6 +29,14 @@ At their typical asking price, both MiSTer and Raspberry Pi–based solutions ou
 
 As for TheA1200, no meaningful technical specifications have been published at the time of writing, so it is not possible to evaluate it yet.
 
+## Vampire V4 FPGA
+
+The Vampire V4 is best described as a modern, accelerated Amiga-compatible system, not a recreation of classic Amiga hardware.
+
+It uses a custom FPGA chipset (SAGA) and a high-performance 68080 CPU. While it is extremely fast, it does not reproduce OCS/ECS/AGA behavior or cycle-exact timing. Many demos and timing-sensitive effects either behave differently or fail outright.
+
+As a result, Vampire V4 is better viewed as a “what-if next-generation Amiga” than as a preservation-accurate platform, and is thus not relevant in this comparison.
+
 ## Raspberry Pi 5
 
 The Raspberry Pi 5 represents the first Pi model that is genuinely fast enough to emulate the Amiga at acceptable speeds. 
