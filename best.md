@@ -14,6 +14,10 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 * High complexity — emulators are notoriously complex and error-prone — especially the Amiga emulators — and it’s hard to get a setup working perfectly across a wide range of different games.
 * Windows emulators do not run 50hz PAL games at the correct refresh rate, which is the majority of the games on the Amiga. This will cause tearing and stuttering when scrolling.
 
+## TheA500 Mini *&* TheA500
+
+These are underpowered emulation boxes that neither have the performance nor the graphical resolution to do Amiga emulation properly. Hence, we have omitted it from the comparison altogether, as they fail at the basic task at hand.
+
 ## Raspberry Pi 5
 
 (Rough outline, real copy to follow)
