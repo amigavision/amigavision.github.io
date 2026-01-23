@@ -59,7 +59,7 @@ It delivers cycle-accurate behavior, extremely low and consistent input/output l
 
 MiSTer’s deterministic timing and lack of external interference make it exceptionally reliable. In some cases, it is actually more consistent than real hardware due to the absence of component drift, power-supply variance, and third-party expansion interference.
 
-Hardware options range from bare-bones boards to high-quality, purpose-built cases like the SuperStation, which offers build quality far beyond typical single-board computer enclosures.
+Hardware options range from bare-bones boards to high-quality, purpose-built complete products like the SuperStation, which offers build quality far beyond typical single-board computer enclosures, with every display output option imaginable included.
 
 # Detailed Comparisons
 
