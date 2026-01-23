@@ -53,13 +53,13 @@ For demo-scene use in particular, MiSTer’s deterministic timing and lack of ex
 
 Hardware options range from bare-bones boards to high-quality, purpose-built cases like the SuperStation, which offers build quality far beyond typical single-board computer enclosures.
 
-## 💰&nbsp;Cost
+## 💰&nbsp;Costs
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +&nbsp;<br> Emu
 |---|:--------------:|:------:|:----------:|:------------------:
-| Total cost | ~&#36;1K+<br> [^7] | ~&#36;150-&#36;200<br> | ~&#36;110-&#36;160 <br>[^6] | ~&#36;0-&#36;250<br> [^8]
+| Purchase Price | ~&#36;1K+<br> [^7] | ~&#36;150-&#36;200<br> | ~&#36;110-&#36;160 <br>[^6] | ~&#36;0-&#36;250<br> [^8]
 | Initial Cost | 💰<br>💰💰 | <br>💰💰 | <br>💰💰 | <br>💰💰
-| Ongoing Cost | 💰<br>💰💰 | <br>💰 | <br>💰 | <br>💰
+| Ongoing Costs | 💰<br>💰💰 | <br>💰 | <br>💰 | <br>💰
 {: .feature-compare data-responsive-table="true" }
 
 ## 🎯&nbsp;Accuracy *&* Timing
@@ -133,24 +133,9 @@ Even the real deal is not particularly fun to deal with on a daily basis. And, i
 
 We believe that for most people, MiSTer offers the best balance: behavior that matches real hardware where it matters, combined with modern convenience, reliability, and low maintenance.
 
-MiSTer FPGA gives you the Amiga experience without the friction — and that makes it the best Amiga for most users today.
+MiSTer FPGA gives you the true Amiga experience without the friction — and that makes it the best Amiga for most users today.
 
 ---
-
-(Rough notes for now)
-
-The AmigaVision team owns several well-maintained and modernized Amigas. We own several different MiSTer setups that output to both HDMI and analog CRT monitors. We own many Raspberry Pi emulation setups. We emulate using our Windows, Mac and Linux PCs. 
-
-We don’t have a reason to lean in one way or another, this is our results after living with these platforms for many years, and maintaining AmigaVision for all of them.
-
-There’s nothing *wrong* with any of the options that are presented here — the important thing is to have fun with your Amiga! Play some games, catch up on the latest and greatest of the demo scene. 
-
-Nothing beats the *feel* and *soul* and *tactility* of a real Amiga running on a real analog CRT. So that’s obviously the best Amiga, right?
-
-Well, in 2026, the answer is a bit different.
-
-Even the real deal is not particularly fun to deal with on a daily basis.
-We want accuracy + convenience — FPGA gives you that.
 
 [^0]: 1080p is the minimum resolution required for decent integer scaling of Amiga resolutions when the target is a modern 16:9 aspect ratio screen. TheA500 only supports 720p.
 
