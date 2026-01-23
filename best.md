@@ -23,7 +23,7 @@ PC emulation can be an excellent tool for experimentation and development, but i
 
 TheA500 and TheA500 Mini are inexpensive, turnkey emulation boxes, but they are fundamentally limited by their hardware and software design.
 
-They lack the performance headroom, timing accuracy, and output resolution[^0] for proper scaling required for serious Amiga use, particularly for demo-scene productions and timing-sensitive games. As a result, they fail at the primary goal of this comparison and are omitted from the table entirely.
+They lack the performance headroom, timing accuracy, and output resolution[^0] for proper scaling required for serious Amiga use, particularly for demo-scene productions and timing-sensitive games. As a result, they do not meet the accuracy, timing, and output requirements required for this comparison, and are therefore omitted from the table.
 
 At their typical asking price, both MiSTer and Raspberry Pi–based solutions outperform them decisively in accuracy, latency, and flexibility.
 
@@ -31,7 +31,9 @@ As for TheA1200, no meaningful technical specifications have been published at t
 
 ## Raspberry Pi 5
 
-The Raspberry Pi 5 represents the first Pi model that is genuinely fast enough to emulate the Amiga at acceptable speeds.
+The Raspberry Pi 5 represents the first Pi model that is genuinely fast enough to emulate the Amiga at acceptable speeds. 
+
+(Note that “fast enough” here refers to raw CPU performance, not cycle accuracy or timing fidelity.)
 
 The hardware itself is relatively affordable, but a complete setup requires additional components: a power supply, case, storage, and often a USB hub. Earlier models (Pi 3 and Pi 4) are simply too slow to provide a consistently good Amiga experience and should be avoided.
 
@@ -47,11 +49,13 @@ That authenticity comes at a cost. Well-maintained machines are expensive, and m
 
 Connecting a real Amiga to modern displays also requires additional hardware, such as scalers or video upgrades, which further increases complexity and cost.
 
+For some users, those trade-offs are not downsides but *the point* — if you have the time and the money, why not? It can definitely be a fun and rewarding undertaking.
+
 ## MiSTer FPGA
 
 MiSTer provides a hardware-accurate Amiga implementation without the practical downsides of aging electronics.
 
-It delivers cycle-accurate behavior, extremely low and consistent input/output latency, correct PAL and NTSC timing, and support for both modern HDMI displays and native analog CRT output, even at the same time. Power usage is low, and once configured, ongoing maintenance is minimal.
+It delivers cycle-accurate behavior, extremely low and consistent input/output latency, correct PAL and NTSC timing, and support for both modern HDMI displays and native analog CRT output, even simultaneously. Power usage is low, and once configured, ongoing maintenance is minimal.
 
 MiSTer’s deterministic timing and lack of external interference make it exceptionally reliable. In some cases, it is actually more consistent than real hardware due to the absence of component drift, power-supply variance, and third-party expansion interference.
 
@@ -59,7 +63,7 @@ Hardware options range from bare-bones boards to high-quality, purpose-built cas
 
 # Detailed Comparisons
 
-## 💰&nbsp;Costs
+## 💰&nbsp;Cost
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +&nbsp;<br> Emu
 |---|:--------------:|:------:|:----------:|:------------------:
@@ -72,10 +76,10 @@ Hardware options range from bare-bones boards to high-quality, purpose-built cas
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Automatically switching 50hz PAL *&* 60hz NTSC Refresh Rates | ✅ | ✅ | ✅ | <br>❌<br> [^3] 
+| Automatic PAL (50 Hz) *&* NTSC (60 Hz) Refresh Switching | ✅ | ✅ | ✅ | <br>❌<br> [^3] 
 | Cycle Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br>🟨<br>🟨<br> [^1]
 | Chipset Fidelity<br> (OCS, ECS, AGA) | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
-| Stability | <br><br>🟨<br>🟨<br> [^2] | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
+| Runtime Stability | <br><br>🟨<br>🟨<br> [^2] | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
 {: .feature-compare data-responsive-table="true" }
 
 ## 🎧🖥️🕹️&nbsp;Audio, Video *&* Input
@@ -125,21 +129,17 @@ Hardware options range from bare-bones boards to high-quality, purpose-built cas
 
 ## The Best Amiga in 2026 is…
 
-The AmigaVision team owns and actively uses all of the platforms compared here.
+The AmigaVision team owns and actively uses all of the platforms compared here. We maintain multiple real Amigas, several MiSTer setups with both HDMI and analog CRT outputs, Raspberry Pi–based emulation systems, and we regularly use Amiga emulators on Windows, macOS, and Linux.
 
-We maintain multiple real Amigas, several MiSTer setups with both HDMI and analog CRT output, Raspberry Pi–based emulation systems, and we regularly use Amiga emulators on Windows, macOS, and Linux. We have no incentive to favor one option over another — these conclusions are based on long-term, day-to-day use.
+These conclusions are based on long-term, day-to-day use rather than theory.
 
-There is nothing *wrong* with any of these choices. The most important thing is to enjoy the Amiga: play games, explore the demo scene, and engage with the community.
+Nothing fully replaces the feel and emotional impact of a real Amiga connected to a CRT, and original hardware will always be special.
 
-Nothing fully replaces the feel, tactility, and emotional impact of a real Amiga connected to a CRT. In that sense, the original hardware will always be special. So that’s obviously the best Amiga, right?
+But in 2026, the “best Amiga” is not just about authenticity — it is about accuracy *and* usability. Real hardware is expensive, complex, and increasingly fragile, which makes it difficult to recommend for most people.
 
-Well, in 2026, the answer is a bit different.
+For the majority of users, MiSTer offers the best balance: behavior that matches real hardware where it matters, combined with modern convenience, reliability, and low maintenance.
 
-Even the real deal is not particularly fun to deal with on a daily basis. And, it’s prohibitively expensive, complex, and prone to failure. In 2026, the “best Amiga” is not just about authenticity — it is about accuracy *and* usability.
-
-We believe that for most people, MiSTer offers the best balance: behavior that matches real hardware where it matters, combined with modern convenience, reliability, and low maintenance.
-
-MiSTer FPGA gives you the true Amiga experience without the friction — and that makes it the best Amiga for most users today.
+**TL;DR:** If you want the most accurate, low-latency, low-maintenance Amiga experience in 2026, MiSTer is the best choice for most users.
 
 ---
 
