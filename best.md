@@ -70,13 +70,13 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 
 {: .feature-compare data-responsive-table="true" }
 
-## 🎧🖥️🕹️ Audio, Video *&* Input Fidelity
+## 🎧🖥️🕹️ Audio, Video *&* Input
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
 | Audio Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
 | Mouse Behavior *&* Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
-| Low Input/Output Latency | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br><br>🟥<br> [^4]
+| Low Input *&* Output Latency | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br><br>🟥<br> [^4]
 {: .feature-compare data-responsive-table="true" }
 
 ## 🛠️ Ease of Use *&* Maintenance
