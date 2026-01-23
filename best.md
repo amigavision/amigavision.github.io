@@ -41,7 +41,7 @@ There is no substitute for original hardware connected to a real CRT, with the o
 
 That authenticity comes at a cost. Well-maintained machines are expensive, and most systems require recapping and ongoing care. Meaningful upgrades — faster CPUs, more memory, and modern storage — add significantly to the total price.
 
-Connecting a real Amiga to modern displays also requires external hardware, such as scalers or video upgrades, which further increases complexity and cost.
+Connecting a real Amiga to modern displays also requires additional hardware, such as scalers or video upgrades, which further increases complexity and cost.
 
 ## MiSTer FPGA
 
