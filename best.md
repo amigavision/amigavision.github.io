@@ -129,7 +129,7 @@ Nothing fully replaces the feel, tactility, and emotional impact of a real Amiga
 
 Well, in 2026, the answer is a bit different.
 
-Even the real deal is not particularly fun to deal with on a daily basis. And, it’s prohibitively expensive, complex, prone to failure. In 2026, the “best Amiga” is not just about authenticity — it is about accuracy *and* usability.
+Even the real deal is not particularly fun to deal with on a daily basis. And, it’s prohibitively expensive, complex, and prone to failure. In 2026, the “best Amiga” is not just about authenticity — it is about accuracy *and* usability.
 
 We believe that for most people, MiSTer offers the best balance: behavior that matches real hardware where it matters, combined with modern convenience, reliability, and low maintenance.
 
