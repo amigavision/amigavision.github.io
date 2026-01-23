@@ -50,7 +50,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 * SuperStation is a high-quality injection-molded case, much higher quality than the average affordable Raspberry Pi case.
 
 
-## 💰 Cost
+## 💰&nbsp;Cost
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +&nbsp;<br> Emu
 |---|:--------------:|:------:|:----------:|:------------------:
@@ -59,7 +59,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 | Ongoing Cost | 💰<br>💰💰 | <br>💰 | <br>💰 | <br>💰
 {: .feature-compare data-responsive-table="true" }
 
-## 🎯 Accuracy *&* Timing
+## 🎯&nbsp;Accuracy *&* Timing
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
@@ -70,7 +70,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 
 {: .feature-compare data-responsive-table="true" }
 
-## 🎧🖥️🕹️ Audio, Video *&* Input
+## 🎧🖥️🕹️&nbsp;Audio, Video *&* Input
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
@@ -79,7 +79,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 | Low Input *&* Output Latency | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br><br><br>🟥<br> [^4]
 {: .feature-compare data-responsive-table="true" }
 
-## 🛠️ Ease of Use *&* Maintenance
+## 🛠️&nbsp;Ease of Use *&* Maintenance
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
@@ -88,7 +88,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 | Low Maintenance Burden | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
 {: .feature-compare data-responsive-table="true" }
 
-## 📺 Connectivity *&* Output
+## 📺&nbsp;Connectivity *&* Output
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
@@ -98,7 +98,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 | Wi-Fi *&* Networking | ❌ | ✅ | ✅ | ✅
 {: .feature-compare data-responsive-table="true" }
 
-## ⚙️ Power, Reliability *&* Form Factor
+## ⚙️&nbsp;Power, Reliability *&* Form Factor
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
@@ -108,7 +108,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 | Physical Footprint *&* Portability | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
 {: .feature-compare data-responsive-table="true" }
 
-## ❤️ Experience
+## ❤️&nbsp;Experience
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
