@@ -13,7 +13,7 @@ If you already own a suitable machine, the upfront cost can be low. If you are b
 
 The main drawbacks are complexity and consistency. Amiga emulators are powerful but notoriously difficult to configure correctly across a wide range of games and demos. Small differences in settings can have large effects on timing, audio, and compatibility.
 
-There are also fundamental platform issues. On Windows and macOS, emulators do not run 50 Hz PAL software at a true 50 Hz output rate. Since the majority of Amiga games were written for PAL systems, this results in uneven scrolling, judder, or tearing that cannot be fully eliminated.
+There are also fundamental platform issues. On Windows and macOS, emulators do not automatically run 50 Hz PAL software at a true 50 Hz output rate. Since the majority of Amiga games were written for PAL systems, this results in uneven scrolling, judder, or tearing that cannot be fully eliminated.
 
 PC emulation can be an excellent tool for experimentation and development, but it is not the most reliable way to experience the Amiga as it actually behaved.
 
@@ -68,7 +68,7 @@ Hardware options range from bare-bones boards to high-quality, purpose-built cas
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Correct 50hz PAL and 60hz NTSC Refresh Rates | ✅ | ✅ | ✅ | <br>❌<br> [^3] 
+| Automatically switching 50hz PAL and 60hz NTSC Refresh Rates | ✅ | ✅ | ✅ | <br>❌<br> [^3] 
 | Cycle Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br>🟨<br>🟨<br> [^1]
 | Chipset Fidelity<br> (OCS, ECS, AGA) | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
 | Stability | <br><br>🟨<br>🟨<br> [^2] | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
