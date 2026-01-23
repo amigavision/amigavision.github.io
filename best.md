@@ -118,6 +118,17 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 ## The Best Amiga in 2026 is…
 
 (Coming soon)
+
+The AmigaVision team owns several well-maintained and modernized Amigas. We own several different MiSTer setups that output to both HDMI and analog CRT monitors. We own many Raspberry Pi emulation setups. We emulate using our Windows, Mac and Linux PCs. 
+
+We don’t have a reason to lean in one way or another, this is our results after living with these platforms for many years, and maintaining AmigaVision for all of them.
+
+There’s nothing *wrong* with any of the options that are presented here — the important thing is to have fun with your Amiga! Play some games, catch up on the latest and greatest of the demo scene. 
+
+Nothing beats the *feel* and *soul* and *tactility* of a real Amiga running on a real analog CRT. So that’s obviously the best Amiga, right?
+
+Well, in 2026, the answer is a bit different.
+
 Even the real deal is not particularly fun to deal with on a daily basis.
 We want accuracy + convenience — FPGA gives you that.
 
