@@ -14,10 +14,11 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 * High complexity — emulators are notoriously complex and error-prone — especially the Amiga emulators — and it’s hard to get a setup working perfectly across a wide range of different games.
 * Windows emulators do not run 50hz PAL games at the correct refresh rate, which is the majority of the games on the Amiga. This will cause tearing and stuttering when scrolling.
 
-## TheA500 Mini *&* TheA500
+## TheA500 Mini, TheA500 *&* TheA1200
 
-* These are underpowered emulation boxes that neither have the performance nor the graphical resolution to do Amiga emulation properly. Hence, we have omitted them from the comparison altogether, as they fail at the basic task at hand.
+* TheA500 — *&* Mini — are underpowered emulation boxes that neither have the performance nor the graphical resolution to do Amiga emulation properly. Hence, we have omitted them from the comparison altogether, as they fail at the basic task at hand.
 * At the ~$150 asking price, the MiSTer and Raspberry Pi 5 are superior choices in every way.
+* What about TheA1200? Since there are no published specifications yet, we can’t evaluate it.
 
 ## Raspberry Pi 5
 
