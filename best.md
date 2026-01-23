@@ -122,8 +122,6 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 Even the real deal is not particularly fun to deal with on a daily basis.
 We want accuracy + convenience — FPGA gives you that.
 
-If you develop *for* the Amiga, and are not just an end-user, emulators are a great choice, since modern tooling make development cycles and debugging much, much better there.
-
 [^1]: While emulators like WinUAE may be cycle accurate on paper, that doesn’t help when the host OS can interrupt the process at any time.
 
 [^2]: On aging, analog hardware, you get capacitor drift, power rail fluctuations, clock stability variations with temperature, etc. An expanded Amiga introduces potential issues: Accelerators change bus contention behavior, and RTG cards, CF adapters, USB, etc. introduce side effects.
