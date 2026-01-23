@@ -76,7 +76,7 @@ Hardware options range from bare-bones boards to high-quality, purpose-built com
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Automatic PAL 50 Hz *&* NTSC 60 Hz Switching | ✅ | ✅ | ✅ | <br>❌<br> [^3] 
+| Automatic PAL 50 Hz *&* <br>NTSC 60 Hz Switching | ✅ | ✅ | ✅ | <br>❌<br> [^3] 
 | Cycle Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br>🟨<br>🟨<br> [^1]
 | Chipset Fidelity<br> (OCS, ECS, AGA) | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
 | Runtime Stability | <br><br>🟨<br>🟨<br> [^2] | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
@@ -104,7 +104,7 @@ Hardware options range from bare-bones boards to high-quality, purpose-built com
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Native Analog 15kHz CRT Output Included | ✅ | ✅ | <br>❌<br>[^5] | ❌
+| Native Analog 15kHz<br> CRT Output Included | ✅ | ✅ | <br>❌<br>[^5] | ❌
 | Native HDMI Output Included | ❌ | ✅ | ✅ | ✅
 | Modern USB Peripheral Support | ❌ | ✅ | ✅ | ✅
 | Wi-Fi *&* Networking | ❌ | ✅ | ✅ | ✅
