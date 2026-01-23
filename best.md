@@ -53,6 +53,8 @@ MiSTer’s deterministic timing and lack of external interference make it except
 
 Hardware options range from bare-bones boards to high-quality, purpose-built cases like the SuperStation, which offers build quality far beyond typical single-board computer enclosures.
 
+# Detailed Comparisons
+
 ## 💰&nbsp;Costs
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +&nbsp;<br> Emu
