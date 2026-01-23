@@ -47,7 +47,7 @@ Connecting a real Amiga to modern displays also requires additional hardware, su
 
 MiSTer provides a hardware-accurate Amiga implementation without the practical downsides of aging electronics.
 
-It delivers cycle-accurate behavior, extremely low and consistent input/output latency, correct PAL and NTSC timing, and support for both modern HDMI displays and native analog CRT output. Power usage is low, and once configured, ongoing maintenance is minimal.
+It delivers cycle-accurate behavior, extremely low and consistent input/output latency, correct PAL and NTSC timing, and support for both modern HDMI displays and native analog CRT output, even at the same time. Power usage is low, and once configured, ongoing maintenance is minimal.
 
 MiSTer’s deterministic timing and lack of external interference make it exceptionally reliable. In some cases, it is actually more consistent than real hardware due to the absence of component drift, power-supply variance, and third-party expansion interference.
 
