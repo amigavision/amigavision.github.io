@@ -150,7 +150,7 @@ We want accuracy + convenience — FPGA gives you that.
 
 [^6]: Raspberry Pi 5 is ~$45-$95 (1GB vs. 8GB), PSU is ~15, case is $25, USB hub is $10, 64GB card is ~$20.
 
-[^7]: A recapped (mandatory!) Amiga 1200 is ~$750 on US & UK eBay. Adding a faster CPU + RAM + HD runs you ~$320 (TerribleFire 1230 50MHz 64MB with IDE). It also Needs a scaler or hardware upgrade to connect to HDMI, a good one is at least $100-150 — omitted from comparison.
+[^7]: A recapped (mandatory!) Amiga 1200 is ~$750 on US & UK eBay. Adding a faster CPU + RAM + HD runs you ~$320 (TerribleFire 1230 50MHz 64MB with IDE). It also needs a scaler or hardware upgrade to connect to HDMI, a good one is at least $100-150 — omitted from comparison.
 
 [^8]: “Free” only if you plan on using your existing computer for emulation. A reasonably performant dedicated mini-PC for gaming in the living room is ~$250.
 
