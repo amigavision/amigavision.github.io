@@ -76,7 +76,7 @@ Hardware options range from bare-bones boards to high-quality, purpose-built cas
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Automatic PAL (50 Hz) *&* NTSC (60 Hz) Refresh Switching | ✅ | ✅ | ✅ | <br>❌<br> [^3] 
+| Automatic PAL 50 Hz *&* NTSC 60 Hz Switching | ✅ | ✅ | ✅ | <br>❌<br> [^3] 
 | Cycle Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br>🟨<br>🟨<br> [^1]
 | Chipset Fidelity<br> (OCS, ECS, AGA) | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
 | Runtime Stability | <br><br>🟨<br>🟨<br> [^2] | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
