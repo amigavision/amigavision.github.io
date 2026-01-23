@@ -49,7 +49,7 @@ MiSTer provides a hardware-accurate Amiga implementation without the practical d
 
 It delivers cycle-accurate behavior, extremely low and consistent input/output latency, correct PAL and NTSC timing, and support for both modern HDMI displays and native analog CRT output. Power usage is low, and once configured, ongoing maintenance is minimal.
 
-For demo scene use in particular, MiSTer’s deterministic timing and lack of external interference make it exceptionally reliable. In some cases, it is actually more consistent than real hardware due to the absence of component drift, power-supply variance, and third-party expansions.
+MiSTer’s deterministic timing and lack of external interference make it exceptionally reliable. In some cases, it is actually more consistent than real hardware due to the absence of component drift, power-supply variance, and third-party expansions.
 
 Hardware options range from bare-bones boards to high-quality, purpose-built cases like the SuperStation, which offers build quality far beyond typical single-board computer enclosures.
 
