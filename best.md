@@ -112,7 +112,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐
+| Nostalgia *&* Authenticity | ⭐⭐<br>⭐⭐ | ⭐<br>⭐⭐ | <br>⭐⭐ | <br>⭐⭐
 {: .feature-compare data-responsive-table="true" }
 
 ## The Best Amiga in 2026 is…
