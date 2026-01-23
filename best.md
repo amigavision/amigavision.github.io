@@ -7,54 +7,59 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 
 ## Windows / Mac / Linux PC + Emulator
 
-(Rough outline, real copy to follow)
+Running an Amiga emulator on a modern PC or Mac is the most accessible option on paper, but also the most variable in practice.
 
-* Low cost if you already have a computer you want to use, relatively high cost if you are buying a mini-PC just for this use
-* High power usage
-* High complexity — emulators are notoriously complex and error-prone — especially the Amiga emulators — and it’s hard to get a setup working perfectly across a wide range of different games.
-* Windows emulators do not run 50hz PAL games at the correct refresh rate, which is the majority of the games on the Amiga. This will cause tearing and stuttering when scrolling.
+If you already own a suitable machine, the upfront cost can be low. If you are buying a small PC specifically for this purpose, the cost quickly approaches — or exceeds — better-performing alternatives.
+
+The main drawbacks are complexity and consistency. Amiga emulators are powerful but notoriously difficult to configure correctly across a wide range of games and demos. Small differences in settings can have large effects on timing, audio, and compatibility.
+
+There are also fundamental platform issues. On Windows and macOS, emulators do not run 50 Hz PAL software at a true 50 Hz output rate. Since the majority of Amiga games were written for PAL systems, this results in uneven scrolling, judder, or tearing that cannot be fully eliminated.
+
+PC emulation can be an excellent tool for experimentation and development, but it is not the most reliable way to experience the Amiga as it actually behaved.
 
 ## TheA500 Mini, TheA500 *&* TheA1200
 
-* TheA500 — *&* Mini — are underpowered emulation boxes that neither have the performance nor the graphical resolution to do Amiga emulation properly. Hence, we have omitted them from the comparison altogether, as they fail at the basic task at hand.
-* At the ~$150 asking price, the MiSTer and Raspberry Pi 5 are superior choices in every way.
-* What about TheA1200? Since there are no published specifications yet, we can’t evaluate it.
+TheA500 and TheA500 Mini are inexpensive, turnkey emulation boxes, but they are fundamentally limited by their hardware and software design.
+
+They lack the performance headroom, timing accuracy, and output resolution[^0] for proper scaling required for serious Amiga use, particularly for demo-scene productions and timing-sensitive games. As a result, they fail at the primary goal of this comparison and are omitted from the table entirely.
+
+At their typical asking price, both MiSTer and Raspberry Pi–based solutions outperform them decisively in accuracy, latency, and flexibility.
+
+As for TheA1200, no meaningful technical specifications have been published at the time of writing, so it is not possible to evaluate it yet.
 
 ## Raspberry Pi 5
 
-(Rough outline, real copy to follow)
+The Raspberry Pi 5 represents the first Pi model that is genuinely fast enough to emulate the Amiga at acceptable speeds.
 
-* Relatively affordable — a RPi 5 is ~$45-$95 (1GB vs. 8GB), PSU is ~15, case is $25, USB hub is $10, 64GB card is ~$20
-* Raspberry Pi 3 *&* 4 are too slow to emulate Amiga properly
-* 
+The hardware itself is relatively affordable, but a complete setup requires additional components: a power supply, case, storage, and often a USB hub. Earlier models (Pi 3 and Pi 4) are simply too slow to provide a consistently good Amiga experience and should be avoided.
+
+Even on the Pi 5, emulation remains a compromise. While many games run well, timing accuracy, input latency, and CRT compatibility fall short of FPGA-based solutions. For casual gaming or WHDLoad-based setups, it can be a reasonable choice, but it is not ideal for cycle-exact demos or low-latency use.
 
 ## Real Amiga Hardware
 
-(Rough outline, real copy to follow)
+A real Amiga remains the gold standard for historical authenticity.
 
-* The Ultimate in accuracy, obviously
-* High cost to acquire if you don’t have one already ~£550-£600 ($750) for a recapped Amiga 1200 on US & UK eBay
-* Hardware needs to be recapped if not done already
-* High cost to upgrade to faster CPU+RAM+HD — the Terrible Fire 1230 50MHz 64MB with IDE is €270 (~$320), and you need to add a CF/SD adapter on top of that
-* Needs a scaler or hardware upgrade to connect to HDMI, a good one is at least $100-150 (we have omitted this cost and capability in the table below, but you will need one if you plan to use a modern display)
+There is no substitute for original hardware connected to a real CRT, with the original keyboard, mouse, and quirks intact. For collectors, preservationists, and those who value the physical experience as much as the software, real hardware is unmatched.
+
+That authenticity comes at a cost. Well-maintained machines are expensive, and most systems require recapping and ongoing care. Meaningful upgrades — faster CPUs, more memory, and modern storage — add significantly to the total price.
+
+Connecting a real Amiga to modern displays also requires external hardware, such as scalers or video upgrades, which further increases complexity and cost.
 
 ## MiSTer FPGA
 
-(Rough outline, real copy to follow)
+MiSTer provides a hardware-accurate Amiga implementation without the practical downsides of aging electronics.
 
-* Low power usage
-* Highest accuracy
-* Lowest input and output latency aside from original hardware
-* Cycle-accurate Amiga 500 core for demo scene productions
-* Medium-level cost — MiSTer Pi board is $125 including case and 64GB SD card, SuperStation is $199 including 64GB SD card.
-* SuperStation is a high-quality injection-molded case, much higher quality than the average affordable Raspberry Pi case.
+It delivers cycle-accurate behavior, extremely low and consistent input/output latency, correct PAL and NTSC timing, and support for both modern HDMI displays and native analog CRT output. Power usage is low, and once configured, ongoing maintenance is minimal.
 
+For demo-scene use in particular, MiSTer’s deterministic timing and lack of external interference make it exceptionally reliable. In some cases, it is actually more consistent than real hardware due to the absence of component drift, power-supply variance, and third-party expansions.
+
+Hardware options range from bare-bones boards to high-quality, purpose-built cases like the SuperStation, which offers build quality far beyond typical single-board computer enclosures.
 
 ## 💰&nbsp;Cost
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +&nbsp;<br> Emu
 |---|:--------------:|:------:|:----------:|:------------------:
-| Total cost | ~&#36;1K+ | ~&#36;150-&#36;200 | ~&#36;110-&#36;160 | ~&#36;0-&#36;250
+| Total cost | ~&#36;1K+<br> [^7] | ~&#36;150-&#36;200<br> | ~&#36;110-&#36;160 <br>[^6] | ~&#36;0-&#36;250<br> [^8]
 | Initial Cost | 💰<br>💰💰 | <br>💰💰 | <br>💰💰 | <br>💰💰
 | Ongoing Cost | 💰<br>💰💰 | <br>💰 | <br>💰 | <br>💰
 {: .feature-compare data-responsive-table="true" }
@@ -131,6 +136,8 @@ Well, in 2026, the answer is a bit different.
 Even the real deal is not particularly fun to deal with on a daily basis.
 We want accuracy + convenience — FPGA gives you that.
 
+[^0]: 1080p is the minimum resolution required for decent integer scaling of Amiga resolutions when the target is a modern 16:9 aspect ratio screen. TheA500 only supports 720p.
+
 [^1]: While emulators like WinUAE may be cycle accurate on paper, that doesn’t help when the host OS can interrupt the process at any time.
 
 [^2]: On aging, analog hardware, you get capacitor drift, power rail fluctuations, clock stability variations with temperature, etc. An expanded Amiga introduces potential issues: Accelerators change bus contention behavior, and RTG cards, CF adapters, USB, etc. introduce side effects.
@@ -140,6 +147,15 @@ We want accuracy + convenience — FPGA gives you that.
 [^4]: Modern desktop operating systems have way too many variables to keep input and output latency low, e.g. host OS interruptions, USB latency and polling speed, graphics rendering pipelines, etc.
 
 [^5]: With the &#36;50 RGB-Pi 2 Adapter.
+
+[^6]: Raspberry Pi 5 is ~$45-$95 (1GB vs. 8GB), PSU is ~15, case is $25, USB hub is $10, 64GB card is ~$20.
+
+[^7]: A recapped (mandatory!) Amiga 1200 is ~$750 on US & UK eBay. Adding a faster CPU + RAM + HD runs you ~$320 (TerribleFire 1230 50MHz 64MB with IDE). It also Needs a scaler or hardware upgrade to connect to HDMI, a good one is at least $100-150 (we have omitted this cost and capability in the table, but you will need one if you plan to use a modern display)
+
+[^8]: “Free” only if you plan on using your existing computer for emulation. A reasonably performant dedicated mini-PC for gaming in the living room is ~$250.
+
+[^9]: MiSTer Pi board is $125 including case and 64GB SD card. SuperStation is $199 including 64GB SD card and a high-quality injection-molded case, much higher quality than the average affordable Raspberry Pi case.
+
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
