@@ -67,7 +67,6 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 | Cycle Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br>🟨<br>🟨<br> [^1]
 | Chipset Fidelity<br> (OCS, ECS, AGA) | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
 | Stability | <br><br>🟨<br>🟨<br> [^2] | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
-
 {: .feature-compare data-responsive-table="true" }
 
 ## 🎧🖥️🕹️&nbsp;Audio, Video *&* Input
