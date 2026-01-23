@@ -117,7 +117,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 
 ## The Best Amiga in 2026 is…
 
-(Coming soon)
+(Rough notes for now)
 
 The AmigaVision team owns several well-maintained and modernized Amigas. We own several different MiSTer setups that output to both HDMI and analog CRT monitors. We own many Raspberry Pi emulation setups. We emulate using our Windows, Mac and Linux PCs. 
 
