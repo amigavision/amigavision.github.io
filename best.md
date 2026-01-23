@@ -121,6 +121,24 @@ Hardware options range from bare-bones boards to high-quality, purpose-built cas
 
 ## The Best Amiga in 2026 is…
 
+The AmigaVision team owns and actively uses all of the platforms compared here.
+
+We maintain multiple real Amigas, several MiSTer setups with both HDMI and analog CRT output, Raspberry Pi–based emulation systems, and we regularly use Amiga emulators on Windows, macOS, and Linux. We have no incentive to favor one option over another — these conclusions are based on long-term, day-to-day use.
+
+There is nothing *wrong* with any of these choices. The most important thing is to enjoy the Amiga: play games, explore the demo scene, and engage with the community.
+
+Nothing fully replaces the feel, tactility, and emotional impact of a real Amiga connected to a CRT. In that sense, the original hardware will always be special. So that’s obviously the best Amiga, right?
+
+Well, in 2026, the answer is a bit different.
+
+Even the real deal is not particularly fun to deal with on a daily basis. And, it’s prohibitively expensive, complex, prone to failure. In 2026, the “best Amiga” is not just about authenticity — it is about accuracy *and* usability.
+
+We believe that for most people, MiSTer offers the best balance: behavior that matches real hardware where it matters, combined with modern convenience, reliability, and low maintenance.
+
+MiSTer FPGA gives you the Amiga experience without the friction — and that makes it the best Amiga for most users today.
+
+---
+
 (Rough notes for now)
 
 The AmigaVision team owns several well-maintained and modernized Amigas. We own several different MiSTer setups that output to both HDMI and analog CRT monitors. We own many Raspberry Pi emulation setups. We emulate using our Windows, Mac and Linux PCs. 
