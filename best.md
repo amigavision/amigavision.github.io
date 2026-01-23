@@ -16,7 +16,8 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 
 ## TheA500 Mini *&* TheA500
 
-These are underpowered emulation boxes that neither have the performance nor the graphical resolution to do Amiga emulation properly. Hence, we have omitted it from the comparison altogether, as they fail at the basic task at hand.
+* These are underpowered emulation boxes that neither have the performance nor the graphical resolution to do Amiga emulation properly. Hence, we have omitted them from the comparison altogether, as they fail at the basic task at hand.
+* At the ~$150 asking price, the MiSTer and Raspberry Pi 5 are superior choices in every way.
 
 ## Raspberry Pi 5
 
@@ -59,7 +60,7 @@ These are underpowered emulation boxes that neither have the performance nor the
 | Ongoing Cost | 💰<br>💰💰 | <br>💰 | <br>💰 | <br>💰
 {: .feature-compare data-responsive-table="true" }
 
-## Accuracy & Timing
+## Accuracy *&* Timing
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
@@ -70,7 +71,7 @@ These are underpowered emulation boxes that neither have the performance nor the
 | Correct 50hz PAL and 60hz NTSC Refresh Rates | ✅ | ✅ | ✅ | <br>❌<br> [^3] |
 {: .feature-compare data-responsive-table="true" }
 
-## Audio, Video & Input Fidelity
+## Audio, Video *&* Input Fidelity
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
@@ -79,7 +80,7 @@ These are underpowered emulation boxes that neither have the performance nor the
 | Low Input/Output Latency | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br><br>🟥<br> [^4] |
 {: .feature-compare data-responsive-table="true" }
 
-## Ease of Use & Maintenance
+## Ease of Use *&* Maintenance
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
@@ -88,7 +89,7 @@ These are underpowered emulation boxes that neither have the performance nor the
 | Low Maintenance Burden | 🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 |
 {: .feature-compare data-responsive-table="true" }
 
-## Connectivity & Output
+## Connectivity *&* Output
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
@@ -98,7 +99,7 @@ These are underpowered emulation boxes that neither have the performance nor the
 | Wi-Fi *&* Networking | ❌ | ✅ | ✅ | ✅ |
 {: .feature-compare data-responsive-table="true" }
 
-## Power, Reliability & Form Factor
+## Power, Reliability *&* Form Factor
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
