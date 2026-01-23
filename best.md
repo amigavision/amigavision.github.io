@@ -147,7 +147,7 @@ MiSTer FPGA gives you the true Amiga experience without the friction — and tha
 
 [^4]: Modern desktop operating systems have way too many variables to keep input and output latency low, e.g. host OS interruptions, USB latency and polling speed, graphics rendering pipelines, etc.
 
-[^5]: With the &#36;50 RGB-Pi 2 Adapter.
+[^5]: If you add the  &#36;50 RGB-Pi 2 Adapter, it is possible, but it is not supported natively on the standard hardware setup, unlike a real Amiga or the MiSTer.
 
 [^6]: Raspberry Pi 5 is ~$45-$95 (1GB vs. 8GB), PSU is ~15, case is $25, USB hub is $10, 64GB card is ~$20.
 
