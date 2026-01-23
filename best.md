@@ -89,7 +89,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 | Low Maintenance Burden | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
 {: .feature-compare data-responsive-table="true" }
 
-## 🔌 Connectivity *&* Output
+## 📺 Connectivity *&* Output
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
