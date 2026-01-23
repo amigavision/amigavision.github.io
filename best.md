@@ -75,7 +75,7 @@ Hardware options range from bare-bones boards to high-quality, purpose-built com
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +&nbsp;<br> Emu
 |---|:--------------:|:------:|:----------:|:------------------:
-| Purchase Price | ~&#36;1K+<br> [^7] | ~&#36;150-&#36;200<br> | ~&#36;110-&#36;160 <br>[^6] | ~&#36;0-&#36;250<br> [^8]
+| Purchase Price | ~&#36;1K+<br> [^7] | ~&#36;150-&#36;200<br> [^9] | ~&#36;110-&#36;160 <br>[^6] | ~&#36;0-&#36;250<br> [^8]
 | Initial Cost | 💰<br>💰💰 | <br>💰💰 | <br>💰💰 | <br>💰💰
 | Ongoing Costs | 💰<br>💰💰 | <br>💰 | <br>💰 | <br>💰
 {: .feature-compare data-responsive-table="true" }
