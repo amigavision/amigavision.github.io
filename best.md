@@ -64,56 +64,57 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Cycle Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br>🟨<br>🟨<br> [^1] |
-| Chipset Fidelity<br> (OCS, ECS, AGA) | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩 |
-| Determinism | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩 |
-| Performance Consistency | <br><br>🟨<br>🟨<br> [^2] | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨 |
-| Correct 50hz PAL and 60hz NTSC Refresh Rates | ✅ | ✅ | ✅ | <br>❌<br> [^3] |
+| Correct 50hz PAL and 60hz NTSC Refresh Rates | ✅ | ✅ | ✅ | <br>❌<br> [^3] 
+| Cycle Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br>🟨<br>🟨<br> [^1]
+| Chipset Fidelity<br> (OCS, ECS, AGA) | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
+| Determinism | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
+| Performance Consistency | <br><br>🟨<br>🟨<br> [^2] | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
+
 {: .feature-compare data-responsive-table="true" }
 
 ## Audio, Video *&* Input Fidelity
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Audio Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩 |
-| Mouse Behavior *&* Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨 |
-| Low Input/Output Latency | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br><br>🟥<br> [^4] |
+| Audio Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
+| Mouse Behavior *&* Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
+| Low Input/Output Latency | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br><br>🟥<br> [^4]
 {: .feature-compare data-responsive-table="true" }
 
 ## Ease of Use *&* Maintenance
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Low Complexity | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br><br>🟥 |
-| Low Effort | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br><br>🟥 |
-| Low Maintenance Burden | 🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 |
+| Low Complexity | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br><br>🟥
+| Low Effort | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br><br>🟥
+| Low Maintenance Burden | 🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
 {: .feature-compare data-responsive-table="true" }
 
 ## Connectivity *&* Output
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Native Analog 15kHz CRT Output | ✅ | ✅ | <br>❌<br>[^5] | ❌ |
-| HDMI Output | ❌ | ✅ | ✅ | ✅ |
-| Modern USB Peripherals | ❌ | ✅ | ✅ | ✅ |
-| Wi-Fi *&* Networking | ❌ | ✅ | ✅ | ✅ |
+| Native Analog 15kHz CRT Output | ✅ | ✅ | <br>❌<br>[^5] | ❌
+| HDMI Output | ❌ | ✅ | ✅ | ✅
+| Modern USB Peripherals | ❌ | ✅ | ✅ | ✅
+| Wi-Fi *&* Networking | ❌ | ✅ | ✅ | ✅
 {: .feature-compare data-responsive-table="true" }
 
 ## Power, Reliability *&* Form Factor
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Low Power Usage | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br><br>🟥 |
-| Hardware Reliability | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 |
-| Hardware Design | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨 |
-| Physical Footprint | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 |
+| Low Power Usage | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br><br>🟥
+| Hardware Reliability | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
+| Hardware Design | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
+| Physical Footprint | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
 {: .feature-compare data-responsive-table="true" }
 
 ## Experience
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ |
+| Nostalgia *&* Authenticity | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐
 {: .feature-compare data-responsive-table="true" }
 
 ## The Best Amiga in 2026 is…
