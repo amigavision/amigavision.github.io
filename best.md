@@ -137,7 +137,7 @@ Hardware options range from bare-bones boards to high-quality, purpose-built com
 
 ## The Best Amiga in 2026 is…
 
-The AmigaVision team owns and actively uses all of the platforms compared here. We maintain multiple real Amigas, several MiSTer setups with both HDMI and analog CRT outputs, Raspberry Pi–based emulation systems, and we regularly use Amiga emulators on Windows, macOS, and Linux.
+The AmigaVision team owns and actively uses all of the platforms compared here. We maintain multiple real Amigas, several MiSTer setups with both HDMI and analog CRT outputs, Raspberry Pi–based emulation systems, and we regularly use Amiga emulators on Windows, macOS, and Linux. We maintain the AmigaVision setup for all of these platforms.
 
 These conclusions are based on long-term, day-to-day use rather than theory.
 
