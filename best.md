@@ -76,7 +76,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
 | Audio Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
 | Mouse Behavior *&* Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
-| Low Input *&* Output Latency | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br><br>🟥<br> [^4]
+| Low Input *&* Output Latency | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br><br><br>🟥<br> [^4]
 {: .feature-compare data-responsive-table="true" }
 
 ## 🛠️ Ease of Use *&* Maintenance
