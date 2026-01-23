@@ -33,7 +33,7 @@ As for TheA1200, no meaningful technical specifications have been published at t
 
 The Vampire V4 is best described as a modern, accelerated Amiga-compatible system, not a recreation of classic Amiga hardware.
 
-It uses a custom FPGA chipset (SAGA) and a high-performance 68080 CPU. While it is extremely fast, it does not reproduce OCS/ECS/AGA behavior or cycle-exact timing. Many demos and timing-sensitive effects either behave differently or fail outright.
+It uses a custom FPGA chipset (SAGA) and a high-performance simulated 68080 CPU. While it is extremely fast, it does not reproduce OCS/ECS/AGA behavior or cycle-exact timing. Many demos and timing-sensitive effects either behave differently or fail outright.
 
 As a result, Vampire V4 is better viewed as a “what-if next-generation Amiga” than as a preservation-accurate platform, and is thus not relevant in this comparison.
 
