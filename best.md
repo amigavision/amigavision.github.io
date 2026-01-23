@@ -84,7 +84,7 @@ description: You’re interested in getting an Amiga for gaming and demo scene u
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Low Complexity | <br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br><br>🟥
+| Low Complexity | <br>&nbsp;<br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br><br>🟥
 | Low Effort | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br><br>🟥
 | Low Maintenance Burden | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
 {: .feature-compare data-responsive-table="true" }
