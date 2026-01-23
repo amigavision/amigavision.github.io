@@ -95,8 +95,8 @@ Hardware options range from bare-bones boards to high-quality, purpose-built cas
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
 | Native Analog 15kHz CRT Output Included | ✅ | ✅ | <br>❌<br>[^5] | ❌
-| HDMI Output | ❌ | ✅ | ✅ | ✅
-| Modern USB Peripherals | ❌ | ✅ | ✅ | ✅
+| Native HDMI Output Included | ❌ | ✅ | ✅ | ✅
+| Modern USB Peripheral Support | ❌ | ✅ | ✅ | ✅
 | Wi-Fi *&* Networking | ❌ | ✅ | ✅ | ✅
 {: .feature-compare data-responsive-table="true" }
 
