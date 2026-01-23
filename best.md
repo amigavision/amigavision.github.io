@@ -3,6 +3,10 @@ title: Best Amiga Available in 2026
 description: You’re interested in getting an Amiga for gaming and demo scene use in 2026. What's the best choice?
 ---
 
+This comparison focuses on Amiga gaming and demo-scene use in 2026, not nostalgia alone. Our criteria prioritize timing correctness, input/output latency, video and audio fidelity, and long-term practicality.
+
+Productivity software, AmigaOS “daily driving”, and historical collecting value are intentionally out of scope.
+
 ## Windows / Mac / Linux PC + Emulator
 
 Running an Amiga emulator on a modern PC or Mac is the most accessible option on paper, but also the most variable in practice.
