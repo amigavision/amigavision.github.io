@@ -29,7 +29,7 @@ At their typical asking price, both MiSTer and Raspberry Pi–based solutions ou
 
 As for TheA1200, no meaningful technical specifications have been published at the time of writing, so it is not possible to evaluate it yet.
 
-## A600GS, A1200NG *&* A6000
+## A600GS *&* A1200NG
 
 These systems are modern Amiga-branded appliances built around software emulation rather than hardware recreation.
 
@@ -41,7 +41,7 @@ From a technical perspective, these systems are best understood as preconfigured
 
 Thus, they are considered irrelevant in this comparison.
 
-## Vampire V4 FPGA
+## Vampire V4 FPGA *&* A6000
 
 The Vampire V4 is best described as a modern, accelerated Amiga-compatible system, not a recreation of classic Amiga hardware.
 
