@@ -175,7 +175,7 @@ For the majority of users, MiSTer offers the best balance: behavior that matches
 
 [^2]: On aging, analog hardware, you get capacitor drift, power rail fluctuations, clock stability variations with temperature, etc. An expanded Amiga introduces potential issues: Accelerators change bus contention behavior, and RTG cards, CF adapters, USB, etc. introduce side effects.
 
-[^3]: Only on Linux. Windows and Mac emulators always run at 60hz, which causes tearing and stuttering when scrolling.
+[^3]: Only on Linux. Windows and Mac emulators always run at 60hz, which causes tearing and stuttering when scrolling. It *is* possible to force your entire operating system to run at 50hz on some Windows computers, but the emulator can’t do it for you.
 
 [^4]: Modern desktop operating systems have way too many variables to keep input and output latency low, e.g. host OS interruptions, USB latency and polling speed, graphics rendering pipelines, etc.
 
