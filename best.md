@@ -19,7 +19,7 @@ There are also fundamental platform issues. On Windows and macOS, emulators do n
 
 PC emulation can be an excellent tool for experimentation and development, but it is not the most reliable way to experience the Amiga as it actually behaved.
 
-## TheA500 Mini, TheA500 *&* TheA1200
+## TheA500 Mini *&* TheA1200
 
 TheA500 and TheA500 Mini are inexpensive, turnkey emulation boxes, but they are fundamentally limited by their hardware and software design.
 
@@ -28,6 +28,18 @@ They lack the performance, timing accuracy, and output resolution[^0] for proper
 At their typical asking price, both MiSTer and Raspberry Pi–based solutions outperform them decisively in accuracy, latency, and flexibility.
 
 As for TheA1200, no meaningful technical specifications have been published at the time of writing, so it is not possible to evaluate it yet.
+
+## A600GS, A1200NG *&* A6000
+
+These systems are modern Amiga-branded appliances built around software emulation rather than hardware recreation.
+
+All three use UAE-derived emulation running on ARM or x86 hardware, wrapped in a custom Linux environment. While they offer a convenient turn-key experience and a nostalgic physical presentation, they do not provide cycle-accurate OCS/ECS/AGA behavior, deterministic raster timing, or native 50 Hz PAL output.
+
+As with PC- and Raspberry Pi–based emulation, timing-sensitive games and a significant portion of the demo scene exhibit incorrect behavior, unstable raster effects, audio jitter, or inconsistent scrolling. Input and output latency are materially higher and less consistent than on FPGA-based platforms.
+
+From a technical perspective, these systems are best understood as preconfigured emulation boxes rather than authentic Amiga implementations. They offer no meaningful accuracy or latency advantages over a well-configured Raspberry Pi 5, while costing substantially more and offering less flexibility.
+
+Thus, they are considered irrelevant in this comparison.
 
 ## Vampire V4 FPGA
 
