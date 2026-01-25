@@ -51,7 +51,7 @@ As a result, Vampire V4 is better viewed as a “what-if next-generation Amiga�
 
 ## Raspberry Pi 5
 
-The Raspberry Pi 5 represents the first Pi model that is genuinely fast enough to emulate the Amiga at acceptable speeds. This includes its derivatives: Raspberry Pi 500, 500+ and CM5.
+The Raspberry Pi 5 represents the first Pi model that is genuinely fast enough to emulate the Amiga at acceptable speeds. This also includes its derivatives: Raspberry Pi 500, 500+ *&* CM5.
 
 Note that “fast enough” here refers to raw CPU performance, not cycle accuracy or timing fidelity.
 
