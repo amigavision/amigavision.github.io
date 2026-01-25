@@ -15,9 +15,9 @@ If you already own a suitable machine, the upfront cost can be low. If you are b
 
 The main drawbacks are complexity and consistency. Amiga emulators are powerful but notoriously difficult to configure correctly across a wide range of games and demos. Small differences in settings can have large effects on timing, audio, and compatibility.
 
-There are also fundamental platform issues. On Windows and macOS, emulators do not automatically run 50 Hz PAL software at a true 50 Hz output rate. Since the majority of Amiga games were written for PAL systems, this results in uneven scrolling, [judder], or [tearing] that cannot be fully eliminated in standard setups with emulators on those platforms. 
+There are also fundamental platform issues. On Windows and macOS, emulators do not automatically run 50hz PAL software at a true 50hz output rate. Since the majority of Amiga games were written for PAL systems, this results in uneven scrolling, [judder], or [tearing] that cannot be fully eliminated in standard setups with emulators on those platforms. 
 
-[Here’s a forum thread](https://eab.abime.net/showthread.php/showthread.php?t=67729) where both the author of WinUAE and the author of FS-UAE confirm that the standard PC *&* Mac 60 Hz refresh rates will cause stuttering when playing 50 Hz PAL Amiga games or demos. [^3]
+[Here’s a forum thread](https://eab.abime.net/showthread.php/showthread.php?t=67729) where both the author of WinUAE and the author of FS-UAE confirm that the standard PC *&* Mac 60hz refresh rates will cause stuttering when playing 50hz PAL Amiga games or demos. [^3]
 
 PC emulation can be an excellent tool for experimentation and development, but it is not the most reliable way to experience the Amiga as it actually behaved.
 
@@ -35,7 +35,7 @@ As for TheA1200, no meaningful technical specifications have been published at t
 
 These systems are modern Amiga-branded appliances built around software emulation rather than hardware recreation.
 
-All three use UAE-derived emulation running on ARM or x86 hardware, wrapped in a custom Linux environment. While they offer a convenient turn-key experience and a nostalgic physical presentation, they do not provide cycle-accurate OCS/ECS/AGA behavior, deterministic raster timing, or native 50 Hz PAL output.
+All three use UAE-derived emulation running on ARM or x86 hardware, wrapped in a custom Linux environment. While they offer a convenient turn-key experience and a nostalgic physical presentation, they do not provide cycle-accurate OCS/ECS/AGA behavior, deterministic raster timing, or native 50hz PAL output.
 
 As with PC- and Raspberry Pi–based emulation, timing-sensitive games and a significant portion of the demo scene exhibit incorrect behavior, [tearing]/[judder], unstable raster effects, audio jitter, or inconsistent scrolling. Input and output latency are materially higher and less consistent than on FPGA-based platforms.
 
@@ -102,7 +102,7 @@ Hardware options range from bare-bones boards to high-quality, purpose-built com
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Automatic PAL 50 Hz *&* <br>NTSC 60 Hz Switching | ✅ | ✅ | ✅ | <br>❌<br> [^3] 
+| Automatic PAL 50hz *&* <br>NTSC 60hz Switching | ✅ | ✅ | ✅ | <br>❌<br> [^3] 
 | Cycle Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br>🟨<br>🟨<br> [^1]
 | Chipset Fidelity<br> (OCS, ECS, AGA) | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
 | Runtime Stability | <br><br>🟨<br>🟨<br> [^2] | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
@@ -175,7 +175,7 @@ For the majority of users, MiSTer offers the best balance: behavior that matches
 
 [^2]: On aging, analog hardware, you get capacitor drift, power rail fluctuations, clock stability variations with temperature, etc. An expanded Amiga introduces potential issues: Accelerators change bus contention behavior, and RTG cards, CF adapters, USB, etc. introduce side effects.
 
-[^3]: Only Linux can switch automatically to 50 Hz. Windows and Mac emulators always run at 60 Hz, which causes tearing and stuttering when scrolling. It *is* possible to force the entire operating system to run at 50 Hz on some Windows setups, but the emulator can’t do it for you.
+[^3]: Only Linux can switch automatically to 50hz. Windows and Mac emulators always run at 60hz, which causes tearing and stuttering when scrolling. It *is* possible to force the entire operating system to run at 50hz on some Windows setups, but the emulator can’t do it for you.
 
 [^4]: Modern desktop operating systems have way too many variables to keep input and output latency low, e.g. host OS interruptions, USB latency and polling speed, graphics rendering pipelines, etc.
 
