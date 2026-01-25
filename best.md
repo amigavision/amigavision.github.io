@@ -21,7 +21,7 @@ PC emulation can be an excellent tool for experimentation and development, but i
 
 ## TheA500 Mini *&* TheA1200
 
-TheA500 Mini is an inexpensive, turnkey emulation box, but it is fundamentally limited by its hardware and software design.
+TheA500 Mini is an inexpensive, turn-key emulation box, but it is fundamentally limited by its hardware and software design.
 
 It lacks the performance, timing accuracy, and output resolution[^0] for proper scaling required for serious Amiga use, particularly for demo scene productions and timing-sensitive games. As a result, it does not meet the accuracy, timing, and output requirements required for this comparison, and is therefore omitted from the table.
 
