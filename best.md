@@ -41,13 +41,15 @@ From a technical perspective, these systems are best understood as preconfigured
 
 Thus, they are considered irrelevant in this comparison.
 
-## Vampire V4 FPGA *&* A6000
+## Vampire V4 Standalone FPGA *&* A6000
 
 The Vampire V4 is best described as a modern, accelerated Amiga-compatible system, not a recreation of classic Amiga hardware.
 
 It uses a custom FPGA chipset (SAGA) and a high-performance simulated 68080 CPU. While it is extremely fast, it does not reproduce OCS/ECS/AGA behavior or cycle-exact timing. Many demos and timing-sensitive effects either behave differently or fail outright.
 
-As a result, Vampire V4 is better viewed as a “what-if next-generation Amiga” than as a preservation-accurate platform, and is thus not relevant in this comparison.
+The A6000 is essentially a Vampire V4 with an updated core + extra RAM, residing in a 3D printed case with keyboard.
+
+As a result, Vampire V4 & A6000 are better viewed as “what-if next-generation Amigas” than preservation-accurate platforms, and are thus not relevant in this comparison.
 
 ## Raspberry Pi 5
 
