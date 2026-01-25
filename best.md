@@ -15,7 +15,7 @@ If you already own a suitable machine, the upfront cost can be low. If you are b
 
 The main drawbacks are complexity and consistency. Amiga emulators are powerful but notoriously difficult to configure correctly across a wide range of games and demos. Small differences in settings can have large effects on timing, audio, and compatibility.
 
-There are also fundamental platform issues. On Windows and macOS, emulators do not automatically run 50 Hz PAL software at a true 50 Hz output rate. Since the majority of Amiga games were written for PAL systems, this results in uneven scrolling, [judder], or [tearing] that cannot be fully eliminated on those platforms. 
+There are also fundamental platform issues. On Windows and macOS, emulators do not automatically run 50 Hz PAL software at a true 50 Hz output rate. Since the majority of Amiga games were written for PAL systems, this results in uneven scrolling, [judder], or [tearing] that cannot be fully eliminated in standard setups with emulators on those platforms. 
 
 [Here’s a forum thread](https://eab.abime.net/showthread.php/showthread.php?t=67729) where both the author of WinUAE and the author of FS-UAE confirm that the standard PC *&* Mac 60 Hz refresh rates will cause stuttering when playing 50 Hz PAL Amiga games or demos.
 
@@ -37,7 +37,7 @@ These systems are modern Amiga-branded appliances built around software emulatio
 
 All three use UAE-derived emulation running on ARM or x86 hardware, wrapped in a custom Linux environment. While they offer a convenient turn-key experience and a nostalgic physical presentation, they do not provide cycle-accurate OCS/ECS/AGA behavior, deterministic raster timing, or native 50 Hz PAL output.
 
-As with PC- and Raspberry Pi–based emulation, timing-sensitive games and a significant portion of the demo scene exhibit incorrect behavior, [tearing]/[judder], unstable raster effects, audio jitter, or inconsistent scrolling. Input and output latency are materially higher and less consistent than on FPGA-based platforms.
+As with PC- and Raspberry Pi–based emulation, timing-sensitive games and a significant portion of the demo scene exhibit incorrect behavior, [tearing]/[judder], unstable raster effects, audio jitter, or inconsistent scrolling. Input and output latency are materially higher and less consistent than on FPGA-based platforms. [^3]
 
 From a technical perspective, these systems are best understood as preconfigured emulation boxes rather than authentic Amiga implementations. They offer no meaningful accuracy or latency advantages over a well-configured Raspberry Pi 5, while costing substantially more and offering less flexibility.
 
