@@ -15,7 +15,7 @@ If you already own a suitable machine, the upfront cost can be low. If you are b
 
 The main drawbacks are complexity and consistency. Amiga emulators are powerful but notoriously difficult to configure correctly across a wide range of games and demos. Small differences in settings can have large effects on timing, audio, and compatibility.
 
-There are also fundamental platform issues. On Windows and macOS, emulators do not automatically run 50 Hz PAL software at a true 50 Hz output rate. Since the majority of Amiga games were written for PAL systems, this results in uneven scrolling, [judder], or [tearing] that cannot be fully eliminated on those platforms. [^3]
+There are also fundamental platform issues. On Windows and macOS, emulators do not automatically run 50 Hz PAL software at a true 50 Hz output rate. Since the majority of Amiga games were written for PAL systems, this results in uneven scrolling, [judder], or [tearing] that cannot be fully eliminated on those platforms. [^10]
 
 PC emulation can be an excellent tool for experimentation and development, but it is not the most reliable way to experience the Amiga as it actually behaved.
 
@@ -23,7 +23,7 @@ PC emulation can be an excellent tool for experimentation and development, but i
 
 TheA500 Mini is an inexpensive, turn-key emulation box, but it is fundamentally limited by its hardware and software design.
 
-It lacks the performance, timing accuracy, and output resolution[^0] for proper scaling required for serious Amiga use, particularly for demo scene productions and timing-sensitive games. As a result, it does not meet the accuracy, timing, and output requirements required for this comparison, and is therefore omitted from the table.
+It lacks the performance, timing accuracy, and output resolution[^11] for proper scaling required for serious Amiga use, particularly for demo scene productions and timing-sensitive games. As a result, it does not meet the accuracy, timing, and output requirements required for this comparison, and is therefore omitted from the table.
 
 At the typical asking price, both MiSTer and Raspberry Pi–based solutions outperform it decisively in accuracy, latency, and flexibility.
 
@@ -169,8 +169,6 @@ For the majority of users, MiSTer offers the best balance: behavior that matches
 [tearing]:https://en.wikipedia.org/wiki/Screen_tearing
 [judder]:https://en.wikipedia.org/wiki/Screen_tearing#Complications
 
-[^0]: 1080p is the minimum resolution required for decent integer scaling of Amiga resolutions when the target is a modern 16:9 aspect ratio screen. TheA500 only supports 720p.
-
 [^1]: While emulators like WinUAE may be cycle accurate on paper, that doesn’t help when the host OS can interrupt the process at any time.
 
 [^2]: On aging, analog hardware, you get capacitor drift, power rail fluctuations, clock stability variations with temperature, etc. An expanded Amiga introduces potential issues: Accelerators change bus contention behavior, and RTG cards, CF adapters, USB, etc. introduce side effects.
@@ -188,6 +186,10 @@ For the majority of users, MiSTer offers the best balance: behavior that matches
 [^8]: “Free” only if you plan on using your existing computer for emulation. A reasonably performant dedicated mini-PC for gaming in the living room is ~$250.
 
 [^9]: MiSTer Pi board is $125 including case and 64GB SD card. SuperStation is $199 including 64GB SD card and a high-quality injection-molded case, much higher quality than the average affordable Raspberry Pi case.
+
+[^10]: [Here’s a forum thread](https://eab.abime.net/showthread.php/showthread.php?t=67729) where both the author of WinUAE and the author of FS-UAE confirm that 60hz displays will cause stuttering when playing 50hz PAL Amiga games.
+
+[^11]: 1080p is the minimum resolution required for decent integer scaling of Amiga resolutions when the target is a modern 16:9 aspect ratio screen. TheA500 only supports 720p.
 
 
 <script>
