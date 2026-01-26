@@ -1,5 +1,6 @@
 ---
 title: AmigaVision Setup
+description: Documentation of how to set up AmigaVision on real hardware, MiSTer & Pocket FPGAs, emulators and Raspberry Pi.
 --- 
 
 AmigaVision is a carefully curated collection of game and demo configurations for the [Amiga computer] platform, as well as a minimal [Workbench] setup with useful utilities and apps, wrapped in a user-friendly launcher.
