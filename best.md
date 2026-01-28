@@ -35,7 +35,7 @@ As for TheA1200, no meaningful technical specifications have been published at t
 
 These systems are modern Amiga-branded appliances built around software emulation rather than hardware recreation.
 
-All three use UAE-derived emulation running on ARM or x86 hardware, wrapped in a custom Linux environment. While they offer a convenient turn-key experience and a nostalgic physical presentation, they do not provide cycle-accurate OCS/ECS/AGA behavior, or deterministic raster timing. They also run at a very low resolution — 720×576 — that make scanlines and shadow masks unavailable.
+All three use UAE-derived emulation running on ARM or x86 hardware, wrapped in a custom Linux environment. While they offer a convenient turn-key experience and a nostalgic physical presentation, they do not provide cycle-accurate OCS/ECS/AGA behavior, or deterministic raster timing.
 
 As with PC- and Raspberry Pi–based emulation, timing-sensitive games and a significant portion of the demo scene exhibit incorrect behavior, [tearing]/[judder], unstable raster effects, audio jitter, or inconsistent scrolling. Input and output latency are materially higher and less consistent than on FPGA-based platforms.
 
