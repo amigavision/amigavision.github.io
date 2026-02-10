@@ -179,7 +179,7 @@ But in 2026, the “best Amiga” is not just about authenticity — it is about
 
 For the majority of users, MiSTer offers the best balance: Behavior that matches real hardware where it matters, combined with modern convenience, reliability, and low maintenance, without the trade-offs of emulation, at a reasonable price.
 
-### If you want the most accurate, low-latency, low-maintenance, delightful and fun Amiga experience in 2026, MiSTer is the best choice for most users
+**If you want the most accurate, low-latency, low-maintenance, delightful and fun Amiga experience in 2026, MiSTer is the best choice for most users.**
 
 ---
 
