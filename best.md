@@ -45,7 +45,7 @@ As for [TheA1200], no meaningful technical specifications have been published at
 
 ## A600GS *&* A1200NG *&* A4000NG
 
-[A600GS] *&* [A1200NG] are modern Amiga-branded appliances built around software emulation rather than hardware recreation.
+[A600GS] *&* [A1200NG] are Amiga-branded appliances built around software emulation rather than hardware recreation.
 
 All three use UAE-derived emulation running on ARM or x86 hardware, wrapped in a custom Linux environment. While they offer a convenient turn-key experience and a nostalgic physical presentation, they do not provide cycle-accurate OCS/ECS/AGA behavior, or deterministic raster timing.
 
