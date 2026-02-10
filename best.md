@@ -197,7 +197,7 @@ It also supports multiple video outputs (HDMI, VGA, composite, component, DIN10)
 
 It also has Bluetooth *&* Wi-Fi support built-in, offering maximum controller and networking support without having to add additional USB dongles.
 
-*Disclaimer: We are not associated with SuperStation One or Retro Remake, we are not associated with them in any way, and these are not affiliate links — we simply believe this is the best MiSTer FPGA platform available.*
+*Disclaimer: We are not associated with SuperStation One or Retro Remake in any way, and these are not affiliate links — we simply believe this is the best MiSTer FPGA platform available.*
 
 
 
