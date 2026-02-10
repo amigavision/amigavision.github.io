@@ -1,6 +1,6 @@
 ---
 title: Best Amiga Available in 2026
-description: You’re interested in getting an Amiga for gaming and demo scene use in 2026. What's the best choice?
+description: You’re interested in getting an Amiga for gaming and demo scene use in 2026. What's your best option?
 ---
 
 This comparison focuses on Amiga gaming and demo scene use in 2026, not nostalgia alone. Our criteria prioritize timing correctness, input/output latency, video and audio fidelity, and long-term practicality — as well as overall delight and fun.
