@@ -35,23 +35,23 @@ PC emulation can be an excellent tool for experimentation and development, but i
 
 ## TheA500 Mini *&* TheA1200
 
-TheA500 Mini is an inexpensive, turn-key emulation box, but it is fundamentally limited by its hardware and software design.
+[TheA500 Mini] is an inexpensive, turn-key emulation box, but it is fundamentally limited by its hardware and software design.
 
 It lacks the performance, timing accuracy, and output resolution[^10] for proper scaling required for serious Amiga use, particularly for demo scene productions and timing-sensitive games. As a result, it does not meet the accuracy, timing, and output requirements required for this comparison, and is therefore omitted from the table.
 
 At the typical asking price, both MiSTer and Raspberry Pi–based solutions outperform it decisively in accuracy, latency, and flexibility.
 
-As for TheA1200, no meaningful technical specifications have been published at the time of writing, so it is not possible to evaluate it yet. It is unlikely to outperform a Raspberry Pi 5 based on what is known at this point, but we will update this document when actual specifications are revealed.
+As for [TheA1200], no meaningful technical specifications have been published at the time of writing, so it is not possible to evaluate it yet. It is unlikely to outperform a Raspberry Pi 5 based on what is known at this point, but we will update this document when actual specifications are revealed.
 
 ## A600GS *&* A1200NG *&* A4000NG
 
-These systems are modern Amiga-branded appliances built around software emulation rather than hardware recreation.
+[A600GS] *&* [A1200NG] are modern Amiga-branded appliances built around software emulation rather than hardware recreation.
 
 All three use UAE-derived emulation running on ARM or x86 hardware, wrapped in a custom Linux environment. While they offer a convenient turn-key experience and a nostalgic physical presentation, they do not provide cycle-accurate OCS/ECS/AGA behavior, or deterministic raster timing.
 
 As with PC- and Raspberry Pi–based emulation, timing-sensitive games and a significant portion of the demo scene exhibit incorrect behavior, [tearing]/[judder] — it boots in 60hz by default, but most Amiga games are 50hz, which you have to manually select — unstable raster effects, audio jitter, and inconsistent scrolling. Input and output latency are materially higher and less consistent than on FPGA-based platforms.
 
-A4000NG has been announced, but is also less powerful than a Raspberry Pi 5, and is unlikely to change anything regarding this.
+[A4000NG] has been announced, but is also less powerful than a Raspberry Pi 5, and is unlikely to change anything regarding this.
 
 From a technical perspective, these systems are best understood as preconfigured emulation boxes rather than authentic Amiga implementations. They offer no meaningful accuracy or latency advantages over a well-configured Raspberry Pi 5, while costing substantially more and offering less flexibility.
 
@@ -59,11 +59,11 @@ Thus, they are considered irrelevant in this comparison.
 
 ## Vampire V4 FPGA *&* A6000
 
-The Vampire V4 Standalone is best described as a modern, accelerated Amiga-compatible system, not a recreation of classic Amiga hardware.
+The [Vampire V4 Standalone] is best described as a modern, accelerated Amiga-compatible system, not a recreation of classic Amiga hardware.
 
 It uses a custom FPGA chipset (SAGA) and a high-performance simulated 68080 CPU. While it is extremely fast, it does not reproduce OCS/ECS/AGA behavior or cycle-exact timing. Many demos and timing-sensitive effects either behave differently or fail outright.
 
-The A6000 is essentially a Vampire V4 with an updated core + extra RAM, residing in a 3D printed case with keyboard.
+The [A6000] is essentially a Vampire V4 with an updated core + extra RAM, residing in a 3D printed case with keyboard.
 
 As a result, Vampire V4 & A6000 are better viewed as “what-if next-generation Amigas” than preservation-accurate platforms, and are thus not relevant in this comparison.
 
@@ -71,7 +71,7 @@ As a result, Vampire V4 & A6000 are better viewed as “what-if next-generation 
 
 ## Raspberry Pi 5
 
-The Raspberry Pi 5 represents the first Pi model that is genuinely fast enough to emulate the Amiga at acceptable speeds. This also includes its derivatives: Raspberry Pi 500, 500+ *&* CM5.
+The [Raspberry Pi 5] represents the first Pi model that is genuinely fast enough to emulate the Amiga at acceptable speeds. This also includes its derivatives: Raspberry Pi 500, 500+ *&* CM5.
 
 Note that “fast enough” here refers to raw CPU performance, not cycle accuracy or timing fidelity.
 
@@ -93,7 +93,7 @@ For some users, those trade-offs are not downsides but *the point* — if you ha
 
 ## MiSTer FPGA
 
-MiSTer provides a hardware-accurate Amiga implementation without the practical downsides of aging electronics.
+[MiSTer FPGA] provides a hardware-accurate Amiga implementation without the practical downsides of aging electronics.
 
 It delivers cycle-accurate behavior, extremely low and consistent input/output latency, correct PAL and NTSC timing, and support for both modern HDMI displays and native analog CRT output, even simultaneously. Power usage is low, and once configured, ongoing maintenance is minimal.
 
@@ -185,6 +185,15 @@ For the majority of users, MiSTer offers the best balance: Behavior that matches
 
 [tearing]:https://en.wikipedia.org/wiki/Screen_tearing
 [judder]:https://en.wikipedia.org/wiki/Screen_tearing#Complications
+
+[TheA500 Mini]:https://retrogames.biz/products/thea500-mini/
+[TheA1200]:https://retrogames.biz/products/thea1200/
+[A600GS]:https://www.a600gs.com
+[A1200NG]:https://www.a1200.com/
+[A4000NG]:http://a4000.com
+[Vampire V4 Standalone]:https://www.apollo-computer.com/v4standalone.php
+[A6000]:https://a6000.net
+[Raspberry Pi 5]:https://www.raspberrypi.com/products/raspberry-pi-5/
 
 [^1]: While emulators like WinUAE may be cycle accurate on paper, that doesn’t help when the host OS can interrupt the process at any time.
 
