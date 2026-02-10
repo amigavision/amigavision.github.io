@@ -47,7 +47,7 @@ As for [TheA1200], no meaningful technical specifications have been published at
 
 [A600GS] *&* [A1200NG] are Amiga-branded appliances built around software emulation rather than hardware recreation.
 
-All three use UAE-derived emulation running on ARM (A600NG) or x86 (A1200NG *&* A400NG) hardware, wrapped in a custom Linux environment. While they offer a convenient turn-key experience and a nostalgic physical presentation, they do not provide cycle-accurate OCS/ECS/AGA behavior, or deterministic raster timing.
+All three use UAE-derived emulation running on ARM (A600NG) or x86 (A1200NG *&* A4000NG) hardware, wrapped in a custom Linux environment. While they offer a convenient turn-key experience and a nostalgic physical presentation, they do not provide cycle-accurate OCS/ECS/AGA behavior, or deterministic raster timing.
 
 As with PC- and Raspberry Pi–based emulation, timing-sensitive games and a significant portion of the demo scene exhibit incorrect behavior, [tearing]/[judder] being the obvious problem — it boots in 60hz by default, but most Amiga games are 50hz, which you have to manually select. Unstable raster effects, audio jitter, and inconsistent scrolling will be the result. Input and output latency are materially higher and less consistent than on FPGA-based platforms.
 
