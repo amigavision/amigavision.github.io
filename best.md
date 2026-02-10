@@ -49,7 +49,7 @@ These systems are modern Amiga-branded appliances built around software emulatio
 
 All three use UAE-derived emulation running on ARM or x86 hardware, wrapped in a custom Linux environment. While they offer a convenient turn-key experience and a nostalgic physical presentation, they do not provide cycle-accurate OCS/ECS/AGA behavior, or deterministic raster timing.
 
-As with PC- and Raspberry Pi–based emulation, timing-sensitive games and a significant portion of the demo scene exhibit incorrect behavior, [tearing]/[judder], unstable raster effects, audio jitter, or inconsistent scrolling. Input and output latency are materially higher and less consistent than on FPGA-based platforms.
+As with PC- and Raspberry Pi–based emulation, timing-sensitive games and a significant portion of the demo scene exhibit incorrect behavior, [tearing]/[judder] (it boots in 60hz by default — most Amiga games are 50hz, which you have to manually select), unstable raster effects, audio jitter, or inconsistent scrolling. Input and output latency are materially higher and less consistent than on FPGA-based platforms.
 
 A4000NG has been announced, but is also less powerful than a Raspberry Pi 5, and is unlikely to change anything regarding this.
 
