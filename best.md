@@ -67,7 +67,7 @@ The A6000 is essentially a Vampire V4 with an updated core + extra RAM, residing
 
 As a result, Vampire V4 & A6000 are better viewed as “what-if next-generation Amigas” than preservation-accurate platforms, and are thus not relevant in this comparison.
 
-(They are also very expensive, at ~$750 for the bare-bones V4, and ~$1200 for the A6000.)
+(They are also very expensive, at ~$750 for the bare-bones V4, and ~$1200 for the A6000)
 
 ## Raspberry Pi 5
 
