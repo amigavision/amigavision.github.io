@@ -93,7 +93,7 @@ For some users, those trade-offs are not downsides but *the point* — if you ha
 
 ## MiSTer FPGA
 
-MiSTer FPGA provides a hardware-accurate Amiga implementation without the practical downsides of aging electronics.
+MiSTer FPGA provides a hardware-accurate Amiga implementation without the practical downsides of aging chips and power supplies.
 
 It delivers cycle-accurate behavior, extremely low and consistent input/output latency, correct PAL and NTSC timing, and support for both modern HDMI displays and native analog CRT output, even simultaneously. Power usage is low, and once configured, ongoing maintenance is minimal.
 
