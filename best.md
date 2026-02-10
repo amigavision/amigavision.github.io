@@ -175,7 +175,7 @@ These conclusions are based on long-term, day-to-day use rather than theory.
 
 Nothing fully replaces the feel and emotional impact of a real Amiga connected to a CRT, and original hardware will always be special.
 
-But in 2026, the “best Amiga” is not just about authenticity — it is about accuracy *and* usability. Real hardware is expensive, complex, and increasingly fragile, which makes it difficult to recommend for most people.
+But in 2026, the “Best Amiga” is not just about authenticity — it is about accuracy *and* usability. Real hardware is expensive, complex, and increasingly fragile, which makes it difficult to recommend for most people.
 
 For the majority of users, MiSTer offers the best balance: Behavior that matches real hardware where it matters, combined with modern convenience, reliability, and low maintenance, without the trade-offs of emulation, at a reasonable price.
 
