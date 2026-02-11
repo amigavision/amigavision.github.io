@@ -125,9 +125,9 @@ Hardware options range from bare-bones boards to high-quality, purpose-built com
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Audio Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
-| Mouse Behavior *&* Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
-| Low Input *&* Output Latency | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br><br><br>🟥<br> [^4]
+| Audio Accuracy | <br>✅<br> | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
+| Mouse Behavior *&* Accuracy | <br>✅<br> | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
+| Low Input *&* Output Latency | <br>✅<br> | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br><br><br>🟥<br> [^4]
 {: .feature-compare data-responsive-table="true" }
 
 ## 🛠️&nbsp;Ease of Use *&* Maintenance
