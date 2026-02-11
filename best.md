@@ -85,7 +85,7 @@ A real Amiga remains the gold standard for historical authenticity.
 
 There is no substitute for original hardware connected to a real CRT, with the original keyboard, mouse, and quirks intact. For collectors, preservationists, and those who value the physical experience as much as the software, real hardware is unmatched.
 
-That authenticity comes at a cost. Well-maintained machines are expensive, and most systems require recapping and ongoing care. Meaningful upgrades — faster CPUs, more memory, and modern storage — add significantly to the total price.
+That authenticity comes at a cost. Well-maintained machines are expensive — especially the ones capable of running games and demos using the AGA chipset — and most systems require recapping and ongoing care. Meaningful upgrades like faster CPUs, more memory, and modern storage add significantly to the total price.
 
 Connecting a real Amiga to modern displays also requires additional hardware, such as scalers or video upgrades, which further increases complexity and cost.
 
