@@ -107,7 +107,7 @@ Hardware options range from bare-bones boards to high-quality, purpose-built com
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +&nbsp;<br> Emu
 |---|:--------------:|:------:|:----------:|:------------------:
-| Purchase Price | ~&#36;1K+<br> [^7] | ~&#36;150-&#36;200<br> [^9] | ~&#36;110-&#36;160 <br>[^6] | ~&#36;0-&#36;250<br> [^8]
+| Purchase Price [^11] | ~&#36;1K+<br> [^7] | ~&#36;150-&#36;200<br> [^9] | ~&#36;110-&#36;160 <br>[^6] | ~&#36;0-&#36;250<br> [^8]
 | Initial Cost | 💰💰<br>💰💰 | <br>💰💰 | <br>💰💰 | 💰<br>💰💰
 | Ongoing Costs | 💰<br>💰💰 | <br>💰 | <br>💰 | <br>💰
 {: .feature-compare data-responsive-table="true" }
@@ -218,7 +218,7 @@ It also has Bluetooth *&* Wi-Fi support built-in, offering maximum controller an
 
 [^2]: On aging, analog hardware, you get capacitor drift, power rail fluctuations, clock stability variations with temperature, etc. An expanded Amiga introduces potential issues: Accelerators change bus contention behavior, and RTG cards, CF adapters, USB, etc. introduce side effects.
 
-[^3]: Only Linux can switch automatically to 50hz. Windows and Mac emulators always run at 60hz, which causes tearing and stuttering when scrolling. It *is* possible to force the entire operating system to run at 50hz on some Windows setups, but the emulator can’t do it for you.
+[^3]: Only emulators running under Linux can switch automatically to 50hz. Windows and Mac emulators run at 60hz when the OS runs at 60hz, which causes tearing and stuttering when scrolling. It *is* possible to force the entire operating system to run at 50hz on *some* Windows and Mac setups, but the emulator can’t do it for you. The end result is that most people will run 50hz games at the wrong frame rate.
 
 [^4]: Modern desktop operating systems have way too many variables to keep input and output latency low, e.g. host OS interruptions, USB latency and polling speed, graphics rendering pipelines, etc.
 
@@ -234,6 +234,7 @@ It also has Bluetooth *&* Wi-Fi support built-in, offering maximum controller an
 
 [^10]: 1080p is the minimum resolution required for decent integer scaling of Amiga resolutions when the target is a modern 16:9 aspect ratio screen. TheA500 only supports 720p.
 
+[^11]: We want an Amiga that can run every Amiga game, which means it needs to have the AGA chipset. Furthermore, we do not want any soldering or hardware surgery to be required, as this is beyond what most people are willing to do.
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
