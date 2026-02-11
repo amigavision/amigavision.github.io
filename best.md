@@ -117,9 +117,8 @@ Hardware options range from bare-bones boards to high-quality, purpose-built com
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
 | Automatic PAL 50hz *&* <br>NTSC 60hz Switching | ✅ | ✅ | ✅ | <br>❌<br> [^3] 
-| Cycle Accuracy | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br>🟨<br>🟨<br> [^1]
-| Chipset Fidelity<br> (OCS, ECS, AGA) | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
-| Runtime Stability | <br><br>🟨<br>🟨<br> [^2] | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
+| Cycle Accuracy | <br>✅<br> | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br>🟨<br>🟨<br> [^1]
+| Chipset Fidelity<br> (OCS, ECS, AGA) | <br>✅<br> | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
 {: .feature-compare data-responsive-table="true" }
 
 ## 🎧🖥️🕹️&nbsp;Audio, Video *&* Input
