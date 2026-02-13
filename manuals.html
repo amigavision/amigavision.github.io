@@ -12,8 +12,7 @@ window.onload = function() {
     const bucketStart = Math.floor((number - 1) / 100) * 100 + 1;
     const bucketEnd = bucketStart + 99;
     const directory = `${bucketStart.toString().padStart(4, '0')}-${bucketEnd.toString().padStart(4, '0')}`;
-    const vParam = Math.floor(Math.random() * 4000) + 1000; // random v parameter between 1000 and 5000
-    const redirectUrl = `https://amiga.abime.net/manual/${directory}/${number}_manual0.pdf?v=${vParam}`;
+    const redirectUrl = `https://amiga.abime.net/manual/${directory}/${number}_manual0.pdf`;
 
     window.location.href = redirectUrl;
   } else {
