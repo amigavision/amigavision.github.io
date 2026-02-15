@@ -95,6 +95,11 @@ defaults:
     values:
       layout: "post"
 
+  - scope:
+      path: "m.html"
+    values:
+      layout: "default"
+
 jekyll-archives:
   enabled:
     - categories
