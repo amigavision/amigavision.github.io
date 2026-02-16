@@ -89,7 +89,7 @@ That authenticity comes at a cost. Well-maintained machines are expensive — es
 
 Connecting a real Amiga to modern displays also requires additional hardware, such as scalers or video upgrades, which further increases complexity and cost. Some people may be comfortable soldering or replacing chips on their Amiga to accomplish this — but most people will not be.
 
-For some users, those trade-offs are not downsides but *the point* — if you have the time and the money, why not? It can definitely be a fun and rewarding undertaking.
+Of course, for some owners, those trade-offs are not downsides but *the actual point* — if you have the time and the money, why not? It can definitely be a fun and rewarding undertaking.
 
 ## MiSTer FPGA
 
