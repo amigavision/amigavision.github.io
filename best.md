@@ -9,15 +9,15 @@ Productivity software, AmigaOS “daily driving”, and historical collecting va
 
 We will cover:
 
-1. [Windows / Mac / Linux PC + Emulator](#windows--mac--linux-pc--emulator)
-2. [TheA500 Mini *&* TheA1200](#thea500-mini--thea1200)
-3. [A600GS *&* A1200NG *&* A4000NG](#a600gs--a1200ng--a4000ng)
-4. [Vampire V4 FPGA *&* A6000](#vampire-v4-fpga--a6000)
-5. [Raspberry Pi 5](#raspberry-pi-5)
-6. [Real Amiga Hardware](#real-amiga-hardware)
-7. [MiSTer FPGA](#mister-fpga)
-8. [Detailed Comparisons](#detailed-comparisons)
-9. [The Best Amiga in 2026](#the-best-amiga-in-2026-is)
+* [Windows / Mac / Linux PC + Emulator](#windows--mac--linux-pc--emulator)
+* [TheA500 Mini *&* TheA1200](#thea500-mini--thea1200)
+* [A600GS *&* A1200NG *&* A4000NG](#a600gs--a1200ng--a4000ng)
+* [Vampire V4 FPGA *&* A6000](#vampire-v4-fpga--a6000)
+* [Raspberry Pi 5](#raspberry-pi-5)
+* [Real Amiga Hardware](#real-amiga-hardware)
+* [MiSTer FPGA](#mister-fpga)
+* [Detailed Comparisons](#detailed-comparisons)
+* [The Best Amiga in 2026](#the-best-amiga-in-2026-is)
 
 ## Windows / Mac / Linux PC + Emulator
 
