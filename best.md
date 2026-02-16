@@ -87,7 +87,7 @@ There is no substitute for original hardware connected to a real CRT, with the o
 
 That authenticity comes at a cost. Well-maintained machines are expensive — especially the ones capable of running games and demos using the AGA chipset — and most systems require recapping and ongoing care. Meaningful upgrades like faster CPUs, more memory, and modern storage add significantly to the total price.
 
-Connecting a real Amiga to modern displays also requires additional hardware, such as scalers or video upgrades, which further increases complexity and cost. You may be comfortable soldering or replacing chips on your Amiga board — but most people will not be.
+Connecting a real Amiga to modern displays also requires additional hardware, such as scalers or video upgrades, which further increases complexity and cost. Some people may be comfortable soldering or replacing chips on the Amiga board — but most people will not be.
 
 For some users, those trade-offs are not downsides but *the point* — if you have the time and the money, why not? It can definitely be a fun and rewarding undertaking.
 
