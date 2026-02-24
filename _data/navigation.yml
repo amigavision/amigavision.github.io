@@ -1,3 +1,7 @@
+- name: News
+  link: /news/
+  new_window: false
+  highlight: false
 - name: Documentation
   link: /docs
   new_window: false
@@ -6,11 +10,19 @@
   link: https://github.com/amigavision/AmigaVision/issues
   new_window: true
   highlight: false
+- name: Best Amiga
+  link: /best
+  new_window: false
+  highlight: false
+- name: Comparison
+  link: /vs
+  new_window: false
+  highlight: false
 - name: Context
   link: /context
   new_window: false
   highlight: false
-- name: News
-  link: /news/
+- name: Download
+  link: /download
   new_window: false
   highlight: true

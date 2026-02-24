@@ -16,11 +16,13 @@
 		{% endcapture %}
 		<style>{{ css | scssify }}</style>
 	</head>
-	<body>
+		<body>
 		<header>
 			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/amigavision.svg" alt="AmigaVision" width="95" height="33" {% if page.url =='/' %} style="visibility:hidden" {% endif %} /></a></div>
 				{% include navigation.html %}
+				{% unless page.url == '/' %}
+					<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/amigavision.svg" alt="AmigaVision" height="42" /></a></div>
+				{% endunless %}
 			</div>
 		</header>
 		{{ content }}
@@ -43,11 +45,5 @@
 			</div>
 
 		</footer>
-		<script>
-			document.getElementById("open-nav").onclick = function () {
-				document.body.classList.toggle("nav-open");
-				return false;
-			};
-		</script>
 	</body>
 </html>

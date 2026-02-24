@@ -224,6 +224,11 @@ max-width: 1140px;
 max-width: 100%;
 padding: 0;
 }
+header .container {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
 header {
 color: #fff;
 padding: 20px 0;
@@ -242,7 +247,9 @@ text-decoration: none;
 header .company-name {
 font-size: 1.7em;
 line-height: 0;
-margin-left: 20px;
+margin: 18px auto 10px auto;
+width: 100%;
+text-align: center;
 }
 header .company-name a {
 display: inline-block;
@@ -250,6 +257,9 @@ display: inline-block;
 header .company-name img {
 display: block;
 width: auto;
+max-width: 100%;
+height: 42px;
+margin: 0 auto;
 }
 .content {
 background: white;
@@ -608,65 +618,33 @@ input[type=text]:focus,input[type=email]:focus,input[type=password]:focus,textar
 box-shadow: 0 0 5px #51cbee;
 border: 1px solid #51cbee;
 }
-.nav-open nav {
-border-bottom: 1px dotted rgba(255,255,255,0.2);
-padding: 10px 0;
-}
-.nav-open nav a {
-display: block;
-}
-@media (min-width:760px) {.nav-open nav {
-  border: 0;
-  padding: 0 20px;
-  }
-  .nav-open nav a {
-  display: inline;
-  }
-}
-
 nav {
 text-transform: uppercase;
 font-size: .8em;
 width: 100%;
+text-align: center;
+padding: 0;
 }
 @media (min-width:760px) {nav {
-  text-align: right;
-  position: absolute;
-  top: 13px;
-  right: 0;
-  padding: 0 40px;
+  text-align: center;
+  position: static;
+  top: auto;
+  right: auto;
+  padding: 0;
   }
 }
 
 nav a {
 margin: 0 3px;
-padding: 20px 10px;
+padding: 10px;
 border-bottom: 1px solid rgba(255,255,255,0);
 color: rgba(255,255,255,0.8);
 transition: .2s ease-in-out;
-display: none;
-}
-@media (min-width:760px) {nav a {
-  display: inline;
-  padding: 10px;
-  }
+display: inline-block;
 }
 
 nav a.nav-toggle {
-display: inline;
-position: absolute;
-right: 10px;
-top: -22px;
-font-size: 1.9em;
-border: 0;
-}
-@media (min-width:760px) {nav a.nav-toggle {
-  display: none;
-  }
-}
-
-nav a.nav-toggle:hover {
-border: 0;
+display: none;
 }
 nav a:hover {
 border-bottom: 1px solid rgba(255,255,255,0.3);
