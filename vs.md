@@ -57,7 +57,6 @@ Mister FPGA Supported | ✅ | <br>❌<br> [^1] | ⬜️
 Analogue Pocket FPGA Supported | ✅ | ❌ | ⬜️
 Raspberry Pi Supported | ✅ | ✅ | ✅
 Emulators Supported | ✅ | ✅ | ✅
-PiStorm on Real Amiga Supported | ✅ | ✅ | ⬜️
 {: .feature-compare data-responsive-table="true" }
 
 ## 🕹️ Device Power-On → Game Selection
