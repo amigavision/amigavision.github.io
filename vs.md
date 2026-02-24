@@ -11,20 +11,20 @@ There are several other Amiga setups available for various types of hardware. Th
 
 We will cover:	
 
-1. [Why AmigaVision?](#why)
-2. [Hardware *&* Platform Support](#hardware)
-3. [Device Power-On → Game Selection](#boot)
-4. [Distribution *&* Curation](#distribution)
-5. [Performance, Accuracy *&* Latency](#performance)
-6. [Display *&* Video Output](#output)
-7. [Networking *&* Online Features](#networking)
-8. [Upgrade Model *&* Data Persistence](#upgrade)
-9. [File System *&* Reliability](#fs)
-10. [CRTs, Scaling *&* Display Calibration](#scaling)
-11. [Era-Accurate *&* Specialized Setups](#setups)
-12. [Download AmigaVision](#download)
-13. [Frequently Asked Questions](#faq)
-14. [What AmigaVision is Not](#not)
+* [Why AmigaVision?](#why)
+* [Hardware *&* Platform Support](#hardware)
+* [Device Power-On → Game Selection](#boot)
+* [Distribution *&* Curation](#distribution)
+* [Performance, Accuracy *&* Latency](#performance)
+* [Display *&* Video Output](#output)
+* [Networking *&* Online Features](#networking)
+* [Upgrade Model *&* Data Persistence](#upgrade)
+* [File System *&* Reliability](#fs)
+* [CRTs, Scaling *&* Display Calibration](#scaling)
+* [Era-Accurate *&* Specialized Setups](#setups)
+* [Download AmigaVision](#download)
+* [Frequently Asked Questions](#faq)
+* [What AmigaVision is Not](#not)
 
 ## Why AmigaVision? {#why}
 
