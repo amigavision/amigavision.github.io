@@ -139,6 +139,12 @@ pre code {
   padding: 0;
 }
 
+p code, li code, td code {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 .bottom-cta {
   background: linear-gradient(to bottom,#4182e4 0%,#4182e4 100%);
   color: #fff;
