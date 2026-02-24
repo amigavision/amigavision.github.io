@@ -169,7 +169,7 @@ We strive to keep this overview accurate, and recognize that we can't always be 
 
 ## Download AmigaVision
 
-You can [download AmigaVision here](/https://amiga.vision/download).
+You can [download AmigaVision here](https://amiga.vision/download).
 
 ## Frequently Asked Questions
 
