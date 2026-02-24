@@ -809,6 +809,22 @@ nav a.active {
 color: #fff;
 }
 @media (max-width:760px) {
+  .page .container > h1,
+  .page .container > h2,
+  .page .container > .subtext,
+  .blog-post h1,
+  .blog-post h2,
+  .blog-post h3,
+  .blog-post .post-details,
+  .news-grid .news-card h3,
+  .news-grid .news-card .news-excerpt {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
   body.home-page header {
     background: linear-gradient(to bottom,#346fcb 0%,#346fcb 100%) no-repeat #346fcb;
     border-bottom: 1px solid rgba(255,255,255,0.18);
