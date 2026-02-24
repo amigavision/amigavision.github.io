@@ -44,6 +44,12 @@ html,body {
 body {
   font-family: "Libre Baskerville","Baskerville","Times New Roman","Times";
 }
+@supports (padding: max(0px)) {
+  body {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+}
 header {
   font-family: "San Francisco","Helvetica Neue","Arial";
 }
