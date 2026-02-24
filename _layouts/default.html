@@ -29,7 +29,7 @@
 		{% endcapture %}
 		<style>{{ css | scssify }}</style>
 	</head>
-		<body>
+		<body{% if page.url == '/' %} class="home-page"{% endif %}>
 		<header>
 			<div class="container">
 				{% include navigation.html %}

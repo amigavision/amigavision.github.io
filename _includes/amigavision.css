@@ -839,6 +839,9 @@ color: #fff;
     justify-self: center;
     width: min(260px, 100%);
   }
+  body.home-page nav a.highlight {
+    display: none;
+  }
   .hero .text h1 {
     display: none;
   }
