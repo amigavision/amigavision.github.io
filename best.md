@@ -235,7 +235,7 @@ It also has Bluetooth *&* Wi-Fi support built-in, offering maximum controller an
 
 [^11]: We want an Amiga that can run every Amiga game, which means it needs to have the AGA chipset. Furthermore, we do not want any soldering or hardware surgery to be required, as this is beyond what most people are willing to do.
 
-[^12]: This currently assumes the `puae` emulator, which is the standard in most Raspberry Pi setups. It lags behind the accuracy in emulators like WinUAE and Amiberry, but once Amiberry becomes available as a `libretro` core, this rating will be updated.
+[^12]: This currently assumes the PUAE emulator, which is the standard in most Raspberry Pi setups. It lags behind the accuracy in emulators like WinUAE and Amiberry, but once Amiberry becomes available as a libretro core, this rating will be updated.
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
