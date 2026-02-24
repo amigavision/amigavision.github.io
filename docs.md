@@ -367,7 +367,7 @@ While AmigaVision has been tested for many years, the sheer volume of games and 
 * wiisoldier — Initial RePlayOS setup and testing, benchmarking assistance
 * Alessio (PuntoMusica) — Testing AmigaVision on Amiga CD32 hardware
 
-## Trouble&shy;shooting
+## Trouble&shy;shooting {#troubleshooting}
 
 ### Why doesn't AmigaVision work on MiSTer's network drive or external drive?
 
