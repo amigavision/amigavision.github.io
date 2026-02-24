@@ -711,6 +711,7 @@ bottom: 4px;
 right: -3px;
 }
 .button a,input[type=submit] {
+display: inline-block;
 color: #fff;
 text-decoration: none;
 padding: 10px 30px;
@@ -718,6 +719,9 @@ background: #4182e4;
 border-radius: 3px;
 border: 1px solid rgba(255,255,255,0.5);
 transition: .2s ease-in-out;
+box-sizing: border-box;
+max-width: 100%;
+text-align: center;
 }
 .button a:hover,input[type=submit]:hover {
 border: 1px solid #fff;
