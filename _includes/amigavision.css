@@ -865,9 +865,10 @@ color: #fff;
   }
   nav a {
     margin: 0;
-    padding: 8px 6px;
-    font-size: .86em;
-    line-height: 1.2;
+    padding: 10px 8px;
+    font-size: 1.02em;
+    line-height: 1.15;
+    letter-spacing: .01em;
     text-align: center;
     width: 100%;
     box-sizing: border-box;
