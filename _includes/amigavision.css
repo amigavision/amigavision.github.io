@@ -806,6 +806,20 @@ color: #fff;
 nav a.active {
 color: #fff;
 }
+@media (max-width:760px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px 4px;
+  }
+  nav a {
+    margin: 0;
+    padding: 6px 8px;
+    font-size: .72em;
+    line-height: 1.2;
+  }
+}
 .footer-links {
 width: 100%;
 margin: 10px;
