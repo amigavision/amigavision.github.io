@@ -9,6 +9,23 @@ It prioritizes low latency, correctness, and consistency across real hardware, F
 
 There are several other Amiga setups available for various types of hardware. This overview is meant to show how AmigaVision compares to other setups, and what we find important.
 
+We will cover:
+
+1. [Why AmigaVision?](#why-amigavision)
+2. [Hardware & Platform Support](#%EF%B8%8F-hardware--platform-support)
+3. [Device Power-On → Game Selection](#%EF%B8%8F-device-power-on--game-selection)
+4. [Distribution & Curation](#-distribution--curation)
+5. [Performance, Accuracy & Latency](#%EF%B8%8F-performance-accuracy--latency)
+6. [Display & Video Output](#-display--video-output)
+7. [Networking & Online Features](#-networking--online-features)
+8. [Upgrade Model & Data Persistence](#-upgrade-model--data-persistence)
+9. [File System & Reliability](#-file-system--reliability)
+10. [CRTs, Scaling & Display Calibration](#-crts-scaling--display-calibration)
+11. [Era-Accurate & Specialized Setups](#%EF%B8%8F-era-accurate--specialized-setups)
+12. [Download AmigaVision](#download-amigavision)
+13. [Frequently Asked Questions](#frequently-asked-questions)
+14. [What AmigaVision is Not](#what-amigavision-is-not)
+
 ## Why AmigaVision?
 
 AmigaVision is not about having the largest collection of files — it’s about having the *right versions*, running *correctly*, with *minimal latency*, and *minimal time between power-on and play*. Our core design priorities are:
