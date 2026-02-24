@@ -815,9 +815,11 @@ color: #fff;
   }
   nav a {
     margin: 0;
-    padding: 6px 8px;
-    font-size: .72em;
+    padding: 7px 6px;
+    font-size: .78em;
     line-height: 1.2;
+    flex: 0 1 calc(33.333% - 6px);
+    text-align: center;
   }
 }
 .footer-links {
