@@ -812,6 +812,7 @@ color: #4182e4;
 
 nav a.active {
 color: #fff;
+border-bottom: 1px solid rgba(255,255,255,0.3);
 }
 @media (max-width:760px) {
   footer .footer-columns {
