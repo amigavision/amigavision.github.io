@@ -649,6 +649,11 @@ flex-direction: column;
 
 .news-grid .news-card h3 {
 margin: 0 0 10px 0;
+line-height: 1.35em;
+}
+
+.news-grid .news-card h3 a {
+line-height: inherit;
 }
 
 .news-grid .news-card .post-details {
