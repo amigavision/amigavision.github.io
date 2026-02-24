@@ -1,5 +1,6 @@
 ---
 title: AmigaVision vs. Other Setups
+description: How does AmigaVision differ from other Amiga setups?
 ---
 
 [AmigaVision] is the ultimate Amiga games *&* demo scene setup for MiSTer *&* Pocket FPGAs, Raspberry Pi + emulators — and Amiga 1200, 4000 *&* CD32.
