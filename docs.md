@@ -1,5 +1,5 @@
 ---
-title: AmigaVision Setup
+title: Setting Up AmigaVision
 description: Documentation of how to set up AmigaVision on real hardware, MiSTer & Pocket FPGAs, emulators and Raspberry Pi.
 --- 
 
