@@ -963,6 +963,28 @@ table.table-desktop {
   .testimonial .author a {
     color: #0077b5;
   }
+  .news-grid .news-card {
+    background: #11141a;
+    border: 1px solid #2d333b;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+  }
+  .news-grid .news-card h3 a {
+    color: #f0f6fc;
+  }
+  .news-grid .news-card .post-details {
+    border-bottom: 1px solid #2d333b;
+  }
+  .news-grid .news-card .post-date {
+    color: #9da7b3;
+  }
+  .news-grid .news-card .news-excerpt {
+    color: #dbe3ec;
+  }
+  .news-grid .news-card .button a {
+    background: #2f81f7;
+    border-color: rgba(255,255,255,0.3);
+    color: #fff;
+  }
   pre, code {
     background-color: #222;
   }
