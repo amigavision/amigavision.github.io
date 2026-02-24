@@ -118,7 +118,7 @@ Hardware options range from bare-bones boards to high-quality, purpose-built com
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
 | Automatic PAL 50hz *&* <br>NTSC 60hz Switching | ✅ | ✅ | ✅ | <br>❌<br> [^3] 
 | Cycle Accuracy | <br>✅<br> | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br>🟨<br>🟨<br> [^1]
-| Chipset Fidelity<br> (OCS, ECS, AGA) | <br>✅<br> | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
+| Chipset Fidelity<br> (OCS, ECS, AGA) | <br>✅<br> | 🟩<br>🟩<br>🟩 | 🟨<br>🟨<br>[^12] | 🟩<br>🟩<br>🟩
 {: .feature-compare data-responsive-table="true" }
 
 ## 🎧🖥️🕹️&nbsp;Audio, Video *&* Input
@@ -234,6 +234,8 @@ It also has Bluetooth *&* Wi-Fi support built-in, offering maximum controller an
 [^10]: 1080p is the minimum resolution required for decent integer scaling of Amiga resolutions when the target is a modern 16:9 aspect ratio screen. TheA500 only supports 720p.
 
 [^11]: We want an Amiga that can run every Amiga game, which means it needs to have the AGA chipset. Furthermore, we do not want any soldering or hardware surgery to be required, as this is beyond what most people are willing to do.
+
+[^12]: This currently assumes the `puae` emulator, which is the standard in most Raspberry Pi setups. It lags behind the accuracy in emulators like WinUAE and Amiberry, but once Amiberry becomes available as a `libretro` core, this rating will be updated.
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
