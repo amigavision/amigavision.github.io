@@ -9,17 +9,17 @@ Productivity software, AmigaOS “daily driving”, and historical collecting va
 
 We will cover:
 
-* [Windows / Mac / Linux PC + Emulator](#windows--mac--linux-pc--emulator)
-* [TheA500 Mini *&* TheA1200](#thea500-mini--thea1200)
-* [A600GS *&* A1200NG *&* A4000NG](#a600gs--a1200ng--a4000ng)
-* [Vampire V4 FPGA *&* A6000](#vampire-v4-fpga--a6000)
+* [Windows / Mac / Linux PC + Emulator](#emulators)
+* [TheA500 Mini *&* TheA1200](#mini)
+* [A600GS *&* A1200NG *&* A4000NG](#gs-ng)
+* [Vampire V4 FPGA *&* A6000](#vampire)
 * [Raspberry Pi 5](#raspberry-pi-5)
-* [Real Amiga Hardware](#real-amiga-hardware)
-* [MiSTer FPGA](#mister-fpga)
-* [Detailed Comparisons](#detailed-comparisons)
-* [The Best Amiga in 2026](#the-best-amiga-in-2026-is)
+* [Real Amiga Hardware](#real)
+* [MiSTer FPGA](#mister)
+* [Detailed Comparisons](#details)
+* [The Best Amiga in 2026](#best)
 
-## Windows / Mac / Linux PC + Emulator
+## Windows / Mac / Linux PC + Emulator {#emulators}
 
 Running an Amiga emulator on a modern PC or Mac is the most accessible option on paper, but also the most variable in practice.
 
@@ -33,7 +33,7 @@ There are also fundamental platform issues. On Windows and macOS, emulators do n
 
 PC emulation can be an excellent tool for experimentation and development, but it is not the most reliable way to experience the Amiga as it actually behaved.
 
-## TheA500 Mini *&* TheA1200
+## TheA500 Mini *&* TheA1200 {#mini}
 
 [TheA500 Mini] is a turn-key emulation box, but it is fundamentally limited by its hardware and software design.
 
@@ -43,7 +43,7 @@ At the typical asking price, both MiSTer and Raspberry Pi–based solutions outp
 
 As for [TheA1200], no meaningful technical specifications have been published at the time of writing, so it is not possible to evaluate it yet. It is unlikely to outperform a Raspberry Pi 5 based on what is known at this point, but we will update this document when actual specifications are revealed.
 
-## A600GS *&* A1200NG *&* A4000NG
+## A600GS *&* A1200NG *&* A4000NG {#gs-ng}
 
 [A600GS] *&* [A1200NG] are Amiga-branded appliances built around software emulation rather than hardware recreation.
 
@@ -57,7 +57,7 @@ From a technical perspective, these systems are best understood as preconfigured
 
 Thus, they are considered irrelevant in this comparison.
 
-## Vampire V4 FPGA *&* A6000
+## Vampire V4 FPGA *&* A6000 {#vampire}
 
 The [Vampire V4 Standalone] is best described as a modern, accelerated Amiga-compatible system, not a recreation of classic Amiga hardware.
 
@@ -69,7 +69,7 @@ As a result, Vampire V4 & A6000 are better viewed as “what-if next-generation 
 
 (They are also very expensive, at ~$750 for the bare-bones V4, and ~$1200 for the A6000)
 
-## Raspberry Pi 5
+## Raspberry Pi 5 {#rpi}
 
 The [Raspberry Pi 5] represents the first Pi model that is genuinely fast enough to emulate the Amiga at acceptable speeds. This also includes its derivatives: Raspberry Pi 500, 500+ *&* CM5.
 
@@ -79,7 +79,7 @@ The hardware itself is relatively affordable, but a complete setup requires addi
 
 Even on the Pi 5, emulation remains a compromise. While many games run well, timing accuracy, input latency, and CRT compatibility fall short of FPGA-based solutions. For casual gaming or WHDLoad-based setups, it can be a reasonable choice, but it is not ideal for cycle-exact demos or low-latency use.
 
-## Real Amiga Hardware
+## Real Amiga Hardware {#real}
 
 A real Amiga remains the gold standard for historical authenticity.
 
@@ -91,7 +91,7 @@ Connecting a real Amiga to modern displays also requires additional hardware, su
 
 Of course, for some owners, those trade-offs are not downsides, but instead — *the whole point*. If you have the time and the money, why not? It can definitely be a fun and rewarding undertaking.
 
-## MiSTer FPGA
+## MiSTer FPGA {#mister}
 
 MiSTer provides a hardware-accurate Amiga implementation without the practical downsides of aging chips and power supplies.
 
@@ -99,7 +99,7 @@ It delivers cycle-accurate behavior, extremely low and consistent input/output l
 
 Hardware options range from bare-bones boards to high-quality, purpose-built complete products like the SuperStation, which offers build quality far beyond typical single-board computer enclosures, with every analog and digital display output option imaginable included.
 
-# Detailed Comparisons
+# Detailed Comparisons {#details}
 
 ## 💰&nbsp;Cost
 
@@ -164,7 +164,7 @@ Hardware options range from bare-bones boards to high-quality, purpose-built com
 | Nostalgia *&* Authenticity | ⭐⭐<br>⭐⭐ | ⭐<br>⭐⭐ | <br>⭐⭐ | <br>⭐⭐
 {: .feature-compare data-responsive-table="true" }
 
-## The Best Amiga in 2026 is…
+## The Best Amiga in 2026 is… {#best}
 
 The AmigaVision team owns and actively uses all of the platforms compared here. We maintain multiple real Amigas, several MiSTer setups with both HDMI and analog CRT outputs, Raspberry Pi–based emulation systems, and we regularly use Amiga emulators on Windows, macOS, and Linux. We maintain the AmigaVision setup for all of these platforms.
 

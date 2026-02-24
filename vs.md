@@ -11,22 +11,22 @@ There are several other Amiga setups available for various types of hardware. Th
 
 We will cover:	
 
-1. [Why AmigaVision?](#why-amigavision)
-2. [Hardware *&* Platform Support](#%EF%B8%8F-hardware--platform-support)
-3. [Device Power-On → Game Selection](#%EF%B8%8F-device-power-on--game-selection)
-4. [Distribution *&* Curation](#-distribution--curation)
-5. [Performance, Accuracy *&* Latency](#%EF%B8%8F-performance-accuracy--latency)
-6. [Display *&* Video Output](#-display--video-output)
-7. [Networking *&* Online Features](#-networking--online-features)
-8. [Upgrade Model *&* Data Persistence](#-upgrade-model--data-persistence)
-9. [File System *&* Reliability](#-file-system--reliability)
-10. [CRTs, Scaling *&* Display Calibration](#-crts-scaling--display-calibration)
-11. [Era-Accurate *&* Specialized Setups](#%EF%B8%8F-era-accurate--specialized-setups)
-12. [Download AmigaVision](#download-amigavision)
-13. [Frequently Asked Questions](#frequently-asked-questions)
-14. [What AmigaVision is Not](#what-amigavision-is-not)
+1. [Why AmigaVision?](#why)
+2. [Hardware *&* Platform Support](#hardware)
+3. [Device Power-On → Game Selection](#boot)
+4. [Distribution *&* Curation](#distribution)
+5. [Performance, Accuracy *&* Latency](#performance)
+6. [Display *&* Video Output](#output)
+7. [Networking *&* Online Features](#networking)
+8. [Upgrade Model *&* Data Persistence](#upgrade)
+9. [File System *&* Reliability](#fs)
+10. [CRTs, Scaling *&* Display Calibration](#scaling)
+11. [Era-Accurate *&* Specialized Setups](#setups)
+12. [Download AmigaVision](#download)
+13. [Frequently Asked Questions](#faq)
+14. [What AmigaVision is Not](#not)
 
-## Why AmigaVision?
+## Why AmigaVision? {#why}
 
 AmigaVision is not about having the largest collection of Amiga files — it’s about having the *right versions*, running *correctly*, with *minimal latency*, and *minimal time between power-on and play*. Our core design priorities are:
 
@@ -65,7 +65,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
   </tr>
 </table>
 
-## 🖥️ Hardware *&* Platform Support
+## 🖥️ Hardware *&* Platform Support {#hardware}
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
@@ -76,7 +76,7 @@ Raspberry Pi Supported | ✅ | ✅ | ✅
 Emulators Supported | ✅ | ✅ | ✅
 {: .feature-compare data-responsive-table="true" }
 
-## 🕹️ Device Power-On → Game Selection
+## 🕹️ Device Power-On → Game Selection {#boot}
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
@@ -91,7 +91,7 @@ High-Resolution Game *&* Demo Thumbnails | ✅ | ❌ | ❌
 Game Manuals Accessible on Second Device | ✅ | ❌ | ❌
 -->
 
-## 📦 Distribution *&* Curation
+## 📦 Distribution *&* Curation {#distribution}
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
@@ -103,7 +103,7 @@ Curated Game Lists [^26] | ✅ | ❌ | ❌
 Open Source License | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
-## ⏱️ Performance, Accuracy *&* Latency
+## ⏱️ Performance, Accuracy *&* Latency {#performance}
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
@@ -114,7 +114,7 @@ Low-Latency Joystick *&* Input Timing [^13] | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 <!-- Launching Games via Zaparoo NFC Cards [^7] | ✅  | ❌ | ❌ -->
 
-## 📺 Display *&* Video Output
+## 📺 Display *&* Video Output {#output}
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
@@ -124,7 +124,7 @@ Analog Video Output With No Added Lag [^14] | ✅ | ❌ | ❌
 [Correct NTSC Pixel Aspect Ratio](/ntsc) [^16] | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
-## 🌐 Networking *&* Online Features
+## 🌐 Networking *&* Online Features {#networking}
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
@@ -132,7 +132,7 @@ Easy Network File Transfer to the Amiga Without Removing SD Card [^17] | ✅ | �
 Internet Stack Included (Online Out-of-the-Box) [^18] | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
-## 💾 Upgrade Model *&* Data Persistence
+## 💾 Upgrade Model *&* Data Persistence {#upgrade}
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
@@ -142,14 +142,14 @@ Upgrade Path Documented | ✅ | ❌ | ❌
 Custom `startup-sequence` entries survive upgrades [^20] | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
-## 🧱 File System *&* Reliability
+## 🧱 File System *&* Reliability {#fs}
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
 Uses Corruption-Resistant File System (PFS), Designed to Minimize File System Damage [^21] | ✅ | ✅ | ❌
 {: .feature-compare data-responsive-table="true" }
 
-## 📐 CRTs, Scaling *&* Display Calibration
+## 📐 CRTs, Scaling *&* Display Calibration {#scaling}
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
@@ -158,7 +158,7 @@ Shadow Mask Presets Included [^23] | ✅ | ❌ | ❌
 External HDMI Scaler Profiles Included <br>(e.g. RetroTink 4K, Morph 4K) | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
-## 🕰️ Era-Accurate *&* Specialized Setups
+## 🕰️ Era-Accurate *&* Specialized Setups {#setups}
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
@@ -184,11 +184,11 @@ Preservation-Focused Curation | ✅ | ❌ | ❌
 
 We strive to keep this overview accurate, and recognize that we can't always be up-to-date on everything as the projects evolve. If you see anything that mis-represents any of the projects mentioned, [file a bug in our issue tracker](https://github.com/amigavision/AmigaVision/issues), and we will correct it.
 
-## Download AmigaVision
+## Download AmigaVision {#download}
 
 You can [download AmigaVision here](https://amiga.vision/download).
 
-## Frequently Asked Questions
+## Frequently Asked Questions {#faq}
 
 ### PiMiga *&* AGS seem to have way more games and bigger size images?
 
@@ -227,7 +227,7 @@ Added latency fundamentally changes how games *feel*, even if they can seem to l
 - Anyone tired of tweaking configs instead of playing
 
 
-## What AmigaVision is *Not*
+## What AmigaVision is *Not* {#not}
 
 ### AmigaVision is *not* a “maximum content” distribution
 It does not aim to include every known dump, crack, or regional variant. Games are selected and curated so that the correct version runs by default.
