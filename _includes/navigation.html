@@ -3,7 +3,10 @@
 		{% assign class = "" %}
 		{% assign is_active = false %}
 
-		{% if link.link == page.url or link.link == page.url | append: "/" or link.link | append: "/" == page.url %}
+		{% assign page_url_slash = page.url | append: "/" %}
+		{% assign link_url_slash = link.link | append: "/" %}
+
+		{% if link.link == page.url or link.link == page_url_slash or link_url_slash == page.url %}
 			{% assign is_active = true %}
 		{% endif %}
 
