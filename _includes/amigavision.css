@@ -196,6 +196,12 @@ font-size: 1em;
 .hero p {
 color: #fff;
 }
+.hero .text-container h1 {
+margin-top: 0;
+}
+.hero .text-container h2 {
+margin-top: 10px;
+}
 @media (min-width:768px) {.flex {
   display: -webkit-box;
   display: -webkit-flex;
