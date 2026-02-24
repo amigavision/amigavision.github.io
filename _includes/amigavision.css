@@ -845,9 +845,18 @@ color: #fff;
   body.home-page .content section .text {
     text-align: center;
   }
+  body.home-page .content section {
+    padding: 56px 0;
+  }
+  body.home-page .content section.hero {
+    padding-top: 10px;
+  }
   body.home-page .content section .text h2,
   body.home-page .content section .text p {
     text-align: center;
+  }
+  body.home-page .content section .text h2 {
+    margin-top: 0;
   }
   .hero .text h1 {
     display: none;
