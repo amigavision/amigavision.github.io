@@ -807,23 +807,23 @@ color: #fff;
 }
 @media (max-width:760px) {
   nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 6px 4px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
   }
   nav a {
     margin: 0;
     padding: 8px 6px;
-    font-size: .9em;
+    font-size: .86em;
     line-height: 1.2;
-    flex: 0 1 calc(50% - 6px);
     text-align: center;
+    width: 100%;
+    box-sizing: border-box;
   }
   nav a.highlight {
-    order: 100;
-    flex: 0 1 auto;
-    min-width: 140px;
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: min(260px, 100%);
   }
 }
 .footer-links {
