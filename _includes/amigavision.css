@@ -793,14 +793,13 @@ nav a:hover {
 border-bottom: 1px solid rgba(255,255,255,0.3);
 color: #fff;
 }
-@media (min-width:760px) {nav a.highlight {
-  border: 1px #ccc solid;
-  border-radius: 5px;
-  }
-  nav a.highlight:hover {
-  background: #fff;
-  color: #4182e4;
-  }
+nav a.highlight {
+border: 1px #ccc solid;
+border-radius: 5px;
+}
+nav a.highlight:hover {
+background: #fff;
+color: #4182e4;
 }
 
 nav a.active {
@@ -815,11 +814,16 @@ color: #fff;
   }
   nav a {
     margin: 0;
-    padding: 7px 6px;
-    font-size: .78em;
+    padding: 8px 6px;
+    font-size: .9em;
     line-height: 1.2;
-    flex: 0 1 calc(33.333% - 6px);
+    flex: 0 1 calc(50% - 6px);
     text-align: center;
+  }
+  nav a.highlight {
+    order: 100;
+    flex: 0 1 auto;
+    min-width: 140px;
   }
 }
 .footer-links {
