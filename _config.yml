@@ -7,7 +7,7 @@ baseurl:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: The ultimate Amiga games collection and demo scene showcase
+description: An easy-to-use Amiga games launcher and curated demo scene setup for MiSTer FPGA, Pocket FPGA, Raspberry Pi, emulators, and real Amiga hardware.
 author:
   name: AmigaVision
   email:
