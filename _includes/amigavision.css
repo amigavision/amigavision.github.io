@@ -842,6 +842,13 @@ color: #fff;
   body.home-page nav a.highlight {
     display: none;
   }
+  body.home-page .content section .text {
+    text-align: center;
+  }
+  body.home-page .content section .text h2,
+  body.home-page .content section .text p {
+    text-align: center;
+  }
   .hero .text h1 {
     display: none;
   }
