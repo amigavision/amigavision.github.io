@@ -1033,6 +1033,15 @@ table.table-desktop {
     border-color: rgba(255,255,255,0.3);
     color: #fff;
   }
+  .blog-filter a {
+    background: #11141a;
+    border: 1px solid #2d333b;
+    color: #b8c0cb;
+  }
+  .blog-filter a:hover {
+    color: #fff;
+    border-color: #4b5563;
+  }
   pre, code {
     background-color: #222;
   }
