@@ -282,6 +282,9 @@ text-align: center;
 header .company-name a {
 display: inline-block;
 }
+.home-mobile-logo {
+display: none;
+}
 header .company-name img {
 display: block;
 width: auto;
@@ -809,6 +812,9 @@ color: #fff;
   header .container {
     align-items: center;
   }
+  header .home-mobile-logo {
+    display: block;
+  }
   header .company-name {
     order: 1;
     margin: 8px auto 10px auto;
@@ -832,6 +838,9 @@ color: #fff;
     grid-column: 1 / -1;
     justify-self: center;
     width: min(260px, 100%);
+  }
+  .hero .text h1 {
+    display: none;
   }
 }
 .footer-links {

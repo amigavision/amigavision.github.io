@@ -33,6 +33,9 @@
 		<header>
 			<div class="container">
 				{% include navigation.html %}
+				{% if page.url == '/' %}
+					<div class="company-name home-mobile-logo"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/amigavision.svg" alt="AmigaVision" height="42" /></a></div>
+				{% endif %}
 				{% unless page.url == '/' %}
 					<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/amigavision.svg" alt="AmigaVision" height="42" /></a></div>
 				{% endunless %}
