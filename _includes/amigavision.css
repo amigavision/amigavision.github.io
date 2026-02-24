@@ -806,7 +806,15 @@ nav a.active {
 color: #fff;
 }
 @media (max-width:760px) {
+  header .container {
+    align-items: center;
+  }
+  header .company-name {
+    order: 1;
+    margin: 8px auto 10px auto;
+  }
   nav {
+    order: 2;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 6px;
