@@ -164,6 +164,18 @@ p code, li code, td code {
   margin: 0;
   padding: 100px 0;
 }
+.testimonial p,
+.testimonial blockquote,
+.testimonial .author {
+  color: #222;
+}
+.testimonial .author a {
+  color: #0077b5;
+}
+.bottom-cta h2,
+.bottom-cta p {
+  color: #fff;
+}
 .testimonial .testimonial-block {
   max-width: 750px;
   width: 98%;
@@ -941,6 +953,15 @@ table.table-desktop {
   }
   .content section:nth-child(odd) {
   background-color: #141414;
+  }
+  .testimonial {
+  background: #f5f5f5;
+  }
+  .testimonial p, .testimonial blockquote, .testimonial .author {
+    color: #222;
+  }
+  .testimonial .author a {
+    color: #0077b5;
   }
   pre, code {
     background-color: #222;
