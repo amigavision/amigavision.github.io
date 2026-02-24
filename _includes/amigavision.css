@@ -809,6 +809,13 @@ nav a.active {
 color: #fff;
 }
 @media (max-width:760px) {
+  body.home-page header {
+    background: linear-gradient(to bottom,#346fcb 0%,#346fcb 100%) no-repeat #346fcb;
+    border-bottom: 1px solid rgba(255,255,255,0.18);
+  }
+  body.home-page .hero {
+    background: linear-gradient(180deg,#4a89ea 0%,#4582df 55%,#3b74c7 100%) no-repeat #4582df;
+  }
   header .container {
     align-items: center;
   }
