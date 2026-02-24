@@ -196,7 +196,7 @@ It also has Bluetooth *&* Wi-Fi support built-in, offering maximum controller an
 
 *Disclaimer: We are not associated with SuperStation One or Retro Remake in any way, and these are not affiliate links — we simply believe this is the best MiSTer FPGA platform available right now.*
 
-
+---
 
 [tearing]:https://en.wikipedia.org/wiki/Screen_tearing
 [judder]:https://en.wikipedia.org/wiki/Screen_tearing#Complications
