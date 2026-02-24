@@ -819,6 +819,14 @@ color: #fff;
 border-bottom: 1px solid rgba(255,255,255,0.3);
 }
 @media (max-width:760px) {
+  body.home-page .content .container.flex {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  body.home-page .content .container.flex .image {
+    margin: 0 0 18px 0;
+  }
   footer .footer-columns {
     justify-content: center;
     text-align: center;
