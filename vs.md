@@ -9,7 +9,7 @@ It prioritizes low latency, correctness, and consistency across real hardware, F
 
 There are several other Amiga setups available for various types of hardware. This overview is meant to show how AmigaVision compares to other setups, and what we find important.
 
-We will cover:
+We will cover:	
 
 1. [Why AmigaVision?](#why-amigavision)
 2. [Hardware & Platform Support](#%EF%B8%8F-hardware--platform-support)
@@ -28,7 +28,7 @@ We will cover:
 
 ## Why AmigaVision?
 
-AmigaVision is not about having the largest collection of files — it’s about having the *right versions*, running *correctly*, with *minimal latency*, and *minimal time between power-on and play*. Our core design priorities are:
+AmigaVision is not about having the largest collection of Amiga files — it’s about having the *right versions*, running *correctly*, with *minimal latency*, and *minimal time between power-on and play*. Our core design priorities are:
 
 ### ⏱️ Device Power On → Playable Game
 Time-to-fun matters. From power-on to interacting with a game, the entire startup path is designed to be short, deterministic, and free of unnecessary layers, configuration screens, splash screens, or guesswork.
