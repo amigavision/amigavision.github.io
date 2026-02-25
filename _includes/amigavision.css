@@ -740,6 +740,18 @@ border-radius: 3px;
 border: 1px solid rgba(255,255,255,0.3);
 padding: 16px 50px;
 }
+.page ol .button.alt a,
+.page ul .button.alt a {
+  padding: 6px 14px;
+  font-size: .85em;
+  line-height: 1.2;
+}
+.page ol .button,
+.page ul .button {
+  display: inline-block;
+  margin: 0 8px 0 0;
+  vertical-align: middle;
+}
 .button.alt a:hover {
 background: #fff;
 color: #4182e4;
