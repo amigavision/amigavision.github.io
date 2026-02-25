@@ -656,6 +656,7 @@ flex-direction: column;
 .news-grid .news-card h3 {
 margin: 0 0 10px 0;
 line-height: 1.35em;
+text-align: center;
 }
 
 .news-grid .news-card h3 a {
@@ -666,11 +667,13 @@ line-height: inherit;
 margin: 0;
 padding: 0 0 10px 0;
 border-bottom: 1px solid #e9e9e9;
+text-align: center;
 }
 
 .news-grid .news-card .news-excerpt {
 margin: 12px 0 0 0;
 line-height: 1.45em;
+text-align: center;
 }
 
 .news-grid .news-card .post-content {
