@@ -1122,6 +1122,11 @@ font-weight: 600;
   stroke-width: 1.6;
   stroke-linecap: round;
   stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+.platform-icon svg.icon-filled {
+  fill: #fff;
+  stroke: none;
 }
 .platform-label {
   font-size: 1.02em;
