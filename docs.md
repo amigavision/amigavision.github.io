@@ -1,6 +1,7 @@
 ---
 title: Setting Up AmigaVision
 description: Documentation of how to set up AmigaVision on real hardware, MiSTer & Pocket FPGAs, emulators and Raspberry Pi.
+page_class: page-docs
 --- 
 
 AmigaVision is a carefully curated collection of game and demo configurations for the [Amiga computer] platform, as well as a minimal [Workbench] setup with useful utilities and apps, wrapped in a user-friendly launcher.
@@ -11,27 +12,29 @@ It has many features specifically for use with [MiSTer] and [Analogue Pocket] FP
 
 ## Contents
 
-* [Features](#features)
-* [Save Files](#save-files)
-* [Upgrading](#upgrading)
-* [Setup for Amiga hardware](#setup-for-amiga-hardware)
-* [Setup for Raspberry Pi](#setup-for-raspberry-pi)
-* [Setup for emulators](#setup-for-emulators)
-* [Setup for Pocket](#setup-for-pocket)
-* [Setup for MiSTer](#setup-for-mister)
-* [Optional Setups](#optional-setups)
-* [MiSTer: Gamepad & Joystick Mapping](#mister-gamepad--joystick-mapping)
-* [MiSTer: Video Modes](#mister-video-modes)
-* [MiSTer: CPU Performance Notes](#mister-cpu-performance-notes)
-* [Workbench](#workbench)
-* [CD³² Games Support](#cd-games-support)
-* [Non-working Games](#non-working-games)
-* [Custom Scripts](#custom-scripts)
-* [Bug Reports & Feature Requests](#bug-reports--feature-requests)
-* [Credits](#credits)
-* [Troubleshooting](#troubleshooting)
-* [Frequently Asked Questions](#frequently-asked-questions)
-* [Colophon](#colophon)
+<ul class="docs-toc">
+  <li><a href="#features">Features</a></li>
+  <li><a href="#save-files">Save Files</a></li>
+  <li><a href="#upgrading">Upgrading</a></li>
+  <li><a href="#setup-for-amiga-hardware">Setup for Amiga hardware</a></li>
+  <li><a href="#setup-for-raspberry-pi">Setup for Raspberry Pi</a></li>
+  <li><a href="#setup-for-emulators">Setup for emulators</a></li>
+  <li><a href="#setup-for-pocket">Setup for Pocket</a></li>
+  <li><a href="#setup-for-mister">Setup for MiSTer</a></li>
+  <li><a href="#optional-setups">Optional Setups</a></li>
+  <li><a href="#mister-gamepad--joystick-mapping">MiSTer: Gamepad & Joystick Mapping</a></li>
+  <li><a href="#mister-video-modes">MiSTer: Video Modes</a></li>
+  <li><a href="#mister-cpu-performance-notes">MiSTer: CPU Performance Notes</a></li>
+  <li><a href="#workbench">Workbench</a></li>
+  <li><a href="#cd-games-support">CD³² Games Support</a></li>
+  <li><a href="#non-working-games">Non-working Games</a></li>
+  <li><a href="#custom-scripts">Custom Scripts</a></li>
+  <li><a href="#bug-reports--feature-requests">Bug Reports & Feature Requests</a></li>
+  <li><a href="#credits">Credits</a></li>
+  <li><a href="#troubleshooting">Troubleshooting</a></li>
+  <li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
+  <li><a href="#colophon">Colophon</a></li>
+</ul>
 
 ## Features
 

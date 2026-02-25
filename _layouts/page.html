@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="content">
-	<section class="page">
+	<section class="page{% if page.page_class %} {{ page.page_class }}{% endif %}">
 		<div class="container {% if page.full_width %}max-container{% endif %}">
 			{% if page.heading %}
 				<h2>{{ page.heading }}</h2>
