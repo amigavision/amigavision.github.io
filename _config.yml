@@ -46,11 +46,6 @@ defaults:
       layout: "default"
 
   - scope:
-      path: "download"
-    values:
-      layout: "default"
-
-  - scope:
       path: "docs.md"
     values:
       layout: "post"
