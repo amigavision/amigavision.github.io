@@ -14,7 +14,7 @@
 
     /* Avoid widows for key elements */
     var selector = '.description, .listing li a, p, em, strong, li';
-    if (window.innerWidth > 720) selector += ', h1, h2';
+    if (window.innerWidth > 720) selector += ', h1, h2, .news-card h3, .blog-post h3 a';
     [].forEach.call(document.querySelectorAll(selector), function (h) {
       var last = h.lastChild, matches;
       if (last instanceof Text &&
