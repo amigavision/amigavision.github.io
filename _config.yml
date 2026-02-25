@@ -46,7 +46,7 @@ defaults:
       layout: "default"
 
   - scope:
-      path: "download.html"
+      path: "download/index.html"
     values:
       layout: "default"
 
