@@ -16,11 +16,11 @@ It has many features specifically for use with [MiSTer] and [Analogue Pocket] FP
   <li><a href="#features"><span class="toc-title">Features</span><span class="toc-desc">What AmigaVision includes and why it matters.</span></a></li>
   <li><a href="#saves"><span class="toc-title">Save Files</span><span class="toc-desc">How quitting works and where saves live.</span></a></li>
   <li><a href="#upgrading"><span class="toc-title">Upgrading</span><span class="toc-desc">Clean install guidance and naming changes.</span></a></li>
-  <li><a href="#amiga"><span class="toc-title">Setup for Amiga hardware</span><span class="toc-desc">Imaging and install steps for real machines.</span></a></li>
-  <li><a href="#raspberry"><span class="toc-title">Setup for Raspberry Pi</span><span class="toc-desc">RePlayOS install and boot tips.</span></a></li>
-  <li><a href="#emulators"><span class="toc-title">Setup for emulators</span><span class="toc-desc">FS-UAE setup and launch basics.</span></a></li>
-  <li><a href="#pocket"><span class="toc-title">Setup for Pocket</span><span class="toc-desc">Analogue Pocket copy paths and controls.</span></a></li>
-  <li><a href="#mister"><span class="toc-title">Setup for MiSTer</span><span class="toc-desc">Filesystem layout and core setup.</span></a></li>
+  <li><a href="#amiga"><span class="toc-title">Amiga Hardware Setup</span><span class="toc-desc">Imaging and install steps for real machines.</span></a></li>
+  <li><a href="#raspberry"><span class="toc-title">Raspberry Pi Setup</span><span class="toc-desc">RePlayOS install and boot tips.</span></a></li>
+  <li><a href="#emulators"><span class="toc-title">Emulator Setup</span><span class="toc-desc">FS-UAE setup and launch basics.</span></a></li>
+  <li><a href="#pocket"><span class="toc-title">Pocket Setup</span><span class="toc-desc">Analogue Pocket copy paths and controls.</span></a></li>
+  <li><a href="#mister"><span class="toc-title">MiSTer Setup</span><span class="toc-desc">Filesystem layout and core setup.</span></a></li>
   <li><a href="#optional"><span class="toc-title">Optional Setups</span><span class="toc-desc">Historical Workbench configurations.</span></a></li>
   <li><a href="#mapping"><span class="toc-title">MiSTer: Gamepad & Joystick Mapping</span><span class="toc-desc">Control layouts and button notes.</span></a></li>
   <li><a href="#video"><span class="toc-title">MiSTer: Video Modes</span><span class="toc-desc">Recommended output and scaling modes.</span></a></li>
@@ -90,7 +90,7 @@ We often make important changes to the configuration files, `MiSTer.ini` and oth
 
 Follow the instructions for your platform below.
 
-## Setup for Amiga hardware {#amiga}
+## Amiga Hardware Setup {#amiga}
 
 AmigaVision supports any AGA-capable Amiga: Amiga 1200, Amiga 4000, and Amiga CD32 — as long as it has a mass storage device like an SD card or CF card connected via an adapter to the IDE bus.
 
@@ -116,7 +116,7 @@ We support single-button Amiga/C64 joysticks, as well as four-button CD32 gamepa
 
 Many WHDLoad games have been patched to support multiple buttons, so check for those options when starting a game.
 
-## Setup for Raspberry Pi {#raspberry}
+## Raspberry Pi Setup {#raspberry}
 
 AmigaVision recommends using [RePlayOS] for Raspberry Pi emulation of Amiga, since it is optimized for low input latency, low audio latency, and low output latency. RePlayOS runs well on any Raspberry Pi 5 with 1GB of RAM — or more, but 1GB is sufficient. Raspberry Pi 3 and 4 are supported, but too slow for the most accurate emulation.
 
@@ -142,7 +142,7 @@ While this setup will start on Raspberry Pi 3 and 4, they are too slow to emulat
 
 Do note that if you want to upgrade RePlayOS independently, you will need to re-add the files every time, since it will wipe the drive — RePlayOS does not have in-place upgrades yet. You can avoid this by using a separate external USB or internal NVMe drive and putting the AmigaVision files there instead of on the system boot drive.
 
-## Setup for Emulators {#emulators}
+## Emulator Setup {#emulators}
 
 We recommend — and include a setup for — the [FS-UAE] Amiga emulator, which supports Mac, Windows and Linux.
 
@@ -152,7 +152,7 @@ We recommend — and include a setup for — the [FS-UAE] Amiga emulator, which 
 
 For any additional configuration or customizations, consult the FS-UAE documentation.
 
-## Setup for Pocket {#pocket}
+## Pocket Setup {#pocket}
 
 AmigaVision also works great with the handheld [Analogue Pocket] FPGA device. Do note that the Amiga core on Analogue Pocket does not support mounting/loading disc images for CD³² yet, but the 3000+ games in the library work great.
 
@@ -170,7 +170,7 @@ AmigaVision also works great with the handheld [Analogue Pocket] FPGA device. Do
 
 Many games are updated to support two-button controls, but some require remapping if you prefer button-to-jump instead of up-to-jump (which makes sense on a joystick, but is pretty terrible on a gamepad). Button remapping is done just like in any other Pocket core.
 
-## Setup for MiSTer {#mister}
+## MiSTer Setup {#mister}
 
 Copy the contents of the following directories to the corresponding directories in the top level on MiSTer's file system:
 
