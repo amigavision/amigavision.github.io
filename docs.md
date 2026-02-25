@@ -546,6 +546,8 @@ AmigaVision was made with the help of these wonderful tools:
 * [Xee] — Useful for showing Amiga IFF graphics files on the Mac.
 * [FS-UAE] — Powers our build script as the emulator we use to generate the HDFs.
 
+---
+
 [AmigaVision]:https://amiga.vision
 [amiga.vision]:https://amiga.vision
 [Amiga computer]:https://en.wikipedia.org/wiki/Amiga
