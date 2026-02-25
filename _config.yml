@@ -46,7 +46,7 @@ defaults:
       layout: "default"
 
   - scope:
-      path: "download/"
+      path: "download"
     values:
       layout: "default"
 
