@@ -14,29 +14,29 @@ It has many features specifically for use with [MiSTer] and [Analogue Pocket] FP
 
 <ul class="docs-toc">
   <li><a href="#features">Features</a></li>
-  <li><a href="#save-files">Save Files</a></li>
+  <li><a href="#saves">Save Files</a></li>
   <li><a href="#upgrading">Upgrading</a></li>
-  <li><a href="#setup-for-amiga-hardware">Setup for Amiga hardware</a></li>
-  <li><a href="#setup-for-raspberry-pi">Setup for Raspberry Pi</a></li>
-  <li><a href="#setup-for-emulators">Setup for emulators</a></li>
-  <li><a href="#setup-for-pocket">Setup for Pocket</a></li>
-  <li><a href="#setup-for-mister">Setup for MiSTer</a></li>
-  <li><a href="#optional-setups">Optional Setups</a></li>
-  <li><a href="#mister-gamepad--joystick-mapping">MiSTer: Gamepad & Joystick Mapping</a></li>
-  <li><a href="#mister-video-modes">MiSTer: Video Modes</a></li>
-  <li><a href="#mister-cpu-performance-notes">MiSTer: CPU Performance Notes</a></li>
+  <li><a href="#amiga">Setup for Amiga hardware</a></li>
+  <li><a href="#raspberry">Setup for Raspberry Pi</a></li>
+  <li><a href="#emulators">Setup for emulators</a></li>
+  <li><a href="#pocket">Setup for Pocket</a></li>
+  <li><a href="#mister">Setup for MiSTer</a></li>
+  <li><a href="#optional">Optional Setups</a></li>
+  <li><a href="#mapping">MiSTer: Gamepad & Joystick Mapping</a></li>
+  <li><a href="#video">MiSTer: Video Modes</a></li>
+  <li><a href="#performance">MiSTer: CPU Performance Notes</a></li>
   <li><a href="#workbench">Workbench</a></li>
-  <li><a href="#cd-games-support">CD³² Games Support</a></li>
-  <li><a href="#non-working-games">Non-working Games</a></li>
-  <li><a href="#custom-scripts">Custom Scripts</a></li>
-  <li><a href="#bug-reports--feature-requests">Bug Reports & Feature Requests</a></li>
+  <li><a href="#cd32">CD³² Games Support</a></li>
+  <li><a href="#nonworking">Non-working Games</a></li>
+  <li><a href="#scripts">Custom Scripts</a></li>
+  <li><a href="#bugs">Bug Reports & Feature Requests</a></li>
   <li><a href="#credits">Credits</a></li>
   <li><a href="#troubleshooting">Troubleshooting</a></li>
-  <li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
+  <li><a href="#faq">Frequently Asked Questions</a></li>
   <li><a href="#colophon">Colophon</a></li>
 </ul>
 
-## Features
+## Features {#features}
 
 * Supports original Amiga 1200, 4000 *&* CD32 hardware, MiSTer, MiST and Analogue Pocket FPGA hardware recreations, as well as Amiga emulators.
 
@@ -70,7 +70,7 @@ It has many features specifically for use with [MiSTer] and [Analogue Pocket] FP
 
 * We also have a dedicated Amiga CD32 setup for MiSTer that is compatible with the majority of the released games for it.
 
-## Save Files
+## Save Files {#saves}
 
 Before we start, a quick note on save files:
 
@@ -80,7 +80,7 @@ In the `[Options]` menu of the launcher you can choose between a few alternative
 
 The reason for this is that most games run in a WHDLoad container (think "virtualization"), and cannot write the save data to disk outside the container until you explicitly exit the game.
 
-## Upgrading
+## Upgrading {#upgrading}
 
 When upgrading AmigaVision from a previous release (on any platform), we always recommend following the instructions for doing a clean install and **only** keep your `Saves.hdf` hard drive image, which is where your game saves are stored.
 
@@ -90,7 +90,7 @@ We often make important changes to the configuration files, `MiSTer.ini` and oth
 
 Follow the instructions for your platform below.
 
-## Setup for Amiga hardware
+## Setup for Amiga hardware {#amiga}
 
 AmigaVision supports any AGA-capable Amiga: Amiga 1200, Amiga 4000, and Amiga CD32 — as long as it has a mass storage device like an SD card or CF card connected via an adapter to the IDE bus.
 
@@ -100,7 +100,7 @@ Simply locate the `games/Amiga/AmigaVision.hdf` file, and load that in your disk
 
 If your HDF image contains every game in the database, you will need at least a 16GB CF/SD card.
 
-### A note about save files & upgrading on Amiga hardware
+### A note about save files & upgrading on Amiga hardware {#amigasaves}
 
 Note that save files in games will only be written to disk when you quit the game as described in the [Save Files](#save-files) section.
 
@@ -110,13 +110,13 @@ Save files are located in `DH0:WHDSaves` — and are usually small enough that a
 
 If you don't have a way to write to a real floppy or an ADF image, the best way would be to boot the image in an emulator and extract the save files that way. Consult the relevant emulator for your system to figure out how to do this.
 
-### Joystick and Gamepad support on Amiga hardware
+### Joystick and Gamepad support on Amiga hardware {#amigacontrols}
 
 We support single-button Amiga/C64 joysticks, as well as four-button CD32 gamepads, and probably Sega Mega Drive (aka. Sega Genesis) gamepads as well — although we haven't personally tested this.
 
 Many WHDLoad games have been patched to support multiple buttons, so check for those options when starting a game.
 
-## Setup for Raspberry Pi
+## Setup for Raspberry Pi {#raspberry}
 
 AmigaVision recommends using [RePlayOS] for Raspberry Pi emulation of Amiga, since it is optimized for low input latency, low audio latency, and low output latency. RePlayOS runs well on any Raspberry Pi 5 with 1GB of RAM — or more, but 1GB is sufficient. Raspberry Pi 3 and 4 are supported, but too slow for the most accurate emulation.
 
@@ -142,7 +142,7 @@ While this setup will start on Raspberry Pi 3 and 4, they are too slow to emulat
 
 Do note that if you want to upgrade RePlayOS independently, you will need to re-add the files every time, since it will wipe the drive — RePlayOS does not have in-place upgrades yet. You can avoid this by using a separate external USB or internal NVMe drive and putting the AmigaVision files there instead of on the system boot drive.
 
-## Setup for Emulators
+## Setup for Emulators {#emulators}
 
 We recommend — and include a setup for — the [FS-UAE] Amiga emulator, which supports Mac, Windows and Linux.
 
@@ -152,7 +152,7 @@ We recommend — and include a setup for — the [FS-UAE] Amiga emulator, which 
 
 For any additional configuration or customizations, consult the FS-UAE documentation.
 
-## Setup for Pocket
+## Setup for Pocket {#pocket}
 
 AmigaVision also works great with the handheld [Analogue Pocket] FPGA device. Do note that the Amiga core on Analogue Pocket does not support mounting/loading disc images for CD³² yet, but the 3000+ games in the library work great.
 
@@ -161,7 +161,7 @@ AmigaVision also works great with the handheld [Analogue Pocket] FPGA device. Do
 * If you already have an existing save file, make sure it is named `AmigaVision-Saves.hdf` — *not* `MegaAGS-Saves.hdf`, which was the old name.
 * Start the Amiga core, enjoy!
 
-### Pocket Controls
+### Pocket Controls {#pocketcontrols}
 
 * `Select` button brings up the on-screen keyboard, hit `DEL` to quit a game.
 * `Start` button toggles mouse emulation mode, left/right triggers are the left/right mouse buttons.
@@ -170,7 +170,7 @@ AmigaVision also works great with the handheld [Analogue Pocket] FPGA device. Do
 
 Many games are updated to support two-button controls, but some require remapping if you prefer button-to-jump instead of up-to-jump (which makes sense on a joystick, but is pretty terrible on a gamepad). Button remapping is done just like in any other Pocket core.
 
-## Setup for MiSTer
+## Setup for MiSTer {#mister}
 
 Copy the contents of the following directories to the corresponding directories in the top level on MiSTer's file system:
 
@@ -202,7 +202,7 @@ bootscreen=0
 
 Note that *even if* your 16:9 4K TV *can* handle and scale 1440p, we *still recommend* using 1080p output, since that will do proper integer scaling to 4K and make use of the per-game 5×PAL Overscale modes, to reduce the amount of pixels wasted on black bars along the edges.
 
-### Other 16:9 or 16:10 monitor sizes
+### Other 16:9 or 16:10 monitor sizes {#monitors}
 
 The above default settings assume that you are using it with a 16:9 format 1080p or 4K TV or computer monitor. 
 
@@ -220,7 +220,7 @@ video_mode_ntsc=1920,1200,60
 video_mode_pal=1920,1200,50
 ```
 
-### What about 4:3 monitors or 5:4 monitors?
+### What about 4:3 monitors or 5:4 monitors? {#legacy}
 
 In general, the MiSTer video mode setting is pretty easy to get running — here's an example of what to add if you have a 1600x1200 4:3 monitor, replace the values for whatever display you are using:
 
@@ -231,7 +231,7 @@ video_mode_pal=1600,1200,50
 
 Replace the resolution values with whatever corresponds to your monitor's native resolution.
 
-### Using the Amiga Cores
+### Using the Amiga Cores {#cores}
 
 Reboot your MiSTer, you should now have two entries in the `Computer` section: 
 
@@ -240,13 +240,13 @@ Reboot your MiSTer, you should now have two entries in the `Computer` section:
 
 Launch the `Amiga` entry — and enjoy! Don't forget to check out the other sections of the documentation — especially on save files, controller mappings and video modes — once the basic setup is up and running.
 
-### Potential issues
+### Potential issues {#issues}
 
 * If you are using an external hard drive or a network drive, do note that you will have to manually specify the location of the Kickstart file as specified in the [Troubleshooting](#troubleshooting) section.
 
 * If you use `names.txt` to rename cores (or pull it down via the `update_all` script), you may end up with *two* entries that *both* say `Amiga` after this. The entry without a date listed is AmigaVision. To fix this duplication, edit `names.txt` and give the `Minimig` core a different name — e.g. use `Commodore Amiga` for that entry instead, and you can use that for any setups unrelated to AmigaVision, if you so desire.
 
-## Optional Setups
+## Optional Setups {#optional}
 
 (You can probably skip this section if you were not an Amiga user back in the day or unless you have a special interest in computing history :)
 
@@ -259,7 +259,7 @@ There are `ReadMe` files that go into more detail about these setups.
 
 These are *not* meant to be used for games or demos, but instead for giving you a basic setup that lets you run productivity apps like you did back in the day. For games and demos, we recommend the `Amiga` (main AmigaVision setup) and `Amiga 500` (for use with ADF files) instead.
 
-## MiSTer: Gamepad & Joystick Mapping
+## MiSTer: Gamepad & Joystick Mapping {#mapping}
 
 While many games supports two or more buttons, Amiga games were generally designed for one button joysticks. Consequently "up to jump" (or accelerate) control scheme is very common. 
 
@@ -276,7 +276,7 @@ If you are using a gamepad, you might want to use MiSTer's controller mapping to
 
 While a keyboard and mouse isn't strictly necessary to play most action games, it is definitely recommended for the full Amiga experience, and many games have controls that make use of them.
 
-## MiSTer: Video Modes
+## MiSTer: Video Modes {#video}
 
 We care deeply about preserving the correct aspect ratio for all games. That means going beyond just NTSC and PAL, and ensuring that the Pixel Aspect Ratio (PAR) is also correct. Pixels on the Amiga were close to square (16:15) in PAL resolutions on a CRT, but quite tall on NTSC displays (5:6). Additionally, when we apply a 5×PAL or 6×PAL [Overscale](https://amiga.vision/overscale), 1:1 gives us great results that are near indistinguishable from the original PAR at those sizes, while modernizing the output to fit 16:9 displays.
 
@@ -296,11 +296,11 @@ The `Original` aspect ratio supplied by the core should not be used. The `Full S
 
 Make absolutely sure that you update your `MiSTer.ini` settings for the core [according to the documentation](#setup-for-mister)!
 
-### vsync_adjust setting
+### vsync_adjust setting {#vsync}
 
 The optimal `vsync_adjust` setting in `MiSTer.ini` will depend on your HDMI display. A setting of `2` ensures the lowest possible latency, but it may come at the cost of a short period of no video or audio on video mode changes — something Amiga games and demos do quite often. Setting `vsync_adjust` to `1` introduces a buffer that will smooth over most of these changes, although it will add a frame of latency.
 
-### 5×PAL overscaling on 1080p/4K displays
+### 5×PAL overscaling on 1080p/4K displays {#overscaling}
 
 A unique feature of the Amiga (Minimig) core on MiSTer is the ability to do viewport cropping. By default the full overscan area will be fed to the HDMI scaler, resulting in huge borders for most content. But fear not! AmigaVision leverages the custom `vadjust` feature of the core to dynamically apply viewport settings on a per-game basis. This depends on MiSTer's "shared folder" functionality, which is enabled in AmigaVision if the "games/Amiga/shared" directory exists. So, make sure you copied all the archive contents as described in the Setup section.
 
@@ -308,7 +308,7 @@ Also note that overscale *only* applies if you are using 1080p output. Most Amig
 
 With dynamic vadjust enabled, most titles will enjoy a nicely centered viewport at a perfect 5× scale using 1080p output resolution, by cropping the viewport to 216 lines. Games using more than 216 active video lines will instead get a perfect 4× scale by applying a 270 line crop.
 
-## MiSTer: CPU Performance Notes
+## MiSTer: CPU Performance Notes {#performance}
 
 The D-Cache option in MiSTer's Amiga core is essentially a turbo switch for the CPU, making it perform on par with an accelerated Amiga with a Motorola 68030 CPU at 50MHz in many benchmarks. Unfortunately, running with it enabled introduces lots of subtle glitches in many (mostly older) games and demos, so it's recommended is to leave it `OFF` by default.
 
@@ -316,7 +316,7 @@ The CPU D-Cache option is available in the `OSD` under the `System` menu.
 
 On the other hand, some titles — mostly 3D polygon games and demos — will benefit greatly from the CPU boost D-Cache offers. So it's an option worth experimenting with on a case by case basis. Whenever switching this on or off, we recommend reloading the core to avoid any issues.
 
-## Workbench
+## Workbench {#workbench}
 
 From the launcher, you can hit the `ESC` key to exit into Workbench, the AmigaOS graphical desktop environment.
 
@@ -324,7 +324,7 @@ You can explore the world's first multitasking 16-bit computer from 1985 with th
 
 To change from the default 640×200 resolution to something like 1280×720 or 1920×1080 for use with a 16:9 HD display, hold down the right mouse button and select your preferred resolution from the ScreenMode menu. 540p is a nice compromise, a very usable screen resolution that doubles every pixel on a modern 1080p/4K 16:9 display.
 
-## CD³² Games Support
+## CD³² Games Support {#cd32}
 
 *This section is for MiSTer only. Most emulators have a way to run CD³² games, so consult the documentation there for instructions on how to play CD³² games. The Amiga core on Analogue Pocket does not support mounting/loading disc images yet.*
 
@@ -338,11 +338,11 @@ Do note that while the majority of CD³² games work (and, even a few CDTV games
 
 We maintain a compatibility list, including any special settings needed at [amiga.vision/cd32] — make sure to consult the listing for the game you are trying to play if it does not work.
 
-## Non-working Games
+## Non-working Games {#nonworking}
 
 About 10-20 games are currently not working due to CPU or graphics chipset features not yet implemented in MiSTer's Minimig core. Over the past years compatibility has improved a lot, and that trend is likely to continue. The launcher will specify when a game is known not to work in the `Issues` section of a given game.
 
-## Custom Scripts
+## Custom Scripts {#scripts}
 
 If you want to run additional scripts on startup, AmigaVision looks for a file named `Saves:custom-startup` on boot and runs it, so if you need to run scripts that will survive upgrades of the main image, this is where to put them.
 
@@ -354,11 +354,11 @@ copy >NIL: Saves:Custom/Prefs-Env ENV:Sys/
 
 This will take the setting you copied to `Saves:Custom/Prefs-Env` and put them in RAM: when booting the image, so you can keep your own settings even when replacing the `AmigaVision.hdf` file with a future version. You can also install new apps/games to Saves: and add `Assign` statements etc to the `Saves:` drive, or do anything else you want to keep permanent after upgrading.
 
-## Bug Reports *&* Feature Requests
+## Bug Reports *&* Feature Requests {#bugs}
 
 While AmigaVision has been tested for many years, the sheer volume of games and demos makes it all but certain that something has been overlooked somewhere. If you find something that doesn't work or seems like it's running with the wrong settings, or something is missing — tell us about it in the issue tracker found under the Development section at [amiga.vision].
 
-## Credits
+## Credits {#credits}
 
 * [David Lindecrantz] — Creator, original developer
 * [Alex Limi] — Developer, current project lead
@@ -372,13 +372,13 @@ While AmigaVision has been tested for many years, the sheer volume of games and 
 
 ## Trouble&shy;shooting {#troubleshooting}
 
-### Why doesn't AmigaVision work on MiSTer's network drive or external drive?
+### Why doesn't AmigaVision work on MiSTer's network drive or external drive? {#networkdrive}
 
 The configuration is likely still looking for your Kickstart file on the path to the SD card. There is currently no way to make this configuration relative in a way that works both on the standard SD card location as well as an SSD or network drive, so you will have to adjust this manually: 
 
 Go to the MiSTer menu → System → ROM, and point it to the location of the file on your SSD or network drive instead. Save this new configuration.
 
-### I get a bunch of errors when starting up!
+### I get a bunch of errors when starting up! {#errors}
 
 Unfortunately, there's a lot of variables in what could go wrong, but one useful thing to verify is to make sure the `HDF` file didn't get corrupted on its way to the MiSTer, your Amiga or emulation setup. It's a large file, and there's a lot that can go wrong along the way. The reasons for this happening are legion, but among them:
 
@@ -407,9 +407,9 @@ If these checksums do not match, something is wrong with either the way you tran
 
 If they do match, launching should work without issues, assuming you don't have a bad `HDF` file on your computer.
 
-## Frequently Asked Questions
+## Frequently Asked Questions {#faq}
 
-### Why do you have Scanline and Shadow Mask presets by default?
+### Why do you have Scanline and Shadow Mask presets by default? {#scanline}
 
 The Amiga was almost exclusively used with RGB-based CRTs or consumer TVs, and graphics do not look correct without scanlines and shadow masks. We have included a set of Amiga-specific scanline and shadow mask setups to more accurately represent the graphics output of the system that we highly recommend.
 
@@ -421,15 +421,15 @@ If you are using resolutions lower than 1080p, 1440p or 1536p, we recommend turn
 
 If you are using analog output to CRTs, these will of course not be used.
 
-### Can I add my own games?
+### Can I add my own games? {#addgames}
 
 It’s pretty straightforward to add your own games as long as you are a little bit familiar with AmigaOS. Just install the game on the `Saves` HDF drive, and you can add your own launcher entries and thumbnails in the Favorites folder, also located on the `Saves` drive. If you need a template, favorite a random game and open it in a text editor.
 
-### Can I make a setup with only a few games?
+### Can I make a setup with only a few games? {#fewgames}
 
 The simplest way to do this is to make your own personal collection using the Favorites feature in the launcher. They will be stored on the `Saves` drive, and will survive upgrades.
 
-### Should I worry about Amiga viruses?
+### Should I worry about Amiga viruses? {#viruses}
 
 In short: No. 
 
@@ -441,13 +441,13 @@ If you want to check the state of a given setup, or whether you have viruses in 
 
 We check all files that are under our control for viruses before release.
 
-### I can't get the game started from its title screen! Do I ever need to use "Joystick Swap" on the MiSTer?
+### I can't get the game started from its title screen! Do I ever need to use "Joystick Swap" on the MiSTer? {#joystickswap}
 
 Unless you are using the "Arcadia Systems" games (see below), no. On the Commodore 64, games sometimes used Port 1 and sometimes Port 2 for controlling games, necessitating this setting; but since the (Commodore) Amiga shipped with a mouse and it was always plugged into port 1, the main controller is pretty much always connected to port 2. 
 
 The MiSTer core will handle these mappings for you, and joystick port configuration is pretty much never the reason you can't start or control a given game. It's way more likely that you have to hit the space bar, F1, or click a mouse button to get the game started. If you're stuck, look up the controls for a given game in an online manual — which is always a good idea anyway, as there are often additional keyboard or mouse controls needed for a given game for full enjoyment.
 
-### Does AmigaVision work with Kickstart 3.2 or 3.1.4?
+### Does AmigaVision work with Kickstart 3.2 or 3.1.4? {#kickstart}
 
 While the standard AmigaVision setup expects Kickstart 3.1 (not 3.1.4 or 3.2) — which was the last release from Commodore in 1993 — we have had reports of the setup working if you replace `icon.library` and `workbench.library` with their respective Workbench 3.2 (or 3.1.4) versions. The recommended and tested setup is still Kickstart 3.1.
 
@@ -455,13 +455,13 @@ The files needed can be found on the Workbench Install disk, in the `Libs` drawe
 
 If you get an error on startup saying "Please insert a volume containing LIBS/workbench.library in any drive", this is likely the reason.
 
-### Are there any plans to support original Amiga 500, Amiga 600, Amiga 1000, Amiga 2000 or Amiga 3000 hardware?
+### Are there any plans to support original Amiga 500, Amiga 600, Amiga 1000, Amiga 2000 or Amiga 3000 hardware? {#orighardware}
 
 Not at the moment, AmigaVision is currently AGA-only and requires at least a 68020 processor. Unless you have added a fair bit of upgrades to these systems, using the AmigaVision setup would be an exercise in frustration, and we also don't have the real hardware to test with when we do a release. 
 
 We welcome contributions, though — so if you're interested in maintaining this part of the AmigaVision setup scripts, let us know!
 
-### What is the difference between AmigaVision, MegaAGS and AGS?
+### What is the difference between AmigaVision, MegaAGS and AGS? {#megaags}
 
 In the beginning, there was an Amiga launcher called [Arcade Game Selector], aka. [AGS]. This is the software you interact with to launch a game or demo from the collection. This software was originally written by [Per Olofsson], and is now maintained by the AmigaVision team.
 
@@ -475,7 +475,7 @@ Focus-wise, AGS X.X takes a very different approach from AmigaVision when it com
 
 And for the record, there is no animosity or conflicts between the projects, but since the names can get confusing, we thought we'd clear up some of the confusion as best we can!
 
-### What is "Arcadia Systems"?
+### What is "Arcadia Systems"? {#arcadia}
 
 Arcadia was an unsuccessful venture by Mastertronic to create an Amiga 500-based multi-game arcade system. Most titles released for the system have been dumped and are available via AmigaVision. The games are not great (to put it kindly), but are an interesting curiosity.
 
@@ -492,7 +492,7 @@ Config:      F5
 
 Player 1 uses joystick port 1, while Amiga software universally expect mouse in port 1 and joystick in port 2. If using only one joystick, enable the "Joy Swap" option in the Chipset menu to route the first MiSTer joypad to port 1. It's also worth noting that all Arcadia games make use of a 2-button joystick.
 
-### What are the details of the MiSTer configuration?
+### What are the details of the MiSTer configuration? {#misterconfig}
 
 If you prefer to configure the main settings manually instead of using the included config files, these are the recommended settings:
 
@@ -538,7 +538,7 @@ Audio & Video:
 
 ```
 
-## Colophon
+## Colophon {#colophon}
 
 AmigaVision was made with the help of these wonderful tools:
 
