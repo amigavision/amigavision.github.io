@@ -678,16 +678,20 @@ text-align: center;
 
 .news-grid .news-card .post-content {
 margin-top: auto;
+text-align: center;
 }
 
 .news-grid .news-card .post-content .button {
 margin: 18px 0 0 0;
+display: block;
 }
 
 .news-grid .news-card .button a {
-display: inline-block;
+display: block;
 padding: 10px 16px;
 font-size: .9em;
+width: 100%;
+max-width: 100%;
 }
 
 .news-grid + .pagination {
