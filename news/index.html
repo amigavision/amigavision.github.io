@@ -7,13 +7,15 @@ description: Release announcements, platform updates, and major project changes.
 	<ul class="blog-posts news-grid">
 		{% for post in paginator.posts %}
 			<li class="blog-post news-card">
-				<h3><a href="{% include relative-src.html src=post.url %}">{{ post.title }}</a></h3>
-				{% include post-title.html post=post %}
-				{% assign summary = post.description | default: post.excerpt | default: post.content %}
-				<p class="news-excerpt">{{ summary | strip_html | strip_newlines | truncatewords: 34 }}</p>
-				<div class="post-content">
-					<div class="button"><a href="{% include relative-src.html src=post.url %}">Read More</a></div>
-				</div>
+				<a class="news-card-link" href="{% include relative-src.html src=post.url %}">
+					<h3>{{ post.title }}</h3>
+					{% include post-title.html post=post %}
+					{% assign summary = post.description | default: post.excerpt | default: post.content %}
+					<p class="news-excerpt">{{ summary | strip_html | strip_newlines | truncatewords: 34 }}</p>
+					<div class="post-content">
+						<div class="button"><span>Read More</span></div>
+					</div>
+				</a>
 			</li>
 		{% endfor %}
 	</ul>
