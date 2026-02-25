@@ -769,6 +769,17 @@ margin-top: 28px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.06);
   transition: border-color .2s ease-in-out, box-shadow .2s ease-in-out, transform .2s ease-in-out;
 }
+.page.page-docs .docs-toc .toc-title {
+  display: block;
+  font-weight: 600;
+  letter-spacing: .01em;
+}
+.page.page-docs .docs-toc .toc-desc {
+  display: block;
+  margin-top: 4px;
+  font-size: .88em;
+  color: #5b6a78;
+}
 .page.page-docs .docs-toc a:hover {
   border-color: #2f81f7;
   box-shadow: 0 6px 14px rgba(0,0,0,0.1);
@@ -1335,6 +1346,9 @@ table.table-desktop {
     border-color: #2d333b;
     color: #d0d6de;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  .page.page-docs .docs-toc .toc-desc {
+    color: #9da7b3;
   }
   .page.page-docs .docs-toc a:hover {
     background: #171b23;

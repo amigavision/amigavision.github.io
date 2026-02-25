@@ -13,27 +13,27 @@ It has many features specifically for use with [MiSTer] and [Analogue Pocket] FP
 ## Contents
 
 <ul class="docs-toc">
-  <li><a href="#features">Features</a></li>
-  <li><a href="#saves">Save Files</a></li>
-  <li><a href="#upgrading">Upgrading</a></li>
-  <li><a href="#amiga">Setup for Amiga hardware</a></li>
-  <li><a href="#raspberry">Setup for Raspberry Pi</a></li>
-  <li><a href="#emulators">Setup for emulators</a></li>
-  <li><a href="#pocket">Setup for Pocket</a></li>
-  <li><a href="#mister">Setup for MiSTer</a></li>
-  <li><a href="#optional">Optional Setups</a></li>
-  <li><a href="#mapping">MiSTer: Gamepad & Joystick Mapping</a></li>
-  <li><a href="#video">MiSTer: Video Modes</a></li>
-  <li><a href="#performance">MiSTer: CPU Performance Notes</a></li>
-  <li><a href="#workbench">Workbench</a></li>
-  <li><a href="#cd32">CD³² Games Support</a></li>
-  <li><a href="#nonworking">Non-working Games</a></li>
-  <li><a href="#scripts">Custom Scripts</a></li>
-  <li><a href="#bugs">Bug Reports & Feature Requests</a></li>
-  <li><a href="#credits">Credits</a></li>
-  <li><a href="#troubleshooting">Troubleshooting</a></li>
-  <li><a href="#faq">Frequently Asked Questions</a></li>
-  <li><a href="#colophon">Colophon</a></li>
+  <li><a href="#features"><span class="toc-title">Features</span><span class="toc-desc">What AmigaVision includes and why it matters.</span></a></li>
+  <li><a href="#saves"><span class="toc-title">Save Files</span><span class="toc-desc">How quitting works and where saves live.</span></a></li>
+  <li><a href="#upgrading"><span class="toc-title">Upgrading</span><span class="toc-desc">Clean install guidance and naming changes.</span></a></li>
+  <li><a href="#amiga"><span class="toc-title">Setup for Amiga hardware</span><span class="toc-desc">Imaging and install steps for real machines.</span></a></li>
+  <li><a href="#raspberry"><span class="toc-title">Setup for Raspberry Pi</span><span class="toc-desc">RePlayOS install and boot tips.</span></a></li>
+  <li><a href="#emulators"><span class="toc-title">Setup for emulators</span><span class="toc-desc">FS-UAE setup and launch basics.</span></a></li>
+  <li><a href="#pocket"><span class="toc-title">Setup for Pocket</span><span class="toc-desc">Analogue Pocket copy paths and controls.</span></a></li>
+  <li><a href="#mister"><span class="toc-title">Setup for MiSTer</span><span class="toc-desc">Filesystem layout and core setup.</span></a></li>
+  <li><a href="#optional"><span class="toc-title">Optional Setups</span><span class="toc-desc">Historical Workbench configurations.</span></a></li>
+  <li><a href="#mapping"><span class="toc-title">MiSTer: Gamepad & Joystick Mapping</span><span class="toc-desc">Control layouts and button notes.</span></a></li>
+  <li><a href="#video"><span class="toc-title">MiSTer: Video Modes</span><span class="toc-desc">Recommended output and scaling modes.</span></a></li>
+  <li><a href="#performance"><span class="toc-title">MiSTer: CPU Performance Notes</span><span class="toc-desc">What to expect and tune for speed.</span></a></li>
+  <li><a href="#workbench"><span class="toc-title">Workbench</span><span class="toc-desc">RTG, Workbench use, and utilities.</span></a></li>
+  <li><a href="#cd32"><span class="toc-title">CD³² Games Support</span><span class="toc-desc">CD32 setup and compatibility notes.</span></a></li>
+  <li><a href="#nonworking"><span class="toc-title">Non-working Games</span><span class="toc-desc">Known issues and unsupported titles.</span></a></li>
+  <li><a href="#scripts"><span class="toc-title">Custom Scripts</span><span class="toc-desc">Automation helpers and tweaks.</span></a></li>
+  <li><a href="#bugs"><span class="toc-title">Bug Reports & Feature Requests</span><span class="toc-desc">Where to report and what to include.</span></a></li>
+  <li><a href="#credits"><span class="toc-title">Credits</span><span class="toc-desc">People and projects behind AmigaVision.</span></a></li>
+  <li><a href="#troubleshooting"><span class="toc-title">Troubleshooting</span><span class="toc-desc">Common errors and quick fixes.</span></a></li>
+  <li><a href="#faq"><span class="toc-title">Frequently Asked Questions</span><span class="toc-desc">Short answers to common questions.</span></a></li>
+  <li><a href="#colophon"><span class="toc-title">Colophon</span><span class="toc-desc">Release notes and metadata.</span></a></li>
 </ul>
 
 ## Features {#features}
