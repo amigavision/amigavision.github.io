@@ -241,6 +241,8 @@ You should not need deep Amiga knowledge, endless config edits, or per-game fixe
 ### AmigaVision is *not* trying to replace original hardware — instead aiming to make it easier to use
 Real Amigas, original disks, and hands-on experience is respected — AmigaVision exists to make those experiences easier to access, not to redefine or obsolete them. The AmigaVision team was part of this experience in the 80s and 90s, and treasures it for the real revolution it was at the time.
 
+---
+
 <!-- Footnotes -->
 
 [^1]: AGS *can* be made to work with MiSTer if you edit out a lot of the startup-sequence, but it *does not* run on MiSTer out of the box. It also *does not* make use of MiSTer-specific features, like shared network drives, MiSTer's RTG high resolution graphics support, etc.

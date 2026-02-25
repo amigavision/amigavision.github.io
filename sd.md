@@ -17,3 +17,4 @@ When choosing a card for your SD card based emulation/FPGA setup, it doesn’t m
 
 The only downside? They don’t come in extremely high capacity versions, but if you have more than 256GB of ROMs/disc images, you should probably reconsider how many of those games you can actually play in a human lifetime. 😄
 
+---

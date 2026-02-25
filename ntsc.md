@@ -22,6 +22,8 @@ In 2023, we completely reworked how this is handled, so you no longer have to ma
 
 All of these align to the 1080p/4K 16:9 pixel grid while having the correct Pixel Aspect Ratio, so you will not get any shimmering or non-integer pixels.
 
+---
+
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const figure = document.querySelector("#dotc-compare");
