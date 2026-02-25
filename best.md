@@ -103,7 +103,7 @@ Hardware options range from bare-bones boards to high-quality, purpose-built com
 
 Let's break down the details of the various options available:
 
-## 💰&nbsp;Cost
+## 💰&nbsp;Cost {#cost}
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +&nbsp;<br> Emu
 |---|:--------------:|:------:|:----------:|:------------------:
@@ -112,7 +112,7 @@ Let's break down the details of the various options available:
 | Ongoing Costs | 💰<br>💰💰 | <br>💰 | <br>💰 | <br>💰💰
 {: .feature-compare data-responsive-table="true" }
 
-## 🎯&nbsp;Accuracy *&* Timing
+## 🎯&nbsp;Accuracy *&* Timing {#accuracy}
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
@@ -121,7 +121,7 @@ Let's break down the details of the various options available:
 | Chipset Fidelity<br> (OCS, ECS, AGA) | <br>✅<br> | 🟩<br>🟩<br>🟩 | 🟨<br>🟨<br>[^12] | 🟩<br>🟩<br>🟩
 {: .feature-compare data-responsive-table="true" }
 
-## 🎧🖥️🕹️&nbsp;Audio, Video *&* Input
+## 🎧🖥️🕹️&nbsp;Audio, Video *&* Input {#io}
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
@@ -130,7 +130,7 @@ Let's break down the details of the various options available:
 | Low Input *&* Output Latency | <br>✅<br> | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br><br><br>🟥<br> [^4]
 {: .feature-compare data-responsive-table="true" }
 
-## 🛠️&nbsp;Ease of Use *&* Maintenance
+## 🛠️&nbsp;Ease of Use *&* Maintenance {#usability}
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
@@ -139,7 +139,7 @@ Let's break down the details of the various options available:
 | Low Maintenance Burden | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
 {: .feature-compare data-responsive-table="true" }
 
-## 📺&nbsp;Connectivity *&* Output
+## 📺&nbsp;Connectivity *&* Output {#connect}
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
@@ -149,7 +149,7 @@ Let's break down the details of the various options available:
 | Wi-Fi *&* Networking | ❌ | ✅ | ✅ | ✅
 {: .feature-compare data-responsive-table="true" }
 
-## ⚙️&nbsp;Power, Reliability *&* Form Factor
+## ⚙️&nbsp;Power, Reliability *&* Form Factor {#hardware}
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
@@ -159,7 +159,7 @@ Let's break down the details of the various options available:
 | Physical Footprint *&* Portability | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
 {: .feature-compare data-responsive-table="true" }
 
-## ❤️&nbsp;Experience
+## ❤️&nbsp;Experience {#ux}
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
