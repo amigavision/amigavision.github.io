@@ -544,7 +544,7 @@ AmigaVision was made with the help of these wonderful tools:
 * [Tablecruncher] - A free CSV editor to maintain our games database, and one that doesn’t rearrange the entire file every time you save (looking at you, every other CSV tool).
 * [Python] — Most of the AmigaVision scripts to build the entire system are in Python.
 * [Xee] — Useful for showing Amiga IFF graphics files on the Mac.
-* [FS-UAE] — Powers our build script as the emulator we use to generate the HDFs.
+* [FS-UAE] — Powers our build script as the emulator used to generate hard disk images.
 
 ---
 
