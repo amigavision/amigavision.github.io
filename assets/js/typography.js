@@ -27,9 +27,5 @@
     });
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', applyTypography);
-  } else {
-    applyTypography();
-  }
+  applyTypography();
 })();
