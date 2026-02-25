@@ -1,7 +1,7 @@
 (function () {
   function applyTypography() {
     /* insert hair spaces before and after em dashes */
-    [].forEach.call(document.querySelectorAll('.content p, .content li, .listing li a'), function (p) {
+    [].forEach.call(document.querySelectorAll('.content p, .content li, .post-content p, .post-content li, .listing li a'), function (p) {
       [].forEach.call(p.childNodes, function (c) {
         if (c instanceof Text) {
           var value = c.nodeValue.replace(/ [\u2014] /g, '\u200A\u2014\u200A');
