@@ -92,7 +92,7 @@ p,address {
   color: black;
   margin-bottom: 20px;
   font-weight: 300;
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 
 ul {
@@ -105,7 +105,7 @@ ol {
 
 li {
   color: black;
-  line-height: 1.4em;
+  line-height: 1.5em;
   margin: 0.25em 0;
 }
 
