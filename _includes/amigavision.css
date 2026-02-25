@@ -1036,7 +1036,7 @@ font-weight: 600;
     font-variant: tabular-nums;
     border-spacing: 0;
     border-collapse: collapse;
-    margin: 1em 0;
+    margin: 1em 0 2em 0;
 }
 
 .content table th {
@@ -1094,7 +1094,7 @@ table.table-desktop {
   /* Make the mobile tables look nicer */
   .table-mobile-inner {
     width: 100%;
-    margin: 1em 0;
+    margin: 0 0 2em 0;
   }
   .table-mobile-inner thead th {
     text-align: center;
