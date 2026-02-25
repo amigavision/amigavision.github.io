@@ -1065,6 +1065,75 @@ font-weight: 600;
     background-color:rgba(0, 0, 0, 0)
 }
 
+/* Download platform grid */
+.platform-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-top: 18px;
+}
+.platform-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 12px;
+  row-gap: 2px;
+  align-items: center;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.35);
+  background: rgba(255,255,255,0.12);
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  transition: transform .2s ease, border-color .2s ease, background .2s ease;
+}
+.platform-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+.platform-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.18);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.platform-icon svg {
+  width: 26px;
+  height: 26px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.platform-label {
+  font-size: 1.02em;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.platform-note {
+  grid-column: 2;
+  font-size: .78em;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+}
+@media (min-width: 640px) {
+  .platform-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 980px) {
+  .platform-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 
 /* CSS table transform for mobile */
 /* Desktop table is the original rendered table */

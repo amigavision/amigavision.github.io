@@ -8,8 +8,27 @@ description:
     <h1>Download AmigaVision for Amiga Hardware</h1>
 		<p class="subtext">The AmigaVision team does <em>not</em> distribute software, we only maintain an <a href="https://github.com/amigavision/AmigaVision" style="color:white; text-decoration: underline">open source script</a> that builds a setup if you supply your own demos and&nbsp;games.</p>
     
-		<p class="subtext"> We can point you to the search page of the software preservation section of archive.org, but note that anything available there is not built by&mdash;nor distributed by&mdash;the team, and the team has no responsibility for these&nbsp;files.</p>
+		<p class="subtext">We can point you to the search page of the software preservation section of archive.org, but note that anything available there is not built by&mdash;nor distributed by&mdash;the team, and the team has no responsibility for these&nbsp;files.</p>
 		
     <div class="cta button alt"><a target="_blank" href="https://archive.org/details/software?query=amigavision">I understand, take me to the archive.org search page</a></div>
+  </div>
+</section>
+
+<section class="page">
+  <div class="text-container">
+    <h2>Installation Steps</h2>
+    <ol>
+      <li>Download the AmigaVision archive from <a href="https://archive.org/details/software?query=amigavision">archive.org</a> and extract it on your computer.</li>
+      <li>Install a disk imaging tool (for example Balena Etcher on Mac/Linux, or Win32 Disk Imager on Windows).</li>
+      <li>Locate <code>games/Amiga/AmigaVision.hdf</code> inside the extracted files.</li>
+      <li>Write the <code>AmigaVision.hdf</code> image to your SD/CF card using your imaging tool.</li>
+      <li>If your imaging tool refuses <code>.hdf</code> files, rename it to <code>.img</code> or <code>.bin</code> and try again.</li>
+    </ol>
+
+    <h3>Notes</h3>
+    <ul>
+      <li>A full library image needs at least a 16GB SD/CF card.</li>
+      <li>Save files are written only when you quit a game properly (see the main documentation for details).</li>
+    </ul>
   </div>
 </section>

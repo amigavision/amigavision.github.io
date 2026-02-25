@@ -8,8 +8,28 @@ description:
     <h1>Download AmigaVision for Raspberry Pi</h1>
 		<p class="subtext">The AmigaVision team does <em>not</em> distribute software, we only maintain an <a href="https://github.com/amigavision/AmigaVision" style="color:white; text-decoration: underline">open source script</a> that builds a setup if you supply your own demos and&nbsp;games.</p>
     
-		<p class="subtext"> We can point you to the search page of the software preservation section of archive.org, but note that anything available there is not built by&mdash;nor distributed by&mdash;the team, and the team has no responsibility for these&nbsp;files.</p>
+		<p class="subtext">We can point you to the search page of the software preservation section of archive.org, but note that anything available there is not built by&mdash;nor distributed by&mdash;the team, and the team has no responsibility for these&nbsp;files.</p>
 		
     <div class="cta button alt"><a target="_blank" href="https://archive.org/details/software?query=amigavision">I understand, take me to the archive.org search page</a></div>
+  </div>
+</section>
+
+<section class="page">
+  <div class="text-container">
+    <h2>Installation Steps (RePlayOS)</h2>
+    <ol>
+      <li>Download and install <a href="https://www.replayos.com">RePlayOS</a> on your Raspberry Pi.</li>
+      <li>Boot RePlayOS once to create the <code>replay</code> exFAT partition.</li>
+      <li>Download the AmigaVision archive from <a href="https://archive.org/details/software?query=amigavision">archive.org</a> and extract it.</li>
+      <li>Place the required Kickstart ROMs in the <code>bios</code> directory, following the <a href="https://www.replayos.com/addbios/">RePlayOS BIOS naming guide</a>.</li>
+      <li>Copy <code>games/Amiga/AmigaVision.hdf</code> to <code>roms/commodore_ami</code> on the RePlayOS SD card.</li>
+      <li>Return the SD card to the Raspberry Pi and launch AmigaVision under Commodore Amiga.</li>
+    </ol>
+
+    <h3>Optional: Auto‑Start AmigaVision</h3>
+    <ol>
+      <li>Add <code>AmigaVision.hdf</code> to favorites inside RePlayOS.</li>
+      <li>Copy the generated <code>.fav</code> file into the <code>_autostart</code> folder.</li>
+    </ol>
   </div>
 </section>
