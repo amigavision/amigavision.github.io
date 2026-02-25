@@ -101,6 +101,8 @@ Hardware options range from bare-bones boards to high-quality, purpose-built com
 
 # Detailed Comparisons {#details}
 
+Let's break down the details of the various options available:
+
 ## 💰&nbsp;Cost
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +&nbsp;<br> Emu
