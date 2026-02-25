@@ -9,15 +9,9 @@ The Amiga core on the MiSTer FPGA platform with AmigaVision now supports 5× PAL
 
 First, as we say in the business: “Sometimes a GIF is worth a thousand words.”
 
-Let's take a look at some example games—real screenshots from the Amiga core on MiSTer, superimposed on a 16:9 1080p/4K TV to give a better impression of how it appears in real life:
-
-![5x Overscale Example](/images/flashback5x.gif)
+Let's take a look at an example games—real screenshots from the Amiga core on MiSTer, superimposed on a 16:9 1080p/4K TV to give a better impression of how it appears in real life:
 
 ![5x Overscale Example](/images/gods5x.gif)
-
-![5x Overscale Example](/images/lionheart5x.gif)
-
-![5x Overscale Example](/images/megalomania5x.gif)
 
 (Yes, we are sacrificing the logo in that last example, but all of the game's controls are accessible, see explanation of when we deem this acceptable below)
 
@@ -34,6 +28,9 @@ This means we effectively have a 16:10 aspect ratio for PAL games (a little tall
 ## What does that mean?
 
 It means that we can apply a 5×/10× scaling factor, since 200px × 5× scale = 1000px. You may have noticed that when you run a game on an Amiga emulator or on the MiSTer core without our settings, there’s a lot of wasted, empty space — since everything runs at 4× scale on a 1080p/4K display to ensure that all the pixels are visible. It theoretically *has* to do this, since the vertical resolution of the Amiga is 256px in PAL mode, and technically 270px with overscan. But since most games don’t use the full 256px height, *those games can be displayed with a 5×/10× scale instead, as long as the game doesn’t have any critical elements outside of a 216px viewport (216×5 = 1080p, or 216×10 = 4K)*.
+
+![5x Overscale Example](/images/flashback5x.gif)
+
 
 ## I can see some potential issues here?
 
@@ -61,6 +58,8 @@ And yes, that *does* mean that *every single game* in the resulting image needs 
 
 With the latest AmigaVision (the 2021 versions onwards), you will get customized 5× integer vertical scaling for the games that use ~200px of the available viewport. 
 
+![5x Overscale Example](/images/lionheart5x.gif)
+
 In general, the approach for 5×/10× scale/crop is that it’s OK to sacrifice a few lines on the top and/or bottom.
 
 This means that *we may sacrifice a few pixels*, which *could* be critical in e.g. a platformer like Flashback, where you could have platforms that were just 1-2 pixels of the viewport, and have a bad effect on difficulty level or gameplay in general. We take special care to make sure this never happens.
@@ -68,6 +67,8 @@ This means that *we may sacrifice a few pixels*, which *could* be critical in e.
 ## Scaling should not affect the game play
 
 There are entire classes of games, e.g. driving games and top-down games, that don’t rely on seeing every single pixel for the game to work fine. This is when we accept cropping. And if you try the game in 4× vs. 5×/10× on an actual TV instead of these screenshots, I think you will agree that losing a few pixels in-game to the 5×/10× scale is a trade-off worth making.
+
+![5x Overscale Example](/images/megalomania5x.gif)
 
 Many of the European games have an interesting quirk: The *game itself* fits neatly into 5×PAL, sometimes with a few pixels of crop with the right vertical offset—but often have a 256px title screen with artwork that will have more serious crop in 5×PAL. We think this is a reasonable trade-off to make, so you might see some title screens and intermission screens have cropping that doesn’t look optimal at first glance. However, we only do this when there’s no information lost as far as gameplay is concerned.
 
