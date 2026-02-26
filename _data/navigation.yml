@@ -18,7 +18,7 @@
   link: /context
   new_window: false
   highlight: false
-- name: Development
+- name: Support
   link: https://github.com/amigavision/AmigaVision/issues
   new_window: true
   highlight: false

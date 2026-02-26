@@ -356,7 +356,7 @@ This will take the setting you copied to `Saves:Custom/Prefs-Env` and put them i
 
 ## Bug Reports *&* Feature Requests {#bugs}
 
-While AmigaVision has been tested for many years, the sheer volume of games and demos makes it all but certain that something has been overlooked somewhere. If you find something that doesn't work or seems like it's running with the wrong settings, or something is missing — tell us about it in the issue tracker found under the Development section at [amiga.vision].
+While AmigaVision has been tested for many years, the sheer volume of games and demos makes it all but certain that something has been overlooked somewhere. If you find something that doesn't work or seems like it's running with the wrong settings, or something is missing — tell us about it in the issue tracker found under the Support section at [amiga.vision].
 
 ## Credits {#credits}
 
