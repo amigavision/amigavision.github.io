@@ -224,6 +224,12 @@ margin-top: 0;
 .hero .text-container h2 {
 margin-top: 10px;
 }
+body.download-page .hero {
+  padding-top: 32px;
+}
+body.download-page .hero h1 {
+  margin-top: 6px;
+}
 @media (min-width:768px) {.flex {
   display: -webkit-box;
   display: -webkit-flex;
