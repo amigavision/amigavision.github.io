@@ -10,7 +10,7 @@ The Amiga core on the MiSTer FPGA platform with AmigaVision now supports 5× PAL
 
 First, as we say in the business: “Sometimes a GIF is worth a thousand words.”
 
-Let's take a look at an example games—real screenshots from the Amiga core on MiSTer, superimposed on a 16:9 1080p/4K TV to give a better impression of how it appears in real life:
+Let's take a look at some example games—real screenshots from the Amiga core on MiSTer, superimposed on a 16:9 1080p/4K TV to give a better impression of how it appears in real life:
 
 ![5x Overscale Example](/images/gods5x.gif)
 
