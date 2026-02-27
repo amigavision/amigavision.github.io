@@ -373,13 +373,17 @@ While AmigaVision has been tested for many years, the sheer volume of games and 
 
 ## Trouble&shy;shooting {#troubleshooting}
 
+### It doesn't work on my Raspberry Pi / MiSTer / Amiga! {#sd}
+
+9 out of 10 times, it's the SD/CF card failing. These are notoriously prone to failure, so try a different card. There's a reason we had to write an article about [which SD card to buy](/sd). 😅
+
 ### Why doesn't AmigaVision work on MiSTer's network drive or external drive? {#networkdrive}
 
 The configuration is likely still looking for your Kickstart file on the path to the SD card. There is currently no way to make this configuration relative in a way that works both on the standard SD card location as well as an SSD or network drive, so you will have to adjust this manually: 
 
 Go to the MiSTer menu → System → ROM, and point it to the location of the file on your SSD or network drive instead. Save this new configuration.
 
-### I get a bunch of errors when starting up! {#errors}
+### I get a bunch of errors when starting up on MiSTer! {#errors}
 
 Unfortunately, there's a lot of variables in what could go wrong, but one useful thing to verify is to make sure the `HDF` file didn't get corrupted on its way to the MiSTer, your Amiga or emulation setup. It's a large file, and there's a lot that can go wrong along the way. The reasons for this happening are legion, but among them:
 
