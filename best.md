@@ -29,7 +29,7 @@ The main drawbacks are complexity and consistency. Amiga emulators are powerful 
 
 There are also fundamental platform issues. On Windows and macOS, emulators do not automatically run 50hz PAL software at a true 50hz output rate. Since the majority of Amiga games were written for PAL systems, this results in uneven scrolling, [judder], or [tearing] that cannot be fully eliminated in standard setups with emulators on those platforms. [^3]
 
-[Here’s a forum thread](https://eab.abime.net/showthread.php/showthread.php?t=67729) where both the author of WinUAE and the author of FS-UAE also confirm that the standard PC *&* Mac 60hz refresh rates will cause stuttering when playing 50hz PAL Amiga games or demos.
+[Here’s a forum thread](https://eab.abime.net/showthread.php/showthread.php?t=67729) where the author of WinUAE and the author of FS-UAE both confirm that the standard PC *&* Mac 60hz refresh rates will cause stuttering when playing 50hz PAL Amiga games or demos.
 
 Only emulators running under Linux can currently switch automatically to 50hz. Windows and Mac emulators run at 60hz when the OS runs at 60hz, which causes tearing and stuttering when scrolling. It *is* possible to force the entire operating system to run at 50hz on *some* Windows and Mac setups, but the emulator can’t do it for you. 
 
