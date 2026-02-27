@@ -14,8 +14,6 @@ Let's take a look at some example games—real screenshots from the Amiga core o
 
 ![5x Overscale Example](/images/gods5x.gif)
 
-(Yes, we are sacrificing the logo in that last example, but all of the game's controls are accessible, see explanation of when we deem this acceptable below)
-
 ## How does this work?
 
 “I thought PAL on Amiga was 256 pixels tall, that results in a 1280 pixel tall image when doing a 5×/10× zoom—which is more than a 1080p/4K display has. Do I need a 1280px tall display to make use of this?”
