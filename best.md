@@ -59,7 +59,7 @@ As with PC- and Raspberry Pi–based emulation, timing-sensitive games and a sig
 
 From a technical perspective, these systems are best understood as preconfigured emulation boxes rather than authentic Amiga implementations. They offer no meaningful accuracy or latency advantages over a well-configured Raspberry Pi 5, while costing substantially more and offering less flexibility.
 
-Thus, they are considered irrelevant in this comparison.
+Thus, they are considered irrelevant, and not included in the comparison table below.
 
 ## Vampire V4 FPGA *&* A6000 {#vampire}
 
