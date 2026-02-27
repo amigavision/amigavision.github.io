@@ -466,7 +466,7 @@ Not at the moment, AmigaVision is currently AGA-only and requires at least a 680
 
 We welcome contributions, though — so if you're interested in maintaining this part of the AmigaVision setup scripts, let us know!
 
-### What is the difference between AmigaVision, MegaAGS and AGS? {#megaags}
+### What is the difference between AmigaVision, MegaAGS and AGS? {#ags}
 
 In the beginning, there was an Amiga launcher called [Arcade Game Selector], aka. [AGS]. This is the software you interact with to launch a game or demo from the collection. This software was originally written by [Per Olofsson], and is now maintained by the AmigaVision team.
 
