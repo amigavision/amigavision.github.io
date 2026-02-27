@@ -480,6 +480,8 @@ Focus-wise, AGS X.X takes a very different approach from AmigaVision when it com
 
 And for the record, there is no animosity or conflicts between the projects, but since the names can get confusing, we thought we'd clear up some of the confusion as best we can!
 
+[You can read more about how AmigaVision compares to other setups here](/vs).
+
 ### What is "Arcadia Systems"? {#arcadia}
 
 Arcadia was an unsuccessful venture by Mastertronic to create an Amiga 500-based multi-game arcade system. Most titles released for the system have been dumped and are available via AmigaVision. The games are not great (to put it kindly), but are an interesting curiosity.
