@@ -87,7 +87,7 @@ Even on the Pi 5, emulation remains a compromise. While many games run well, tim
 
 A real Amiga remains the gold standard for historical authenticity.
 
-There is no substitute for original hardware connected to a real CRT, with the original keyboard, mouse, and quirks intact. For collectors, preservationists, and those who value the physical experience as much as the software, real hardware is unmatched.
+There is no substitute for original hardware connected to a real CRT monitor, with the original keyboard, mouse, and quirks intact. For collectors, preservationists, and those who value the physical experience as much as the software, real hardware is unmatched.
 
 That authenticity comes at a cost. Well-maintained machines are expensive — especially the ones capable of running games and demos using the AGA chipset — and most systems require recapping and ongoing care. Meaningful upgrades like faster CPUs, more memory, and modern storage add significantly to the total price.
 
