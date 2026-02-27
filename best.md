@@ -120,7 +120,7 @@ Let's break down the details of the various options available:
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Automatic PAL 50hz *&* <br>NTSC 60hz Switching | ✅ | ✅ | ✅ | <br>❌<br> [^3] 
+| Automatic PAL 50hz *&* <br>NTSC 60hz Switching | ✅ | ✅ | <br>✅<br>[^13] | <br>❌<br> [^3] 
 | Cycle Accuracy | <br>✅<br> | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br>🟨<br>🟨<br> [^1]
 | Chipset Fidelity<br> (OCS, ECS, AGA) | <br>✅<br> | 🟩<br>🟩<br>🟩 | 🟨<br>🟨<br>[^12] | 🟩<br>🟩<br>🟩
 {: .feature-compare data-responsive-table="true" }
@@ -240,6 +240,8 @@ It also has Bluetooth *&* Wi-Fi support built-in, offering maximum controller an
 [^11]: We want an Amiga that can run every Amiga game, which means it needs to have the AGA chipset. Furthermore, we do not want any soldering or hardware surgery to be required, as this is beyond what most people are willing to do.
 
 [^12]: This currently assumes the PUAE emulator, which is the standard in most Raspberry Pi setups. It lags behind the accuracy in emulators like WinUAE and Amiberry, but once Amiberry becomes available as a libretro core, this rating will be updated.
+
+[^13]: This assumes the RePlayOS-based AmigaVision setup. Not every Raspberry Pi Amiga setup will handle this correctly.
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
