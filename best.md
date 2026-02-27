@@ -223,7 +223,7 @@ It also has Bluetooth *&* Wi-Fi support built-in, offering maximum controller an
 
 [^3]: Only emulators running under Linux can switch automatically to 50hz. Windows and Mac emulators run at 60hz when the OS runs at 60hz, which causes tearing and stuttering when scrolling. It *is* possible to force the entire operating system to run at 50hz on *some* Windows and Mac setups, but the emulator can’t do it for you. The end result is that most people will run 50hz games at the wrong frame rate.
 
-[^4]: Modern desktop operating systems have way too many variables to keep input and output latency low, e.g. host OS interruptions, USB latency and polling speed, graphics rendering pipelines, etc.
+[^4]: Modern desktop operating systems have too many variables to keep input and output latency low, e.g. host OS interruptions, USB latency and polling speed, graphics rendering pipelines, etc.
 
 [^5]: If you add the  &#36;50 RGB-Pi 2 Adapter, it is possible, but it is not supported natively on the standard hardware setup, unlike a real Amiga or the MiSTer.
 
