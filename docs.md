@@ -369,6 +369,7 @@ While AmigaVision has been tested for many years, the sheer volume of games and 
 * [Frode Solheim] — Creator of [OpenRetro.org], screenshots used with kind permission
 * wiisoldier — Initial RePlayOS setup and testing, benchmarking assistance
 * Alessio (PuntoMusica) — Testing AmigaVision on Amiga CD32 hardware
+* AmigaVision uses `ptreplay.library`, which was written by Mattias Karlsson, Andreas Pålsson and StingRay (RIP)
 
 ## Trouble&shy;shooting {#troubleshooting}
 
