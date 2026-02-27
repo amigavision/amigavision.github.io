@@ -69,7 +69,7 @@ It uses a custom FPGA chipset (SAGA) and a high-performance simulated 68080 CPU.
 
 The [A6000] is essentially a Vampire V4 with an updated core + extra RAM, residing in a 3D printed case with keyboard.
 
-As a result, Vampire V4 & A6000 are better viewed as “what-if next-generation Amigas” than preservation-accurate platforms, and are thus not relevant in this comparison.
+As a result, Vampire V4 & A6000 are better viewed as “what-if next-generation Amigas” than preservation-accurate platforms, and are thus not included in the comparison table below.
 
 (They are also very expensive, at ~$750 for the bare-bones V4, and ~$1200 for the A6000)
 
