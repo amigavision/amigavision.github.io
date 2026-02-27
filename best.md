@@ -125,7 +125,7 @@ Let's break down the details of the various options available:
 | Chipset Fidelity<br> (OCS, ECS, AGA) | <br>✅<br> | 🟩<br>🟩<br>🟩 | 🟨<br>🟨<br>[^12] | 🟩<br>🟩<br>🟩
 {: .feature-compare data-responsive-table="true" }
 
-## 🎧🖥️🕹️&nbsp;Audio, Video *&* Input {#io}
+## 🎧 🖥️ 🕹️&nbsp;Audio, Video *&* Input {#io}
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
