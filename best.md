@@ -31,6 +31,10 @@ There are also fundamental platform issues. On Windows and macOS, emulators do n
 
 [Here’s a forum thread](https://eab.abime.net/showthread.php/showthread.php?t=67729) where both the author of WinUAE and the author of FS-UAE also confirm that the standard PC *&* Mac 60hz refresh rates will cause stuttering when playing 50hz PAL Amiga games or demos.
 
+Only emulators running under Linux can currently switch automatically to 50hz. Windows and Mac emulators run at 60hz when the OS runs at 60hz, which causes tearing and stuttering when scrolling. It *is* possible to force the entire operating system to run at 50hz on *some* Windows and Mac setups, but the emulator can’t do it for you. 
+
+The end result is that most people will run 50hz games at the wrong frame rate.
+
 PC emulation can be an excellent tool for experimentation and development, but it is not the most reliable way to experience the Amiga as it actually behaved.
 
 ## TheA500 Mini *&* TheA1200 {#mini}
