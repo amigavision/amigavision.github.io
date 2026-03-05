@@ -1,6 +1,6 @@
 ---
 title: Per-Game 5× PAL Integer Overscaling on MiSTer
-description: Why Amiga scaling is actually close to modern widescreen aspect ratios
+description: Why Amiga aspect ratios are actually close to modern widescreen aspect ratios
 redirect_from: "/5x/"
 ---
 
