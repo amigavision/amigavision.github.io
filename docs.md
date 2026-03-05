@@ -118,7 +118,7 @@ Many WHDLoad games have been patched to support multiple buttons, so check for t
 
 ## Raspberry Pi Setup {#raspberry}
 
-AmigaVision recommends using [RePlayOS] for Raspberry Pi emulation of Amiga, since it is optimized for low input latency, low audio latency, and low output latency. RePlayOS runs well on any Raspberry Pi 5 with 1GB of RAM — or more, but 1GB is sufficient. Raspberry Pi 3 and 4 are supported, but too slow for the most accurate emulation.
+AmigaVision recommends using [RePlayOS] for Raspberry Pi emulation of Amiga, since it is optimized for low input latency, low audio latency, and low output latency. RePlayOS runs well on any Raspberry Pi 5 with 1GB of RAM — or more, but 1GB is sufficient. Raspberry 4 is also supported, but too slow for the most accurate emulation.
 
 With RePlayOS, AmigaVision on Raspberry Pi comes as close as possible to being as low latency as a MiSTer FPGA — still our benchmark for input/output/audio latency — and also has great options for analog output via the [RGB-Pi 2](https://www.mortaca.com) adapter that converts HDMI to SCART RGB without any added latency, similar to MiSTer's Direct Video mode.
 
