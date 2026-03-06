@@ -190,7 +190,7 @@ For the majority of users, MiSTer offers the best balance: Behavior that matches
 
 The MiSTer FPGA platform is an open source project, therefore many hardware options exist. We often get the question of which MiSTer setup to get.
 
-The AmigaVision team recommends the [SuperStation One].
+The AmigaVision team recommends the [SuperStation One]. (Currently $199 + shipping/tax/tariffs)
 
 ![SuperStation One](/images/superstation.png)
 
