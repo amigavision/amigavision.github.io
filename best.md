@@ -186,7 +186,7 @@ For the majority of users, MiSTer offers the best balance: Behavior that matches
 
 ---
 
-## Postscript:<br>What’s the best MiSTer in 2026?
+## Postscript:<br>What’s the best MiSTer in 2026? {#best-mister}
 
 The MiSTer FPGA platform is an open source project, therefore many hardware options exist. We often get the question of which MiSTer setup to get.
 
