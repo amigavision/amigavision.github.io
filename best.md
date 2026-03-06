@@ -198,7 +198,7 @@ Unlike traditional MiSTer setups, SuperStation One comes as a complete, assemble
 
 It supports multiple video outputs (HDMI, VGA, composite, component, DIN10) that make it ideal for both modern displays and CRT setups — something we highly value for the best in analog output to period-accurate CRT monitors and TVs.
 
-It also has Bluetooth, Wi-Fi *&* NFC support built-in, offering maximum controller and networking support without having to add additional USB dongles.
+It also has Bluetooth, Wi-Fi *&* NFC support built-in, offering maximum controller, networking and physical game launcher support without having to add additional USB dongles.
 
 *Disclaimer: We are not associated with SuperStation One or Retro Remake in any way, and these are not affiliate links — we simply believe this is the best MiSTer FPGA platform available right now.*
 
