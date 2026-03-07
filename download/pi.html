@@ -17,19 +17,17 @@ description:
     <h2>Installation Steps</h2>
     <p>AmigaVision runs well on any Raspberry Pi 5, 500, 500+, or CM5 with 1GB of RAM — or more, but 1GB is sufficient. Raspberry Pi 4 is also supported, but too slow for the most accurate emulation.</p>
     <ol>
-      <li><div class="button alt"><a target="_blank" href="https://www.replayos.com/download/">⬇️ Download RePlayOS</a></div>and flash it to an SD card for your Raspberry Pi.</li>
-      <li>Boot RePlayOS once on the Raspberry Pi to create the <code>replay</code> exFAT partition.</li>
-      <li><div class="button alt"><a target="_blank" href="https://archive.org/details/software?query=amigavision">⬇️ Download AmigaVision <!-- for Raspberry Pi --></a></div>and extract the archive on your computer.</li>
-      <li>Place the required Kickstart ROMs in the <code>bios</code> directory, following the <a href="https://www.replayos.com/addbios/">RePlayOS BIOS naming guide</a>.</li>
-      <li>Copy <code>games/Amiga/AmigaVision.hdf</code> to <code>roms/commodore_ami</code> on the RePlayOS SD card.</li>
-      <li>Return the SD card to the Raspberry Pi and launch AmigaVision under "Commodore Amiga" in the menu.</li>
-      <li>Default resolution is 1080p, but you can change this in RePlayOS settings — press the Home key or the Windows key to bring up the menu.</li>
+      <li><div class="button alt"><a target="_blank" href="https://archive.org/details/software?query=amigavision+for+raspberry+pi">⬇️ Download AmigaVision for Raspberry Pi</a></div></li>
+      <li>Install a disk imaging tool — we recommend <a href="https://etcher.balena.io">Balena Etcher</a> or <a href="https://www.raspberrypi.com/software/">Raspberry Pi Imager</a>. If you use Win32 Disk Imager on Windows, you'll have to unpack the archive using 7zip or similar before flashing it to the card since it has no support for <code>.xz</code> files.</li>
+      <li>Write the image to your SD/CF card using your imaging tool.</li>
+      <li>Insert the SD/CF card into your Raspberry Pi, turn it on, and enjoy the ultimate Amiga games & demo scene collection!</li>
     </ol>
 
-    <h3>Optional: Auto‑Start AmigaVision</h3>
-    <ol>
-      <li>Add <code>AmigaVision.hdf</code> to favorites inside RePlayOS.</li>
-      <li>Copy the generated <code>.fav</code> file into the <code>_autostart</code> folder.</li>
-    </ol>
+    <h2>Notes</h2>
+    <ul>
+      <li>Default resolution is 1080p, but you can change this in RePlayOS settings — press the Home key or the Windows key to bring up the menu. Consult the <a href="https://www.replayos.com/videobasic/">RePlayOS documentation</a> for full details.</li>
+      <li>Default scaling is currently 3× instead of 4×, this will be fixed in the next release of RePlayOS.</li>
+      <li>The emulator is currently not running in cycle-accurate mode, this will be fixed in the next release of RePlayOS.</li>
+    </ul>
   </div>
 </section>
