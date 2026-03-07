@@ -95,9 +95,8 @@ Game Manuals Accessible on Second Device | ✅ | ❌ | ❌
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
-Download Size | 4&nbsp;GB | <br>17&#8209;34&nbsp;GB<br> [^8] | 37&nbsp;GB
+Download Size | 4&#8209;5&nbsp;GB | <br>17&#8209;34&nbsp;GB<br> [^8] | 37&nbsp;GB
 Installed size | 9&nbsp;GB | <br>30&#8209;52&nbsp;GB<br> [^9] | 57&nbsp;GB
-Single Download for All Platforms [^10] | ✅ | ❌ | ⬜️
 Duplicate-Free Game Library [^11] | ✅ | ❌ | ❌
 Curated Game Lists [^26] | ✅ | ❌ | ❌
 Open Source License | ✅ | ❌ | ❌
@@ -262,8 +261,6 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 [^8]: AGS has multiple different setups with widely different file sizes, so this lists the lower and upper range.
 
 [^9]: AGS has multiple different setups with widely different file sizes, so this lists the lower and upper range.
-
-[^10]: Some setups have different files for every setup — e.g. one for RetroArch, one for MiSTer, one for Raspberry Pi, one for real hardware, etc. This means you need to juggle many different versions of the same setup if you have more than one device where you use Amiga. AmigaVision has a single setup that works across all platforms.
 
 [^11]: AmigaVision excludes any broken and redundant versions of games, and does not have duplicated NTSC and PAL versions, since we pick the right one automatically. We only include multiple version of the same game (e.g. ECS and AGA version) when they have meaningful differences — e.g. different level sets.
 
