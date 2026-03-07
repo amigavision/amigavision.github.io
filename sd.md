@@ -5,7 +5,7 @@ description: Which SD card should you get?
 
 When picking an SD card to use with the MiSTer, Raspberry Pi, or any SD card-based retro gaming setup, there is the general (and sane!) advice to go for the trusted brands, like SanDisk and Samsung. Also to make sure you have a reliable supplier, since it’s easy to get sold a fake card — if the price is too good to be true, it probably is.
 
-But the other thing to consider is — don’t optimize for speed. Optimize for reliability. The retro gaming files you load on your FPGA/emulation device are not very large. There’s no need to go for cards that optimize for speed, it will not make a meaningful difference. The SD card reader on any of these devices don't deliver meaningful speed increases beyond UHS-I anyway, which is what these high-reliability cards are rated at.
+But the other thing to consider is — don’t optimize for speed. Optimize for reliability. The retro gaming files you load on your FPGA/emulation device are not very large. There’s no need to go for cards that optimize for speed, it will not make a meaningful difference. The SD card reader on any of these devices don't deliver meaningful speed increases beyond UHS-I anyway, which is what the following high-reliability cards are rated at.
 
 There are two SD cards in particular we want to highlight — and this isn’t an affiliate link thing or anything, just linking you to the manufacturer’s pages:
 
