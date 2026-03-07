@@ -12,29 +12,27 @@ It has many features specifically for use with [MiSTer] and [Analogue Pocket] FP
 
 ## Contents
 
-<ul class="docs-toc">
-  <li><a href="#features"><span class="toc-title">Features</span><span class="toc-desc">What AmigaVision includes and why it matters</span></a></li>
-  <li><a href="#saves"><span class="toc-title">Save Files</span><span class="toc-desc">How quitting works and where saves live</span></a></li>
-  <li><a href="#upgrading"><span class="toc-title">Upgrading</span><span class="toc-desc">Clean install guidance and naming changes</span></a></li>
-  <li><a href="#amiga"><span class="toc-title">Amiga Hardware Setup</span><span class="toc-desc">Imaging and install steps for real machines</span></a></li>
-  <li><a href="#raspberry"><span class="toc-title">Raspberry Pi Setup</span><span class="toc-desc">RePlayOS install and boot tips</span></a></li>
-  <li><a href="#emulators"><span class="toc-title">Emulator Setup</span><span class="toc-desc">FS-UAE setup and launch basics</span></a></li>
-  <li><a href="#pocket"><span class="toc-title">Pocket Setup</span><span class="toc-desc">Analogue Pocket copy paths and controls</span></a></li>
-  <li><a href="#mister"><span class="toc-title">MiSTer Setup</span><span class="toc-desc">Filesystem layout and core setup</span></a></li>
-  <li><a href="#optional"><span class="toc-title">Optional Setups</span><span class="toc-desc">Historical Workbench configurations</span></a></li>
-  <li><a href="#mapping"><span class="toc-title">MiSTer: Gamepad & Joystick Mapping</span><span class="toc-desc">Control layouts and button notes</span></a></li>
-  <li><a href="#video"><span class="toc-title">MiSTer: Video Modes</span><span class="toc-desc">Recommended output and scaling modes</span></a></li>
-  <li><a href="#performance"><span class="toc-title">MiSTer: CPU Performance Notes</span><span class="toc-desc">What to expect and tune for speed</span></a></li>
-  <li><a href="#workbench"><span class="toc-title">Workbench</span><span class="toc-desc">RTG, Workbench use, and utilities</span></a></li>
-  <li><a href="#cd32"><span class="toc-title">CD³² Games Support</span><span class="toc-desc">CD32 setup and compatibility notes</span></a></li>
-  <li><a href="#nonworking"><span class="toc-title">Non-working Games</span><span class="toc-desc">Known issues and unsupported titles</span></a></li>
-  <li><a href="#scripts"><span class="toc-title">Custom Scripts</span><span class="toc-desc">Automation helpers and tweaks</span></a></li>
-  <li><a href="#bugs"><span class="toc-title">Bug Reports & Feature Requests</span><span class="toc-desc">Where to report and what to include</span></a></li>
-  <li><a href="#credits"><span class="toc-title">Credits</span><span class="toc-desc">People and projects behind AmigaVision</span></a></li>
-  <li><a href="#troubleshooting"><span class="toc-title">Troubleshooting</span><span class="toc-desc">Common errors and quick fixes</span></a></li>
-  <li><a href="#faq"><span class="toc-title">Frequently Asked Questions</span><span class="toc-desc">Short answers to common questions</span></a></li>
-  <li><a href="#colophon"><span class="toc-title">Colophon</span><span class="toc-desc">Release notes and metadata</span></a></li>
-</ul>
+* [Features](#features)
+* [Save Files](#save-files)
+* [Upgrading](#upgrading)
+* [Amiga Hardware Setup](#amiga)
+* [Raspberry Pi Setup](#raspberry)
+* [Emulator Setup](#emulators)
+* [Analogue Pocket Setup](#pocket)
+* [MiSTer Setup](#mister)
+* [Optional Setups](#optional)
+* [MiSTer: Gamepad & Joystick Mapping](#mapping)
+* [MiSTer: Video Modes](#video)
+* [MiSTer: CPU Performance Notes](#performance)
+* [MiSTer: CD32 Games Support](#cd32)
+* [MiSTer: Non-working Games](#nonworking)
+* [Workbench](#workbench)
+* [Custom Scripts](#scripts)
+* [Bug Reports & Feature Requests](#bugs)
+* [Credits](#credits)
+* [Troubleshooting](#troubleshooting)
+* [Frequently Asked Questions](#faq)
+* [Colophon](#colophon)
 
 ## Features {#features}
 
@@ -152,7 +150,7 @@ We recommend — and include a setup for — the [FS-UAE] Amiga emulator, which 
 
 For any additional configuration or customizations, consult the FS-UAE documentation.
 
-## Pocket Setup {#pocket}
+## Analogue Pocket Setup {#pocket}
 
 AmigaVision also works great with the handheld [Analogue Pocket] FPGA device. Do note that the Amiga core on Analogue Pocket does not support mounting/loading disc images for CD³² yet, but the 3000+ games in the library work great.
 
@@ -316,15 +314,7 @@ The CPU D-Cache option is available in the `OSD` under the `System` menu.
 
 On the other hand, some titles — mostly 3D polygon games and demos — will benefit greatly from the CPU boost D-Cache offers. So it's an option worth experimenting with on a case by case basis. Whenever switching this on or off, we recommend reloading the core to avoid any issues.
 
-## Workbench {#workbench}
-
-From the launcher, you can hit the `ESC` key to exit into Workbench, the AmigaOS graphical desktop environment.
-
-You can explore the world's first multitasking 16-bit computer from 1985 with the addition of a more modern desktop from 1992, AmigaOS 3.
-
-To change from the default 640×200 resolution to something like 1280×720 or 1920×1080 for use with a 16:9 HD display, hold down the right mouse button and select your preferred resolution from the ScreenMode menu. 540p is a nice compromise, a very usable screen resolution that doubles every pixel on a modern 1080p/4K 16:9 display.
-
-## CD³² Games Support {#cd32}
+## MiSTer: CD³² Games Support {#cd32}
 
 *This section is for MiSTer only. Most emulators have a way to run CD³² games, so consult the documentation there for instructions on how to play CD³² games. The Amiga core on Analogue Pocket does not support mounting/loading disc images yet.*
 
@@ -338,9 +328,19 @@ Do note that while the majority of CD³² games work (and, even a few CDTV games
 
 We maintain a compatibility list, including any special settings needed at [amiga.vision/cd32] — make sure to consult the listing for the game you are trying to play if it does not work.
 
-## Non-working Games {#nonworking}
+## MiSTer: Non-working Games {#nonworking}
 
-About 10-20 games are currently not working due to CPU or graphics chipset features not yet implemented in MiSTer's Minimig core. Over the past years compatibility has improved a lot, and that trend is likely to continue. The launcher will specify when a game is known not to work in the `Issues` section of a given game.
+A handful of games are currently either not working due to CPU or graphics chipset features not yet implemented in MiSTer's Minimig core, or could have graphics corruption. Over the past years compatibility has improved a lot, and that trend is likely to continue. 
+
+The launcher will specify when a game is known not to work in the `Issues` section of a given game.
+
+## Workbench {#workbench}
+
+From the launcher, you can hit the `ESC` key to exit into Workbench, the AmigaOS graphical desktop environment.
+
+You can explore the world's first multitasking 16-bit computer from 1985 with the addition of a more modern desktop from 1992, AmigaOS 3.
+
+To change from the default 640×200 resolution to something like 1280×720 or 1920×1080 for use with a 16:9 HD display, hold down the right mouse button and select your preferred resolution from the ScreenMode menu. 540p is a nice compromise, a very usable screen resolution that doubles every pixel on a modern 1080p/4K 16:9 display.
 
 ## Custom Scripts {#scripts}
 
