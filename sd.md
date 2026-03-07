@@ -1,5 +1,6 @@
 ---
 title: The best SD cards to use with MiSTer, Raspberry Pi, and handheld emulation setups
+description: Which SD card should you get?
 ---
 
 When picking an SD card to use with the MiSTer, Raspberry Pi, or any SD card-based retro gaming setup, there is the general (and sane!) advice to go for the trusted brands, like SanDisk and Samsung. Also to make sure you have a reliable supplier, since it’s easy to get sold a fake card — if the price is too good to be true, it probably is.
