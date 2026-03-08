@@ -17,7 +17,7 @@ It has many features specifically for use with [MiSTer] and [Analogue Pocket] FP
 * [Upgrading](#upgrading)
 * [Amiga Hardware Setup](#amiga)
 * [Raspberry Pi Setup](#raspberry)
-* [Emulator Setup](#emulators)
+* [Mac/Windows/Linux Setup](#emulators)
 * [Analogue Pocket Setup](#pocket)
 * [MiSTer Setup](#mister)
 * [Optional Setups](#optional)
@@ -122,7 +122,7 @@ While this setup will start on Raspberry Pi 3 and 4, they are too slow to emulat
 
 Do note that if you want to upgrade RePlayOS independently, you will need to re-add the files every time, since it will wipe the drive — RePlayOS does not have in-place upgrades yet. You can avoid this by using a separate external USB or internal NVMe drive and putting the AmigaVision files there instead of on the system boot drive.
 
-## Emulator Setup {#emulators}
+## Mac/Windows/Linux Setup {#emulators}
 
 Installing AmigaVision is covered on the [Download page](/download).
 
