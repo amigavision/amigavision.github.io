@@ -35,7 +35,7 @@ Only emulators running under Linux can currently switch automatically to 50hz. W
 
 The end result is that most people will run 50hz games and demos at the wrong frame rate.
 
-Additionally, current PC emulators don't automatically scale NTSC with the [correct 5:6 NTSC pixel aspect ratio](/ntsc).
+Additionally, current PC emulators don not automatically scale NTSC with the [correct 5:6 NTSC pixel aspect ratio](/ntsc).
 
 PC emulation can be an excellent tool for experimentation and development, but it is not the most reliable way to experience the Amiga as it actually behaved.
 
