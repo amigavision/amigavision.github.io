@@ -146,14 +146,16 @@ AmigaVision also works great with the handheld [Analogue Pocket] FPGA device. Do
 
 The above default settings assume that you are using it with a 16:9 format 1080p or 4K TV or computer monitor. 
 
-If you are using a 1440p computer monitor (great for scaling ~240p retro gaming output, since 240×6 = 1440) — use these settings for the video modes instead, no matter how many pixels wide it is:
+(Note that even if your 16:9 4K TV *can* handle and scale 1440p, we still recommend using 1080p output, since that will do proper integer scaling to 4K and make use of the per-game 5×PAL Overscale modes, to reduce the amount of pixels wasted on black bars along the edges.)
+
+If you are using a 1440p computer monitor — great for scaling ~240p retro gaming output, since 240×6 = 1440 — use these settings for the video modes instead, no matter how many pixels wide it is:
 
 ```ini
 video_mode_ntsc=1920,1440,60
 video_mode_pal=1920,1440,50
 ```
 
-Finally, 1920×1200 (16:10) computer monitors are also especially good for scaling ~240p retro gaming output with minimal black borders (since 240×5 = 1200). In that case, use these settings for the video modes:
+Finally, 1920×1200 (16:10) computer monitors are also especially good for scaling ~240p retro gaming output with minimal black borders — since 240×5 = 1200. In that case, use these settings for the video modes:
 
 ```ini
 video_mode_ntsc=1920,1200,60
