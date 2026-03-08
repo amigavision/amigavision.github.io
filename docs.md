@@ -138,15 +138,6 @@ AmigaVision also works great with the handheld [Analogue Pocket] FPGA device. Do
 
 * [Installation instructions for Analogue Pocket](/download/pocket)
 
-### Pocket Controls {#pocketcontrols}
-
-* `Select` button brings up the on-screen keyboard, hit `DEL` to quit a game.
-* `Start` button toggles mouse emulation mode, left/right triggers are the left/right mouse buttons.
-* `A` button selects an entry in the launcher.
-* `B` button goes back to the parent category in the launcher.
-
-Many games are updated to support two-button controls, but some require remapping if you prefer button-to-jump instead of up-to-jump (which makes sense on a joystick, but is pretty terrible on a gamepad). Button remapping is done just like in any other Pocket core.
-
 ## MiSTer Setup {#mister}
 
 * [Installation instructions for MiSTer](/download/mister)
