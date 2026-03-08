@@ -311,16 +311,16 @@ While AmigaVision has been tested for many years, the sheer volume of games and 
 
 ## Credits {#credits}
 
-* [David Lindecrantz] — Creator, original developer
-* [Alex Limi] — Developer, current project lead
-* [Per Olofsson] — Creator of [AGS], the launcher software
-* [Ben Squibb] — Improvements to AGS to enable hi-res launcher with thumbnail cycling + IFF conversion of hi-res thumbnails
-* Simon "[hitm4n]" Quincey — Hi-resolution screenshots for demos
-* LamerDeluxe — MT-32 support
-* [Frode Solheim] — Creator of [OpenRetro.org], screenshots used with kind permission
-* wiisoldier — Initial RePlayOS setup and testing, benchmarking assistance
-* Alessio (PuntoMusica) — Testing AmigaVision on Amiga CD32 hardware
-* Mattias Karlsson, Andreas Pålsson and StingRay (RIP) — Wrote and updated `ptreplay.library`, used to play music in the launcher
+* [David Lindecrantz] — Creator *&* original developer.
+* [Alex Limi] — Developer *&* current project lead.
+* [Per Olofsson] — Creator of [AGS], the launcher software.
+* [Ben Squibb] — Improvements to AGS to enable hi-res launcher with thumbnail cycling + IFF conversion of hi-res thumbnails.
+* Simon "[hitm4n]" Quincey — Hi-resolution screenshots for demos.
+* LamerDeluxe — MT-32 support.
+* [Frode Solheim] — Creator of [OpenRetro.org], screenshots used with kind permission.
+* wiisoldier — Initial RePlayOS setup and testing, benchmarking assistance.
+* Alessio (PuntoMusica) — Testing AmigaVision on Amiga CD32 hardware.
+* Mattias Karlsson, Andreas Pålsson and StingRay (RIP) — Wrote and updated `ptreplay.library`, used to play music in the launcher.
 
 ## Trouble&shy;shooting {#troubleshooting}
 
