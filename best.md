@@ -13,7 +13,7 @@ We will cover:
 * [TheA500 Mini *&* TheA1200](#mini)
 * [A600GS *&* A1200NG *&* A4000NG](#gs-ng)
 * [Vampire V4 FPGA *&* A6000](#vampire)
-* [Raspberry Pi 5](#raspberry-pi-5)
+* [Raspberry Pi 5](#rpi)
 * [Real Amiga Hardware](#real)
 * [MiSTer FPGA](#mister)
 * [Detailed Comparisons](#details)
