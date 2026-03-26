@@ -35,7 +35,7 @@ Only emulators running under *certain* Linux setups can currently switch automat
 
 The end result is that most people will run 50hz games and demos at the wrong frame rate.
 
-Additionally, current PC emulators don not automatically scale NTSC with the [correct 5:6 NTSC pixel aspect ratio](/ntsc).
+Additionally, current PC emulators do not automatically scale NTSC with the [correct 5:6 NTSC pixel aspect ratio](/ntsc), although that recently changed with Amiberry 8 onwards, which the AmigaVision team assisted with.
 
 PC emulation can be an excellent tool for experimentation and development, but it is not the most reliable way to experience the Amiga as it actually behaved.
 
