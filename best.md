@@ -35,7 +35,7 @@ Only emulators running under *certain* Linux setups can currently switch automat
 
 The end result is that most people will run 50hz games and demos at the wrong frame rate.
 
-Additionally, current PC emulators do not automatically scale NTSC with the [correct 5:6 NTSC pixel aspect ratio](/ntsc), although that recently changed with Amiberry 8 onwards, which the AmigaVision team assisted with.
+Additionally, current PC emulators do not automatically scale NTSC with the [correct 5:6 NTSC pixel aspect ratio](/ntsc), although that recently changed with [Amiberry] 8 onwards, which the AmigaVision team assisted with to get it right.
 
 PC emulation can be an excellent tool for experimentation and development, but it is not the most reliable way to experience the Amiga as it actually behaved.
 
@@ -219,6 +219,7 @@ It also has Bluetooth, Wi-Fi *&* NFC support built-in, offering maximum controll
 [A6000]:https://a6000.net
 [Raspberry Pi 5]:https://www.raspberrypi.com/products/raspberry-pi-5/
 [SuperStation One]:https://retroremake.co/pages/superstationᵒⁿᵉ
+[Amiberry]:https://amiberry.com
 
 [^1]: While emulators like WinUAE may be cycle accurate on paper, that doesn’t help when the host OS can interrupt the process at any time.
 
