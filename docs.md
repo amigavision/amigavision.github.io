@@ -312,7 +312,7 @@ While AmigaVision has been tested for many years, the sheer volume of games and 
 * LamerDeluxe — MT-32 support.
 * [Frode Solheim] — Creator of [OpenRetro.org], screenshots used with kind permission.
 * Rubén Tomás Alonso — Creator of [RePlayOS], the basis for our Raspberry Pi setup.
-* Dimitris Panokostas — Creator of [Amiberry], the basis for our emulation setups.
+* [Dimitris Panokostas] — Creator of [Amiberry], the basis for our emulation setups.
 * wiisoldier — Initial RePlayOS setup and testing, benchmarking assistance.
 * Alessio (PuntoMusica) — Testing AmigaVision on Amiga CD32 hardware.
 * Mattias Karlsson, Andreas Pålsson and StingRay (RIP) — Wrote and updated `ptreplay.library`, used to play music in the launcher.
@@ -539,6 +539,7 @@ AmigaVision was made with the help of these wonderful tools:
 [Ben Squibb]:https://github.com/stat-mat
 [hitm4n]:https://github.com/hittm4n
 [Frode Solheim]:https://github.com/FrodeSolheim
+[Dimitris Panokostas]:https://github.com/midwan
 [OpenRetro.org]:https://openretro.org
 
 <script>
