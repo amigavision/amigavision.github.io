@@ -3,7 +3,6 @@ name: Sync README to AmigaVision repo
 on:
   push:
     branches:
-      - master
       - main
     paths:
       - docs.md
