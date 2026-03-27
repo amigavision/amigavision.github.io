@@ -1,0 +1,72 @@
+name: Sync README to AmigaVision repo
+
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - docs.md
+      - .github/workflows/sync-readme-to-amigavision.yml
+  workflow_dispatch:
+
+jobs:
+  sync-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Pages repo
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            docs.md
+          sparse-checkout-cone-mode: false
+
+      - name: Check out AmigaVision repo
+        uses: actions/checkout@v4
+        with:
+          repository: amigavision/AmigaVision
+          token: ${{ secrets.AMIGAVISION_REPO_SYNC_TOKEN }}
+          path: amigavision
+          sparse-checkout: |
+            README.md
+          sparse-checkout-cone-mode: false
+
+      - name: Regenerate README from docs page
+        run: |
+          awk '
+            BEGIN {
+              in_frontmatter = 0
+              frontmatter_done = 0
+              in_script = 0
+              skipping_blank = 0
+              print "# AmigaVision"
+              print ""
+              print "(The latest version of this documentation can also always be found on our web site at [https://amiga.vision/docs])"
+              print ""
+            }
+            NR == 1 && $0 == "---" { in_frontmatter = 1; next }
+            in_frontmatter && $0 == "---" { in_frontmatter = 0; frontmatter_done = 1; skipping_blank = 1; next }
+            in_frontmatter { next }
+            $0 ~ /<script>/ { in_script = 1; next }
+            in_script && $0 ~ /<\/script>/ { in_script = 0; next }
+            in_script { next }
+            skipping_blank && $0 == "" { next }
+            { skipping_blank = 0 }
+            { print }
+          ' docs.md > amigavision/README.md
+
+      - name: Commit and push if changed
+        run: |
+          cd amigavision
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- README.md; then
+            echo "README.md is already up to date"
+            exit 0
+          fi
+
+          git add README.md
+          git commit -m "Sync README from website docs"
+          git push
