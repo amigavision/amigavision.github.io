@@ -113,7 +113,7 @@ Let's break down the details of the various options available:
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +&nbsp;<br> Emu
 |---|:--------------:|:------:|:----------:|:------------------:
-| Purchase Price [^11] | ~&#36;1K+<br> [^7] | ~&#36;150-&#36;200<br> [^9] | ~&#36;110-&#36;160 <br>[^6] | ~&#36;0-&#36;250<br> [^8]
+| Purchase Price [^11] | ~$1K+<br> [^7] | ~$150-$200<br> [^9] | ~$110-$160 <br>[^6] | ~$0-$250<br> [^8]
 | Initial Cost | 💰💰<br>💰💰 | <br>💰💰 | <br>💰💰 | 💰<br>💰💰
 | Ongoing Costs | 💰<br>💰💰 | <br>💰 | <br>💰 | <br>💰💰
 {: .feature-compare data-responsive-table="true" }
@@ -229,15 +229,15 @@ It also has Bluetooth, Wi-Fi *&* NFC support built-in, offering maximum controll
 
 [^4]: Modern desktop operating systems have too many variables to keep input and output latency low, e.g. host OS interruptions, USB latency and polling speed, graphics rendering pipelines, network updates etc.
 
-[^5]: If you add the  &#36;50 RGB-Pi 2 Adapter, it is possible, but it is not supported natively on the standard hardware setup, unlike a real Amiga or the MiSTer.
+[^5]: If you add the  $50 RGB-Pi 2 Adapter, it is possible, but it is not supported natively on the standard hardware setup, unlike a real Amiga or the MiSTer.
 
-[^6]: Raspberry Pi 5 is ~&#36;45-&#36;95 (1GB vs. 8GB), PSU is ~&#36;15, case is &#36;25, USB hub is &#36;10, 64GB card is ~&#36;20.
+[^6]: Raspberry Pi 5 is ~$45-$95 (1GB vs. 8GB), PSU is ~$15, case is $25, USB hub is $10, 64GB card is ~$20.
 
-[^7]: A recapped (mandatory!) Amiga 1200 is ~&#36;750 on US & UK eBay. Adding a faster CPU + RAM + HD runs you ~&#36;320 (TerribleFire 1230 50MHz 64MB with IDE). It also needs a scaler or hardware upgrade to connect to HDMI, a good one is at least &#36;100-150 — omitted from comparison.
+[^7]: A recapped (mandatory!) Amiga 1200 is ~$750 on US & UK eBay. Adding a faster CPU + RAM + HD runs you ~$320 (TerribleFire 1230 50MHz 64MB with IDE). It also needs a scaler or hardware upgrade to connect to HDMI, a good one is at least $100-150 — omitted from comparison.
 
-[^8]: “Free” only if you plan on using your existing computer for emulation. A reasonably performant dedicated mini-PC for gaming in the living room is ~&#36;250.
+[^8]: “Free” only if you plan on using your existing computer for emulation. A reasonably performant dedicated mini-PC for gaming in the living room is ~$250.
 
-[^9]: MiSTer Pi board is &#36;125 including case and 64GB SD card. SuperStation is &#36;199 including 64GB SD card and a high-quality injection-molded case, much higher quality than the average affordable Raspberry Pi case.
+[^9]: MiSTer Pi board is $125 including case and 64GB SD card. SuperStation is $199 including 64GB SD card and a high-quality injection-molded case, much higher quality than the average affordable Raspberry Pi case.
 
 [^10]: 1080p is the minimum resolution required for decent integer scaling of Amiga resolutions when the target is a modern 16:9 aspect ratio screen. TheA500 only supports 720p.
 
