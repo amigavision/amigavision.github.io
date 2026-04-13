@@ -517,8 +517,6 @@ AmigaVision was made with the help of these wonderful tools:
 [Demo scene]:https://en.wikipedia.org/wiki/Demoscene
 [AGS]:https://github.com/MagerValp/ArcadeGameSelector
 [Arcade Game Selector]:https://github.com/MagerValp/ArcadeGameSelector
-[Balena Etcher]:https://www.balena.io/etcher
-[Win32 Disk Imager]:https://win32diskimager.org
 [FS-UAE]:https://fs-uae.net
 [Analogue Pocket]:https://analogue.co/pocket
 [Amiga Pocket Core]:https://github.com/Mazamars312/Analogue-Amiga/releases
