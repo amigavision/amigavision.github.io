@@ -21,6 +21,8 @@ Take a look at the difference using this screenshot from Defender of the Crown, 
 
 In 2023, we completely reworked how this is handled, so you no longer have to manually switch to NTSC to get the correct pixel aspect ratio — which has tall pixels at a 5:6 PAR, as demonstrated here in Defender of the Crown. 
 
+In 2024&ndash;2026, we reworked Amiga emulator scaling along with the author of [Amiberry](https://amiberry.com), which culminated in fixing this 30-year old Amiga scaling issue with the release of [AmigaVision 2026.04.16](/2026.04.16) and Amiberry 8.
+
 All of these align to the 1080p/4K 16:9 pixel grid while having the correct Pixel Aspect Ratio, so you will not get any shimmering or non-integer pixels.
 
 ---
