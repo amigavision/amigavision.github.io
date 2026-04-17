@@ -41,6 +41,8 @@ In summary, it’s hard to make a top-level setting do a good job at optimally u
 
 ## What can we do?
 
+### MiSTer Implementation
+
 What we need is a *per-game* setting for which games should use 5×/10× scale, a custom setting *per-game* for the offset when it does, and the ability to revert to a different setting when you exit the game and start another game.
 
 (Amiga was the first MiSTer core to support 5×/10× scaling in the first place, using a file in `/config` named `minimig_vadjust.dat`. But this setting was global, which didn’t solve our problem.)	
@@ -56,6 +58,10 @@ And yes, that *does* mean that *every single game* in the resulting image needs 
 **We have gone through the top ~3000(!) games on the Amiga, manually adjusted whether it should use 5× scaling, and when it does—what kind of offset that game needs to not unnecessarily cut off any critical game elements.**
 
 With the latest AmigaVision (the 2021 versions onwards), you will get customized 5× integer vertical scaling for the games that use ~200px of the available viewport. 
+
+### Emulator Implementation
+
+We worked with the author of the [Amiberry](https://amiberry.com) Amiga emulator to fix Amiga autocrop scaling as well as automatically do [NTSC pixel aspect ratio scaling](/ntsc) correctly without manual settings and/or configuration tweaks being required. AmigaVision on Amiberry — which is our default setup — do this correctly as well.
 
 ![5x Overscale Example](/images/lionheart5x.gif)
 
