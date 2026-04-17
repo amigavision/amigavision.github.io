@@ -100,7 +100,7 @@ Installed size | 9&nbsp;GB | <br>30&#8209;52&nbsp;GB<br> [^9] | 57&nbsp;GB
 Duplicate-Free Game Library [^11] | ✅ | ❌ | ❌
 Curated Game Lists [^26] | ✅ | ❌ | ❌
 Open Source License | ✅ | ❌ | ❌
-3,000 Game Manuals Available via QR Codes | ✅ | ❌ | ❌
+3,000 Game Manuals via QR Scan on Mobile/Tablet | ✅ | ❌ | ❌
 {: .feature-compare data-responsive-table="true" }
 
 ## ⏱️ Performance, Accuracy *&* Latency {#performance}
