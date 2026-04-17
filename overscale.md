@@ -65,7 +65,7 @@ This means that *we may sacrifice a few pixels*, which *could* be critical in e.
 
 ## Scaling should not affect the gameplay
 
-There are entire classes of games, e.g. driving games and top-down games, that don’t rely on seeing every single pixel for the game to work fine. This is when we accept cropping. And if you try the game in 4× vs. 5×/10× on an actual TV instead of these screenshots, I think you will agree that losing a few pixels in-game to the 5×/10× scale is a trade-off worth making.
+There are entire classes of games, e.g. driving games and top-down games, that don’t rely on seeing every single pixel for the game to work fine. This is when we accept cropping. And if you try the game in 4× vs. 5×/10× on an actual TV instead of these screenshots, I think you will agree that losing a few pixels in-game to the 5×/10× scale is a trade-off worth making, and there are also cases like Mega-lo-Mania, where the only thing we are pushing outside of the screen border is a static logo, nothing related to gameplay ever happens there:
 
 ![5x Overscale Example](/images/megalomania5x.gif)
 
