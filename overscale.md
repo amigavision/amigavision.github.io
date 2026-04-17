@@ -1,16 +1,16 @@
 ---
-title: Per-Game 5× PAL Integer Overscaling on MiSTer
+title: Per-Game 5× PAL Integer Overscaling in AmigaVision
 description: Why Amiga aspect ratios are actually close to modern widescreen aspect ratios
 redirect_from: "/5x/"
 ---
 
-The Amiga core on the MiSTer FPGA platform with AmigaVision now supports 5× PAL integer overscaling, crop and offsets on a *per-game* basis. And the optimal settings are all handled for you—transparently—within the AmigaVision setup.
+AmigaVision supports 5× PAL integer overscaling, crop and offsets on a *per-game* basis. And the optimal settings are all handled for you—transparently—within the AmigaVision setup.
 
 ##  What does this mean?
 
 First, as we say in the business: “Sometimes a GIF is worth a thousand words.”
 
-Let's take a look at some example games—real screenshots from the Amiga core on MiSTer, superimposed on a 16:9 1080p/4K TV to give a better impression of how it appears in real life:
+Let's take a look at some example games—real screenshots, superimposed on a 16:9 1080p/4K TV to give a better impression of how it appears in real life:
 
 ![5x Overscale Example](/images/gods5x.gif)
 
