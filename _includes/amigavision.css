@@ -860,6 +860,7 @@ padding: 16px 50px;
 .page .button.alt a:hover {
   background: #346fcb;
   border-color: #2857a6;
+  color: #fff;
 }
 .page ol .button,
 .page ul .button {
