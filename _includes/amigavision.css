@@ -854,12 +854,12 @@ padding: 16px 50px;
 }
 .page .button.alt a {
   background: #4182e4;
-  border-color: #2f81f7;
+  border: 1px solid #346fcb;
   color: #fff;
 }
 .page .button.alt a:hover {
   background: #346fcb;
-  border-color: #346fcb;
+  border-color: #2857a6;
 }
 .page ol .button,
 .page ul .button {
