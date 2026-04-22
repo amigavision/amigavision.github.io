@@ -865,7 +865,7 @@ padding: 16px 50px;
 .page ol .button,
 .page ul .button {
   display: inline-block;
-  margin: 0 8px 0 0;
+  margin: 0;
   vertical-align: middle;
 }
 .button.alt a:hover {
