@@ -10,7 +10,7 @@ To find out more, visit the [AmigaVision](https://amiga.vision) site.
 
 ---
 
-After releasing the [biggest update in AmigaVision's history](https://amiga.vision/2026.04.16) we got a lot of requests to make it available for TheA500 Mini emulation console too.
+After releasing the [biggest update in AmigaVision's history](https://amiga.vision/2026.04.16), we got a lot of requests to make it available for TheA500 Mini emulation console too.
 
 If you don't know TheA500 Mini, it was a somewhat underpowered — but very cute! —  Amiga "mini" emulation box released in 2022. The decent industrial design was unfortunately let down by sub-par performance, and it only came with 25 games.
 
@@ -24,11 +24,11 @@ So it's time to breathe new life into an old device with AmigaVision Mini!
 
 Bear the following limitations in mind:
 
-* TheA500 Mini is too slow to run many Amiga games properly, even with tricks like JIT, which will break compatibility with other games. TheA500 Mini is slower than a Raspberry Pi 3, and since you know we recommend something at least as fast as a Raspberry Pi 5 for AmigaVision, you *will* encounter issues.
+* TheA500 Mini is too slow to run many Amiga games properly, even with tricks like JIT, which will break compatibility with other games. TheA500 Mini is slower than a Raspberry Pi 3, and since you know we recommend something [at least as fast as a Raspberry Pi 5](https://amiga.vision/best) for AmigaVision, you *will* encounter issues.
 * It runs at the absolutely worst resolution for scaling Amiga graphics cleanly — 720p. The minimum resolution for proper Amiga scaling is 1080p. So you will either have to set it to 3× scale to maintain integer scaled pixels, resulting in a very small image on-screen which only uses a fraction of your display — or you will have to stretch the image to full-height and accept uneven scaling.
 * Unlike every other AmigaVision supported platform, we do *not* control the emulator nor the emulator settings. It is quite poorly configured by default, and uses a very old Amiga emulator.
-* It is limited by the FAT32 file system it uses, so hard disks can only be 4GB or less. You can of course accomplish more storage by spreading things over multiple hard drives, but the juice isn't worth the squeeze, as they say.
-* It is not capable of switching between NTSC and PAL games on-the-fly, so we recommend keeping it in PAL mode — but that does means that some games run at the wrong speed and at the wrong aspect ratio.
+* It is limited by the FAT32 file system it uses, so hard disks can only be 4GB or less. You can of course add more storage by spreading things over multiple hard drives, but the juice isn't worth the squeeze, as they say.
+* It is not capable of switching between NTSC and PAL games on-the-fly, so we recommend keeping it in PAL mode — but that does means that some games run at the wrong speed and at the wrong aspect ratio. C'est la vie.
 
 These are all limitations that are fundamental to TheA500 Mini hardware and operating system, and unfortunately not something we can fix.
 
