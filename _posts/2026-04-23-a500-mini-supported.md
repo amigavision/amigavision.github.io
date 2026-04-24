@@ -48,7 +48,7 @@ We hope this gives your old (and likely neglected 🥲) TheA500 Mini some new li
 
 Enjoy!
 
-## 🔮 Addendum: What About the Upcoming TheA1200?
+## 🔮 What About TheA1200?
 
 No specifications for the upcoming TheA1200 product have been published — even though they are taking pre-orders — so we have no idea whether it will be possible to make the experience on that device better, but we can hope. We will certainly take a look at bringing AmigaVision to it when/if it is released.
 
