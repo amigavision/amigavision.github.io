@@ -34,7 +34,7 @@ These are all limitations that are fundamental to TheA500 Mini hardware and oper
 
 ## 🎉 The Good News
 
-But! It's not all bad news. By installing AmigaVision Mini on your TheA500 Mini, you get:
+But, it's not all bad news! By installing AmigaVision Mini on your TheA500 Mini, you get:
 
 * 2,000 of the best Amiga games with no duplicated PAL/NTSC/OCS/AGA versions, available in carefully curated categories.
 * Game manuals for close to 2,000 games are directly available with [QR code links directly in the launcher](https://amiga.vision/2026.04.16).
