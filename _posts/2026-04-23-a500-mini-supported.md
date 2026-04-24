@@ -12,7 +12,7 @@ To find out more, visit the [AmigaVision](https://amiga.vision) site.
 
 After releasing the [biggest update in AmigaVision's history](https://amiga.vision/2026.04.16), we got a lot of requests to make it available for TheA500 Mini emulation console too.
 
-If you don't know TheA500 Mini, it was a somewhat underpowered — but very cute! —  Amiga "mini" emulation box released in 2022. The decent industrial design was unfortunately let down by sub-par performance, and it only came with 25 games.
+If you don't know about TheA500 Mini, it was a somewhat underpowered — but very cute! —  Amiga "mini" emulation box released in 2022. The decent industrial design was unfortunately let down by sub-par performance, and it only came with 25 games.
 
 ![TheA500 Mini Box](https://amiga.vision/images/a500-mini.jpg)
 
