@@ -1,7 +1,7 @@
 ---
 title: AmigaVision Now Available for TheA500 Mini
 description: Breathe new life into your old TheA500 Mini!
-published: false
+published: true
 ---
 
 AmigaVision is the ultimate Amiga games *&* demo scene setup for MiSTer *&* Pocket FPGAs, Raspberry Pi + emulators, and real Amiga hardware.
