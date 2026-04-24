@@ -20,21 +20,9 @@ Nevertheless, they were a pretty popular gift, since it was launched at a decent
 
 So it's time to breathe new life into an old device with AmigaVision Mini!
 
-## 🚧 Limitations
-
-Be aware of the following limitations:
-
-* TheA500 Mini is too slow to run many Amiga games properly, even with tricks like JIT, which will break compatibility with other games. TheA500 Mini is slower than a Raspberry Pi 3, and since you know we recommend something [at least as fast as a Raspberry Pi 5](https://amiga.vision/best) for Amiga emulation, you *will* encounter issues.
-* It runs at the absolutely worst resolution for scaling Amiga graphics cleanly — 720p. The minimum resolution for proper Amiga scaling is 1080p. So you will either have to set it to 3× scale to maintain integer scaled pixels, resulting in a very small image on-screen which only uses a fraction of your display — or you will have to stretch the image to full-height and accept uneven scaling.
-* Unlike every other AmigaVision supported platform, we do *not* control the emulator nor the emulator settings. It is quite poorly configured by default, and uses a very old Amiga emulator.
-* It is limited by the FAT32 file system it uses, so hard disks can only be 4GB or less. You can of course add more storage by spreading things over multiple hard drives, but the juice isn't worth the squeeze, as they say.
-* It is not capable of switching between NTSC and PAL games on-the-fly, so we recommend keeping it in PAL mode — but that does means that some games run at the wrong speed and at the [wrong aspect ratio](https://amiga.vision/ntsc). C'est la vie.
-
-These are all limitations that are fundamental to TheA500 Mini hardware and operating system, and unfortunately not something we can fix.
-
 ## 🎉 The Good News
 
-But, it's not all bad news! By installing AmigaVision Mini on your TheA500 Mini, you get:
+By installing AmigaVision Mini on your TheA500 Mini, you get:
 
 * 2,000 of the best Amiga games with no duplicated PAL/NTSC/OCS/AGA versions, available in carefully curated categories.
 * Game manuals for close to 2,000 games are directly available with [QR code links directly in the launcher](https://amiga.vision/2026.04.16).
@@ -46,7 +34,17 @@ But, it's not all bad news! By installing AmigaVision Mini on your TheA500 Mini,
 
 We hope this gives your old (and likely neglected 🥲) TheA500 Mini some new life! It's a great little device to put in a small bag with a couple of USB controllers and bring over to some friends for a fun couch gaming session or to reminisce about the old days by watching some Amiga demo scene magic.
 
-Enjoy!
+## 🚧 Limitations
+
+Be aware of the following limitations:
+
+* TheA500 Mini is too slow to run many Amiga games properly, even with tricks like JIT, which will break compatibility with other games. TheA500 Mini is slower than a Raspberry Pi 3, and since you know we recommend something [at least as fast as a Raspberry Pi 5](https://amiga.vision/best) for Amiga emulation, you *will* encounter issues.
+* It runs at the absolutely worst resolution for scaling Amiga graphics cleanly — 720p. The minimum resolution for proper Amiga scaling is 1080p. So you will either have to set it to 3× scale to maintain integer scaled pixels, resulting in a very small image on-screen which only uses a fraction of your display — or you will have to stretch the image to full-height and accept uneven scaling.
+* Unlike every other AmigaVision supported platform, we do *not* control the emulator nor the emulator settings. It is quite poorly configured by default, and uses a very old Amiga emulator.
+* It is limited by the FAT32 file system it uses, so hard disks can only be 4GB or less. You can of course add more storage by spreading things over multiple hard drives, but the juice isn't worth the squeeze, as they say.
+* It is not capable of switching between NTSC and PAL games on-the-fly, so we recommend keeping it in PAL mode — but that does means that some games run at the wrong speed and at the [wrong aspect ratio](https://amiga.vision/ntsc). C'est la vie.
+
+These are all limitations that are fundamental to TheA500 Mini hardware and operating system, and unfortunately not something we can fix.
 
 ## 🔮 What About TheA1200?
 
