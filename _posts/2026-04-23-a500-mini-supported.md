@@ -28,7 +28,7 @@ Be aware of the following limitations:
 * It runs at the absolutely worst resolution for scaling Amiga graphics cleanly — 720p. The minimum resolution for proper Amiga scaling is 1080p. So you will either have to set it to 3× scale to maintain integer scaled pixels, resulting in a very small image on-screen which only uses a fraction of your display — or you will have to stretch the image to full-height and accept uneven scaling.
 * Unlike every other AmigaVision supported platform, we do *not* control the emulator nor the emulator settings. It is quite poorly configured by default, and uses a very old Amiga emulator.
 * It is limited by the FAT32 file system it uses, so hard disks can only be 4GB or less. You can of course add more storage by spreading things over multiple hard drives, but the juice isn't worth the squeeze, as they say.
-* It is not capable of switching between NTSC and PAL games on-the-fly, so we recommend keeping it in PAL mode — but that does means that some games run at the wrong speed and at the wrong aspect ratio. C'est la vie.
+* It is not capable of switching between NTSC and PAL games on-the-fly, so we recommend keeping it in PAL mode — but that does means that some games run at the wrong speed and at the [wrong aspect ratio](https://amiga.vision/ntsc). C'est la vie.
 
 These are all limitations that are fundamental to TheA500 Mini hardware and operating system, and unfortunately not something we can fix.
 
