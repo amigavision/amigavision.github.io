@@ -42,6 +42,7 @@ But! It's not all bad news. By installing AmigaVision Mini on your TheA500 Mini,
 * The fastest-booting Amiga setup available for TheA500 Mini.
 * A complete Workbench setup with apps such as ProTracker for reliving those good old days when you were making stuff on your Amiga.
 * Our best-in-class launcher and game/demo selection you know and love from the "full fat" AmigaVision releases on other platforms.
+* Unlike other setups that require you to connect a separate USB hub to use two joysticks for multiplayer, we include two separate options that lets you choose either `Mouse + Joystick` or `2 Joysticks` depending on whether you want multiplayer gaming or mouse gaming/productivity/demos — since TheA500 only has two USB ports.
 
 We hope this gives your old (and likely neglected 🥲) TheA500 Mini some new life! It's a great little device to put in a small bag with a couple of USB controllers and bring over to some friends for a fun couch gaming session or to reminisce about the old days by watching some Amiga demo scene magic.
 
