@@ -22,7 +22,7 @@ So it's time to breathe new life into an old device with AmigaVision Mini!
 
 ## 🚧 Limitations
 
-Bear the following limitations in mind:
+Be aware of the following limitations:
 
 * TheA500 Mini is too slow to run many Amiga games properly, even with tricks like JIT, which will break compatibility with other games. TheA500 Mini is slower than a Raspberry Pi 3, and since you know we recommend something [at least as fast as a Raspberry Pi 5](https://amiga.vision/best) for AmigaVision, you *will* encounter issues.
 * It runs at the absolutely worst resolution for scaling Amiga graphics cleanly — 720p. The minimum resolution for proper Amiga scaling is 1080p. So you will either have to set it to 3× scale to maintain integer scaled pixels, resulting in a very small image on-screen which only uses a fraction of your display — or you will have to stretch the image to full-height and accept uneven scaling.
