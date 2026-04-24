@@ -20,7 +20,7 @@ Nevertheless, they were a pretty popular gift, since it was launched at a decent
 
 So it's time to breathe new life into an old device with AmigaVision Mini!
 
-## Limitations
+## 🚧 Limitations
 
 Bear the following limitations in mind:
 
@@ -32,7 +32,7 @@ Bear the following limitations in mind:
 
 These are all limitations that are fundamental to TheA500 Mini hardware and operating system, and unfortunately not something we can fix.
 
-## The Good News
+## 🎉 The Good News
 
 But! It's not all bad news. By installing AmigaVision Mini on your TheA500 Mini, you get:
 
@@ -47,7 +47,7 @@ We hope this gives your old (and likely neglected 🥲) TheA500 Mini some new li
 
 Enjoy!
 
-## Addendum: What About the Upcoming TheA1200?
+## 🔮 Addendum: What About the Upcoming TheA1200?
 
 No specifications for the upcoming TheA1200 product have been published — even though they are taking pre-orders — so we have no idea whether it will be possible to make the experience on that device better, but we can hope. We will certainly take a look at bringing AmigaVision to it when/if it is released.
 
