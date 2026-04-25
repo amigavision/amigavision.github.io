@@ -36,9 +36,9 @@ We hope this gives your old (and likely neglected 🥲) TheA500 Mini some new li
 
 ## 🚧 Limitations
 
-Be aware of the following limitations:
+Be aware of the following limitations of TheA500 Mini:
 
-* TheA500 Mini is too slow to run many Amiga games properly, even with tricks like JIT, which will break compatibility with other games. TheA500 Mini is slower than a Raspberry Pi 3, and since you know we recommend something [at least as fast as a Raspberry Pi 5](https://amiga.vision/best) for Amiga emulation, you *will* encounter issues.
+* It is too slow to run many Amiga games properly, even with tricks like JIT, which will break compatibility with other games. TheA500 Mini is slower than a Raspberry Pi 3, and since you know we recommend something [at least as fast as a Raspberry Pi 5](https://amiga.vision/best) for Amiga emulation, you *will* encounter issues.
 * It runs at the absolutely worst resolution for scaling Amiga graphics cleanly — 720p. The minimum resolution for proper Amiga scaling is 1080p. So you will either have to set it to 3× scale to maintain integer scaled pixels, resulting in a very small image on-screen which only uses a fraction of your display — or you will have to stretch the image to full-height and accept uneven scaling.
 * Unlike every other AmigaVision supported platform, we do *not* control the emulator nor the emulator settings. It is quite poorly configured by default, and uses a very old Amiga emulator.
 * It is limited by the FAT32 file system it uses, so hard disks can only be 4GB or less. You can of course add more storage by spreading things over multiple hard drives, but the juice isn't worth the squeeze, as they say.
