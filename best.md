@@ -103,7 +103,7 @@ MiSTer provides a hardware-accurate Amiga implementation without the practical d
 
 It delivers cycle-accurate behavior, extremely low and consistent input/output latency, correct PAL and NTSC timing, and support for both modern HDMI displays and native analog CRT output, even simultaneously. Power usage is low, and once configured, ongoing maintenance is minimal.
 
-Hardware options range from bare-bones boards to high-quality, purpose-built complete products like the SuperStation, which offers build quality far beyond typical single-board computer enclosures, with every analog and digital display output option imaginable included.
+Hardware options range from bare-bones boards to high-quality, purpose-built complete products like the [SuperStation One], which offers build quality far beyond typical single-board computer enclosures, with every analog and digital display output option imaginable included.
 
 # Detailed Comparisons {#details}
 
