@@ -149,7 +149,7 @@ Let's break down the details of the various options available:
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC +<br> Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
-| Native Analog 15kHz<br> CRT Output Included | ✅ | ✅ | <br>❌<br>[^5] | ❌
+| Analog 15kHz<br> CRT Output Included | ✅ | ✅ | <br>❌<br>[^5] | ❌
 | HDMI Output Included | ❌ | ✅ | ✅ | ✅
 | USB Peripheral Support | ❌ | ✅ | ✅ | ✅
 | Wi-Fi *&* Networking Included | ❌ | ✅ | ✅ | ✅
