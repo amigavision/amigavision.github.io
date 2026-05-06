@@ -151,7 +151,7 @@ Let's break down the details of the various options available:
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
 | Analog 15kHz<br> CRT Output Included | ✅ | ✅ | <br>❌<br>[^5] | ❌
 | HDMI Output Included | ❌ | ✅ | ✅ | ✅
-| USB Peripheral Support | ❌ | ✅ | ✅ | ✅
+| USB Peripheral Support Included | ❌ | ✅ | ✅ | ✅
 | Wi-Fi *&* Networking Included | ❌ | ✅ | ✅ | ✅
 {: .feature-compare data-responsive-table="true" }
 
