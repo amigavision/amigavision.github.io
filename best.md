@@ -151,8 +151,8 @@ Let's break down the details of the various options available:
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
 | Native Analog 15kHz<br> CRT Output Included | ✅ | ✅ | <br>❌<br>[^5] | ❌
 | Native HDMI Output Included | ❌ | ✅ | ✅ | ✅
-| Modern USB Peripheral Support | ❌ | ✅ | ✅ | ✅
-| Wi-Fi *&* Networking | ❌ | ✅ | ✅ | ✅
+| USB Peripheral Support | ❌ | ✅ | ✅ | ✅
+| Wi-Fi *&* Networking Included | ❌ | ✅ | ✅ | ✅
 {: .feature-compare data-responsive-table="true" }
 
 ## ⚙️&nbsp;Power, Reliability *&* Form Factor {#hardware}
