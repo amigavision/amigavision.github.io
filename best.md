@@ -112,7 +112,7 @@ Let's break down the details of the various options available:
 ## 💰&nbsp;Cost {#cost}
 
 |   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | Windows<br>Mac<br>Linux |
-|---|:--------------:|:------:|:----------:|:------------------:
+|---|:--------------:|:------:|:----------:|:------------------:|
 | Purchase Price [^11] | ~$1K+<br> [^7] | ~$150-$200<br> [^9] | ~$110-$160 <br>[^6] | ~$0-$250<br> [^8]
 | Initial Cost | 💰💰<br>💰💰 | <br>💰💰 | <br>💰💰 | 💰<br>💰💰
 | Ongoing Costs | 💰<br>💰💰 | <br>💰 | <br>💰 | <br>💰💰
