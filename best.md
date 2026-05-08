@@ -199,7 +199,7 @@ The AmigaVision team recommends the [SuperStation One] — $199 + shipping/tax.
 
 ![SuperStation One](/images/superstation.png)
 
-Unlike traditional MiSTer setups, SuperStation One comes as a complete, assembled console with built-in ports and a polished injection molded (non 3D-printed) enclosure — making it much more accessible to non-DIY users while delivering MiSTer accuracy out of the box, at a reasonable price.
+Unlike traditional MiSTer setups, SuperStation One comes as a complete, assembled console with built-in ports and a polished injection molded (not 3D-printed) enclosure — making it much more accessible to non-DIY users while delivering MiSTer accuracy out of the box, at a reasonable price.
 
 It supports multiple video outputs (HDMI, VGA, composite, component, DIN10) that make it ideal for both modern displays and CRT setups — something we highly value for the best in analog output to period-accurate CRT monitors and TVs.
 
