@@ -105,7 +105,7 @@ It delivers cycle-accurate behavior, extremely low and consistent input/output l
 
 Hardware options range from bare-bones boards to high-quality, purpose-built complete products like the [SuperStation One], which offers build quality far beyond typical single-board computer enclosures, with every analog and digital display output option imaginable included.
 
-# Detailed Comparisons {#details}
+# Detailed Comparison {#details}
 
 Let's break down the details of the various options available:
 
