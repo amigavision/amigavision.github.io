@@ -111,7 +111,7 @@ Let's break down the details of the various options available:
 
 ## 💰&nbsp;Cost {#cost}
 
-|   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | Windows <br>Mac <br>Linux |
+|   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC + <br>Emu |
 |---|:--------------:|:------:|:----------:|:------------------:|
 | Purchase Price [^11] | ~$1K+<br> [^7] | ~$150-$200<br> [^9] | ~$110-$160 <br>[^6] | ~$0-$250<br> [^8]
 | Initial Cost | 💰💰<br>💰💰 | <br>💰💰 | <br>💰💰 | 💰<br>💰💰
@@ -120,7 +120,7 @@ Let's break down the details of the various options available:
 
 ## 🎯&nbsp;Accuracy *&* Timing {#accuracy}
 
-|   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | Windows <br>Mac <br>Linux |
+|   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC + <br>Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
 | Automatic PAL 50hz *&* <br>NTSC 60hz Switching | ✅ | ✅ | <br>✅<br> [^13] | <br>❌<br> [^3] 
 | Cycle Accuracy | <br>✅<br> | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br><br>🟨<br>🟨<br> [^1]
@@ -129,7 +129,7 @@ Let's break down the details of the various options available:
 
 ## 🎧 🖥️ 🕹️&nbsp;Audio, Video *&* Input {#io}
 
-|   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | Windows <br>Mac <br>Linux |
+|   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC + <br>Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
 | Audio Accuracy | <br>✅<br> | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | 🟩<br>🟩<br>🟩
 | Mouse Behavior *&* Accuracy | <br>✅<br> | 🟩<br>🟩<br>🟩 | <br>🟨<br>🟨 | <br>🟨<br>🟨
@@ -138,7 +138,7 @@ Let's break down the details of the various options available:
 
 ## 🛠️&nbsp;Ease of Use *&* Maintenance {#usability}
 
-|   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | Windows <br>Mac <br>Linux |
+|   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC + <br>Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
 | Low Complexity | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br><br>🟥
 | Low Effort | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br><br>🟥
@@ -147,7 +147,7 @@ Let's break down the details of the various options available:
 
 ## 📺&nbsp;Connectivity *&* Output {#connect}
 
-|   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | Windows <br>Mac <br>Linux |
+|   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC + <br>Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
 | Analog 15kHz CRT Output Included | ✅ | ✅ | <br>❌<br>[^5] | ❌
 | HDMI Output Included | ❌ | ✅ | ✅ | ✅
@@ -157,7 +157,7 @@ Let's break down the details of the various options available:
 
 ## ⚙️&nbsp;Power, Reliability *&* Form Factor {#hardware}
 
-|   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | Windows <br>Mac <br>Linux |
+|   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC + <br>Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
 | Low Power Usage | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | <br><br><br>🟥
 | Hardware Reliability | <br><br><br>🟥 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩 | 🟩<br>🟩<br>🟩
@@ -167,7 +167,7 @@ Let's break down the details of the various options available:
 
 ## ❤️&nbsp;Experience {#ux}
 
-|   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | Windows <br>Mac <br>Linux |
+|   | Real <br>Amiga | MiSTer | RPi&nbsp;5 | PC + <br>Emu |
 |---|:---------------:|:------:|:-----------------:|:-----------------------:|
 | Nostalgia *&* Authenticity | ⭐⭐<br>⭐⭐ | ⭐<br>⭐⭐ | <br>⭐⭐ | <br>⭐⭐
 {: .feature-compare data-responsive-table="true" }
