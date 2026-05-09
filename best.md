@@ -14,7 +14,7 @@ We will cover:
 * [A600GS *&* A1200NG *&* A4000NG](#gs-ng)
 * [Vampire V4 FPGA *&* A6000](#vampire)
 * [Raspberry Pi 5](#pi)
-* [Real Amiga Hardware](#real)
+* [Real Amiga Hardware](#amiga)
 * [MiSTer FPGA](#mister)
 * [Detailed Comparisons](#details)
 * [The Best Amiga in 2026](#best)
@@ -85,7 +85,7 @@ The hardware itself is relatively affordable, but a complete setup requires addi
 
 Even on the Pi 5, emulation remains a compromise. While many games run well, timing accuracy, input latency, and CRT compatibility fall short of FPGA-based solutions. For casual gaming or WHDLoad-based setups, it can be a reasonable choice, but it is not ideal for cycle-exact demos or low-latency use.
 
-## Real Amiga Hardware {#real}
+## Real Amiga Hardware {#amiga}
 
 A real Amiga remains the gold standard for historical authenticity.
 
