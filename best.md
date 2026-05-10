@@ -203,7 +203,7 @@ Unlike traditional MiSTer setups, SuperStation One comes as a complete, assemble
 
 It supports multiple video outputs (HDMI, VGA, composite, component, DIN10) that make it ideal for both modern displays and CRT setups — something we highly value for the best in analog output to period-accurate CRT monitors and TVs.
 
-It also has Bluetooth, Wi-Fi *&* NFC support built-in, offering maximum controller, networking and physical game launcher support without having to add additional USB dongles. It also comes with a 64GB pre-configured SD card, so you have everything needed to just plug it in and turn it on, and get started on your Amiga — and [AmigaVision] — setup.
+It also has Bluetooth, Wi-Fi *&* NFC support built-in, offering maximum controller, networking and physical game launcher support without having to add additional USB adapters. It comes with a pre-configured 64GB SD card included, giving you everything needed to just plug it in and turn it on, and get started on your Amiga — and [AmigaVision] — setup.
 
 ---
 
