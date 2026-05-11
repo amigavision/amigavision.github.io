@@ -14,7 +14,7 @@ Let's take a look at some example games—real screenshots, superimposed on a 16
 
 ![5x Overscale Example](/images/gods5x.gif)
 
-## How does this work?
+## How does this work? {#how}
 
 “I thought PAL on Amiga was 256 pixels tall, that results in a 1280 pixel tall image when doing a 5×/10× zoom—which is more than a 1080p/4K display has. Do I need a 1280px tall display to make use of this?”
 
@@ -31,7 +31,7 @@ It means that we can apply a 5×/10× scaling factor, since 200px × 5× scale =
 ![5x Overscale Example](/images/flashback5x.gif)
 
 
-## I can see some potential issues here?
+## I can see some potential issues here? {#issues}
 
 You’re right. Amiga is kind of complicated, in the sense that it supports a wide range of different resolutions. So we couldn’t just blindly apply a 5× scale for the core, as many games would be unplayable. 
 
@@ -41,7 +41,7 @@ In summary, it’s hard to make a top-level setting do a good job at optimally u
 
 ## What can we do?
 
-### MiSTer Implementation
+### MiSTer Implementation {#mister}
 
 What we need is a *per-game* setting for which games should use 5×/10× scale, a custom setting *per-game* for the offset when it does, and the ability to revert to a different setting when you exit the game and start another game.
 
@@ -59,7 +59,7 @@ And yes, that *does* mean that *every single game* in the resulting image needs 
 
 With the latest AmigaVision (the 2021 versions onwards), you will get customized 5× integer vertical scaling for the games that use ~200px of the available viewport. 
 
-### Emulator Implementation
+### Emulator Implementation {#emulators}
 
 We worked with the author of the [Amiberry](https://amiberry.com) Amiga emulator to fix Amiga autocrop scaling as well as automatically do [NTSC pixel aspect ratio scaling](/ntsc) correctly without manual settings and/or configuration tweaks being required. AmigaVision on Amiberry — which is our default setup — do this correctly as well.
 
@@ -69,7 +69,7 @@ In general, the approach for 5×/10× scale/crop is that it’s OK to sacrifice 
 
 This means that *we may sacrifice a few pixels*, which *could* be critical in e.g. a platformer like Flashback, where you could have platforms that were just 1-2 pixels of the viewport, and have a bad effect on difficulty level or gameplay in general. We take special care to make sure this never happens.
 
-## Scaling should not affect the gameplay
+## Scaling should not affect the gameplay {#gameplay}
 
 There are entire classes of games, e.g. driving games and top-down games, that don’t rely on seeing every single pixel for the game to work fine. This is when we accept cropping. And if you try the game in 4× vs. 5×/10× on an actual TV instead of these screenshots, I think you will agree that losing a few pixels in-game to the 5×/10× scale is a trade-off worth making, and there are also cases like Mega-lo-Mania, where the only thing we are pushing outside of the screen border is a static logo, nothing related to gameplay ever happens there:
 
@@ -79,7 +79,7 @@ Many of the European games have an interesting quirk: The *game itself* fits nea
 
 We hope you enjoy this huge upgrade to the Amiga games you know and love on your 1080p/4K screen!
 
-## Additional notes
+## Additional notes {#notes}
 
 * NTSC is always 5×/10× per-game scaling using AmigaVision, since it is usually 200px tall — and suffers no ill consequences or cropping, being scaled to 1000px tall with a 40px letterbox on top/bottom to make it 1080p/4K.
 * You can turn off the per-game 5× Integer Overscale setting on MiSTer in the Options section of the launcher if you prefer to not have this be the default behavior. 
