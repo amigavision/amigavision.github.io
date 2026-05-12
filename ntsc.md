@@ -62,8 +62,8 @@ Here are the pixel aspect ratios for some of the most common resolutions that yo
 | <br>**1536p**<br>(iPad)| 6:7   | (0.85) |
 | **1600p**              | 7:8   | (0.88) |
 | **1800p**              | 8:9   | (0.88) |
-| <br>**2160p**<br>(4K)  | 8:10  | (0.8)  |
-| **2880p**              | 12:14 | (0.86) |
+| <br>**2160p**<br>(4K)  | 4:5   | (0.80) |
+| **2880p**              | 6:7   | (0.85) |
 | <br>**4320p**<br>(8K)  | 13:16 | (0.81) |
 
 We keep the ratio within 0.08 of the optimal 0.83&ndash;0.85 that are the 5:6 *&* 6:7 PARs, which makes it possible to go as low as 800p resolutions — trying to do proper integer-scaled NTSC PAR on resolutions lower than that (e.g. 720p or 640p, two common handheld emulator resolutions) just doesn’t look right, so we keep those at 1:1 PAR.
