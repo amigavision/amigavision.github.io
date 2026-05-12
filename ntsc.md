@@ -40,7 +40,7 @@ Take a look at this snippet from a longer video by [LemonAmiga](https://lemonami
   >
 </iframe>
 
-This vide also demonstrates — unrelated to scaling — that the games move at the correct NTSC speed, making scrolling smoother. For some NTSC games like Eye of the Beholder and Indiana Jones and the Last Crusade, music will also play at the wrong speed if you play them in PAL. AmigaVision always run all NTSC games in NTSC without you having to worry about it.
+This video also demonstrates — unrelated to scaling — that the games move at the correct NTSC speed, making scrolling smoother. For some NTSC games like Eye of the Beholder and Indiana Jones and the Last Crusade, music will also play at the wrong speed if you play them in PAL. AmigaVision always run all NTSC games in NTSC without you having to worry about it.
 
 If you want a further deep dive on NTSC games on Amiga, we recommend [John Novak's article on Amiga and NTSC].
 
