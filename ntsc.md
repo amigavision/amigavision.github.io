@@ -61,7 +61,6 @@ Here are the pixel aspect ratios for some of the most common resolutions that yo
 | **1440p**              | 6:7   | (0.85) |
 | <br>**1536p**<br>(iPad)| 6:7   | (0.85) |
 | **1600p**              | 7:8   | (0.88) |
-| **1800p**              | 8:9   | (0.88) |
 | <br>**2160p**<br>(4K)  | 4:5   | (0.80) |
 | **2880p**              | 6:7   | (0.85) |
 | <br>**4320p**<br>(8K)  | 13:16 | (0.81) |
