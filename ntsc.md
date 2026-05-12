@@ -48,7 +48,7 @@ If you want a further deep dive on NTSC games on Amiga, we recommend [John Novak
 
 Here are the pixel aspect ratios for some of the most common resolutions that you get with the new automatic integer scaled NTSC in Amiberry:
 
-|       | Pixel Aspect Ratio | Multiplier |
+|   | Pixel Aspect Ratio | Decimal Equivalent |
 |:----------------------:|:-----:|:------:|
 | **480p**               | 1:1   | (1)    |
 | **600p**               | 1:1   | (1)    |
