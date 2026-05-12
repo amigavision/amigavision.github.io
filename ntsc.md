@@ -42,6 +42,8 @@ Take a look at this snippet from a longer video by [LemonAmiga](https://lemonami
 
 This vide also demonstrates — unrelated to scaling — that the games move at the correct NTSC speed, making scrolling smoother. For some NTSC games like Eye of the Beholder and Indiana Jones and the Last Crusade, music will also play at the wrong speed if you play them in PAL. AmigaVision always run all NTSC games in NTSC without you having to worry about it.
 
+If you want a further deep dive on NTSC games on Amiga, we recommend [John Novak's article on Amiga and NTSC].
+
 ## Addendum: Pixel Aspect Ratios in NTSC for some common resolutions
 
 Here are the pixel aspect ratios for some of the most common resolutions that you get with the new automatic integer scaled NTSC in Amiberry:
@@ -156,4 +158,4 @@ document.addEventListener("DOMContentLoaded", () => {
 	</style>
 
   
-[John Novak on NTSC scaling]:https://blog.johnnovak.net/2022/04/15/achieving-period-correct-graphics-in-personal-computer-emulators-part-1-the-amiga/#pal-vs-ntsc
+[John Novak's article on Amiga and NTSC]:https://blog.johnnovak.net/2022/04/15/achieving-period-correct-graphics-in-personal-computer-emulators-part-1-the-amiga/#pal-vs-ntsc
