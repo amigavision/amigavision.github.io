@@ -48,23 +48,23 @@ If you want a further deep dive on NTSC games on Amiga, we recommend [John Novak
 
 Here are the pixel aspect ratios for some of the most common resolutions that you get with the new automatic integer scaled NTSC in Amiberry:
 
-|   | Pixel Aspect Ratio | Multiplier |
-|:------------------:|:-----:|:------:|
-| **480p**           | 1:1   | (1)    |
-| **600p**           | 1:1   | (1)    |
-| **720p**           | 1:1   | (1)    |
-| **768p**           | 1:1   | (1)    |
-| **800p**           | 3:4   | (0.75) |
-| **900p**           | 3:4   | (0.75) |
-| **1080p**<br>(HD)  | 4:5   | (0.80) |
-| **1200p**          | 5:6   | (0.83) |
-| **1440p**          | 6:7   | (0.85) |
-| **1536p**<br>(iPad)| 6:7   | (0.85) |
-| **1600p**          | 7:8   | (0.88) |
-| **1800p**          | 8:9   | (0.88) |
-| **2160p**<br>(4K)  | 8:10  | (0.8)  |
-| **2880p**          | 12:14 | (0.86) |
-| **4320p**<br>(8K)  | 13:16 | (0.81) |
+|       | Pixel Aspect Ratio | Multiplier |
+|:----------------------:|:-----:|:------:|
+| **480p**               | 1:1   | (1)    |
+| **600p**               | 1:1   | (1)    |
+| **720p**               | 1:1   | (1)    |
+| **768p**               | 1:1   | (1)    |
+| **800p**               | 3:4   | (0.75) |
+| **900p**               | 3:4   | (0.75) |
+| <br>**1080p**<br>(HD)  | 4:5   | (0.80) |
+| **1200p**              | 5:6   | (0.83) |
+| **1440p**              | 6:7   | (0.85) |
+| <br>**1536p**<br>(iPad)| 6:7   | (0.85) |
+| **1600p**              | 7:8   | (0.88) |
+| **1800p**              | 8:9   | (0.88) |
+| <br>**2160p**<br>(4K)  | 8:10  | (0.8)  |
+| **2880p**              | 12:14 | (0.86) |
+| <br>**4320p**<br>(8K)  | 13:16 | (0.81) |
 
 We keep the ratio within 0.08 of the optimal 0.83&ndash;0.85 that are the 5:6 *&* 6:7 PARs, which makes it possible to go as low as 800p resolutions — trying to do proper integer-scaled NTSC PAR on resolutions lower than that (e.g. 720p or 640p, two common handheld emulator resolutions) just doesn’t look right, so we keep those at 1:1 PAR.
 
