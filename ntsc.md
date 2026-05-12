@@ -21,11 +21,11 @@ Take a look at the difference using this screenshot from Defender of the Crown, 
 
 In 2023, we completely reworked how this is handled on the MiSTer FPGA platform, so you no longer have to manually switch to NTSC to get the correct pixel aspect ratio — which has tall pixels at a 5:6 PAR, as demonstrated above in Defender of the Crown. 
 
-In 2024&ndash;2026, we also reworked Amiga *emulator* scaling along with the author of [Amiberry](https://amiberry.com), which culminated in fixing this 30-year old Amiga scaling issue with the release of [AmigaVision 2026.04.16](/2026.04.16) and Amiberry 8.1.
+In 2024&ndash;2026, we also reworked Amiga *emulator* scaling along with the author of [Amiberry](https://amiberry.com), which culminated in fixing this 30-year old Amiga scaling issue with the combined releases of [AmigaVision 2026.04.16](/2026.04.16) and Amiberry 8.1.
 
 We hope to work with all the other Amiga emulators to do the same, and will update this document accordingly, but if you are using an emulator, we currently recommend Amiberry over any other alternative.
 
-All of these align to the 1080p/4K 16:9 pixel grid while having the correct Pixel Aspect Ratio, so you will not get any shimmering or non-integer pixels.
+All of these align to your display's native pixel grid while having the correct Pixel Aspect Ratio, so you will not get any shimmering or non-integer scaled pixels.
 
 ## Video Comparison
 
