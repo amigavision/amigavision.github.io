@@ -19,13 +19,53 @@ Take a look at the difference using this screenshot from Defender of the Crown, 
   <figcaption class="compare-caption">NTSC</figcaption>
 </figure>
 
-In 2023, we completely reworked how this is handled, so you no longer have to manually switch to NTSC to get the correct pixel aspect ratio — which has tall pixels at a 5:6 PAR, as demonstrated here in Defender of the Crown. 
+In 2023, we completely reworked how this is handled on MiSTer, so you no longer have to manually switch to NTSC to get the correct pixel aspect ratio — which has tall pixels at a 5:6 PAR, as demonstrated above in Defender of the Crown. 
 
 In 2024&ndash;2026, we reworked Amiga emulator scaling along with the author of [Amiberry](https://amiberry.com), which culminated in fixing this 30-year old Amiga scaling issue with the release of [AmigaVision 2026.04.16](/2026.04.16) and Amiberry 8.
 
 We hope to work with all the other Amiga emulators to do the same, and will update this document accordingly, but if you are using an emulator, we currently recommend Amiberry over any other alternative.
 
 All of these align to the 1080p/4K 16:9 pixel grid while having the correct Pixel Aspect Ratio, so you will not get any shimmering or non-integer pixels.
+
+## Video Comparison
+
+Take a look at this snippet from a longer video by [LemonAmiga](https://lemonamiga.com) that demonstrates Monkey Island rendered in PAL instead of the original and intended NTSC:
+
+<iframe
+  style="aspect-ratio: 16/9; width: 100%;"
+  src="https://www.youtube.com/embed/CYiBDVw_lzA?start=886"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+  >
+</iframe>
+
+
+## Addendum: Pixel Aspect Ratios in NTSC for some common resolutions
+
+Here are the pixel aspect ratios for some of the most common resolutions that you get with the new automatic integer scaled NTSC in Amiberry:
+
+|   | Pixel Aspect Ratio | Multiplier |
+|:------------------:|:-----:|:------:|
+| **480p**           | 1:1   | (1)    |
+| **600p**           | 1:1   | (1)    |
+| **720p**           | 1:1   | (1)    |
+| **768p**           | 1:1   | (1)    |
+| **800p**           | 3:4   | (0.75) |
+| **900p**           | 3:4   | (0.75) |
+| **1080p**<br>(HD)  | 4:5   | (0.80) |
+| **1200p**          | 5:6   | (0.83) |
+| **1280p**          | 5:6   | (0.83) |
+| **1440p**          | 6:7   | (0.85) |
+| **1536p**<br>(iPad)| 6:7   | (0.85) |
+| **1600p**          | 7:8   | (0.88) |
+| **1800p**          | 8:9   | (0.88) |
+| **2160p**<br>(4K)  | 8:10  | (0.8)  |
+| **2880p**          | 12:14 | (0.86) |
+| **4320p**<br>(8K)  | 13:16 | (0.81) |
+
+We keep the ratio within 0.08 of the optimal 0.83 that is the 5:6 PAR, which makes it possible to go as low as 800p resolutions — trying to do proper integer-scaled NTSC PAR on resolutions lower than that (e.g. 720p or 640p, two common handheld emulator resolutions) just doesn’t look right, so we keep those at 1:1 PAR.
+
 
 ---
 
