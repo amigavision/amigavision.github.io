@@ -29,7 +29,7 @@ All of these align to the 1080p/4K 16:9 pixel grid while having the correct Pixe
 
 ## Video Comparison
 
-Take a look at this snippet from a longer video by [LemonAmiga](https://lemonamiga.com) that demonstrates Monkey Island rendered in PAL instead of the original and intended NTSC:
+Take a look at this snippet from a longer video by [LemonAmiga](https://lemonamiga.com) that compares Monkey Island rendered in PAL to the original and intended NTSC:
 
 <iframe
   style="aspect-ratio: 16/9; width: 100%;"
