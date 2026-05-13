@@ -10,9 +10,11 @@ Feel free to copy/modify as you see fit for your own page, credit appreciated.
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Guru Meditation</title>
+
   <style>
     * {
       cursor: url('/images/amiga-pointer.cur'), auto !important;
+      box-sizing: border-box;
     }
 
     :root {
@@ -23,10 +25,6 @@ Feel free to copy/modify as you see fit for your own page, credit appreciated.
       --border-size: clamp(4px, 0.6vw, 8px);
       --screen-margin-x: clamp(8px, 2vw, 32px);
       --screen-margin-top: var(--screen-margin-x);
-    }
-
-    * {
-      box-sizing: border-box;
     }
 
     html,
@@ -41,9 +39,15 @@ Feel free to copy/modify as you see fit for your own page, credit appreciated.
     }
 
     body {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
+      background: #000;
+    }
+
+    .screen-link {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      color: inherit;
+      text-decoration: none;
     }
 
     .screen {
@@ -63,7 +67,9 @@ Feel free to copy/modify as you see fit for your own page, credit appreciated.
       border: var(--border-size) solid var(--red);
       animation: guruBorderBlink var(--blink-speed) steps(1, end) infinite;
       text-align: center;
-      padding: clamp(0.75rem, 1.8vw, 1.35rem) clamp(1.25rem, 3vw, 3rem);
+      padding:
+        clamp(0.75rem, 1.8vw, 1.35rem)
+        clamp(1.25rem, 3vw, 3rem);
     }
 
     .guru-text {
@@ -101,15 +107,31 @@ Feel free to copy/modify as you see fit for your own page, credit appreciated.
     }
   </style>
 </head>
+
 <body>
-  <main class="screen" aria-label="Amiga-style Guru Meditation error screen">
-    <section class="guru-box" role="alert" aria-live="assertive">
-      <div class="guru-text">
-        <span class="guru-line">Page Not Found. Press left mouse button to continue.</span>
-        <span class="guru-line">Guru Meditation #00000404.<span id="guru-date">20260505</span></span>
-      </div>
-    </section>
-  </main>
+  <a href="/" class="screen-link" aria-label="Return to homepage">
+    <main
+      class="screen"
+      aria-label="Amiga-style Guru Meditation error screen"
+    >
+      <section
+        class="guru-box"
+        role="alert"
+        aria-live="assertive"
+      >
+        <div class="guru-text">
+          <span class="guru-line">
+            Page Not Found. Press left mouse button to continue.
+          </span>
+
+          <span class="guru-line">
+            Guru Meditation #00000404.
+            <span id="guru-date">20260505</span>
+          </span>
+        </div>
+      </section>
+    </main>
+  </a>
 
   <script>
     const now = new Date();
@@ -118,11 +140,8 @@ Feel free to copy/modify as you see fit for your own page, credit appreciated.
     const mm = String(now.getMonth() + 1).padStart(2, "0");
     const dd = String(now.getDate()).padStart(2, "0");
 
-    document.getElementById("guru-date").textContent = `${yyyy}${mm}${dd}`;
-
-    document.addEventListener("click", () => {
-      window.location.href = "/";
-    });
+    document.getElementById("guru-date").textContent =
+      `${yyyy}${mm}${dd}`;
   </script>
-  </body>
+</body>
 </html>
