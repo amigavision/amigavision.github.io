@@ -1,7 +1,122 @@
----
-title: Not Found
-description: This page does not exist.
-permalink: /404.html
-sitemap: false
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guru Meditation</title>
+  <style>
+    * {
+      cursor: url('/images/amiga-pointer.cur'), auto !important;
+    }
 
+    :root {
+      --bg: #000;
+      --red: #f00000;
+      --text: #f00000;
+      --blink-speed: 2s;
+      --border-size: clamp(4px, 0.6vw, 8px);
+      --screen-margin-x: clamp(8px, 2vw, 32px);
+      --screen-margin-top: var(--screen-margin-x);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Courier New", Courier, monospace;
+      overflow: hidden;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .screen {
+      width: 100vw;
+      height: 100vh;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      image-rendering: pixelated;
+      padding: var(--screen-margin-top) var(--screen-margin-x) 0;
+    }
+
+    .guru-box {
+      width: 100%;
+      color: var(--text);
+      border: var(--border-size) solid var(--red);
+      animation: guruBorderBlink var(--blink-speed) steps(1, end) infinite;
+      text-align: center;
+      padding: clamp(0.75rem, 1.8vw, 1.35rem) clamp(1.25rem, 3vw, 3rem);
+    }
+
+    .guru-text {
+      width: 100%;
+      font-size: clamp(0.7rem, 2.05vw, 1.85rem);
+      line-height: 1.28;
+      letter-spacing: 0.02em;
+    }
+
+    .guru-line {
+      display: block;
+      white-space: nowrap;
+    }
+
+    @keyframes guruBorderBlink {
+      0%, 49% {
+        border-color: var(--red);
+      }
+
+      50%, 100% {
+        border-color: transparent;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .guru-line:first-child {
+        white-space: normal;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .guru-box {
+        animation: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="screen" aria-label="Amiga-style Guru Meditation error screen">
+    <section class="guru-box" role="alert" aria-live="assertive">
+      <div class="guru-text">
+        <span class="guru-line">Page Not Found. Press left mouse button to continue.</span>
+        <span class="guru-line">Guru Meditation #00000404.<span id="guru-date">20260505</span></span>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const now = new Date();
+
+    const yyyy = now.getFullYear();
+    const mm = String(now.getMonth() + 1).padStart(2, "0");
+    const dd = String(now.getDate()).padStart(2, "0");
+
+    document.getElementById("guru-date").textContent = `${yyyy}${mm}${dd}`;
+
+    document.addEventListener("click", () => {
+      window.location.href = "/";
+    });
+  </script>
+  </body>
+</html>
