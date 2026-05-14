@@ -79,7 +79,7 @@ Many of the European games have an interesting quirk: The *game itself* fits nea
 
 We hope you enjoy this huge upgrade to the Amiga games you know and love on your 1080p/4K screen!
 
-## Additional Scaling Examples
+## Additional Scaling Examples {#examples}
 
 Here's a good illustration of how most Amiga PAL games are really 16:10 — the Steam Deck uses that aspect ratio, as do most MacBook laptops — and integer scales the Amiga perfectly. Here are two AmigaVision game examples:
 
