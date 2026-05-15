@@ -93,11 +93,6 @@ Here's a good illustration of how most Amiga PAL games are really 16:10 — the 
 
 The Steam Deck runs at 1280×800 (16:10), which is a perfect 4× integer scale of the native 320×200 PAL Amiga low-res non-interlaced output used by most games. The game is rendered edge-to-edge without stretching any pixels, and without any wasted space.
 
-## Additional notes {#notes}
-
-* NTSC is always 5×/10× per-game scaling using AmigaVision, since it is usually 200px tall — and suffers no ill consequences or cropping, being scaled to 1000px tall with a 40px letterbox on top/bottom to make it 1080p/4K.
-* You can turn off the per-game 5× Integer Overscale setting on MiSTer in the Options section of the launcher if you prefer to not have this be the default behavior. 
-* None of this has any effect on the analog output. Amiga usage on CRTs works the way it always did, and resolutions that are not 1080p/4K are also behaving the way they always did.
-* Resolutions that are not 1080p/4K should be unaffected (e.g. 1200p and 1440p).
+---
 
 [What we proposed, and implemented]:https://github.com/MiSTer-devel/Minimig-AGA_MiSTer/issues/90
