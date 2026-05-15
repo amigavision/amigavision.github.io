@@ -91,7 +91,7 @@ Here's a good illustration of how most Amiga PAL games are really 16:10 — the 
 
 ![Steam Deck running X-Out in 16:10 integer scale, photo by Jimiga](/images/steamdeck-xout.jpg)
 
-The Steam Deck runs at 1280×800, which is a perfect 4× integer scale of the native 320×200 PAL Amiga low-res non-interlaced output used by most games. The game is rendered edge-to-edge without stretching any pixels, and without any wasted space.
+The Steam Deck runs at 1280×800 (16:10), which is a perfect 4× integer scale of the native 320×200 PAL Amiga low-res non-interlaced output used by most games. The game is rendered edge-to-edge without stretching any pixels, and without any wasted space.
 
 ## Additional notes {#notes}
 
