@@ -43,11 +43,15 @@ PC emulation can be an excellent tool for experimentation and development, but i
 
 [TheA500 Mini] is a turn-key emulation box, but it is fundamentally limited by its hardware and software design.
 
-It lacks the performance, timing accuracy, and output resolution[^10] for proper scaling required for serious Amiga use, particularly for demo scene productions and timing-sensitive games. As a result, it does not meet the accuracy, timing, and output requirements required for this comparison, and is therefore omitted from the comparison below.
+There are definitely aspects of it that we like, mostly because it was widely available in electronics stores around the world, reminding people of their love for the Amiga, and probably brought a fair amount of people back into the hobby.
+
+However, it lacks the performance, timing accuracy, and output resolution[^10] for proper scaling required for serious Amiga use, particularly for demo scene productions and timing-sensitive games. As a result, it does not meet the accuracy, timing, and output requirements required for this comparison, and is therefore omitted from the comparison below.
 
 At the typical asking price, both MiSTer and Raspberry Pi–based solutions outperform it decisively in accuracy, latency, and flexibility.
 
 As for [TheA1200], no meaningful technical specifications have been published at the time of writing, so it is not possible to evaluate it yet. It is unlikely to outperform a Raspberry Pi 5 based on what is known at this point, but we will update this document when actual specifications are revealed.
+
+Hence, we omit it from the detailed comparison below, since most other solutions are a better choice.
 
 ## A600GS *&* A1200NG *&* A4000NG {#gs-ng}
 
