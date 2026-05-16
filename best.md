@@ -51,8 +51,6 @@ At the typical asking price, both MiSTer and Raspberry Pi–based solutions outp
 
 As for [TheA1200], no meaningful technical specifications have been published at the time of writing, so it is not possible to evaluate it yet. It is unlikely to outperform a Raspberry Pi 5 based on what is known at this point, but we will update this document when actual specifications are revealed.
 
-Hence, we omit it from the detailed comparison below, since most other solutions are a better choice.
-
 ## A600GS *&* A1200NG *&* A4000NG {#gs-ng}
 
 [A600GS] *&* [A1200NG] are Amiga-branded appliances built around software emulation rather than hardware recreation.
