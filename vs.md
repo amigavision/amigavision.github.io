@@ -82,7 +82,7 @@ Emulators Supported | ✅ | ✅ | ✅
 |---|:-----------:|:----------:|:------------:
 MiSTer | 13s | <br>35s<br> [^2] | ⬜️
 Raspberry Pi 5 | 22s | 2m&nbsp;46s | <br>30s<br> [^3]
-Emulator [^4] | 10s | 1m 6s | ⬜️
+Emulator [^4] | 4s | 22s | ⬜️
 TheA500 *&* Mini [^5] | 5s | 32s | ⬜️
 {: .feature-compare data-responsive-table="true" }
 
@@ -251,7 +251,7 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 
 [^3]: Theoretical — PiMiga *does not* show a game selection screen but gets to Workbench where you can locate and start a game launcher. We added about 5 seconds for this step.
 
-[^4]: Tests done on the only Amiga emulator that runs on Windows, Mac and Linux: [FS-UAE](https://fs-uae.net). Tests done on a MacBook M1 with SSD, with CPU settings set to Amiga 1200, but with uae_cpu_speed=max.
+[^4]: Tests done on [Amiberry](https://amiberry), the only currently maintained emulator that runs on Mac, Windows and Linux.
 
 [^5]: Time is from selecting the setup in TheA500 launcher until the game selector is available, as there is no way to autoboot a setup.
 
