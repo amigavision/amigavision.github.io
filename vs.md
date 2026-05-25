@@ -12,7 +12,7 @@ There are several other Amiga setups available for various types of hardware. Th
 We will cover:	
 
 * [Why AmigaVision?](#why)
-* [Device Power-On → Game Selection](#boot)
+* [Startup → Game Selection](#boot)
 * [Hardware *&* Platform Support](#hardware)
 * [Distribution *&* Curation](#distribution)
 * [Performance, Accuracy *&* Latency](#performance)
