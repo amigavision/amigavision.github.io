@@ -1,6 +1,6 @@
 ---
 title: Per-Game 5× PAL Integer Overscaling in AmigaVision
-description: Why Amiga aspect ratios are actually close to modern widescreen aspect ratios
+description: …and why Amiga aspect ratios are actually close to modern widescreen aspect ratios
 redirect_from: "/5x/"
 ---
 
