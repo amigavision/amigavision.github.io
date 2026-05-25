@@ -65,7 +65,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
   </tr>
 </table>
 
-## 🕹️ Device Power-On → Game Selection {#boot}
+## 🕹️ Power-On → Game Selection {#boot}
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
