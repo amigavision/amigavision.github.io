@@ -271,7 +271,7 @@ Real Amigas, original disks, and hands-on experience is respected — AmigaVisio
 
 [^14]: Most ways to output Amiga to analog CRT TVs from computers and Raspberry Pi introduce latency. AmigaVision is configured for zero-lag MiSTer analog output, and on the Raspberry Pi via the RGB-Pi 2 adapter, supported in RePlayOS, which is what AmigaVision is built on.
 
-[^15]: For 4K and 1080p displays, 5×PAL Overscale will let you run a lot of games using much more of your display. This is currently supported on MiSTer, and we are working on getting it supported in WinUAE, FS-UAE, and Amiberry too. 
+[^15]: For 4K and 1080p displays, 5×PAL Overscale will let you run a lot of games using much more of your display. This is currently supported on MiSTer *&* Amiberry, and we are working on getting it supported in WinUAE and FS-UAE too. 
 
 [^16]: Most Amiga setups scale NTSC resolutions incorrectly. NTSC does not have square pixels, instead they use taller pixels. This is currently supported on MiSTer and Amiberry.
 
