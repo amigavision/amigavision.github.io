@@ -69,9 +69,9 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
-MiSTer | 13s | <br>35s<br> [^2] | ⬜️
-Raspberry Pi 5 | 22s | 2m&nbsp;46s | <br>30s<br> [^3]
 Emulator [^4] | 4s | 22s | ⬜️
+Raspberry Pi 5 | 22s | 2m&nbsp;46s | <br>30s<br> [^3]
+MiSTer | 13s | <br>35s<br> [^2] | ⬜️
 TheA500 *&* Mini [^5] | 5s | 32s | ⬜️
 {: .feature-compare data-responsive-table="true" }
 
