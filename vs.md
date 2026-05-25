@@ -12,8 +12,8 @@ There are several other Amiga setups available for various types of hardware. Th
 We will cover:	
 
 * [Why AmigaVision?](#why)
-* [Hardware *&* Platform Support](#hardware)
 * [Device Power-On → Game Selection](#boot)
+* [Hardware *&* Platform Support](#hardware)
 * [Distribution *&* Curation](#distribution)
 * [Performance, Accuracy *&* Latency](#performance)
 * [Display *&* Video Output](#output)
@@ -65,17 +65,6 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
   </tr>
 </table>
 
-## 🖥️ Hardware *&* Platform Support {#hardware}
-
-|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
-|---|:-----------:|:----------:|:------------:
-Real Amiga Hardware Supported | ✅ | ✅ | ❌
-Mister FPGA Supported | ✅ | <br>❌<br> [^1] | ⬜️
-Analogue Pocket FPGA Supported | ✅ | ❌ | ⬜️
-Raspberry Pi Supported | ✅ | ✅ | ✅
-Emulators Supported | ✅ | ✅ | ✅
-{: .feature-compare data-responsive-table="true" }
-
 ## 🕹️ Device Power-On → Game Selection {#boot}
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
@@ -90,6 +79,17 @@ TheA500 *&* Mini [^5] | 5s | 32s | ⬜️
 High-Resolution Game *&* Demo Thumbnails | ✅ | ❌ | ❌
 Game Manuals Accessible on Second Device | ✅ | ❌ | ❌
 -->
+
+## 🖥️ Hardware *&* Platform Support {#hardware}
+
+|   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
+|---|:-----------:|:----------:|:------------:
+Real Amiga Hardware Supported | ✅ | ✅ | ❌
+Mister FPGA Supported | ✅ | <br>❌<br> [^1] | ⬜️
+Analogue Pocket FPGA Supported | ✅ | ❌ | ⬜️
+Raspberry Pi Supported | ✅ | ✅ | ✅
+Emulators Supported | ✅ | ✅ | ✅
+{: .feature-compare data-responsive-table="true" }
 
 ## 📦 Distribution *&* Curation {#distribution}
 
