@@ -83,11 +83,11 @@ We hope you enjoy this huge upgrade to the Amiga games you know and love on your
 
 Here's a good illustration of how most Amiga PAL games are really 16:10 — the Steam Deck uses that aspect ratio, as do most MacBook laptops — and integer scales the Amiga perfectly.
 
-### "GODS" — running on the Steam Deck, integer scaled:
+### "GODS" — running on the Steam Deck *&* AmigaVision, integer scaled:
 
 ![Steam Deck running Gods in 16:10 integer scale, photo by Jimiga](/images/steamdeck-gods.jpg)
 
-### "X-Out" — running on the Steam Deck, integer scaled:
+### "X-Out" — running on the Steam Deck *&* AmigaVision, integer scaled:
 
 ![Steam Deck running X-Out in 16:10 integer scale, photo by Jimiga](/images/steamdeck-xout.jpg)
 
