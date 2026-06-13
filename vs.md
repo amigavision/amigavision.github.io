@@ -65,7 +65,7 @@ The goal is to have a setup that feels like using a well-maintained Amiga rooted
   </tr>
 </table>
 
-## 🕹️ Time: Startup → Game Selection {#boot}
+## 🕹️ Time from Startup → Game Select {#boot}
 
 |   | AmigaVision | AGS&nbsp;3 | PiMiga&nbsp;5
 |---|:-----------:|:----------:|:------------:
