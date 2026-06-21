@@ -230,7 +230,7 @@ Added latency fundamentally changes how games *feel*, even if they can seem to l
 ## What AmigaVision is *Not* {#not}
 
 ### AmigaVision is *not* a “maximum content” distribution
-It does not aim to include every known dump, crack, or regional variant. Games are selected and curated so that the correct version runs by default.
+It does not aim to include every known dump, crack, or regional variant. Games are selected and curated so that the canonical version runs by default.
 
 ### AmigaVision is *not* a RetroArch-style abstraction layer
 It does not try to make the Amiga behave like a generic “core” inside a universal frontend. Amiga-specific behavior is preserved, and it has an Amiga-native launcher that works identically on every setup.
