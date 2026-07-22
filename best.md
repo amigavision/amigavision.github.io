@@ -222,11 +222,15 @@ Since handheld screens are very small, it's *especially* important to maximize t
 
 With the above in mind, what are your best options for a handheld Amiga? We prioritize:
 
-* Optimal screen aspect ratio (16:10 or 16:9)
+* Optimal screen aspect ratio for Amiga (16:10 or 16:9)
 * Low latency joystick/gamepad input
 * Color quality and low screen output latency
 * Motion clarity
 * Reasonably priced
+
+We would love to recommend an FPGA-based handheld for Amiga on-the-go, but currently there are no great options — the only one for sale right now is the Analogue Pocket, and the screen is very small for Amiga gaming, and it's not a particularly comfortable form factor — although the Amiga core on it is great overall.
+
+We are still waiting to see what both the SuperStation and MultiSystem teams will deliver on this front, but for now an emulation device will be your best bet. We will definitely update this article when either of those appear.
 
 ### Our Pick: Retroid Pocket 6 or Retroid Flip 2
 
