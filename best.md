@@ -248,11 +248,11 @@ Additionally, the Retroid 6 added a 120hz OLED screen over the 60hz OLED screens
 
 Here's AmigaVision running Amiberry on the Retroid Flip 2, which has the same screen as the Retroid Pocket 6, although running at 60hz instead of 120hz:
 
-![Retroid Flip 2 showing AmigaVision integer scaled to 16:9](/images/retroid-gods.jpg)
+![Retroid Flip 2 showing the game GODS on AmigaVision, integer scaled to 16:9 (Photo: Simon Dick)](/images/retroid-gods.jpg)
 
 Here's a 16:9 demo showing that edge-to-edge integer scaling on the Retroid Flip 2:
 
-![Retroid Flip 2 showing AmigaVision integer scaled to 16:9](/images/retroid-eon.jpg)
+![Retroid Flip 2 showing the demo Eon on AmigaVision, integer scaled to 16:9 (Photo: Simon Dick)](/images/retroid-eon.jpg)
 
 **Note:** If you can find the Retroid Pocket 5 at a cheaper price than the 6, it is also an excellent option, the main thing you will give up on is the 120hz screen, as it is a 60hz display like the Retroid Flip 2.
 
@@ -268,9 +268,9 @@ The Steam Deck currently retails for about $900(!) for the OLED variant.
 
 Here's AmigaVision running on the Steam Deck with that edge-to-edge integer scaling:
 
-![Steam Deck showing AmigaVision integer scaled to 16:10](/images/steamdeck-gods.jpg)
+![Steam Deck showing the game GODS on AmigaVision, integer scaled to 16:10 (Photo by Jimiga)](/images/steamdeck-gods.jpg)
 
-![Steam Deck showing AmigaVision integer scaled to 16:10](/images/steamdeck-xout.jpg)
+![Steam Deck showing the game X-Out on AmigaVision, integer scaled to 16:10 (Photo by Jimiga)](/images/steamdeck-xout.jpg)
 
 
 ---
