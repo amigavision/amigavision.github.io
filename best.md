@@ -18,6 +18,7 @@ We will cover:
 * [MiSTer FPGA](#mister)
 * [Detailed Comparisons](#details)
 * [The Best Amiga in 2026](#best)
+* [The Best *Handheld* Amiga in 2026](#handheld)
 
 ## Windows / Mac / Linux PC + Emulator {#emulators}
 
@@ -188,9 +189,7 @@ For the majority of users, MiSTer offers the best balance: Behavior that matches
 
 **If you want the most accurate, low-latency, low-maintenance, delightful and fun Amiga experience in 2026, MiSTer is the best choice for most users.**
 
----
-
-## Postscript:<br>What’s the best MiSTer in 2026? {#best-mister}
+## What’s the Best MiSTer in 2026? {#best-mister}
 
 The MiSTer FPGA platform is an open source project, therefore many hardware options exist. We often get the question of which MiSTer setup to get.
 
@@ -206,6 +205,55 @@ Unlike traditional MiSTer setups, SuperStation One comes as a complete, assemble
 It supports multiple video outputs (HDMI, VGA, composite, component, DIN10) that make it ideal for both modern displays and CRT setups — something we highly value for the best in analog output to period-accurate CRT monitors and TVs.
 
 It also has Bluetooth, Wi-Fi *&* NFC support built-in, offering maximum controller, networking and physical game launcher support without having to add additional USB adapters. It comes with a pre-configured 64GB SD card included, giving you everything needed to just plug it in and turn it on, and get started on your Amiga — and [AmigaVision] — setup.
+
+## What’s the Best *Handheld* Amiga in 2026? {#handheld}
+
+Do you want to take your AmigaVision setup on the road or maybe just relax and play some games and demoscene productions while in the couch or on the patio with a cold beverage on a summer day?
+
+You may want to consider a handheld device for your Amiga setup. But with so many models available, what are the best options?
+
+### A Note About Screen Aspect Ratios
+
+You'd expect that the best aspect ratio for a handheld Amiga would be 4:3, since that's what the original Amiga was, right? This, counterintuitively, is not the case. Most Amiga games run at a 320×200 resolution (this excludes a few later-era PAL games that used 320×256), which means that the *effective* screen aspect ratio of the Amiga is actually 16:10, as demonstrated and explained in our article about [Amiga Overscaling](/overscale).
+
+Since handheld screens are very small, it's *especially* important to maximize the usable pixels on those displays. You will want either a 16:10 or 16:9 display on your handheld if you want to play Amiga games.
+
+### Our Amiga Handheld Recommendations
+
+With the above in mind, what are your best options for a handheld Amiga? We prioritize:
+
+* Optimal screen aspect ratio (16:10 or 16:9)
+* Low latency joystick/gamepad input
+* Color quality and low screen output latency
+* Motion clarity
+* Reasonably priced
+
+### Our Pick: Retroid Pocket 6 or Retroid Flip 2
+
+The Retroid Pocket 6 are horizontal handhelds that have a 16:9 1080p OLED screen running at 120hz refresh rate. This means it is especially good for scaling Amiga games and 16:9 demoscene productions — of which there are quite a few!
+
+Additionally, the Retroid 6 added a 120hz OLED screen over the 60hz OLED screens found on the Pocket 5 and Flip 2, allowing you to use BFI and related approaches to improve motion clarity and reduce input *&* output latency.
+
+Here's AmigaVision running Amiberry on the Retroid Flip 2, which has the same screen as the Retroid Pocket 6, although running at 60hz instead of 120hz:
+
+![Retroid Flip 2 showing AmigaVision integer scaled to 16:9](/images/retroid-gods.jpg)
+
+![Retroid Flip 2 showing AmigaVision integer scaled to 16:9](/images/retroid-eon.jpg)
+
+**Note:** If you can find the Retroid Pocket 5 at a cheaper price than the 6, it is also an excellent option, the main thing you will give up on is the 120hz screen, as it is a 60hz display like the Retroid Flip 2.
+
+### Alternative Pick: Steam Deck
+
+The Steam Deck isn't want we'd call *pocketable*, but it has a large 16:10 screen that is *optimal* for Amiga scaling, as well as some trackpad controls that are great to use in a pinch as an Amiga mouse.
+
+It is a lot more expensive, bigger, and heavier than the Retroid Pocket, but if this size device is more in line with what you want, it is certainly a great device — and screen! — for Amiga emulation.
+
+Here's AmigaVision running on the Steam Deck with that edge-to-edge integer scaling:
+
+![Steam Deck showing AmigaVision integer scaled to 16:10](/images/steamdeck-gods.jpg)
+
+![Steam Deck showing AmigaVision integer scaled to 16:10](/images/steamdeck-xout.jpg)
+
 
 ---
 
