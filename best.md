@@ -206,6 +206,8 @@ It supports multiple video outputs (HDMI, VGA, composite, component, DIN10) that
 
 It also has Bluetooth, Wi-Fi *&* NFC support built-in, offering maximum controller, networking and physical game launcher support without having to add additional USB adapters. It comes with a pre-configured 64GB SD card included, giving you everything needed to just plug it in and turn it on, and get started on your Amiga — and [AmigaVision] — setup.
 
+---
+
 ## Best *Handheld* Amiga in 2026 {#handheld}
 
 Do you want to take your AmigaVision setup on the road — or maybe just relax and play some games and demoscene productions while in the couch or on the patio with a cold beverage on a summer day?
