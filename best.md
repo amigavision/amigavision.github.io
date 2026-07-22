@@ -212,7 +212,7 @@ It also has Bluetooth, Wi-Fi *&* NFC support built-in, offering maximum controll
 
 Do you want to take your [AmigaVision] setup on the road — or maybe just relax and play some games and demoscene productions while in the couch or on the patio with a cold beverage on a summer day?
 
-You may want to add a handheld device to your Amiga setup. But with so many handheld device available, what are the best options?
+You may want to add a handheld device to your Amiga setup. But with so many handheld devices available, what are the best options?
 
 ### A Note About Screen Aspect Ratios
 
