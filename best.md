@@ -232,9 +232,13 @@ We would love to recommend an FPGA-based handheld for Amiga on-the-go, but curre
 
 We are still waiting to see what both the SuperStation and MultiSystem teams will deliver on this front, but for now an emulation device will be your best bet. We will definitely update this article when either of those appear.
 
+**Disclosure:** None of the below links are affiliate links, we just think they are good products.
+
 ### Our Pick: Retroid Pocket 6 or Retroid Flip 2
 
-The Retroid Pocket 6 is a horizontal handheld that has a 16:9, 1080p OLED screen running at 120hz refresh rate. This means it is especially good for scaling Amiga games and 16:9 demoscene productions — of which there are quite a few!
+The [Retroid Pocket 6](https://www.goretroid.com/collections/retro-game-system/products/retroid-pocket-6-handheld) is a horizontal handheld that has a 16:9, 1080p OLED screen running at 120hz refresh rate. This means it is especially good for scaling Amiga games and 16:9 demoscene productions — of which there are quite a few!
+
+The Retroid Pocket 6 retails for about $220 for the SnapDragon variant — the one to get.
 
 ![Retroid Pocket 6](/images/retroid-pocket.jpg)
 
@@ -248,11 +252,15 @@ Here's AmigaVision running Amiberry on the Retroid Flip 2, which has the same sc
 
 **Note:** If you can find the Retroid Pocket 5 at a cheaper price than the 6, it is also an excellent option, the main thing you will give up on is the 120hz screen, as it is a 60hz display like the Retroid Flip 2.
 
+The other thing to consider for us old Amiga gamers is that you may want to use the *right* stick for directional control and the left trigger button for fire button — in which case the [Retroid Flip 2](https://www.goretroid.com/collections/retro-game-system/products/retroid-pocket-flip-2) has a better layout than the Pocket 6.
+
 ### Alternative Pick: Steam Deck
 
 The Steam Deck isn't want we'd call *pocketable*, but it has a large 16:10 screen that is *optimal* for Amiga scaling, as well as some trackpad controls that are great to use in a pinch as an Amiga mouse.
 
 It is a lot more expensive, bigger, and heavier than the Retroid Pocket, but if this size device is more in line with what you want, it is certainly a great device — and screen! — for Amiga emulation.
+
+The Steam Deck currently retails for about $900(!) for the OLED variant.
 
 Here's AmigaVision running on the Steam Deck with that edge-to-edge integer scaling:
 
