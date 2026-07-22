@@ -248,6 +248,8 @@ Here's AmigaVision running Amiberry on the Retroid Flip 2, which has the same sc
 
 ![Retroid Flip 2 showing AmigaVision integer scaled to 16:9](/images/retroid-gods.jpg)
 
+Here's a 16:9 demo showing that edge-to-edge integer scaling on the Retroid Flip 2:
+
 ![Retroid Flip 2 showing AmigaVision integer scaled to 16:9](/images/retroid-eon.jpg)
 
 **Note:** If you can find the Retroid Pocket 5 at a cheaper price than the 6, it is also an excellent option, the main thing you will give up on is the 120hz screen, as it is a 60hz display like the Retroid Flip 2.
