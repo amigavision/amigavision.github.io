@@ -218,7 +218,7 @@ You'd expect that the best aspect ratio for a handheld Amiga would be 4:3, since
 
 Since handheld screens are very small, it's *especially* important to maximize the usable pixels on those displays. You will want either a 16:10 or 16:9 display on your handheld if you want to play Amiga games.
 
-## Handheld Amiga Picks
+## Handheld Amiga Picks {#handheld-picks}
 
 With the above in mind, what are your best options for a handheld Amiga? We prioritize:
 
