@@ -206,11 +206,11 @@ It supports multiple video outputs (HDMI, VGA, composite, component, DIN10) that
 
 It also has Bluetooth, Wi-Fi *&* NFC support built-in, offering maximum controller, networking and physical game launcher support without having to add additional USB adapters. It comes with a pre-configured 64GB SD card included, giving you everything needed to just plug it in and turn it on, and get started on your Amiga — and [AmigaVision] — setup.
 
-## What’s the Best *Handheld* Amiga in 2026? {#handheld}
+## Best *Handheld* Amiga in 2026? {#handheld}
 
-Do you want to take your AmigaVision setup on the road or maybe just relax and play some games and demoscene productions while in the couch or on the patio with a cold beverage on a summer day?
+Do you want to take your AmigaVision setup on the road — or maybe just relax and play some games and demoscene productions while in the couch or on the patio with a cold beverage on a summer day?
 
-You may want to consider a handheld device for your Amiga setup. But with so many models available, what are the best options?
+You may want to add a handheld device to your Amiga setup. But with so many handheld device available, what are the best options?
 
 ### A Note About Screen Aspect Ratios
 
@@ -218,7 +218,7 @@ You'd expect that the best aspect ratio for a handheld Amiga would be 4:3, since
 
 Since handheld screens are very small, it's *especially* important to maximize the usable pixels on those displays. You will want either a 16:10 or 16:9 display on your handheld if you want to play Amiga games.
 
-### Our Amiga Handheld Recommendations
+## Our Amiga Handheld Recommendations
 
 With the above in mind, what are your best options for a handheld Amiga? We prioritize:
 
@@ -230,7 +230,9 @@ With the above in mind, what are your best options for a handheld Amiga? We prio
 
 ### Our Pick: Retroid Pocket 6 or Retroid Flip 2
 
-The Retroid Pocket 6 are horizontal handhelds that have a 16:9 1080p OLED screen running at 120hz refresh rate. This means it is especially good for scaling Amiga games and 16:9 demoscene productions — of which there are quite a few!
+The Retroid Pocket 6 are horizontal handhelds that have a 16:9, 1080p OLED screen running at 120hz refresh rate. This means it is especially good for scaling Amiga games and 16:9 demoscene productions — of which there are quite a few!
+
+![Retroid Pocket 6](/images/retroid-pocket.jpg)
 
 Additionally, the Retroid 6 added a 120hz OLED screen over the 60hz OLED screens found on the Pocket 5 and Flip 2, allowing you to use BFI and related approaches to improve motion clarity and reduce input *&* output latency.
 
