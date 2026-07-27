@@ -262,6 +262,8 @@ The other thing to consider for us old Amiga gamers is that you may want to use 
 
 The Steam Deck isn't want we'd call *pocketable*, but it has a large 16:10, 800p screen that is *optimal* for Amiga scaling, as well as some trackpad controls that are great to use in a pinch as an Amiga mouse.
 
+It also supports native 50hz PAL which means it will not stutter in Amiga games, unlike handhelds that only a support 60hz refresh rate.
+
 It is a lot more expensive, bigger, and heavier than the Retroid Pocket, but if this size device is more in line with what you want, it is certainly a great device — and screen! — for Amiga emulation.
 
 The Steam Deck currently retails for about $900(!) for the OLED variant.
