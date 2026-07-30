@@ -20,15 +20,4 @@ The only downside? They don’t come in extremely high capacity versions, but if
 
 If you absolutely need more than 256GB of storage for your games, consider an external USB drive or network drive — obviously this is impractical for handheld/mobile devices.
 
-## Addendum
-
-Here are the various SD NAND storage approaches compared:
-
-| Type | Bits per cell | Physical NAND | Main advantage | Main drawback |
-|------|--------------:|---------------|----------------|---------------|
-| **SLC** | 1 | Native SLC | Highest endurance, fastest writes, best data retention | Very expensive, lowest capacity |
-| **pSLC** | 1 | TLC or MLC operated in SLC mode | Near-SLC endurance and performance at lower cost | Uses only a fraction of the NAND capacity (typically 1/3 of TLC) |
-| **MLC** | 2 | Native 2-bit NAND | Good balance of endurance, performance, and capacity | More expensive and lower endurance than TLC; largely discontinued in consumer cards |
-| **TLC** | 3 | Native 3-bit NAND | Lowest cost per GB, high capacities, widely available | Lower write endurance and slower sustained writes than SLC/pSLC/MLC |
-
 ---
