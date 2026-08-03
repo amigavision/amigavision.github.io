@@ -44,7 +44,7 @@ This video also demonstrates — unrelated to scaling — that the games move at
 
 If you want a further deep dive on NTSC games on Amiga, we recommend [John Novak's article on Amiga and NTSC].
 
-## Addendum: Pixel Aspect Ratios in NTSC for some common resolutions
+## Addendum: Pixel Aspect Ratios in NTSC
 
 Here are the pixel aspect ratios for some of the most common resolutions that you get with the new automatic integer scaled NTSC in Amiberry:
 
