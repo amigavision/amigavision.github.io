@@ -384,7 +384,7 @@ The simplest way to do this is to make your own personal collection using the Fa
 
 Your CRT probably doesn't support PAL at 50hz.
 
-The AmigaVision launcher itself runs in NTSC instead of PAL, so you can see what you are doing if you have an NTSC-only CRT, but if you want to play a game on an NTSC-only TV — common for US CRT TVs — you have to force it to PAL.
+The AmigaVision launcher itself runs in NTSC instead of PAL, so you can see what you are doing if you have an NTSC-only CRT, but if you want to play a game on an NTSC-only TV — common for US CRT TVs — you have to force games to NTSC.
 
 Start AmigaVision, go to `Options`, then select `Force NTSC` before launching the game you want to play. 
 
