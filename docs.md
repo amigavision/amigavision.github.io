@@ -479,7 +479,7 @@ System:
     games/Amiga/AmigaVision-Kickstart.rom
   HRTmon: disabled
 Audio & Video:
-  TV Standard: NTSC
+  TV Standard: PAL
   Scandoubler FX: Off
   Video area by: Blank
   Aspect ratio: 40:27
