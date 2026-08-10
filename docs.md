@@ -380,7 +380,7 @@ It’s pretty straightforward to add your own games as long as you are a little 
 
 The simplest way to do this is to make your own personal collection using the Favorites feature in the launcher. They will be stored on the `Saves` drive, and will survive upgrades.
 
-### My CRT only shows a black *&* white image or no image at all when I launch a game, why? {ntsc-crt}
+### My CRT only shows a black *&* white image or no image at all when I launch a game, why? {#ntsc-crt}
 
 Your CRT probably doesn't support PAL at 50hz.
 
