@@ -380,6 +380,16 @@ It’s pretty straightforward to add your own games as long as you are a little 
 
 The simplest way to do this is to make your own personal collection using the Favorites feature in the launcher. They will be stored on the `Saves` drive, and will survive upgrades.
 
+### My CRT only shows a black *&* white image or no image at all when I launch a game, why? {ntsc-crt}
+
+Your CRT probably doesn't support PAL at 50hz.
+
+The AmigaVision launcher itself runs in NTSC instead of PAL, so you can see what you are doing if you have an NTSC-only CRT, but if you want to play a game on an NTSC-only TV — common for US CRT TVs — you have to force it to PAL.
+
+Start AmigaVision, go to `Options`, then select `Force NTSC` before launching the game you want to play. 
+
+The Amiga is a predominantly PAL system. Some games work fine, some work fine but run a bit faster and/or have the music run a bit faster, and some will fail. But it's worth a try if you have an NTSC-only CRT.
+
 ### Should I worry about Amiga viruses? {#viruses}
 
 In short: No. 
