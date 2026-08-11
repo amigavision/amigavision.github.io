@@ -325,9 +325,15 @@ While AmigaVision has been tested for many years, the sheer volume of games and 
 
 ### Why doesn't AmigaVision work on MiSTer's network drive or external drive? {#drives}
 
-The configuration is likely still looking for your Kickstart file on the path to the SD card. There is currently no way to make this configuration relative in a way that works both on the standard SD card location as well as an SSD or network drive, so you will have to adjust this manually: 
+The configuration is likely still looking for your Kickstart file on the path to the SD card. There is currently no way to make this configuration relative in a way that works both on the standard SD card location as well as an SSD or network drive, so you will have to adjust this manually in the configuration. 
 
-Go to the MiSTer menu → System → ROM, and point it to the location of the file on your SSD or network drive instead. Save this new configuration.
+Adjust this in the MiSTer OSD menu (`F12`):
+
+* `System` → `ROM` — Point this to the location of `AmigaVision.rom` 
+* `Drives` → `AmigaVision.hdf` — Point this to the location of `AmigaVision.hdf` 
+* `Drives` → `AmigaVision-Saves.hdf` — Point this to the location of `AmigaVision-Saves.hdf
+* Save this new configuration as the Startup Configuration.
+* Reboot, selecting `Amiga` from the cores should now start AmigaVision using your SSD/network locations.
 
 ### I get a bunch of errors when starting up on MiSTer! {#errors}
 
