@@ -329,11 +329,11 @@ The configuration is likely still looking for your Kickstart file on the path to
 
 Adjust this in the MiSTer OSD menu (`F12`):
 
-* `System` → `ROM` — Point this to the location of `AmigaVision.rom` 
-* `Drives` → `AmigaVision.hdf` — Point this to the location of `AmigaVision.hdf` 
+* `System` → `ROM` — Update to the location of `AmigaVision.rom` 
+* `Drives` → `AmigaVision.hdf` — Update to the location of `AmigaVision.hdf` 
 * `Drives` → `AmigaVision-Saves.hdf` — Update to the location of `AmigaVision-Saves.hdf`
 * `Save Configuration` — Save this new configuration as the Startup Configuration.
-* Reboot, selecting `Amiga` from the cores should now start AmigaVision using your SSD/network locations.
+* Reboot, select `Amiga`, this should now start AmigaVision with your SSD/network locations.
 
 ### I get a bunch of errors when starting up on MiSTer! {#errors}
 
