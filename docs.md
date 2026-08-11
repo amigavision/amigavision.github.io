@@ -325,7 +325,7 @@ While AmigaVision has been tested for many years, the sheer volume of games and 
 
 ### Why doesn't AmigaVision work on MiSTer's network drive or external drive? {#drives}
 
-The configuration is likely still looking for your AmigaVision files using the path to the SD card. There is currently no way to make this configuration relative in a way that works both on the standard SD card location as well as an SSD or network drive, so you will have to adjust this manually in the configuration. 
+The configuration is likely still looking for your AmigaVision files using the path to the SD card. There is currently no way to make this configuration relative in a way that works both on the standard SD card location as well as an external drive or network drive, so you will have to adjust this manually in the configuration. 
 
 Adjust this in the MiSTer OSD menu (`F12`):
 
@@ -333,7 +333,7 @@ Adjust this in the MiSTer OSD menu (`F12`):
 * `Drives` → `AmigaVision.hdf` — Update to your location for `AmigaVision.hdf` 
 * `Drives` → `AmigaVision-Saves.hdf` — Update to your location for `AmigaVision-Saves.hdf`
 * `Save Configuration` — Save this new configuration as the Startup Configuration.
-* Reboot, select `Amiga` — This should now start AmigaVision with your SSD/network locations.
+* Reboot, select `Amiga` — This should now start AmigaVision with your external drive or network drive locations.
 
 ### I get a bunch of errors when starting up on MiSTer! {#errors}
 
