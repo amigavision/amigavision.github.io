@@ -329,9 +329,9 @@ The configuration is likely still looking for your AmigaVision files using the p
 
 Adjust this in the MiSTer OSD menu (`F12`):
 
-* `System` → `ROM` — Update to the location of `AmigaVision.rom` 
-* `Drives` → `AmigaVision.hdf` — Update to the location of `AmigaVision.hdf` 
-* `Drives` → `AmigaVision-Saves.hdf` — Update to the location of `AmigaVision-Saves.hdf`
+* `System` → `ROM` — Update to your location for `AmigaVision.rom` 
+* `Drives` → `AmigaVision.hdf` — Update to your location for `AmigaVision.hdf` 
+* `Drives` → `AmigaVision-Saves.hdf` — Update to your location for `AmigaVision-Saves.hdf`
 * `Save Configuration` — Save this new configuration as the Startup Configuration.
 * Reboot, select `Amiga` — This should now start AmigaVision with your SSD/network locations.
 
