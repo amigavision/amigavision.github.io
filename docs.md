@@ -333,7 +333,7 @@ Adjust this in the MiSTer OSD menu (`F12`):
 * `Drives` → `AmigaVision.hdf` — Update to the location of `AmigaVision.hdf` 
 * `Drives` → `AmigaVision-Saves.hdf` — Update to the location of `AmigaVision-Saves.hdf`
 * `Save Configuration` — Save this new configuration as the Startup Configuration.
-* Reboot, select `Amiga`, this should now start AmigaVision with your SSD/network locations.
+* Reboot, select `Amiga` — this should now start AmigaVision with your SSD/network locations.
 
 ### I get a bunch of errors when starting up on MiSTer! {#errors}
 
