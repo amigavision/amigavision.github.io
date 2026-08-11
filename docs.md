@@ -331,7 +331,7 @@ Adjust this in the MiSTer OSD menu (`F12`):
 
 * `System` → `ROM` — Point this to the location of `AmigaVision.rom` 
 * `Drives` → `AmigaVision.hdf` — Point this to the location of `AmigaVision.hdf` 
-* `Drives` → `AmigaVision-Saves.hdf` — Point this to the location of `AmigaVision-Saves.hdf
+* `Drives` → `AmigaVision-Saves.hdf` — Point this to the location of `AmigaVision-Saves.hdf`
 * Save this new configuration as the Startup Configuration.
 * Reboot, selecting `Amiga` from the cores should now start AmigaVision using your SSD/network locations.
 
