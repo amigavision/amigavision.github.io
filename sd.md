@@ -18,6 +18,8 @@ When choosing a card for your SD card based emulation/FPGA setup, it doesn’t m
 
 The only downside? They don’t come in extremely high capacity versions, but if you have more than 256GB of ROMs/disc images, you should probably reconsider how many of those games you can actually play in a human lifetime. 😄
 
+(Late 2026 Note: These cards used to be maybe 20% more expensive than the regular ones, these days they are substantially more — so if you are OK with keeping a backup of your setups + waiting 1-3 days to ship a new card + paying for a second card if the original card fails, that could be a be a tradeoff that is worth it to you. Hopefully pricing will get to more reasonable levels again soon.)
+
 If you absolutely need more than 256GB of storage for your games, consider an external USB drive or network drive — obviously this is impractical for handheld/mobile devices.
 
 ---
