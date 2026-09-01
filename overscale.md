@@ -61,7 +61,7 @@ With the latest AmigaVision (the 2021 versions onwards), you will get customized
 
 ### Emulator Implementation {#emulators}
 
-We worked with the author of the [Amiberry](https://amiberry.com) Amiga emulator to fix Amiga autocrop scaling as well as automatically do [NTSC pixel aspect ratio scaling](/ntsc) correctly without manual settings and/or configuration tweaks being required. AmigaVision on Amiberry releases from 2026 onwards — which is our default setup — do this correctly as well.
+We worked with the author of the [Amiberry](https://amiberry.com) and [Copperline](https://copperline.com) Amiga emulators to fix Amiga autocrop scaling as well as automatically do [NTSC pixel aspect ratio scaling](/ntsc) correctly without manual settings and/or configuration tweaks being required. AmigaVision on Amiberry releases from 2026 onwards — which is our default setup — do this correctly as well. Copperline does this correctly as of September 2026.
 
 ![5x Overscale Example](/images/lionheart5x.gif)
 
