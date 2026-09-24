@@ -93,6 +93,10 @@ Here's a good illustration of how most Amiga PAL games are really 16:10 — the 
 
 The Steam Deck runs at 1280×800 (16:10), which is a perfect 4× integer scale of the native 320×200 PAL Amiga low-res non-interlaced output used by most games. The game is rendered edge-to-edge without stretching any pixels, and without any wasted space.
 
+Here's a 16:9 demo showing our edge-to-edge integer scaling on the Retroid Flip 2, 1080p display:
+
+![Retroid Flip 2 showing the demo Eon on AmigaVision, integer scaled to 16:9 (Photo: Simon Dick)](/images/retroid-eon.jpg)
+
 ---
 
 [What we proposed, and implemented]:https://github.com/MiSTer-devel/Minimig-AGA_MiSTer/issues/90

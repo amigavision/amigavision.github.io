@@ -250,7 +250,7 @@ Here's AmigaVision running Amiberry on the Retroid Flip 2, which has the same sc
 
 ![Retroid Flip 2 showing the game GODS on AmigaVision, integer scaled to 16:9 (Photo: Simon Dick)](/images/retroid-gods.jpg)
 
-Here's a 16:9 demo showing that edge-to-edge integer scaling on the Retroid Flip 2:
+Here's a 16:9 demo showing our edge-to-edge integer scaling on the Retroid Flip 2:
 
 ![Retroid Flip 2 showing the demo Eon on AmigaVision, integer scaled to 16:9 (Photo: Simon Dick)](/images/retroid-eon.jpg)
 
