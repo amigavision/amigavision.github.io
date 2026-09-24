@@ -246,17 +246,17 @@ The Retroid Pocket 6 retails for about $220 for the SnapDragon variant — the o
 
 Additionally, the Retroid 6 added a 120hz OLED screen over the 60hz OLED screens found on the Pocket 5 and Flip 2, allowing you to use [BFI](https://www.rtings.com/tv/tests/motion/black-frame-insertion) and related approaches to improve motion clarity and reduce input *&* output latency.
 
-Here's AmigaVision running Amiberry on the Retroid Flip 2, which has the same screen as the Retroid Pocket 6, although running at 60hz instead of 120hz:
+Here's AmigaVision running Amiberry on the Retroid Pocket Flip 2, which has the same screen as the Retroid Pocket 6, although running at 60hz instead of 120hz:
 
 ![Retroid Flip 2 showing the game GODS on AmigaVision, integer scaled to 16:9 (Photo: Simon Dick)](/images/retroid-gods.jpg)
 
-Here's a 16:9 demo showing our edge-to-edge integer scaling on the Retroid Flip 2:
+Here's a 16:9 demo showing our edge-to-edge integer scaling on the Retroid Pocket Flip 2:
 
 ![Retroid Flip 2 showing the demo Eon on AmigaVision, integer scaled to 16:9 (Photo: Simon Dick)](/images/retroid-eon.jpg)
 
-**Note:** If you can find the Retroid Pocket 5 at a cheaper price than the 6, it is also an excellent option, the main thing you will give up on is the 120hz screen, as it is a 60hz display like the Retroid Flip 2.
+**Note:** If you can find the Retroid Pocket 5 at a cheaper price than the 6, it is also an excellent option, the main thing you will give up on is the 120hz screen, as it is a 60hz display like the Retroid Pocket Flip 2.
 
-The other thing to consider for us old Amiga gamers is that you may want to use the *right* stick for directional control and the left trigger button for fire button — in which case the [Retroid Flip 2](https://www.goretroid.com/collections/retro-game-system/products/retroid-pocket-flip-2) has a better layout than the Pocket 6.
+The other thing to consider for us old Amiga gamers is that you may want to use the *right* stick for directional control and the left trigger button for fire button — in which case the [Retroid Pocket Flip 2](https://www.goretroid.com/collections/retro-game-system/products/retroid-pocket-flip-2) has a better layout than the Pocket 6.
 
 ### Alternative Pick: Steam Deck
 
