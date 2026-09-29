@@ -214,7 +214,7 @@ Do you want to take your [AmigaVision] setup on the road — or maybe just relax
 
 You may want to add a handheld device to your Amiga setup. But with so many handheld devices available, what are the best options?
 
-### A Note About Screen Aspect Ratios
+### Screen Aspect Ratios
 
 You'd expect that the best aspect ratio for a handheld Amiga would be 4:3, since that's what the original Amiga was, right? This, counterintuitively, is not the case. Most Amiga games run at a 320×200 resolution (this excludes a few later-era PAL games that used 320×256), which means that the *effective* screen aspect ratio of the Amiga is actually 16:10, as demonstrated and explained in our article about [Amiga Overscaling](/overscale).
 
