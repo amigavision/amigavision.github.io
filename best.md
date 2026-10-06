@@ -50,7 +50,11 @@ However, it lacks the performance, timing accuracy, and output resolution[^10] f
 
 At the typical asking price, both MiSTer and Raspberry Pi–based solutions outperform it decisively in accuracy, latency, and flexibility.
 
-As for [TheA1200], no meaningful technical specifications have been published at the time of writing, so it is not possible to evaluate it yet. It is unlikely to outperform a Raspberry Pi 5 based on what is known at this point, but we will update this document when actual specifications are revealed.
+As for [TheA1200], no meaningful technical specifications have been published at the time of writing, so it is not possible to evaluate it yet. All signs so far point to it just being the same TheA500 mini hardware (with updated software) in a full-size case with a keyboard. The company also only talks about the same output resolution as TheA500, which is not sufficient for proper Amiga HDMI scaling. 
+
+We can't recommend pre-ordering one based on the signs so far, unless you are using it as a physical case to put a Raspberry Pi 5 or MiSTer inside.
+
+Both of these products are more properly thought of as a product for a toy store, something you would give to someone that hasn't thought about an Amiga in a long time and wants to spend a weekend reconnecting with it — not as a long-term setup.
 
 ## A600GS *&* A1200NG *&* A4000NG {#gs-ng}
 
