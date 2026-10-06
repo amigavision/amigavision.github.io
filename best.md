@@ -54,7 +54,7 @@ As for [TheA1200], no meaningful technical specifications have been published at
 
 We can't recommend pre-ordering one based on the signs so far, unless you are using it as a physical case to put a Raspberry Pi 5 or MiSTer inside.
 
-Both of these products are more properly thought of as a product for a toy store, something you would give to someone that hasn't thought about an Amiga in a long time and wants to spend a weekend reconnecting with it — not as a long-term setup.
+Both of these products are more properly thought of as a product for a toy store, something you would give to someone that hasn't thought about an Amiga in a long time and wants to spend a short time reconnecting with it — not as a long-term setup.
 
 ## A600GS *&* A1200NG *&* A4000NG {#gs-ng}
 
