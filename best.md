@@ -50,7 +50,7 @@ However, it lacks the performance, timing accuracy, and output resolution[^10] f
 
 At the typical asking price, both MiSTer and Raspberry Pi–based solutions outperform it decisively in accuracy, latency, and flexibility.
 
-As for [TheA1200], no meaningful technical specifications have been published at the time of writing, so it is not possible to evaluate it yet. All signs so far point to it just being the same TheA500 mini hardware (with updated software) in a full-size case with a keyboard. The company also only talks about the same output resolution as TheA500, which is not sufficient for proper Amiga HDMI scaling. 
+As for [TheA1200], no meaningful technical specifications have been published at the time of writing, so it is not possible to evaluate it yet. All signs so far point to it just being the same TheA500 mini hardware (with updated software) in a full-size case with a keyboard. The company also only talks about the same 720p output resolution as TheA500, which is not sufficient for proper Amiga HDMI scaling, where 1080p is the minimum for good results.
 
 We can't recommend pre-ordering one based on the signs so far, unless you are using it as a physical case to put a Raspberry Pi 5 or MiSTer inside.
 
@@ -80,7 +80,7 @@ The [A6000] is essentially a Vampire V4 with an updated core + extra RAM, residi
 
 As a result, Vampire V4 & A6000 are better viewed as “what-if next-generation Amigas” than preservation-accurate platforms, and are thus not included in the comparison table below.
 
-They are also very expensive, at ~$750 for the bare-bones V4 and ~$1200 for the A6000 — which is not injection molded for that price, it is 3D printed.
+They are also expensive, at ~$750 for the bare-bones V4 and ~$1200 for the A6000 — which very expensive for a product that is not injection molded, but 3D printed instead.
 
 ## Raspberry Pi 5 {#pi}
 
