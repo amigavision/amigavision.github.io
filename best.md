@@ -82,7 +82,7 @@ Thus, they are considered irrelevant, and not included in the detailed compariso
 
 The [Vampire V4 Standalone] is best described as a modern, accelerated Amiga-compatible system, not a recreation of classic Amiga hardware.
 
-It uses a custom FPGA chipset (SAGA) and a high-performance, simulated, fictional "68080" CPU. While it is extremely fast, it does not reproduce OCS/ECS/AGA behavior or cycle-exact timing. Many demos and timing-sensitive effects either behave differently or fail outright.
+It uses a custom fictional FPGA chipset (SAGA) and a high-performance, simulated, fictional "68080" CPU. While it is extremely fast, it does not reproduce OCS/ECS/AGA behavior or cycle-exact timing. Many demos and timing-sensitive effects either behave differently or fail outright.
 
 The [A6000] is essentially a Vampire V4 with an updated core + extra RAM, residing in a 3D printed case with keyboard.
 
