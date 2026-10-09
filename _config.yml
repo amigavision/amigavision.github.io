@@ -21,7 +21,7 @@ social:
 
 timezone: Etc/UTC
 
-paginate: 20
+paginate: 200
 paginate_path: "/news/:num/"
 permalink:     /:title
 
