@@ -78,7 +78,7 @@ Thus, they are considered irrelevant, and not included in the detailed compariso
 
 ## Vampire V4 FPGA *&* A6000 {#vampire}
 
-![](/images/vampire.jpg)
+![](/images/vampire.png)
 
 The [Vampire V4 Standalone] is best described as a modern, accelerated Amiga-compatible system, not a recreation of classic Amiga hardware.
 
