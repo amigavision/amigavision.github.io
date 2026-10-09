@@ -22,6 +22,8 @@ We will cover:
 
 ## Windows / Mac / Linux PC + Emulator {#emulators}
 
+![Amiga emulator configuration screen](/images/emulator.png)
+
 Running an Amiga emulator on a modern PC or Mac is the most accessible option on paper, but also the most variable in practice.
 
 If you already own a suitable machine, the upfront cost can be low. If you are buying a small PC specifically for this purpose, the cost quickly approaches — or exceeds — better-performing alternatives.
@@ -42,11 +44,13 @@ PC emulation can be an excellent tool for experimentation and development, but i
 
 ## TheA500 Mini *&* TheA1200 {#mini}
 
+![TheA500 Mini](/images/a500-mini.jpg)
+
 [TheA500 Mini] is a turn-key emulation box, but it is fundamentally limited by its hardware and software design.
 
 There are definitely aspects of it that we like, mostly because it was widely available in electronics stores around the world, reminding people of their love for the Amiga, and probably brought a fair amount of people back into the hobby.
 
-However, it lacks the performance, timing accuracy, and output resolution[^10] for proper scaling required for serious Amiga use, particularly for demo scene productions and timing-sensitive games. As a result, it does not meet the accuracy, timing, and output requirements required for this comparison, and is therefore omitted from the comparison below.
+However, it lacks the performance, timing accuracy, and output resolution[^10] for proper scaling required for serious Amiga use, particularly for demo scene productions and timing-sensitive games. As a result, it does not meet the accuracy, timing, and output requirements required for this comparison, and is therefore omitted from the detailed comparison table below.
 
 At the typical asking price, both MiSTer and Raspberry Pi–based solutions outperform it decisively in accuracy, latency, and flexibility.
 
@@ -58,6 +62,8 @@ Both of these products are more properly thought of as a product for a toy store
 
 ## A600GS *&* A1200NG *&* A4000NG {#gs-ng}
 
+![A600GS](/images/a600gs.png)
+
 [A600GS] *&* [A1200NG] are Amiga-branded appliances built around software emulation rather than hardware recreation.
 
 All three use UAE-derived emulation running on an underpowered ARM platform, wrapped in a custom Linux environment. While they offer a convenient turn-key experience and a nostalgic physical presentation, they do not provide cycle-accurate OCS/ECS/AGA behavior, or deterministic timing.
@@ -68,9 +74,11 @@ As with PC- and Raspberry Pi–based emulation, timing-sensitive games and a sig
 
 From a technical perspective, these systems are best understood as preconfigured emulation boxes rather than authentic Amiga implementations. They offer no meaningful accuracy or latency advantages over a well-configured Raspberry Pi 5, while costing substantially more and offering less flexibility.
 
-Thus, they are considered irrelevant, and not included in the comparison table below.
+Thus, they are considered irrelevant, and not included in the detailed comparison table below.
 
 ## Vampire V4 FPGA *&* A6000 {#vampire}
+
+![](/images/vampire.jpg)
 
 The [Vampire V4 Standalone] is best described as a modern, accelerated Amiga-compatible system, not a recreation of classic Amiga hardware.
 
@@ -78,11 +86,13 @@ It uses a custom FPGA chipset (SAGA) and a high-performance simulated 68080 CPU.
 
 The [A6000] is essentially a Vampire V4 with an updated core + extra RAM, residing in a 3D printed case with keyboard.
 
-As a result, Vampire V4 & A6000 are better viewed as “what-if next-generation Amigas” than preservation-accurate platforms, and are thus not included in the comparison table below.
+As a result, Vampire V4 & A6000 are better viewed as “what-if next-generation Amigas” than preservation-accurate platforms, and are thus not included in the detailed comparison table below.
 
 They are also expensive, at ~$750 for the bare-bones V4 and ~$1200 for the A6000 — which very expensive for a product that is not injection molded, but 3D printed instead.
 
 ## Raspberry Pi 5 {#pi}
+
+![Raspberry Pi 5 board](/images/pi.png)
 
 The [Raspberry Pi 5] represents the first Pi model that is genuinely fast enough to emulate the Amiga at acceptable speeds. This also includes its derivatives: Raspberry Pi 500, 500+ *&* CM5.
 
@@ -93,6 +103,8 @@ The hardware itself is relatively affordable, but a complete setup requires addi
 Even on the Pi 5, emulation remains a compromise. While many games run well, timing accuracy, input latency, and CRT compatibility fall short of FPGA-based solutions. For casual gaming or WHDLoad-based setups, it can be a reasonable choice, but it is not ideal for cycle-exact demos or low-latency use.
 
 ## Real Amiga Hardware {#amiga}
+
+![Amiga 500](/images/amiga500.jpg)
 
 A real Amiga remains the gold standard for historical authenticity.
 
@@ -106,6 +118,8 @@ Of course, for some owners, those trade-offs are not downsides, but instead — 
 
 ## MiSTer FPGA {#mister}
 
+![](/images/superstation.png)
+
 MiSTer provides a hardware-accurate Amiga implementation without the practical downsides of aging chips and power supplies.
 
 It delivers cycle-accurate behavior, extremely low and consistent input/output latency, correct PAL and NTSC timing, and support for both modern HDMI displays and native analog CRT output, even simultaneously. Power usage is low, and once configured, ongoing maintenance is minimal.
@@ -114,7 +128,7 @@ Hardware options range from bare-bones boards to high-quality, purpose-built com
 
 # Detailed Comparison {#details}
 
-Let's break down the details of the various options available:
+Let's break down the details of the Amiga options available:
 
 ## 💰&nbsp;Cost {#cost}
 
