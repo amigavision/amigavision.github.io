@@ -64,7 +64,7 @@ Both of these products are more properly thought of as a product for a toy store
 
 ![A600GS](/images/a600gs.png)
 
-[A600GS] *&* [A1200NG] are Amiga-branded appliances built around software emulation rather than hardware recreation.
+[A600GS], [A1200NG] *&* A4000NG are Amiga-branded appliances built around software emulation rather than hardware recreation.
 
 All three use UAE-derived emulation running on an underpowered ARM platform, wrapped in a custom Linux environment. While they offer a convenient turn-key experience and a nostalgic physical presentation, they do not provide cycle-accurate OCS/ECS/AGA behavior, or deterministic timing.
 
