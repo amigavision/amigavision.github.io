@@ -88,7 +88,7 @@ The [A6000] is essentially a Vampire V4 with an updated core + extra RAM, residi
 
 As a result, Vampire V4 & A6000 are better viewed as “what-if next-generation Amigas” than preservation-accurate platforms, and are thus not included in the detailed comparison table below.
 
-They are also expensive, at ~$750 for the bare-bones V4 and ~$1200 for the A6000 — which very expensive for a product that is not injection molded, but 3D printed instead.
+They are also expensive, at ~$750 for the bare-bones V4 and ~$1200 for the A6000 — which is very expensive for a product that is not injection molded, but 3D printed instead.
 
 ## Raspberry Pi 5 {#pi}
 
