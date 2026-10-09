@@ -120,7 +120,7 @@ Of course, for some owners, those trade-offs are not downsides, but instead — 
 
 ![](/images/superstation.png)
 
-MiSTer provides a hardware-accurate Amiga implementation without the practical downsides of aging chips and power supplies.
+MiSTer provides a hardware-level Amiga implementation without the practical downsides of aging chips and power supplies.
 
 It delivers cycle-accurate behavior, extremely low and consistent input/output latency, correct PAL and NTSC timing, and support for both modern HDMI displays and native analog CRT output, even simultaneously. Power usage is low, and once configured, ongoing maintenance is minimal.
 
@@ -262,7 +262,7 @@ The Retroid Pocket 6 retails for about $220 for the SnapDragon variant — the o
 
 ![Retroid Pocket 6](/images/retroid-pocket.jpg)
 
-Additionally, the Retroid 6 added a 120hz OLED screen over the 60hz OLED screens found on the Pocket 5 and Flip 2, allowing you to use [BFI](https://www.rtings.com/tv/tests/motion/black-frame-insertion) and related approaches to improve motion clarity and reduce input *&* output latency.
+Additionally, the Retroid 6 added a 120hz OLED screen over the 60hz OLED screens found on the Pocket 5 and Flip 2, allowing you to use [BFI and CRT beam shaders](https://www.youtube.com/watch?v=d2GS7wDa2XI) to improve motion clarity and reduce input *&* output latency.
 
 Here's AmigaVision running Amiberry on the Retroid Pocket Flip 2, which has the same screen as the Retroid Pocket 6, although running at 60hz instead of 120hz:
 
