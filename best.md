@@ -104,7 +104,7 @@ Even on the Pi 5, emulation remains a compromise. While many games run well, tim
 
 ## Real Amiga Hardware {#amiga}
 
-![Amiga 500](/images/Amiga500.jpg)
+<img alt="Amiga 500" height="50%" src="/images/Amiga500.jpg">
 
 A real Amiga remains the gold standard for historical authenticity.
 
