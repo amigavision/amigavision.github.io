@@ -1329,7 +1329,7 @@ table.table-desktop {
   background: #f5f5f5;
   }
   .testimonial p, .testimonial blockquote, .testimonial .author {
-    color: #222;
+    color: white;
   }
   .testimonial .author a {
     color: #0077b5;
