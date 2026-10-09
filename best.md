@@ -46,7 +46,7 @@ PC emulation can be an excellent tool for experimentation and development, but i
 
 ![TheA500 Mini](/images/a500-mini.jpg)
 
-[TheA500 Mini] is a turn-key emulation box, but it is fundamentally limited by its hardware and software design.
+[TheA500 Mini] is a turn-key no-keyboard emulation box, but it is fundamentally limited by its hardware and software design.
 
 There are definitely aspects of it that we like, mostly because it was widely available in electronics stores around the world, reminding people of their love for the Amiga, and probably brought a fair amount of people back into the hobby.
 
