@@ -254,7 +254,7 @@ We are still waiting to see what both the SuperStation and MultiSystem teams wil
 
 **Disclosure:** None of the below links are affiliate links, we just think they are good products.
 
-### Our Pick: Retroid Pocket 6 or Retroid Flip 2
+### Our Pick: Retroid Pocket 5/6 or Retroid Flip 2
 
 The [Retroid Pocket 6](https://www.goretroid.com/collections/retro-game-system/products/retroid-pocket-6-handheld) is a horizontal handheld that has a 16:9, 1080p OLED screen running at 120hz refresh rate. This means it is especially good for scaling Amiga games and 16:9 demoscene productions — of which there are quite a few!
 
@@ -275,6 +275,10 @@ Here's a 16:9 demo showing AmigaVision's edge-to-edge integer scaling on the Ret
 **Note:** If you can find the Retroid Pocket 5 at a cheaper price than the 6, it is also an excellent option, the main thing you will give up on is the 120hz screen, as it is a 60hz display like the Retroid Pocket Flip 2.
 
 The other thing to consider for us old Amiga gamers is that you may want to use the *right* stick for directional control and the left trigger button for fire button — in which case the [Retroid Pocket Flip 2](https://www.goretroid.com/collections/retro-game-system/products/retroid-pocket-flip-2) has a better layout than the Pocket 6.
+
+**Update, October 2026:** Retroid ran out of 60hz panels and just quietly started shipping both the Pocket 5 and Flip 2 with 120hz panels that can be enabled in Android Developer settings. We personally received a 120hz Retroid Flip 2 (Snapdragon SD865 variant) and verified that it is indeed a 120hz panel. 
+
+That makes both of those an amazing deal for a 120hz OLED handheld right now, they retail at $189 for Snapdragon variant of the Flip 2, and $179 for the Pocket 5. 
 
 ### Alternative Pick: Steam Deck
 
