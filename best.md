@@ -264,14 +264,6 @@ The Retroid Pocket 6 retails for about $220 for the SnapDragon variant — the o
 
 Additionally, the Retroid 6 added a 120hz OLED screen over the 60hz OLED screens found on the Pocket 5 and Flip 2, allowing you to use [BFI and CRT beam shaders](https://www.youtube.com/watch?v=d2GS7wDa2XI) to improve motion clarity and reduce input *&* output latency.
 
-Here's AmigaVision running Amiberry on the Retroid Pocket Flip 2, which has the same screen as the Retroid Pocket 6, although running at 60hz instead of 120hz:
-
-![Retroid Flip 2 showing the game GODS on AmigaVision, integer scaled to 16:9 (Photo: Simon Dick)](/images/retroid-gods.jpg)
-
-Here's a 16:9 demo showing AmigaVision's edge-to-edge integer scaling on the Retroid Pocket Flip 2:
-
-![Retroid Flip 2 showing the demo Eon on AmigaVision, integer scaled to 16:9 (Photo: Simon Dick)](/images/retroid-eon.jpg)
-
 **Note:** If you can find the Retroid Pocket 5 at a cheaper price than the 6, it is also an excellent option, the main thing you will give up on is the 120hz screen, as it is a 60hz display like the Retroid Pocket Flip 2.
 
 The other thing to consider for us old Amiga gamers is that you may want to use the *right* stick for directional control and the left trigger button for fire button — in which case the [Retroid Pocket Flip 2](https://www.goretroid.com/collections/retro-game-system/products/retroid-pocket-flip-2) has a better layout than the Pocket 6.
@@ -279,6 +271,16 @@ The other thing to consider for us old Amiga gamers is that you may want to use 
 **Update, October 2026:** Retroid ran out of 60hz panels and just quietly started shipping both the Pocket 5 and Flip 2 with 120hz panels that can be enabled in Android Developer settings. We personally received a 120hz Retroid Flip 2 (Snapdragon SD865 variant) and verified that it is indeed a 120hz panel. 
 
 That makes both of those an amazing deal for a 120hz OLED handheld right now, they retail at $189 for Snapdragon variant of the Flip 2, and $179 for the Pocket 5. 
+
+---
+
+Here's AmigaVision running Amiberry on the Retroid Pocket Flip 2, which has the same screen as the Retroid Pocket 6, although running at 60hz instead of 120hz:
+
+![Retroid Flip 2 showing the game GODS on AmigaVision, integer scaled to 16:9 (Photo: Simon Dick)](/images/retroid-gods.jpg)
+
+Here's a 16:9 demo showing AmigaVision's edge-to-edge integer scaling on the Retroid Pocket Flip 2:
+
+![Retroid Flip 2 showing the demo Eon on AmigaVision, integer scaled to 16:9 (Photo: Simon Dick)](/images/retroid-eon.jpg)
 
 ### Alternative Pick: Steam Deck
 
