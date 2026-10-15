@@ -309,6 +309,8 @@ While AmigaVision has been tested for many years, the sheer volume of games and 
 * Simon "[hitm4n]" Quincey — Hi-resolution screenshots for demos.
 * LamerDeluxe — MT-32 support.
 * [Frode Solheim] — Creator of [OpenRetro.org], screenshots used with kind permission.
+* [LemonAmiga] *&* [Hall of Light] — For supplying the few images that were missing in the [OpenRetro.org] set, as well as being a source for the metadata that was missing on some games.
+* [Hall of Light] — For making so many Amiga game manuals available.
 * Rubén Tomás Alonso — Creator of [RePlayOS], the basis for our Raspberry Pi setup.
 * [Dimitris Panokostas] — Creator of [Amiberry], the basis for our emulation setups.
 * wiisoldier — Initial RePlayOS setup and testing, benchmarking assistance.
@@ -545,6 +547,8 @@ AmigaVision was made with the help of these wonderful tools:
 [Frode Solheim]:https://github.com/FrodeSolheim
 [Dimitris Panokostas]:https://github.com/midwan
 [OpenRetro.org]:https://openretro.org
+[LemonAmiga]:https://lemonamiga.com
+[Hall of Light]:https://amiga.abime.net
 
 <script>
         document.addEventListener("DOMContentLoaded", function () {
