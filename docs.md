@@ -102,7 +102,7 @@ Save files are located in `DH0:WHDSaves` — and are usually small enough that a
 
 If you don't have a way to write to a real floppy or an ADF image, the best way would be to boot the image in an emulator and extract the save files that way. Consult the relevant emulator for your system to figure out how to do this.
 
-### Joystick and Gamepad support on Amiga hardware {#amigacontrols}
+### Joystick *&* Gamepad support on Amiga hardware {#amigacontrols}
 
 We support single-button Amiga/C64 joysticks, as well as four-button CD32 gamepads, and probably Sega Mega Drive (aka. Sega Genesis) gamepads as well — although we haven't personally tested this.
 
@@ -122,7 +122,7 @@ While this setup will start on Raspberry Pi 3 and 4, they are too slow to emulat
 
 Do note that if you want to upgrade RePlayOS independently, you will need to re-add the files every time, since it will wipe the drive — RePlayOS does not have in-place upgrades yet. You can avoid this by using a separate external USB or internal NVMe drive and putting the AmigaVision files there instead of on the system boot drive.
 
-## Mac/Windows/Linux Setup {#emulators}
+## Mac, Windows, Linux Setup {#emulators}
 
 Installing AmigaVision is covered on the [Download page](/download).
 
@@ -201,7 +201,7 @@ There are `ReadMe` files that go into more detail about these setups.
 
 These are *not* meant to be used for games or demos, but instead for giving you a basic setup that lets you run productivity apps like you did back in the day. For games and demos, we recommend the `Amiga` (main AmigaVision setup) and `Amiga 500` (for use with ADF files) instead.
 
-## MiSTer: Gamepad & Joystick Mapping {#mapping}
+## MiSTer: Gamepad *&* Joystick Mapping {#mapping}
 
 While many games supports two or more buttons, Amiga games were generally designed for one button joysticks. Consequently "up to jump" (or accelerate) control scheme is very common. 
 
@@ -422,6 +422,8 @@ We welcome contributions, though — so if you're interested in maintaining this
 
 ### What is the difference between AmigaVision, MegaAGS and AGS? {#ags}
 
+[You can read more about how AmigaVision compares to other setups here](/vs).
+
 In the beginning, there was an Amiga launcher called [Arcade Game Selector], aka. [AGS]. This is the software you interact with to launch a game or demo from the collection. This software was originally written by [Per Olofsson], and is now maintained by the AmigaVision team.
 
 Initially, AmigaVision was called MegaAGS, and focused mostly on being the best Amiga setup for MiSTer. It was using the [Arcade Game Selector] (AGS) launcher.
@@ -433,8 +435,6 @@ Since having AGS (the launcher), MegaAGS, and AGS (the software collection) was 
 Focus-wise, AGS X.X takes a very different approach from AmigaVision when it comes to curation, running on original hardware and MiSTer etc. For example, there is no support for [5×PAL overscale](https://amiga.vision/overscale) or the shared MiSTer drive in AGS 3.0.
 
 And for the record, there is no animosity or conflicts between the projects, but since the names can get confusing, we thought we'd clear up some of the confusion as best we can!
-
-[You can read more about how AmigaVision compares to other setups here](/vs).
 
 ### What is "Arcadia Systems"? {#arcadia}
 
